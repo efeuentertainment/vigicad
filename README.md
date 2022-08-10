@@ -30,23 +30,31 @@
 
 - 3D printed parts:
   - core top plate
-    - link:
+    
+      link:
   - core middle plate
-    - link:
+      
+      link:
   - core bottom plate
-    - link:
+
+      link:
   - not for botkins(?): core rear plate
-    - link:
+
+      link:
   - smiling head
-    - link:
+
+      link:
   - head pan plate
-    - link:
+
+      link:
   - head tilt bracket
-    - link:
+
+      link:
   - not for botkins: lens hood camera lens protector
   - TODO gripper 3D printed parts : 4
   - holder for angled usb adapter (LTE stick)
-    - link:
+
+      link:
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
