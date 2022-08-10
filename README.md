@@ -28,11 +28,46 @@
 - 1S Batterie with BMS included
    - not from AliExpress
 
-TODO(from core, replace)
-- 3D printed parts, screws, nuts and standoffs 
-  - Full kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
-  - List :
-    - 3D printed parts : 4  ( Top, middle, bottom and rear plate )
+- 3D printed parts:
+  - core top plate
+    - link:
+  - core middle plate
+    - link:
+  - core bottom plate
+    - link:
+  - not for botkins(?): core rear plate
+    - link:
+  - smiling head
+    - link:
+  - head pan plate
+    - link:
+  - head tilt bracket
+    - link:
+  - not for botkins: lens hood camera lens protector
+  - TODO gripper 3D printed parts : 4
+  - holder for angled usb adapter (LTE stick)
+    - link:
+
+- 4x Pololu 100:1 micro metal gearmotor HP 6V
+  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
+  - https://www.pololu.com/product/1101
+- 4x Pololu micro metal gearmotor extended bracket ( provided with screws and nuts)
+  - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
+  - https://www.pololu.com/product/1089
+- 4x Pololu wheel 40×7mm
+  - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
+  - https://www.pololu.com/product/1454
+- 1x Feetech 2ch motor controller (provided with cables) 
+  - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
+
+- 1x 270° Doooman Hobby servo (pan axis: 1)
+    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
+
+- 3x 180° DIYMore metal gear servo (tilt axis: 1; gripper: 2)
+    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
+
+TODO(from core, merge/replace)
+
     - 12mm length M2.5 male standoffs between the Raspberry PI and UPS hat board : 4
     - 25mm length M2.5 male standoffs between the UPS hat board and middle plate : 4
     - 10mm length M2.5 female standoffs between the middle plate and bottom plate : 4
@@ -43,29 +78,8 @@ TODO(from core, replace)
     - 8mm length M2 screw to fix the back plate on the middle plate : 3 
     - M2 nut : 3 
 
-- Four Pololu 100:1 micro metal gearmotor HP 6V
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
-  - https://www.pololu.com/product/1101
-- Four Pololu micro metal gearmotor extended bracket ( provided with screws and nuts)
-  - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
-  - https://www.pololu.com/product/1089
-- Four Pololu wheel 40×7mm
-  - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
-  - https://www.pololu.com/product/1454
-- Feetech 2ch motor controller (provided with cables) 
-  - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
+TODO(from head, merge/replace)
 
-- 1x 270° Doooman Hobby servo (pan axis: 1)
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
-
-- 3x 180° DIYMore metal gear servo (tilt axis: 1; gripper: 2)
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
-
-TODO(from head, replace)
-- 3D printed parts, screws, nuts and standoffs
-  - Full kit : https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html
-  - List :
-    - 3D printed parts : 3 or 4 (Smiling head, pan plate, tilt bracket, and 4th is an optional protection to protect camera lens)
     - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
     - M2.5 nut : 2
     - 5 or 6 mm M2 screw : 1 
@@ -74,11 +88,8 @@ TODO(from head, replace)
     - 20 mm M2 screw : 4 (for camera assembly on the head)
     - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
 
-TODO (from clamp, replace)
-- 3D printed parts, screws and nuts
-  - Full kit : https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html
-  - List :
-    - 3D printed parts : 4
+TODO (from clamp, merge/replace)
+
     - 5 or 6 mm M2 screw : 1
     - 8 mm M2 screw : 3
     - 10 mm M2 screw : 1
