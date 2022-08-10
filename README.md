@@ -95,6 +95,7 @@
     - M2 nut : 2
 
 <details><summary>Not required for Botkins</summary>
+
 #### Lateral arms
 
 - 180° servo SG90 servo : 2
@@ -110,6 +111,7 @@
     - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 </details>
 <details><summary>Not required for Botkins</summary>
+
 #### Charge station assembly
 
 - A USB magnetic cable with magnetic plug
@@ -118,6 +120,7 @@
 - 3D printed part :
   - https://www.robot-maker.com/forum/topic/13134-station-de-charge-pour-robot-de-type-minus
 </details>
+
 #### Optionnal add ons
 - 40mm fan for the top plate  https://www.amazon.fr/gp/product/B07D5QBFLK/ref=ppx_yo_dt_b_asin_title_o01_s00 ( use top plate with fan hole in this case)
 - Leds to show if someone is using the robot or not
