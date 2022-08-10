@@ -1,4 +1,4 @@
-# Make your own Vigibot.com raspberry PI robot
+# Partlist and 3D files for a Vigibot robot specifically for Botkins
 
 ## Minus Raspberry PI robot CAD files 
 
@@ -10,7 +10,7 @@
 
 #### Core assembly
 
-- Raspberry PI 2 / Raspberry PI 3 / Raspberry PI 3 A+ / Raspberry PI 3 B+ / Raspberry PI 4
+- Raspberry PI 3 / Raspberry PI 3 B+ / Raspberry PI 4
 
 - An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
@@ -28,7 +28,7 @@
     - https://fr.aliexpress.com/item/4001113371912.html
 
 - 1S Batterie with BMS included
-   - 
+   - not from AliExpress
 
 - 3D printed parts, screws, nuts and standoffs 
   - Full kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
@@ -94,6 +94,7 @@
     - 14 mm M2 screw : 5
     - M2 nut : 2
 
+<details><summary>Not required for Botkins</summary>
 #### Lateral arms
 
 - 180° servo SG90 servo : 2
@@ -107,7 +108,8 @@
     - 14 mm M2.5 screw : 2 (to fix servo holders on the rest of the robot it replaces 8mm M2.5 screws)
     - M2.5 nut : 2 (to fix servo holders on the rest of the robot, use 8mm M2.5 screws previously removed, wich was already on your robot) 
     - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
-
+</details>
+<details><summary>Not required for Botkins</summary>
 #### Charge station assembly
 
 - A USB magnetic cable with magnetic plug
@@ -115,7 +117,7 @@
   - https://www.robot-maker.com/shop/alimentation/336-embout-magnetique-micro-usb-336.html
 - 3D printed part :
   - https://www.robot-maker.com/forum/topic/13134-station-de-charge-pour-robot-de-type-minus
-
+</details>
 #### Optionnal add ons
 - 40mm fan for the top plate  https://www.amazon.fr/gp/product/B07D5QBFLK/ref=ppx_yo_dt_b_asin_title_o01_s00 ( use top plate with fan hole in this case)
 - Leds to show if someone is using the robot or not
