@@ -28,33 +28,39 @@
 - 1S Batterie with BMS included
    - not from AliExpress
 
-- 3D printed parts:
+- 3D printed parts from https://github.com/efeuentertainment/vigicad/tree/master/stl
+  - clamp_finger_a.stl
+  - clamp_finger_b.stl
+  - clamp_servo_bracket.stl
+  - clamp_u_bracket.stl
+  - head_pan_servo_bracket.stl
+  - head_servo_camera_bracket_smile.stl
+  - head_u_bracket.stl
+  - photoresistor_cap.stl
+  - plate_bottom.stl
+  - plate_middle.stl
+  - plate_top_nofan.stl
+  - usb_bracket.stl
+
+- old 3d list:
   - core top plate
-    
-      link:
+    - link:
   - core middle plate
-      
-      link:
+    - link:
   - core bottom plate
-
-      link:
+    - link:
   - not for botkins(?): core rear plate
-
-      link:
+    - link:
   - smiling head
-
-      link:
+    - link:
   - head pan plate
-
-      link:
+    - link:
   - head tilt bracket
-
-      link:
+    - link:
   - not for botkins: lens hood camera lens protector
   - TODO gripper 3D printed parts : 4
   - holder for angled usb adapter (LTE stick)
-
-      link:
+    - link:
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
