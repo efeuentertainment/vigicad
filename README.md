@@ -23,10 +23,9 @@
 
 - Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
 
-- An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
-  - There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
-    - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html  (fast delivery)
-    - https://www.aliexpress.com/item/32957419294.html
+- An aftermarket *wide-angle lens* camera module (optinal: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
+  - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html  (fast delivery)
+  - https://www.aliexpress.com/item/32957419294.html
   - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
 
