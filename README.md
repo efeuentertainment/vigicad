@@ -8,7 +8,7 @@
 
 ### Parts list
 
-- 3D printed parts from https://github.com/efeuentertainment/vigicad/tree/master/stl
+- 3D printed parts (you can decide what color(s)) from https://github.com/efeuentertainment/vigicad/tree/master/stl
   - clamp_finger_a.stl
   - clamp_finger_b.stl
   - clamp_servo_bracket.stl
@@ -16,7 +16,7 @@
   - head_pan_servo_bracket.stl
   - head_servo_camera_bracket_smile.stl
   - head_u_bracket.stl
-  - photoresistor_cap.stl
+  - photoresistor_cap.stl (white filament)
   - plate_bottom.stl
   - plate_middle.stl
   - plate_top_nofan.stl
@@ -54,7 +54,8 @@
 - 1x Feetech 2ch motor controller (provided with cables) 
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
 
-- 1x 270° Doooman Hobby servo (pan axis: 1)
+- 1x 270° Doooman Hobby DM-S0090MD servo (pan axis: 1)
+  - config limited to 180°, to reduce cable fatigue from bending back and forth.
 
 - 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2)
 
@@ -62,6 +63,23 @@
 
 - USB 90° adapter
 
+- USB Microphone "Orange-AI"
+
+- 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO 
+  - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
+  - Alternative (coordinate w/ Botkins, suggestions welcome) is either:
+    - IR LEDs with GPIO control
+    - manually modified (from IR LEDs) to White LED with GPIO control
+
+- EXPERIMENTAL: 7mm heatshrink tubing
+  - for example: https://a.aliexpress.com/_vtGIZ9 
+- EXPERIMENTAL: cable tie base mount 12x12mm - 20x20mm self-adhesive 
+  - for example: https://a.aliexpress.com/_uxLl71
+
+- USB magnetic cable 4-pin (not 2-pin), either flat or round 
+  - https://a.aliexpress.com/_vCU5eL
+
+- Active buzzer
 
 
 TODO(from core, merge/replace)
