@@ -8,26 +8,6 @@
 
 ### Parts list
 
-- Raspberry PI 3 / Raspberry PI 3 B+ / Raspberry PI 4
-
-- An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
-  - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
-  - There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
-    - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html  (fast delivery)
-    - https://www.aliexpress.com/item/32957419294.html
-  - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
-  
-- 30cm Raspberry PI camera cable
-  - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
-
-- A reliable Raspberry PI UPS hat board, there is only one at time of writing
-  - The Geekworm / U-geek UPS Hat V3
-    - https://www.amazon.fr/gp/product/B089NF1NHS
-    - https://fr.aliexpress.com/item/4001113371912.html
-
-- 1S Batterie with BMS included
-   - not from AliExpress
-
 - 3D printed parts from https://github.com/efeuentertainment/vigicad/tree/master/stl
   - clamp_finger_a.stl
   - clamp_finger_b.stl
@@ -41,26 +21,26 @@
   - plate_middle.stl
   - plate_top_nofan.stl
   - usb_bracket.stl
+  - (not for botkins: core rear plate)
 
-- old 3d list:
-  - core top plate
-    - link:
-  - core middle plate
-    - link:
-  - core bottom plate
-    - link:
-  - not for botkins(?): core rear plate
-    - link:
-  - smiling head
-    - link:
-  - head pan plate
-    - link:
-  - head tilt bracket
-    - link:
-  - not for botkins: lens hood camera lens protector
-  - TODO gripper 3D printed parts : 4
-  - holder for angled usb adapter (LTE stick)
-    - link:
+- Raspberry PI 3 / Raspberry PI 3 B+ / Raspberry PI 4 (requires 2 USB ports)
+
+- An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
+  - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
+  - There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
+    - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html  (fast delivery)
+    - https://www.aliexpress.com/item/32957419294.html
+  - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
+  
+- 30cm Raspberry PI camera cable
+  - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
+
+- The Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
+    - https://www.amazon.fr/gp/product/B089NF1NHS
+    - https://fr.aliexpress.com/item/4001113371912.html
+
+- 1S Batterie with BMS included
+   - not from AliExpress
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
@@ -75,10 +55,14 @@
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
 
 - 1x 270° Doooman Hobby servo (pan axis: 1)
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
 
-- 3x 180° DIYMore metal gear servo (tilt axis: 1; gripper: 2)
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
+- 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2)
+
+- Huawei E3372 LTE/4G mobile data stick (no SIM card)
+
+- USB 90° adapter
+
+
 
 TODO(from core, merge/replace)
 
