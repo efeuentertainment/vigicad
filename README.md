@@ -59,7 +59,7 @@
 
 - 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2)
 
-- Huawei E3372 LTE/4G mobile data stick (no SIM card)
+- Huawei E3372h LTE/4G mobile data stick (no SIM card)
 
 - USB 90° adapter
 
@@ -67,7 +67,7 @@
 
 - 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO 
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
-  - Alternative (coordinate w/ Botkins, suggestions welcome) is either:
+  - Alternative (coordinate with Botkins, suggestions welcome) is either:
     - IR LEDs with GPIO control
     - manually modified (from IR LEDs) to White LED with GPIO control
 
