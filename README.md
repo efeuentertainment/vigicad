@@ -1,12 +1,10 @@
-# Partlist and 3D files for a Vigibot robot specifically for Botkins
+## Partlist and 3D files for a Vigibot robot specifically for Botkins
 
-## Minus Raspberry PI robot CAD files 
-
-### All pieces assembled for the standard Vigibot
+### Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms 
 
 ![Standard Minus](https://github.com/vigibot/vigicad/blob/master/images/Minus%20render-2.png)
 
-### Parts list
+### Partlist
 
 - 3D printed parts (you can decide what color(s)) from https://github.com/efeuentertainment/vigicad/tree/master/stl
   - clamp_finger_a.stl
@@ -23,7 +21,7 @@
   - usb_bracket.stl
   - (not for botkins: core rear plate)
 
-- Raspberry PI 3 / Raspberry PI 3 B+ / Raspberry PI 4 (requires 2 USB ports)
+- Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
 
 - An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
@@ -65,6 +63,8 @@
 
 - USB Microphone "Orange-AI"
 
+- DuPont cables that have a good grip on pin headers and flow well when soldering
+
 - 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO 
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
   - Alternative (coordinate with Botkins, suggestions welcome) is either:
@@ -80,6 +80,12 @@
   - https://a.aliexpress.com/_vCU5eL
 
 - Active buzzer
+
+- Pin header power distribution board
+
+- Single DuPont pin sleeves
+
+
 
 
 TODO(from core, merge/replace)
