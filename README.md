@@ -14,7 +14,7 @@
   - head_pan_servo_bracket.stl
   - head_servo_camera_bracket_smile.stl
   - head_u_bracket.stl
-  - photoresistor_cap.stl (white filament)
+  - photoresistor_cap.stl (white filament, some light has to pass through)
   - plate_bottom.stl
   - plate_middle.stl
   - plate_top_nofan.stl
@@ -24,13 +24,13 @@
 - Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
 
 - An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
-  - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
   - There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
     - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html  (fast delivery)
     - https://www.aliexpress.com/item/32957419294.html
   - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
-  
-- 30cm Raspberry PI camera cable
+  - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
+
+- 30cm Raspberry PI camera flex cable
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
 
 - The Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
