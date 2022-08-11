@@ -241,7 +241,7 @@ TODO (from clamp, merge/replace)
 
 ### Notes
 
-- All stl files are provided, you will need 3D printer to print them. ( But if you don't have one you can buy the parts you need on Robot Maker)
+- All stl files are provided, you will need a 3D printer to print them.
 - All sources files are provided. They are made on openscad. You will need The OpenSCAD open source software available at https://www.openscad.org to open or customize SCAD files
-- Step files are also provided to be use as raw file material for other software if you want make modification with your own prefered software.
+- Step files are also provided to be used as raw file material for other software if you want make modification with your own prefered software.
 - This French video can help to better understand how to assemble the robot : https://youtu.be/9Eja0gG4bhI
