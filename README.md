@@ -39,8 +39,8 @@
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
 
-- 1S Batterie with BMS included
-   - not from AliExpress
+- 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress)
+  - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
 
 - USB charger (optional: Quick Charge QC3.0)
   - "EU" https://aliexpress.com/item/4000045865332.html
