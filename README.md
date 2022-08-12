@@ -25,6 +25,7 @@
   - check https://rpilocator.com to find an available Raspberry pi 
 
 - An aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
+  - "Option 2" https://aliexpress.com/item/32881466491.html
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
   - https://www.aliexpress.com/item/32957419294.html
   - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
@@ -35,8 +36,8 @@
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
 
 - The Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
-    - https://www.amazon.fr/gp/product/B089NF1NHS
     - https://aliexpress.com/item/4001113371912.html
+    - https://www.amazon.fr/gp/product/B089NF1NHS
 
 - 1S Batterie with BMS included
    - not from AliExpress
@@ -45,14 +46,14 @@
   - "EU" https://aliexpress.com/item/4000045865332.html
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html
   - https://www.pololu.com/product/1101
+  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html
 - 4x Pololu micro metal gearmotor extended bracket
-  - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
   - https://www.pololu.com/product/1089
+  - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
 - 4x Pololu wheel 40×7mm
-  - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
   - https://www.pololu.com/product/1454
+  - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
 - 1x Feetech 2ch motor controller
   - Not tested: "1 pcs" https://aliexpress.com/item/33008316502.html
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
@@ -64,7 +65,8 @@
 - 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
-- Huawei E3372h LTE/4G mobile data stick (no SIM card)
+- Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
+  - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
 
 - USB 90° adapter
   - "to Down" https://aliexpress.com/item/32891283795.html
@@ -79,23 +81,27 @@
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
   - Alternative (coordinate with Botkins, suggestions welcome) is either:
     - IR LEDs with GPIO control
-    - manually modified (from IR LEDs) to White LED with GPIO control
+      - https://aliexpress.com/item/32819475254.html
+      - Guide: https://www.robot-maker.com/forum/topic/13194-piloter-les-leds-ir-via-gpio/ PS: Needs a flexible wire at the LED modules
+    - manually modified (from IR LEDs) to White LEDs with GPIO control
+      - Guide: https://www.robot-maker.com/forum/topic/13191-modification-leds-ir-en-leds-blanches/
 
 - USB magnetic cable 4-pin (not 2-pin), either flat or round 
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
 - Active buzzer
+  - https://aliexpress.com/item/32762781599.html
 
-- Pin header power distribution board
+- Pin header servo power distribution board
   - https://aliexpress.com/item/33003433642.html
 
 - Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
 
 - EXPERIMENTAL: 7mm heatshrink tubing
-  - for example: https://a.aliexpress.com/_vtGIZ9 
+  - "7mm (5Meter)" https://aliexpress.com/item/1005003136814022.html
 - EXPERIMENTAL: cable tie base mount 12x12mm - 20x20mm self-adhesive 
-  - for example: https://a.aliexpress.com/_uxLl71
+  - "12x12 25pcs" https://aliexpress.com/item/32813988566.html
 
 
 
