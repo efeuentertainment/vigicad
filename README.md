@@ -82,14 +82,14 @@
   - Alternative (coordinate with Botkins, suggestions welcome) is either:
     - IR LEDs with GPIO control
       - https://aliexpress.com/item/32819475254.html
-      - Guide: https://www.robot-maker.com/forum/topic/13194-piloter-les-leds-ir-via-gpio/ PS: Needs a flexible wire at the LED modules
+      - Guide: https://www.robot-maker.com/forum/topic/13194-piloter-les-leds-ir-via-gpio/ PS: Needs a flexible wire at the LED modules, not directly the resistor!
     - manually modified (from IR LEDs) to White LEDs with GPIO control
       - Guide: https://www.robot-maker.com/forum/topic/13191-modification-leds-ir-en-leds-blanches/
 
-- USB magnetic cable 4-pin (not 2-pin), either flat or round 
+- USB magnetic cable 4-pin (not 2-pin)
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
-- Active buzzer
+- Active buzzer 5V
   - https://aliexpress.com/item/32762781599.html
 
 - Pin header servo power distribution board
