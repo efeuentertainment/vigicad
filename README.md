@@ -41,6 +41,9 @@
 - 1S Batterie with BMS included
    - not from AliExpress
 
+- USB charger (optional Quick Charge QC3.0)
+  - "EU" https://aliexpress.com/item/4000045865332.html
+
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html
   - https://www.pololu.com/product/1101
@@ -50,14 +53,16 @@
 - 4x Pololu wheel 40×7mm
   - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
   - https://www.pololu.com/product/1454
-- 1x Feetech 2ch motor controller (provided with cables) 
+- 1x Feetech 2ch motor controller
+  - Not tested: "1 pcs" https://aliexpress.com/item/33008316502.html
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
 
-- 1x 270° Doooman Hobby DM-S0090MD servo (pan axis: 1)
-  - "9g servo JR plug" https://aliexpress.com/item/1005002986376987.html
+- 1x 270° Doooman Hobby DM-S0090MD servo (pan axis: 1) (add 1x spare)
+  - https://aliexpress.com/item/4000072654688.html
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
 
-- 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2)
+- 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
+  - https://m.aliexpress.com/item/32890522720.html
 
 - Huawei E3372h LTE/4G mobile data stick (no SIM card)
 
