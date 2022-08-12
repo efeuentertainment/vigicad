@@ -22,6 +22,7 @@
   - (not for botkins: core rear plate)
 
 - Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
+  - check https://rpilocator.com to find an available Raspberry pi 
 
 - An aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
@@ -30,19 +31,20 @@
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
 
 - 30cm Raspberry PI camera flex cable
+  - "30cm" https://aliexpress.com/item/32893003564.html
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
 
 - The Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
     - https://www.amazon.fr/gp/product/B089NF1NHS
-    - https://fr.aliexpress.com/item/4001113371912.html
+    - https://aliexpress.com/item/4001113371912.html
 
 - 1S Batterie with BMS included
    - not from AliExpress
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
+  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html
   - https://www.pololu.com/product/1101
-- 4x Pololu micro metal gearmotor extended bracket ( provided with screws and nuts)
+- 4x Pololu micro metal gearmotor extended bracket
   - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
   - https://www.pololu.com/product/1089
 - 4x Pololu wheel 40×7mm
@@ -52,6 +54,7 @@
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
 
 - 1x 270° Doooman Hobby DM-S0090MD servo (pan axis: 1)
+  - "9g servo JR plug" https://aliexpress.com/item/1005002986376987.html
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
 
 - 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2)
@@ -61,6 +64,7 @@
 - USB 90° adapter
 
 - USB Microphone "Orange-AI"
+  - https://aliexpress.com/item/1005002551627557.html
 
 - DuPont cables that have a good grip on pin headers and flow well when soldering
 
@@ -76,7 +80,7 @@
   - for example: https://a.aliexpress.com/_uxLl71
 
 - USB magnetic cable 4-pin (not 2-pin), either flat or round 
-  - https://a.aliexpress.com/_vCU5eL
+  - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
 - Active buzzer
 
