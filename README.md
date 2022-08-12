@@ -66,7 +66,8 @@
 - USB Microphone "Orange-AI"
   - https://aliexpress.com/item/1005002551627557.html
 
-- DuPont cables that have a good grip on pin headers and flow well when soldering
+- DuPont cables that have a good grip on pin headers and flow well when soldering (motors: 4x2; LEDs: 2)
+  - "30cm" https://aliexpress.com/item/32840578827.html
 
 - 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO 
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
@@ -74,20 +75,21 @@
     - IR LEDs with GPIO control
     - manually modified (from IR LEDs) to White LED with GPIO control
 
-- EXPERIMENTAL: 7mm heatshrink tubing
-  - for example: https://a.aliexpress.com/_vtGIZ9 
-- EXPERIMENTAL: cable tie base mount 12x12mm - 20x20mm self-adhesive 
-  - for example: https://a.aliexpress.com/_uxLl71
-
 - USB magnetic cable 4-pin (not 2-pin), either flat or round 
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
 - Active buzzer
 
 - Pin header power distribution board
+  - https://aliexpress.com/item/33003433642.html
 
 - Single DuPont pin sleeves
+  - "1P" https://aliexpress.com/item/33035707563.html
 
+- EXPERIMENTAL: 7mm heatshrink tubing
+  - for example: https://a.aliexpress.com/_vtGIZ9 
+- EXPERIMENTAL: cable tie base mount 12x12mm - 20x20mm self-adhesive 
+  - for example: https://a.aliexpress.com/_uxLl71
 
 
 
