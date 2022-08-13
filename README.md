@@ -55,7 +55,6 @@
   - https://www.pololu.com/product/1454
   - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
 - 1x Feetech 2ch motor controller
-  - Not tested: "1 pcs" https://aliexpress.com/item/33008316502.html
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
 
 - 1x 270° Doooman Hobby DM-S0090MD metal gear servo (pan axis: 1) (add 1x spare)
@@ -98,10 +97,10 @@
 - Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
 
-- EXPERIMENTAL: 7mm heatshrink tubing
-  - "7mm (5Meter)" https://aliexpress.com/item/1005003136814022.html
-- EXPERIMENTAL: cable tie base mount 12x12mm - 20x20mm self-adhesive 
-  - "12x12 25pcs" https://aliexpress.com/item/32813988566.html
+- EXPERIMENTAL: about 20cm of 7mm heatshrink tubing
+  - "7mm" https://aliexpress.com/item/1005003136814022.html
+- EXPERIMENTAL: 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
+  - "12x12" https://aliexpress.com/item/32813988566.html
 
 
 
