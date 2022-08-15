@@ -105,6 +105,45 @@
   - "12x12" https://aliexpress.com/item/32813988566.html
 
 
+TODO(from core, merge/replace)
+- Standoffs https://aliexpress.com/item/32872351516.html
+    - 4x "12mm" length, "M2.5" male-female standoffs between the Raspberry PI and UPS hat board
+    - 4x "25mm" length, "M2.5" male-female standoffs between the UPS hat board and middle plate
+    - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
+
+- Spacer https://aliexpress.com/item/33021883302.html
+  - 4x "M2.5x5x1mm" between the Raspberry PI and UPS hat board
+
+- Screws
+    - 4x nuts (old:5mm length M2.5 male standoffs between the Raspberry PI board and top plate : 4)
+    - 4x screws 13-15mm : 4 top plate
+
+    - 6 mm M2.5 screw : 6 ( 4 bottom plate / 2 middle plate)
+    - 8 or 10 mm M2.5 screw to fix motor board : 2 
+    - M2.5 nut : 6 ( 4 for the motor board / 2 middle plate)
+    - 8mm length M2 screw to fix the back plate on the middle plate : 3 
+    - M2 nut : 3 
+
+TODO(from head, merge/replace)
+
+    - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
+    - M2.5 nut : 2
+    - 5 or 6 mm M2 screw : 1 
+    - 8 mm M2 screw : 2  (to fix 270° servo on the pan plate)
+    - 14 or 16 mm M2 screw : 2 ( to fix 180° servo in the head)
+    - 20 mm M2 screw : 4 (for camera assembly on the head)
+    - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
+
+TODO (from clamp, merge/replace)
+
+    - 5 or 6 mm M2 screw : 1
+    - 8 mm M2 screw : 3
+    - 10 mm M2 screw : 1
+    - 14 mm M2 screw : 5
+    - M2 nut : 2
+
+
+###backup
 
 TODO(from core, merge/replace)
 
