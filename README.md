@@ -21,28 +21,28 @@
   - usb_bracket.stl
   - (not for botkins: core rear plate)
 
-- Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
+- 1x Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
   - check https://rpilocator.com to find an available Raspberry pi 
 
-- An aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
+- 1x aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
   - "Option 2" https://aliexpress.com/item/32881466491.html
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
   - https://www.aliexpress.com/item/32957419294.html
   - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
 
-- 30cm Raspberry PI camera flex cable
+- 1x 30cm Raspberry PI camera flex cable (if not already included with camera)
   - "30cm" https://aliexpress.com/item/32893003564.html
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
 
-- The Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
+- 1x Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
 
-- 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress)
+- 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress)
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
 
-- USB charger (optional: Quick Charge QC3.0)
+- 1x USB charger (optional: Quick Charge QC3.0)
   - "EU" https://aliexpress.com/item/4000045865332.html
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
@@ -64,17 +64,18 @@
 - 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
-- Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
+- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
   - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
 
-- USB 90° adapter
+- 1x USB 90° adapter
   - "to Down" https://aliexpress.com/item/32891283795.html
 
-- USB Microphone "Orange-AI"
+- 1x USB Microphone "Orange-AI"
   - https://aliexpress.com/item/1005002551627557.html
 
-- DuPont cables that have a good grip on pin headers and flow well when soldering (motors: 4x2; LEDs: 2)
+- 5-10x DuPont cables that have a good grip on pin headers and flow well when soldering (motors: 4x2; LEDs: 2)
   - "30cm" https://aliexpress.com/item/32840578827.html
+  - Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
 
 - 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO 
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
@@ -85,17 +86,18 @@
     - manually modified (from IR LEDs) to White LEDs with GPIO control
       - Guide: https://www.robot-maker.com/forum/topic/13191-modification-leds-ir-en-leds-blanches/
 
-- USB magnetic cable 4-pin (not 2-pin)
+- 1x USB magnetic cable 4-pin (not 2-pin)
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
-- Active buzzer 5V
+- 1x Active buzzer 5V
   - https://aliexpress.com/item/32762781599.html
 
-- Pin header servo power distribution board
+- 1x Pin header servo power distribution board
   - https://aliexpress.com/item/33003433642.html
 
-- Single DuPont pin sleeves
+- about 5x Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
+  - alternative: about 10cm heatshrink tubing 
 
 - EXPERIMENTAL: about 20cm of 7mm heatshrink tubing
   - "7mm" https://aliexpress.com/item/1005003136814022.html
