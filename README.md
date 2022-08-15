@@ -104,14 +104,14 @@
 - EXPERIMENTAL: 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
   - "12x12" https://aliexpress.com/item/32813988566.html
 
-
+- about 10cm double sided foam duct tape (alternative to fix motor board to middle plate / fix battery pack to middle plate)
 
 - Standoffs
   - https://aliexpress.com/item/32872351516.html
+    - 4x "5mm" length, "M2.5" male-female standoff between the Raspberry PI board and top plate
     - 4x "12mm" length, "M2.5" male-female standoffs between the Raspberry PI and UPS hat board
     - 4x "25mm" length, "M2.5" male-female standoffs between the UPS hat board and middle plate
     - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
-    - 4x "5mm" length, "M2.5" male-female standoff between the Raspberry PI board and top plate
 
 - Spacer
   - https://aliexpress.com/item/33021883302.html
@@ -121,12 +121,15 @@
   - https://aliexpress.com/item/32810872544.html
     - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
     - 2x "M2.5", "8 or 10mm" length to fix motor board
-    - 3x "M2", "8mm" length to fix the USB bracket mount onto the top plate
- 
+    - 3x "M2", "8mm" length to fix the USBbracket onto the top plate
+    - add motor mounts
+
 Nuts
   - https://aliexpress.com/item/32874684920.html
-    - 6x "M2.5" (4 for the motor board / 2 middle plate)
+    - 6x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate)
     - 3x "M2" for the USB bracket
+    - add motor mounts
+
 
 TODO(from head, merge/replace)
 
