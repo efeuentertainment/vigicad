@@ -105,24 +105,28 @@
   - "12x12" https://aliexpress.com/item/32813988566.html
 
 
-TODO(from core, merge/replace)
-- Standoffs https://aliexpress.com/item/32872351516.html
+
+- Standoffs
+  - https://aliexpress.com/item/32872351516.html
     - 4x "12mm" length, "M2.5" male-female standoffs between the Raspberry PI and UPS hat board
     - 4x "25mm" length, "M2.5" male-female standoffs between the UPS hat board and middle plate
     - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
+    - 4x "5mm" length, "M2.5" male-female standoff between the Raspberry PI board and top plate
 
-- Spacer https://aliexpress.com/item/33021883302.html
-  - 4x "M2.5x5x1mm" between the Raspberry PI and UPS hat board
+- Spacer
+  - https://aliexpress.com/item/33021883302.html
+    - 4x "M2.5x5x1mm" between the Raspberry PI and UPS hat board
 
 - Screws
-    - 4x nuts (old:5mm length M2.5 male standoffs between the Raspberry PI board and top plate : 4)
-    - 4x screws 13-15mm : 4 top plate
-
-    - 6 mm M2.5 screw : 6 ( 4 bottom plate / 2 middle plate)
-    - 8 or 10 mm M2.5 screw to fix motor board : 2 
-    - M2.5 nut : 6 ( 4 for the motor board / 2 middle plate)
-    - 8mm length M2 screw to fix the back plate on the middle plate : 3 
-    - M2 nut : 3 
+  - https://aliexpress.com/item/32810872544.html
+    - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
+    - 2x "M2.5", "8 or 10mm" length to fix motor board
+    - 3x "M2", "8mm" length to fix the USB bracket mount onto the top plate
+ 
+Nuts
+  - https://aliexpress.com/item/32874684920.html
+    - 6x "M2.5" (4 for the motor board / 2 middle plate)
+    - 3x "M2" for the USB bracket
 
 TODO(from head, merge/replace)
 
