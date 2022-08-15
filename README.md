@@ -113,28 +113,29 @@
     - 4x "25mm" length, "M2.5" male-female standoffs between the UPS hat board and middle plate
     - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
 
-- Spacer
-  - https://aliexpress.com/item/33021883302.html
-    - 4x "M2.5x5x1mm" between the Raspberry PI and UPS hat board
+Spacers
+- https://aliexpress.com/item/33021883302.html
+  - 4x "M2.5x5x1mm" between the Raspberry PI and UPS hat board
 
-- Screws
+Screws
   - https://aliexpress.com/item/32810872544.html
+    - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
+
+    - 3x "M2", "8mm" length to fix the USB bracket onto the top plate
     - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
     - 2x "M2.5", "8 or 10mm" length to fix motor board
-    - 3x "M2", "8mm" length to fix the USBbracket onto the top plate
     - add motor mounts
 
 Nuts
   - https://aliexpress.com/item/32874684920.html
-    - 6x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate)
+    - 8x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate / 2 between head plate and top plate)
     - 3x "M2" for the USB bracket
     - add motor mounts
 
 
 TODO(from head, merge/replace)
 
-    - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
-    - M2.5 nut : 2
+
     - 5 or 6 mm M2 screw : 1 
     - 8 mm M2 screw : 2  (to fix 270° servo on the pan plate)
     - 14 or 16 mm M2 screw : 2 ( to fix 180° servo in the head)
