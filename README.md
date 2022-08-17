@@ -38,7 +38,7 @@
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
 
-- 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress)
+- 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress!)
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
 
 - 1x USB charger (optional: Quick Charge QC3.0)
@@ -63,7 +63,7 @@
 - [TODO the current files will only fit plastic servos that aren't recommend] 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
-- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
+- 1x Huawei E3372H-320 LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
   - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
 
 - 1x USB 90° adapter
@@ -139,7 +139,7 @@
     - 8x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate / 2 between head plate and top plate)
     - 24x "M2" ( 3 for the USB bracket / 8 to mount camera onto head / 2 to fix the pan servo on the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
 
-- EXPERIMENTAL: about 20cm of 7mm heatshrink tubing
+- EXPERIMENTAL: About 20cm of 7mm heatshrink tubing
   - "7mm" https://aliexpress.com/item/1005003136814022.html
 - EXPERIMENTAL: 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
   - "12x12" https://aliexpress.com/item/32813988566.html
