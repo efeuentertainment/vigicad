@@ -119,31 +119,24 @@ Spacers
 
 Screws
   - https://aliexpress.com/item/32810872544.html
-    - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
-
-    - 8x "M2", "8mm" length (3 for USB bracket onto the top plate / 2 for 270° servo onto the pan plate / 3 for gripper u-bracket onto middle plate)
+    - 2x "M2.5", "10 or 12mm" length to fix head pan plate to the rest of the robot
     - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
     - 2x "M2.5", "8 or 10mm" length to fix motor board
+
+    - 8x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate)
     - add motor mounts
     - 2x "M2", "5 or 6mm" length ( 1 u-bracket to head support / 1 u-bracket to gripper support)
+    - 1x "M2", "10mm" length to mount secondary pincer to gripper
+    - 7x "M2", "14mm" length ( 2 to fix 180° servo into the head / 4 to fix servo into gripper / 1 to fix main pince onto the servo horn)
+    - 4x "M2", "20mm" length to fix camera module onto the head
 
 Nuts
   - https://aliexpress.com/item/32874684920.html
     - 8x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate / 2 between head plate and top plate)
-    - 3x "M2" for the USB bracket
+    - 16x "M2" ( 3 for the USB bracket / 8 to mount camera onto head / 2 to fix the pan servo on the head pan plate / 3 to fix gripper u-bracket onto middle plate)
+
     - add motor mounts
-
-
-TODO(from head, merge/replace)
-    - 14 or 16 mm M2 screw : 2 ( to fix 180° servo in the head)
-    - 20 mm M2 screw : 4 (for camera assembly on the head)
-    - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
-
-TODO (from clamp, merge/replace)
-    - 10 mm M2 screw : 1
-    - 14 mm M2 screw : 5
-    - M2 nut : 2
-
+ 
 
 ###backup
 
