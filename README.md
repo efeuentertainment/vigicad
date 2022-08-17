@@ -19,7 +19,6 @@
   - plate_middle.stl
   - plate_top_nofan.stl
   - usb_bracket.stl
-  - (not for botkins: core rear plate)
 
 - 1x Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
   - check https://rpilocator.com to find an available Raspberry pi 
@@ -81,7 +80,7 @@
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
   - Alternative (coordinate with Botkins, suggestions welcome) is either:
     - IR LEDs with GPIO control
-      - https://aliexpress.com/item/32819475254.html
+      - if not already included with camera: https://aliexpress.com/item/32819475254.html
       - Guide: https://www.robot-maker.com/forum/topic/13194-piloter-les-leds-ir-via-gpio/ PS: Needs a flexible wire at the LED modules, not directly the resistor!
     - manually modified (from IR LEDs) to White LEDs with GPIO control
       - Guide: https://www.robot-maker.com/forum/topic/13191-modification-leds-ir-en-leds-blanches/
@@ -96,14 +95,14 @@
   - https://aliexpress.com/item/1005001849622193.html
     - the 3rd row (signal) will not be used. connector has to be replaced.
   - Alternative with missing wires (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
-  - Alternative is to build a small board yourself using 2 rows x 5-6pins headers and prototyping board 
+  - Alternative is to build a small board yourself using 2 rows x 6 pins headers and prototyping board (one slot as a spare)
 
-- 1x PH2.0 plug to connect the power distribution board to the UPS
+- 1x PH2.0 plug to connect the power distribution board to the UPS. plug depends on UPS.
   - "2P" https://aliexpress.com/item/4000091077742.html
 
 - About 5x Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
-  - alternative: about 10cm heatshrink tubing 
+  - alternative: about 10cm ?mm heatshrink tubing 
 
 - About 10cm double sided foam duct tape (or Velcro tape to fix battery pack to middle plate / alternative to fix motor board to middle plate)
 
