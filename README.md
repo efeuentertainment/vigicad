@@ -122,9 +122,7 @@ Screws
     - 2x "M2.5", "10 or 12mm" length to fix head pan plate to the rest of the robot
     - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
     - 2x "M2.5", "8 or 10mm" length to fix motor board
-
-    - 8x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate)
-    - add motor mounts
+    - 16x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
     - 2x "M2", "5 or 6mm" length ( 1 u-bracket to head support / 1 u-bracket to gripper support)
     - 1x "M2", "10mm" length to mount secondary pincer to gripper
     - 7x "M2", "14mm" length ( 2 to fix 180° servo into the head / 4 to fix servo into gripper / 1 to fix main pince onto the servo horn)
@@ -133,10 +131,7 @@ Screws
 Nuts
   - https://aliexpress.com/item/32874684920.html
     - 8x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate / 2 between head plate and top plate)
-    - 16x "M2" ( 3 for the USB bracket / 8 to mount camera onto head / 2 to fix the pan servo on the head pan plate / 3 to fix gripper u-bracket onto middle plate)
-
-    - add motor mounts
-
+    - 24x "M2" ( 3 for the USB bracket / 8 to mount camera onto head / 2 to fix the pan servo on the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
 
 <details><summary>old Vigibot partlist listed by category</summary>
 
