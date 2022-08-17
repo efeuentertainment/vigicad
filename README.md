@@ -6,7 +6,7 @@
 
 ### Partlist
 
-- 3D printed parts (you can decide what color(s)) from https://github.com/efeuentertainment/vigicad/tree/master/stl
+- [TODO the current files will only fit plastic servos that aren't recommend] 3D printed parts (you can decide what color(s)) from https://github.com/efeuentertainment/vigicad/tree/master/stl
   - clamp_finger_a.stl
   - clamp_finger_b.stl
   - clamp_servo_bracket.stl
@@ -60,7 +60,7 @@
   - https://aliexpress.com/item/4000072654688.html
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
 
-- 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
+- [TODO the current files will only fit plastic servos that aren't recommend] 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
 - 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
