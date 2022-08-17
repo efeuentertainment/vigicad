@@ -104,7 +104,7 @@
 - EXPERIMENTAL: 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
   - "12x12" https://aliexpress.com/item/32813988566.html
 
-- about 10cm double sided foam duct tape (alternative to fix motor board to middle plate / fix battery pack to middle plate)
+- about 10cm double sided foam duct tape (or Velcro tape to fix battery pack to middle plate / alternative to fix motor board to middle plate)
 
 - Standoffs
   - https://aliexpress.com/item/32872351516.html
@@ -121,10 +121,11 @@ Screws
   - https://aliexpress.com/item/32810872544.html
     - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
 
-    - 3x "M2", "8mm" length to fix the USB bracket onto the top plate
+    - 8x "M2", "8mm" length (3 for USB bracket onto the top plate / 2 for 270° servo onto the pan plate / 3 for gripper u-bracket onto middle plate)
     - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
     - 2x "M2.5", "8 or 10mm" length to fix motor board
     - add motor mounts
+    - 2x "M2", "5 or 6mm" length ( 1 u-bracket to head support / 1 u-bracket to gripper support)
 
 Nuts
   - https://aliexpress.com/item/32874684920.html
@@ -134,18 +135,11 @@ Nuts
 
 
 TODO(from head, merge/replace)
-
-
-    - 5 or 6 mm M2 screw : 1 
-    - 8 mm M2 screw : 2  (to fix 270° servo on the pan plate)
     - 14 or 16 mm M2 screw : 2 ( to fix 180° servo in the head)
     - 20 mm M2 screw : 4 (for camera assembly on the head)
     - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
 
 TODO (from clamp, merge/replace)
-
-    - 5 or 6 mm M2 screw : 1
-    - 8 mm M2 screw : 3
     - 10 mm M2 screw : 1
     - 14 mm M2 screw : 5
     - M2 nut : 2
