@@ -101,11 +101,14 @@
 
 - About 10cm double sided foam duct tape (or Velcro tape to fix battery pack to middle plate / alternative to fix motor board to middle plate)
 
-- Standoffs
-  - https://aliexpress.com/item/32872351516.html
+- Standoffs Male-Female
+  - https://aliexpress.com/item/32871638424.html
     - 4x "5mm" length, "M2.5" male-female standoff between the Raspberry PI board and top plate
     - 4x "12mm" length, "M2.5" male-female standoffs between the Raspberry PI and UPS hat board
     - 4x "25mm" length, "M2.5" male-female standoffs between the UPS hat board and middle plate
+
+- Standoffs Female-Female
+  - https://aliexpress.com/item/32872351516.html
     - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
 
 - Spacers
