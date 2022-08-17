@@ -92,8 +92,14 @@
 - 1x Active buzzer 5V
   - https://aliexpress.com/item/32762781599.html
 
-- 1x Pin header servo power distribution board
-  - https://aliexpress.com/item/33003433642.html
+- 1x Pin header servo power distribution board. 4x servo + 1x battery + 1x plug to power UPS.
+  - https://aliexpress.com/item/1005001849622193.html
+    - the 3rd row (signal) will not be used. connector has to be replaced.
+  - Alternative with missing wires (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
+  - Alternative is to build a small board yourself using 2 rows x 5-6pins headers and prototyping board 
+
+- 1x PH2.0 plug to connect the power distribution board to the UPS
+  - "2P" https://aliexpress.com/item/4000091077742.html
 
 - About 5x Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
