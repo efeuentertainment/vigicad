@@ -54,6 +54,7 @@
   - https://www.pololu.com/product/1454
   - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
 - 1x Feetech 2ch motor controller
+  - wire output to both motors on each side https://aliexpress.com/item/33056911020.html
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
 
 - 1x 270° Doooman Hobby DM-S0090MD metal gear servo (pan axis: 1) (add 1x spare)
