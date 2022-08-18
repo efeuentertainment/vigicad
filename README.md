@@ -124,16 +124,16 @@
   - https://aliexpress.com/item/32810872544.html
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
     - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
-    - 1x "M2.5", "10mm" length to fix primary pince onto the servo horn (for DIYMore metal gear)
+    - 1x "M2.5", "10mm" length to fix clamp_finger_a onto the servo horn (for DIYMore metal gear)
     - 16x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
     - 2x "M2", "6mm" length ( 1 u-bracket to head / 1 u-bracket to gripper)
-    - 1x "M2", "16mm" length to mount secondary pincer to gripper (estimated for DIYMore metal gear)
+    - 1x "M2", "16mm" length to mount clamp_finger_b to gripper (estimated for DIYMore metal gear)
     - 6x "M2", "14mm" length ( 2 to fix 180° servo into the head / 4 to fix servo into gripper)
     - 4x "M2", "20mm" length to fix camera module and LEDs onto the head
 
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
-    - 2x "M2.5", "8mm" length to fix motor board to middle 
+    - 2x "M2.5", "8mm" length to fix motor board to middle plate
 
 - Nuts
   - https://aliexpress.com/item/32874684920.html
