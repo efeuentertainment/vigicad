@@ -6,14 +6,14 @@
 
 ### Partlist
 
-- [TODO the current files will only fit plastic servos that aren't recommend] 3D printed parts (you can decide what color(s)) from https://github.com/efeuentertainment/vigicad/tree/master/stl
-  - clamp_finger_a.stl
-  - clamp_finger_b.stl
-  - clamp_servo_bracket.stl
-  - clamp_u_bracket.stl
+- 3D printed parts (you can decide what color(s)) from https://github.com/efeuentertainment/vigicad/tree/master/stl
+  - [this file is currently incompatible with the recommended servo] clamp_finger_a.stl
+  - [this file is currently incompatible with the recommended servo] clamp_finger_b.stl
+  - [this file is currently incompatible with the recommended servo] clamp_servo_bracket.stl
+  - [this file is currently incompatible with the recommended servo] clamp_u_bracket.stl
   - head_pan_servo_bracket.stl
-  - head_servo_camera_bracket_smile.stl
-  - head_u_bracket.stl
+  - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
+  - [this file is currently incompatible with the recommended servo] head_u_bracket.stl
   - photoresistor_cap.stl (white filament, some light has to pass through)
   - plate_bottom.stl
   - plate_middle.stl
@@ -60,7 +60,7 @@
   - https://aliexpress.com/item/4000072654688.html
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
 
-- [TODO the current files will only fit plastic servos that aren't recommend] 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
+- 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
 - 1x Huawei E3372H-320 LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
@@ -97,7 +97,7 @@
   - Alternative with missing wires (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
   - Alternative is to build a small board yourself using 2 rows x 6 pins headers and prototyping board (one slot as a spare)
 
-- 1x PH2.0 plug to connect the power distribution board to the UPS. plug depends on UPS.
+- 1x PH2.0 plug to connect the power distribution board to the ugeek v3 UPS. other UPS may have a different plug.
   - "2P" https://aliexpress.com/item/4000091077742.html
 
 - About 5x Single DuPont pin sleeves
@@ -124,11 +124,12 @@
   - https://aliexpress.com/item/32810872544.html
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
     - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
+    - 1x "M2.5", "10mm" length to fix primary pince onto the servo horn (for DIYMore metal gear)
     - 16x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
-    - 2x "M2", "6mm" length ( 1 u-bracket to head support / 1 u-bracket to gripper support)
-    - 1x "M2", "10mm" length to mount secondary pincer to gripper
-    - 7x "M2", "14mm" length ( 2 to fix 180° servo into the head / 4 to fix servo into gripper / 1 to fix main pince onto the servo horn)
-    - 4x "M2", "20mm" length to fix camera module onto the head
+    - 2x "M2", "6mm" length ( 1 u-bracket to head / 1 u-bracket to gripper)
+    - 1x "M2", "16mm" length to mount secondary pincer to gripper (estimated for DIYMore metal gear)
+    - 6x "M2", "14mm" length ( 2 to fix 180° servo into the head / 4 to fix servo into gripper)
+    - 4x "M2", "20mm" length to fix camera module and LEDs onto the head
 
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
