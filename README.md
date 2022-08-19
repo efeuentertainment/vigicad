@@ -11,7 +11,7 @@
   - [this file is currently incompatible with the recommended servo] clamp_finger_b.stl
   - [this file is currently incompatible with the recommended servo] clamp_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] clamp_u_bracket.stl
-  - [while this file works, it could use an adjustment to better fit the DM-S0090MG pan servo] head_pan_servo_bracket.stl
+  - [while this file works, it could maybe use an adjustment to better fit the DM-S0090MG pan servo] head_pan_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
   - [this file is currently incompatible with the recommended servo] head_u_bracket.stl
   - photoresistor_cap.stl (white filament, some light has to pass through)
@@ -98,11 +98,12 @@
   - https://aliexpress.com/item/32762781599.html
 
 - 1x Pin header for the servo power distribution board. 4x servo + 1x motor driver + 1x battery + 1x plug to power UPS + 1x strobe light.
-  - Build a small board yourself using 2 rows x 7 pins headers and prototyping board (one slot as a spare)
+  - Build a small board yourself using 2 rows x 7 pins headers and prototyping board (one slot as a spare) https://aliexpress.com/item/32744837236.html
   - Alternative with insufficient slots. the 3rd row (signal) will not be used. connector has to be replaced. https://aliexpress.com/item/1005001849622193.html
   - Alternative with insufficient slots and missing wires. (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
 
 - 1x small piece of prototyping board for the servo power distribution board.
+  - https://aliexpress.com/item/1005001807612572.html
 
 - 1x PH2.0 plug to connect the power distribution board to the ugeek v3 UPS. other UPS may have a different plug.
   - "2P" https://aliexpress.com/item/4000091077742.html
@@ -111,12 +112,13 @@
   - "1P" https://aliexpress.com/item/33035707563.html
   - alternative: about 10cm ?mm heatshrink tubing 
 
-- About 10cm double sided foam duct tape (or Velcro tape to fix battery pack to middle plate / alternative to fix motor board to middle plate)
+- About 10cm double sided foam duct tape (or Velcro tape)(to fix battery pack to middle plate / alternative to fix motor board to middle plate)
 
 - Small Strobing RC light
   - https://aliexpress.com/item/32907858286.html
 
-- A bit of superglue (2x glue LED lens onto LED board so they don't fall off / 1x glue strobe light to top plate / 1x check strobe light cap so it doesn't fall off)
+- A bit of super glue (glue LED lens onto LED board so they don't fall off / glue strobe light to top plate / check strobe light cap so it doesn't fall off)
+  - https://aliexpress.com/item/1005002488174010.html
 
 - Standoffs Male-Female
   - https://aliexpress.com/item/32871638424.html
@@ -156,7 +158,8 @@
   - "7mm" https://aliexpress.com/item/1005003136814022.html
 - EXPERIMENTAL: 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
   - "12x12" https://aliexpress.com/item/32813988566.html
-- EXPERIMENTAL: 1x small zip tie
+- EXPERIMENTAL: 1x small zip tie, about 100mm in length
+  - "3x100" https://aliexpress.com/item/1005001444739470.html
 
 <details><summary>old Vigibot partlist listed by category</summary>
 
