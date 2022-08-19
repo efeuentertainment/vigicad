@@ -23,6 +23,11 @@
 - 1x Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
   - check https://rpilocator.com to find an available Raspberry pi 
 
+- 1x 16GB+ MicroSD card (preferably not from AliExpress)
+  - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
+
+- A micro SD card reader to flash the micro SD card
+
 - 1x aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
   - "Option 2" https://aliexpress.com/item/32881466491.html
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
@@ -33,9 +38,6 @@
 - 1x 30cm Raspberry PI camera flex cable (if not already included with camera)
   - "30cm" https://aliexpress.com/item/32893003564.html
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
-
-- 1x 16GB+ MicroSD card (preferably not from AliExpress)
-  - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 
 - 1x Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
     - https://aliexpress.com/item/4001113371912.html
@@ -76,7 +78,7 @@
 - 1x USB Microphone "Orange-AI"
   - https://aliexpress.com/item/1005002551627557.html
 
-- 5-10x DuPont cables that have a good grip on pin headers and flow well when soldering (motors: 4x2; LEDs: 2)
+- 7-14x DuPont cables that have a good grip on pin headers and flow well when soldering (4x2 motors / 2x1 motor driver power / 2x1 motor signal / 2x1 LEDs)
   - "30cm" https://aliexpress.com/item/32840578827.html
   - Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
 
@@ -95,11 +97,12 @@
 - 1x Active buzzer 5V
   - https://aliexpress.com/item/32762781599.html
 
-- 1x Pin header servo power distribution board. 4x servo + 1x battery + 1x plug to power UPS.
-  - https://aliexpress.com/item/1005001849622193.html
-    - the 3rd row (signal) will not be used. connector has to be replaced.
-  - Alternative with missing wires (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
-  - Alternative is to build a small board yourself using 2 rows x 6 pins headers and prototyping board (one slot as a spare)
+- 1x Pin header for the servo power distribution board. 4x servo + 1x motor driver + 1x battery + 1x plug to power UPS + 1x strobe light.
+  - Build a small board yourself using 2 rows x 7 pins headers and prototyping board (one slot as a spare)
+  - Alternative with insufficient slots. the 3rd row (signal) will not be used. connector has to be replaced. https://aliexpress.com/item/1005001849622193.html
+  - Alternative with insufficient slots and missing wires. (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
+
+- 1x small piece of prototyping board for the servo power distribution board.
 
 - 1x PH2.0 plug to connect the power distribution board to the ugeek v3 UPS. other UPS may have a different plug.
   - "2P" https://aliexpress.com/item/4000091077742.html
@@ -109,6 +112,11 @@
   - alternative: about 10cm ?mm heatshrink tubing 
 
 - About 10cm double sided foam duct tape (or Velcro tape to fix battery pack to middle plate / alternative to fix motor board to middle plate)
+
+- Small Strobing RC light
+  - https://aliexpress.com/item/32907858286.html
+
+- A bit of superglue (2x glue LED lens onto LED board so they don't fall off / 1x glue strobe light to top plate / 1x check strobe light cap so it doesn't fall off)
 
 - Standoffs Male-Female
   - https://aliexpress.com/item/32871638424.html
@@ -148,6 +156,7 @@
   - "7mm" https://aliexpress.com/item/1005003136814022.html
 - EXPERIMENTAL: 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
   - "12x12" https://aliexpress.com/item/32813988566.html
+- EXPERIMENTAL: 1x small zip tie
 
 <details><summary>old Vigibot partlist listed by category</summary>
 
