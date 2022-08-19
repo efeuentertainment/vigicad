@@ -21,19 +21,15 @@
 
 - 1x Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
   - check https://rpilocator.com to find an available Raspberry pi 
-
 - 1x 16GB+ MicroSD card (preferably not from AliExpress)
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
-
 - A micro SD card reader to flash the micro SD card
-
 - 1x aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
   - "Option 2" https://aliexpress.com/item/32881466491.html
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
   - https://www.aliexpress.com/item/32957419294.html
   - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
-
 - 1x 30cm Raspberry PI camera flex cable (if not already included with camera)
   - "30cm" https://aliexpress.com/item/32893003564.html
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
@@ -41,7 +37,6 @@
 - 1x Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
-
 - 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress!)
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
 
@@ -64,16 +59,13 @@
 - 1x 270° Doooman Hobby DM-S0090MD metal gear servo (pan axis: 1) (add 1x spare)
   - https://aliexpress.com/item/4000072654688.html
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
-
 - 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
 - 1x Huawei E3372H-320 LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
   - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
-
 - 1x USB 90° adapter
   - "to Down" https://aliexpress.com/item/32891283795.html
-
 - 1x USB Microphone "Orange-AI"
   - https://aliexpress.com/item/1005002551627557.html
 
@@ -101,13 +93,11 @@
   - Build a small board yourself using 2 rows x 7 pins headers and prototyping board (one slot as a spare) https://aliexpress.com/item/32744837236.html
   - Alternative with insufficient slots. the 3rd row (signal) will not be used. connector has to be replaced. https://aliexpress.com/item/1005001849622193.html
   - Alternative with insufficient slots and missing wires. (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
-
 - 1x small piece of prototyping board for the servo power distribution board.
   - https://aliexpress.com/item/1005001807612572.html
 
 - 1x PH2.0 plug to connect the power distribution board to the ugeek v3 UPS. other UPS may have a different plug.
   - "2P" https://aliexpress.com/item/4000091077742.html
-
 - About 5x Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
   - alternative: about 10cm ?mm heatshrink tubing 
@@ -125,15 +115,12 @@
     - 4x "5mm" length, "M2.5" male-female standoff between the Raspberry PI board and top plate
     - 4x "12mm" length, "M2.5" male-female standoffs between the Raspberry PI and UPS hat board
     - 4x "25mm" length, "M2.5" male-female standoffs between the UPS hat board and middle plate
-
 - Standoffs Female-Female
   - https://aliexpress.com/item/32872351516.html
     - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
-
 - Spacers
   - https://aliexpress.com/item/33021883302.html
     - 6x "M2.5x5x1mm" (4 between the Raspberry PI and UPS hat board / maybe 2 between head pan plate and top plate, but try without)
-
 - Screws
   - https://aliexpress.com/item/32810872544.html
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot (may or may not require a spacer)
@@ -144,15 +131,16 @@
     - 1x "M2", "16mm" length to mount clamp_finger_b to gripper (estimated for DIYMore metal gear)
     - 6x "M2", "14mm" length ( 2 to fix 180° servo into the head / 4 to fix servo into gripper)
     - 4x "M2", "20mm" length to fix camera module and LEDs onto the head
-
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
     - 2x "M2.5", "8mm" length to fix motor board to middle plate
-
 - Nuts
   - https://aliexpress.com/item/32874684920.html
     - 8x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate / 2 between head plate and top plate)
     - 24x "M2" ( 3 for the USB bracket / 8 to mount camera onto head / 2 to fix the pan servo on the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
+
+- About 10cm of about 12mm Heatshrink tubing to store the left over wire lengths (do not shrink the tube)
+  - "12mm" https://aliexpress.com/item/4000904296729.html
 
 - EXPERIMENTAL: About 20cm of 7mm heatshrink tubing
   - "7mm" https://aliexpress.com/item/1005003136814022.html
