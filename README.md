@@ -11,7 +11,7 @@
   - [this file is currently incompatible with the recommended servo] clamp_finger_b.stl
   - [this file is currently incompatible with the recommended servo] clamp_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] clamp_u_bracket.stl
-  - [while this file works, it could maybe use an adjustment to better fit the DM-S0090MG pan servo] head_pan_servo_bracket.stl
+  - head_pan_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
   - [this file is currently incompatible with the recommended servo] head_u_bracket.stl
   - photoresistor_cap.stl (white filament, some light has to pass through)
