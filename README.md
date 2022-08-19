@@ -14,7 +14,6 @@
   - head_pan_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
   - [this file is currently incompatible with the recommended servo] head_u_bracket.stl
-  - photoresistor_cap.stl (white filament, some light has to pass through)
   - plate_bottom.stl
   - plate_middle.stl
   - plate_top_nofan.stl
