@@ -34,6 +34,9 @@
   - "30cm" https://aliexpress.com/item/32893003564.html
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
 
+- 1x 16GB+ MicroSD card (preferably not from AliExpress)
+  - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
+
 - 1x Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
@@ -123,8 +126,8 @@
 
 - Screws
   - https://aliexpress.com/item/32810872544.html
-    - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
-    - 10x "M2.5", "6mm" length (4 top plate / 4 bottom plate / 2 middle plate)
+    - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot (may or may not require a spacer)
+    - 8x "M2.5", "6mm" length (2 top plate / 4 bottom plate / 2 middle plate)
     - 1x "M2.5", "10mm" length to fix clamp_finger_a onto the servo horn (for DIYMore metal gear)
     - 16x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
     - 2x "M2", "6mm" length ( 1 u-bracket to head / 1 u-bracket to gripper)
