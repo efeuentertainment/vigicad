@@ -78,7 +78,7 @@
 - 1x USB Microphone "Orange-AI"
   - https://aliexpress.com/item/1005002551627557.html
 
-- 7-14x DuPont cables that have a good grip on pin headers and flow well when soldering (4x2 motors / 2x1 motor driver power / 2x1 motor signal / 2x1 LEDs)
+- 8-16x DuPont cables that have a good grip on pin headers and flow well when soldering (4x2 motors / 2x1 motor driver power / 2x1 motor signal / 2x1 LEDs / 2x1 buzzer)
   - "30cm" https://aliexpress.com/item/32840578827.html
   - Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
 
@@ -114,7 +114,7 @@
 
 - About 10cm double sided foam duct tape (or Velcro tape)(to fix battery pack to middle plate / alternative to fix motor board to middle plate)
 
-- Small Strobing RC light
+- Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
   - https://aliexpress.com/item/32907858286.html
 
 - A bit of super glue (glue LED lens onto LED board so they don't fall off / glue strobe light to top plate / check strobe light cap so it doesn't fall off)
