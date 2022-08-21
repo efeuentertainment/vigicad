@@ -104,7 +104,7 @@
 
 - About 10cm double sided foam duct tape (or Velcro tape)(to fix battery pack to middle plate / alternative to fix motor board to middle plate)
 
-- Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
+- OPTIONAL: Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
   - https://aliexpress.com/item/32907858286.html
 
 - A bit of super glue (glue LED lens onto LED board so they don't fall off / glue strobe light to top plate / check strobe light cap so it doesn't fall off)
