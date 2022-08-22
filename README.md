@@ -67,7 +67,7 @@
 - 1x USB 90° adapter
   - "to Down" https://aliexpress.com/item/32891283795.html
 - 1x USB Microphone "Orange-AI"
-  - https://aliexpress.com/item/1005002551627557.html
+  - https://aliexpress.com/item/1005004454958409.html
 
 - 8-16x DuPont cables that have a good grip on pin headers and flow well when soldering (4x2 motors / 2x1 motor driver power / 2x1 motor signal / 2x1 LEDs / 2x1 buzzer)
   - "30cm" https://aliexpress.com/item/32840578827.html
