@@ -75,6 +75,7 @@
 
 - 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO 
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
+    - Use the Lens caps that came with the "camera+IR LED” (or order the IR LED separately, see alternative)
   - Alternative (coordinate with Botkins, suggestions welcome) is either:
     - IR LEDs with GPIO control
       - if not already included with camera: https://aliexpress.com/item/32819475254.html
