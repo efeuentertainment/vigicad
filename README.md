@@ -84,7 +84,7 @@
       - "WHITE", "3W" https://aliexpress.com/item/32326397021.html
       - Guide: https://www.robot-maker.com/forum/topic/13191-modification-leds-ir-en-leds-blanches/
 
-- 1x USB magnetic cable 4-pin (not 2-pin)
+- 2x USB magnetic cable 4-pin (not 2-pin)(1 as a spare)
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
 - 1x Active buzzer 5V
