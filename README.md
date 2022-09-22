@@ -6,7 +6,7 @@
 
 ### Partlist
 
-- 3D printed parts (you can decide what color(s)) from https://github.com/efeuentertainment/vigicad/tree/master/stl
+- 3D printed parts (you can decide what color(s)) from the subdirectories in this repository (created in scad)
   - [this file is currently incompatible with the recommended servo] clamp_finger_a.stl
   - [this file is currently incompatible with the recommended servo] clamp_finger_b.stl
   - [this file is currently incompatible with the recommended servo] clamp_servo_bracket.stl
