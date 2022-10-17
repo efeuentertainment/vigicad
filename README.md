@@ -128,7 +128,8 @@
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
     - 8x "M2.5", "6mm" length (2 top plate / 4 bottom plate / 2 middle plate)
     - 1x "M2.5", "10mm" length to fix clamp_finger_a onto the servo horn (for DIYMore metal gear)
-    - 16x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
+    - 8x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate)
+      - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2", "8mm".
     - 2x "M2", "6mm" length (1 u-bracket to head / 1 u-bracket to gripper)
     - 1x "M2", "16mm" length to mount clamp_finger_b to gripper (estimated for DIYMore metal gear)
     - 6x "M2", "14mm" length (2 to fix 180° servo into the head / 4 to fix servo into gripper)
@@ -140,7 +141,8 @@
 - Nuts
   - https://aliexpress.com/item/32874684920.html
     - 4x "M2.5" (2 for the motor board / 2 middle plate)
-    - 11x "M2" (if insufficient space for self-locking: 3 for the USB bracket / TBD 8 to mount N20 motor brackets to middle plate)
+    - 11x "M2" (if insufficient space for self-locking: 3 for the USB bracket)
+      - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2" nuts.
 - Self-locking nuts
   - https://aliexpress.com/item/32798773566.html
     - 12x "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo to the head pan plate / if there's enough space: 3 to fix usb bracket to top plate)
