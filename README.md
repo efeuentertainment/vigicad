@@ -108,7 +108,7 @@
 - Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
   - https://aliexpress.com/item/32907858286.html
 
-- A bit of super glue (glue LED lens onto LED board so they don't fall off / glue strobe light to top plate / check strobe light cap so it doesn't fall off)
+- A bit of super glue (glue LED lens onto LED board so they don't fall off / glue strobe light to top plate / glue strobe light cap - it falls off easily)
   - https://aliexpress.com/item/1005002488174010.html
 
 - Standoffs Male-Female
@@ -121,11 +121,11 @@
     - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
 - Spacers
   - https://aliexpress.com/item/33021883302.html
-    - 6x "M2.5x5x1mm" (4 between the Raspberry PI and UPS hat board / maybe 2 between head pan plate and top plate, but try without)
+    - 14x "M2.5x5x1mm" (4 between the Raspberry PI and UPS hat board / 2-4 between motor board and middle plate / 4 (or 6) between head pan plate and top plate)
     - 8x "M2x5x1mm" (4 between camera module and head / 4 between head and LED modules)
 - Screws
   - https://aliexpress.com/item/32810872544.html
-    - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot (may or may not require a spacer)
+    - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
     - 8x "M2.5", "6mm" length (2 top plate / 4 bottom plate / 2 middle plate)
     - 1x "M2.5", "10mm" length to fix clamp_finger_a onto the servo horn (for DIYMore metal gear)
     - 16x "M2", "8mm" length (3 to fix USB bracket onto the top plate / 2 to fix 270° servo onto the head pan plate / 3 to fix gripper u-bracket onto middle plate / 8 to mount N20 motor brackets to middle plate)
@@ -139,11 +139,11 @@
     - 2x "M2.5", "8mm" length to fix motor board to middle plate
 - Nuts
   - https://aliexpress.com/item/32874684920.html
-    - 8x "M2.5" (2 for the motor board / 2 between motor board and middle plate / 2 middle plate / 2 between head plate and top plate)
-    - 11x "M2" (if insufficient space for self-locking: 3 for the USB bracket / 8 to mount N20 motor brackets to middle plate)
+    - 4x "M2.5" (2 for the motor board / 2 middle plate)
+    - 11x "M2" (if insufficient space for self-locking: 3 for the USB bracket / TBD 8 to mount N20 motor brackets to middle plate)
 - Self-locking nuts
   - https://aliexpress.com/item/32798773566.html
-    - 12x "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo on the head pan plate / if there's enough space: 3 to fix usb bracket to top plate)
+    - 12x "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo to the head pan plate / if there's enough space: 3 to fix usb bracket to top plate)
 
 - About 10cm of about 12mm Heatshrink tubing to store the left over wire lengths (do not shrink the tube)
   - "12mm" https://aliexpress.com/item/4000904296729.html
