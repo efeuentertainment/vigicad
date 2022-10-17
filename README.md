@@ -21,7 +21,7 @@
 
 - 1x Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
   - check https://rpilocator.com to find an available Raspberry pi 
-- 1x 16GB+ MicroSD card (preferably not from AliExpress)
+- 1x "WD Purple" 16-32GB MicroSD card
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 - A micro SD card reader to flash the micro SD card
 - 1x aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
