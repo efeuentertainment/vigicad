@@ -40,7 +40,7 @@
 - 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress!)
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
 
-- 1x USB charger (optional: Quick Charge QC3.0)
+- 1x USB charger 5V / 3A
   - "EU" https://aliexpress.com/item/4000045865332.html
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
