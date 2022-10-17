@@ -1,5 +1,5 @@
 ## Partlist and 3D files for a Vigibot robot specifically for Botkins
-
+Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.io/project/180558-botkins-charity-project
 ### Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms 
 
 ![Standard Minus](https://github.com/vigibot/vigicad/blob/master/images/Minus%20render-2.png)
