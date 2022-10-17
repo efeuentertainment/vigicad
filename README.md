@@ -62,7 +62,7 @@
 - 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
-- 1x Huawei E3372H-320 LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
+- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
   - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
 - 1x USB 90° adapter
   - "to Down" https://aliexpress.com/item/32891283795.html
