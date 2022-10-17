@@ -105,7 +105,7 @@
 
 - About 10cm double sided foam duct tape (or Velcro tape)(to fix battery pack to middle plate / alternative to fix motor board to middle plate)
 
-- OPTIONAL: Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
+- Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
   - https://aliexpress.com/item/32907858286.html
 
 - A bit of super glue (glue LED lens onto LED board so they don't fall off / glue strobe light to top plate / check strobe light cap so it doesn't fall off)
@@ -122,6 +122,7 @@
 - Spacers
   - https://aliexpress.com/item/33021883302.html
     - 6x "M2.5x5x1mm" (4 between the Raspberry PI and UPS hat board / maybe 2 between head pan plate and top plate, but try without)
+    - 8x "M2x5x1mm" (4 between camera module and head / 4 between head and LED modules)
 - Screws
   - https://aliexpress.com/item/32810872544.html
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot (may or may not require a spacer)
@@ -131,7 +132,8 @@
     - 2x "M2", "6mm" length ( 1 u-bracket to head / 1 u-bracket to gripper)
     - 1x "M2", "16mm" length to mount clamp_finger_b to gripper (estimated for DIYMore metal gear)
     - 6x "M2", "14mm" length ( 2 to fix 180° servo into the head / 4 to fix servo into gripper)
-    - 4x "M2", "20mm" length to fix camera module and LEDs onto the head
+    - 4x "304 Stainless Steel", "M2", "20mm" length to fix camera module and LEDs onto the head
+      - CAUTION: the M2, 20mm screw has to be electrically conductive, as it powers the LED from the camera module.
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
     - 2x "M2.5", "8mm" length to fix motor board to middle plate
