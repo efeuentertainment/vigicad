@@ -19,8 +19,10 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - plate_top_nofan.stl
   - usb_bracket.stl
 
-- 1x Raspberry PI 3, 3B+ or 4B (requires 2 USB ports)
-  - check https://rpilocator.com to find an available Raspberry pi 
+- 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive). Requires 2 USB ports.
+  - enable notifications of https://twitter.com/rpilocator from https://rpilocator.com to find an available Raspberry pi. They are often sold out within 10min of restocking, ask Botkins if you need assistance.
+  - ask on social media if people have an unused pi 3 or 3B+ they would be willing to donate or sell.
+  - ask on social media for an exchange of 2x used 3 or 3B+ for a 4B (any variant), as the Pi 4B is overkill and reduces battery runtime in a robot.
 - 1x "WD Purple" 16-32GB MicroSD card
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 - Makers need a micro SD card reader to flash the micro SD card
