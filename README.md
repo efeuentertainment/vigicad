@@ -22,7 +22,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive). Requires 2 USB ports.
   - enable notifications of https://twitter.com/rpilocator from https://rpilocator.com to find an available Raspberry pi. They are often sold out within 10min of restocking, ask Botkins if you need assistance.
   - ask on social media if people have an unused pi 3 or 3B+ they would be willing to donate or sell.
-  - ask on social media for an exchange of 2x used 3 or 3B+ for a 4B (any variant), as the Pi 4B is overkill and reduces battery runtime in a robot.
+  - ask on social media for an exchange of 2x used 3 or 3B+ for a 4B (any variant), as the Pi 4B is overkill and have a shorter battery runtime in a robot.
 - 1x "WD Purple" 16-32GB MicroSD card
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 - Makers need a micro SD card reader to flash the micro SD card
@@ -61,7 +61,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x 270° Doooman Hobby DM-S0090MD metal gear servo (pan axis: 1) (add 1x spare)
   - https://aliexpress.com/item/4000072654688.html
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
-- 3x 180° DIYMore MG90S (or FiTec FS90MG) metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
+- 3x 180° DIYMore MG90S metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
   - https://aliexpress.com/item/32890522720.html
 
 - 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
