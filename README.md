@@ -142,7 +142,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
     - 2x "M2.5", "8mm" length to fix motor board to middle plate
 - Nuts
   - https://aliexpress.com/item/32874684920.html
-    - 4x "M2.5" asspares
+    - 4x "M2.5" as spares
     - 12x "M2" as spares (if insufficient space for self-locking: 3 for the USB bracket)
       - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2" nuts.
 - Self-locking nuts
