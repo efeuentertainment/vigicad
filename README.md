@@ -142,11 +142,12 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
     - 2x "M2.5", "8mm" length to fix motor board to middle plate
 - Nuts
   - https://aliexpress.com/item/32874684920.html
-    - 4x "M2.5" (2 for the motor board / 2 middle plate)
-    - 3x "M2" (if insufficient space for self-locking: 3 for the USB bracket)
+    - 4x "M2.5" asspares
+    - 12x "M2" as spares (if insufficient space for self-locking: 3 for the USB bracket)
       - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2" nuts.
 - Self-locking nuts
   - https://aliexpress.com/item/32798773566.html
+    - 4x "M2.5" (2 for the motor board / 2 middle plate)
     - 12x "304 stainless steel", "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo to the head pan plate / if there's enough space: 3 to fix usb bracket to top plate)
       - CAUTION: the M2 nut has to be electrically conductive, as it powers the LED from the camera module.
 
