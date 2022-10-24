@@ -143,7 +143,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - Nuts
   - https://aliexpress.com/item/32874684920.html
     - 4x "M2.5" (2 for the motor board / 2 middle plate)
-    - 11x "M2" (if insufficient space for self-locking: 3 for the USB bracket)
+    - 3x "M2" (if insufficient space for self-locking: 3 for the USB bracket)
       - CAUTION: the M2 nut has to be electrically conductive, as it powers the LED from the camera module.
       - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2" nuts.
 - Self-locking nuts
