@@ -36,7 +36,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - "30cm" https://aliexpress.com/item/32893003564.html
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
 
-- 1x Geekworm / U-geek UPS Hat V3 (or vigi UPS v2, not yet tested)
+- 1x Geekworm / U-geek UPS Hat V3 (Botkins has not yet tested the vigi UPS v2)
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
 - 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress!)
