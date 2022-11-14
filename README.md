@@ -26,7 +26,8 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x "WD Purple" 16-32GB MicroSD card
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 - Makers need a micro SD card reader to flash the micro SD card
-- 1x aftermarket *wide-angle lens* camera module (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
+- 1x aftermarket *wide-angle lens* camera module (make sure you have 1x spare)
+  - (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
   - "Option 2" https://aliexpress.com/item/32881466491.html
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
   - https://www.aliexpress.com/item/32957419294.html
@@ -42,7 +43,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress!)
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
 
-- 1x USB charger 5V / 3A
+- 1x USB charger 5V / 3A (make sure you have 1x spare)
   - "EU" https://aliexpress.com/item/4000045865332.html
 
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
@@ -58,24 +59,24 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - wire output to both motors on each side https://aliexpress.com/item/33056911020.html
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
 
-- 1x 270° Doooman Hobby DM-S0090MD metal gear servo (pan axis: 1) (add 1x spare)
+- 1x 270° Doooman Hobby DM-S0090MD metal gear servo (pan axis: 1) (make sure you have 1-2x spare)
   - https://aliexpress.com/item/4000072654688.html
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
-- 3x 180° DIYMore MG90S metal gear servo (tilt axis: 1; gripper: 2) (add 1-2x spare)
+- 3x 180° DIYMore MG90S metal gear servo (tilt axis: 1; gripper: 2) (make sure you have 2-4x spare)
   - https://aliexpress.com/item/32890522720.html
 
 - 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
   - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
-- 1x USB 90° adapter
+- 1x USB 90° adapter (make sure you have 1x spare)
   - "to Down" https://aliexpress.com/item/32891283795.html
-- 1x USB Microphone "Orange-AI"
+- 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
   - https://aliexpress.com/item/1005004454958409.html
 
 - 8-16x DuPont cables that have a good grip on pin headers and flow well when soldering (4x2 motors / 2x1 motor driver power / 2x1 motor signal / 2x1 LEDs / 2x1 buzzer)
   - "30cm" https://aliexpress.com/item/32840578827.html
   - Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
 
-- 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO 
+- 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO (make sure you have 1x spare)
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
     - Use the Lens caps that came with the "camera+IR LED” (or order the IR LED separately, see alternative)
   - Alternative (coordinate with Botkins, suggestions welcome) is either:
@@ -86,7 +87,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
       - "WHITE", "3W" https://aliexpress.com/item/32326397021.html
       - Guide: https://www.robot-maker.com/forum/topic/13191-modification-leds-ir-en-leds-blanches/
 
-- 2x USB magnetic cable 4-pin (so the recipient has a spare)
+- 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
 - 1x Active buzzer 5V
