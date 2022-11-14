@@ -124,7 +124,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - Spacers
   - https://aliexpress.com/item/33021883302.html
     - 14x "M2.5x5x1mm" (4 between the Raspberry PI and UPS hat board / 2-4 between motor board and middle plate / 4 (or 6) between head pan plate and top plate)
-    - 8x "M2x5x1mm" (4 between camera module and head / 4 between head and LED modules)
+    - 12x "M2x5x1mm" (4x2 between camera module and head / 4 between head and LED modules)
 - Screws
   - https://aliexpress.com/item/32810872544.html
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
