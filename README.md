@@ -136,7 +136,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
     - 2x "M2", "6mm" length (1 u-bracket to head / 1 u-bracket to gripper)
     - 1x "M2", "16mm" length to mount clamp_finger_b to gripper (estimated for DIYMore metal gear)
     - 6x "M2", "14mm" length (2 to fix 180° servo into the head / 4 to fix servo into gripper)
-    - 4x "304 Stainless Steel", "M2", "20mm" length to fix camera module and LEDs onto the head
+    - 4x "304 Stainless Steel", "M2", "25mm" length to fix camera module and LEDs onto the head
       - CAUTION: the M2, 20mm screw has to be electrically conductive, as it powers the LED from the camera module.
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
