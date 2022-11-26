@@ -64,6 +64,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
 - 3x 180° DIYMore MG90S metal gear servo (tilt axis: 1; gripper: 2) (make sure you have 2-4x spare)
   - https://aliexpress.com/item/32890522720.html
+  - (Botkins may switch to using Doman Hobby DM-S0092MD 180° in the future, but 3D files are not yet available. https://aliexpress.com/item/4001033588672.html )
 
 - 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
   - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
