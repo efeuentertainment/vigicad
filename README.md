@@ -11,7 +11,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - [this file is currently incompatible with the recommended servo] clamp_finger_b.stl
   - [this file is currently incompatible with the recommended servo] clamp_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] clamp_u_bracket.stl
-  - head_pan_servo_bracket.stl
+  - [modified file not yet on github] head_pan_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
   - [this file is currently incompatible with the recommended servo] head_u_bracket.stl
   - stl/plate_bottom_sidewalls.stl
