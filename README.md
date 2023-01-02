@@ -14,7 +14,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - head_pan_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
   - [this file is currently incompatible with the recommended servo] head_u_bracket.stl
-  - plate_bottom.stl
+  - stl/plate_bottom_sidewalls.stl
   - plate_middle.stl
   - plate_top_nofan.stl
   - usb_bracket.stl
