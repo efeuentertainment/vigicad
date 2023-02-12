@@ -6,14 +6,14 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 
 ### Partlist
 
-- 3D printed parts (you can decide what color(s)) from the subdirectories in this repository (created in scad)
-  - [this file is currently incompatible with the recommended servo] clamp_finger_a.stl
+- 3D printed parts (you can decide what color(s)).
+  - modifications_botkins/clamp_finger_a_botkins.stl
   - [this file is currently incompatible with the recommended servo] clamp_finger_b.stl
-  - [this file is currently incompatible with the recommended servo] clamp_servo_bracket.stl
-  - [this file is currently incompatible with the recommended servo] clamp_u_bracket.stl
+  - modifications_botkins/clamp_servo_bracket_botkins_V31.3mf
+  - modifications_botkins/clamp_u_bracket_botkins_V3.3mf
   - [modified file not yet on github] head_pan_servo_bracket.stl
   - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
-  - [this file is currently incompatible with the recommended servo] head_u_bracket.stl
+  - modifications_botkins/head_u_bracket_botkins_V2.3mf
   - stl/plate_bottom_sidewalls.stl
   - plate_middle.stl
   - plate_top_nofan.stl
