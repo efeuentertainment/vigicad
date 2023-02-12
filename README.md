@@ -8,16 +8,16 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 
 - 3D printed parts (you can decide what color(s)).
   - modifications_botkins/clamp_finger_a_botkins.stl
-  - [this file is currently incompatible with the recommended servo] clamp_finger_b.stl
+  - stl/clamp_finger_b.stl
   - modifications_botkins/clamp_servo_bracket_botkins_V31.3mf
   - modifications_botkins/clamp_u_bracket_botkins_V3.3mf
-  - [modified file not yet on github] head_pan_servo_bracket.stl
-  - [this file is currently incompatible with the recommended servo] head_servo_camera_bracket_smile.stl
+  - modifications_botkins/head_pan_servo_bracket_botkins.stl
+  - modifications_botkins/head_servo_camera_bracket_smile_botkins.stl
   - modifications_botkins/head_u_bracket_botkins_V2.3mf
-  - stl/plate_bottom_sidewalls.stl
-  - plate_middle.stl
-  - plate_top_nofan.stl
-  - usb_bracket.stl
+  - modifications_botkins/plate_bottom_sidewalls.stl
+  - stl/plate_middle.stl
+  - stl/plate_top_nofan.stl
+  - stl/usb_bracket.stl
 
 - 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive). Requires 2 USB ports.
   - enable notifications of https://twitter.com/rpilocator from https://rpilocator.com to find an available Raspberry pi. They are often sold out within 10min of restocking, ask Botkins if you need assistance.
