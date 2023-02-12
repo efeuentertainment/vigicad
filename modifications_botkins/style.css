@@ -1,0 +1,15 @@
+* {
+ margin: 0px;
+ border: 0px;
+ padding: 0px;
+}
+
+body {
+ text-align: center;
+ font-family: arial, sans-serif;
+ font-size: 10pt;
+}
+
+div.stl {
+ display: inline-block;
+}
