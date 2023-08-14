@@ -27,11 +27,10 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 - Makers need a micro SD card reader to flash the micro SD card
 - 1x aftermarket *wide-angle lens* camera module (make sure you have 1x spare)
-  - (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
+  - (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at the time of writing
   - "Option 2" https://aliexpress.com/item/32881466491.html
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
   - https://www.aliexpress.com/item/32957419294.html
-  - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
 - 1x 30cm Raspberry PI camera flex cable (if not already included with camera)
   - "30cm" https://aliexpress.com/item/32893003564.html
@@ -156,11 +155,9 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - About 10cm of about 12mm Heatshrink tubing to store the left over wire lengths (do not shrink the tube)
   - "12mm" https://aliexpress.com/item/4000904296729.html
 
-- EXPERIMENTAL: About 20cm of 7mm heatshrink tubing
-  - "7mm" https://aliexpress.com/item/1005003136814022.html
-- EXPERIMENTAL: 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
+- 1x cable tie base mount 12x12mm - 20x20mm self-adhesive 
   - "12x12" https://aliexpress.com/item/32813988566.html
-- EXPERIMENTAL: 1x small zip tie, about 100mm in length
+- 1x small zip tie, about 100mm in length
   - "3x100" https://aliexpress.com/item/1005001444739470.html
 
 ### Notes
