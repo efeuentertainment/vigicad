@@ -65,8 +65,8 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - https://aliexpress.com/item/32890522720.html
   - (Botkins may switch to using Doman Hobby DM-S0092MD 180° in the future, but 3D files are not yet available. https://aliexpress.com/item/4001033588672.html )
 
-- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) ("h" variant. "s" variant may not work)
-  - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372-router-5700361
+- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) (must be "h" variant.)
+  - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372h-325-lte-surfstick-router-24839569
 - 1x USB 90° adapter (make sure you have 1x spare)
   - "to Down" https://aliexpress.com/item/32891283795.html
 - 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
