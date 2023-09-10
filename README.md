@@ -141,16 +141,16 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
     - 2x "M2.5", "8mm" length to fix motor board to middle plate (head between middle plate and battery)
-- Nuts
-  - https://aliexpress.com/item/32874684920.html
-    - 4x "M2.5" as spares
-    - 12x "M2" as spares (if insufficient space for self-locking: 3 for the USB bracket)
-      - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2" nuts.
-- Self-locking nuts
+- Self-locking nuts. use self-locking nuts everywhere.
   - https://aliexpress.com/item/32798773566.html
     - 4x "M2.5" (2 for the motor board / 2 middle plate)
     - 12x "304 stainless steel", "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo to the head pan plate / if there's enough space: 3 to fix usb bracket to top plate)
       - CAUTION: the M2 nut has to be electrically conductive, as it powers the LED from the camera module.
+- Nuts (only as spares. use self-locking nuts everywhere. if self-locking aren't possible, use 2 normal nuts to interlock themselves.)
+  - https://aliexpress.com/item/32874684920.html
+    - 4x "M2.5" as spares
+    - 12x "M2" as spares
+      - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2" nuts.
 
 - About 10cm of about 12mm Heatshrink tubing to store the left over wire lengths (do not shrink the tube)
   - "12mm" https://aliexpress.com/item/4000904296729.html
