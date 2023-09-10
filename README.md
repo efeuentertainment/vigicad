@@ -118,8 +118,8 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
     - 4x "10mm" length, "M2.5" female-female standoffs between the middle plate and bottom plate
 - Spacers
   - https://aliexpress.com/item/33021883302.html
-    - 14x "M2.5x5x1mm" (4 between the Raspberry PI and UPS hat board / 2-4 between motor board and middle plate / 4 (or 6) between head pan plate and top plate)
-    - 12x "M2x5x1mm" (4x2 between camera module and head / 4 between head and LED modules)
+    - 10x "M2.5x5x1mm" (2x1 or 2x2 between motor board and middle plate / 2x2 or 2x3 between head pan plate and top plate)
+    - 12x "M2x5x1mm" (4x2 between camera module and head / 4x1 between head and LED modules)
 - Screws
   - https://aliexpress.com/item/10000183209605.html
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
@@ -138,9 +138,9 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - Self-locking nuts. use self-locking nuts everywhere.
   - https://aliexpress.com/item/32798773566.html
     - 4x "M2.5" (2 for the motor board / 2 middle plate)
-    - 12x "304 stainless steel", "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo to the head pan plate / if there's enough space: 3 to fix usb bracket to top plate)
+    - 12x "304 stainless steel", "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo to the head pan plate / 3 to fix usb bracket to top plate)
       - CAUTION: the M2 nut has to be electrically conductive, as it powers the LED from the camera module.
-- Nuts (only as spares. use self-locking nuts everywhere. if self-locking aren't possible, use 2 normal nuts to interlock themselves.)
+- Nuts (only as spares. use self-locking nuts everywhere. if self-locking aren't possible, use 2x normal nuts to interlock themselves.)
   - https://aliexpress.com/item/32874684920.html
     - 4x "M2.5" as spares
     - 12x "M2" as spares
