@@ -31,8 +31,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - "Option 2" https://aliexpress.com/item/32881466491.html
   - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
   - https://www.aliexpress.com/item/32957419294.html
-  - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
-- 1x 30cm Raspberry PI camera flex cable (if not already included with camera)
+- 1x 30cm Raspberry PI camera flex cable
   - "30cm" https://aliexpress.com/item/32893003564.html
   - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
 
@@ -51,7 +50,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 4x Pololu micro metal gearmotor extended bracket
   - https://www.pololu.com/product/1089
   - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
-- 4x Pololu wheel 40×7mm
+- 4x Pololu wheel 40×7mm (or a wider wheel with 40mm diameter)
   - https://www.pololu.com/product/1454
   - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
 - 1x Feetech 2ch motor controller
@@ -63,7 +62,6 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - config limited to 180°, to reduce cable fatigue from bending back and forth.
 - 3x 180° DIYMore MG90S metal gear servo (tilt axis: 1; gripper: 2) (make sure you have 2-4x spare)
   - https://aliexpress.com/item/32890522720.html
-  - (Botkins may switch to using Doman Hobby DM-S0092MD 180° in the future, but 3D files are not yet available. https://aliexpress.com/item/4001033588672.html )
 
 - 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) (must be "h" variant.)
   - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372h-325-lte-surfstick-router-24839569
@@ -93,20 +91,16 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x Active buzzer 5V
   - https://aliexpress.com/item/32762781599.html
 
-- 1x Pin header for the servo power distribution board. 4x servo + 1x motor driver + 1x battery + 1x plug to power UPS. insulate backside to prevent accidental short circuits.
-  - Build a small board yourself using 2 rows x 7 pins headers and prototyping board (one slot as a spare) https://aliexpress.com/item/32744837236.html
-  - Alternative with insufficient slots. the 3rd row (signal) will not be used. connector has to be replaced. https://aliexpress.com/item/1005001849622193.html
-  - Alternative with insufficient slots and missing wires. (UPS plug needs to be soldered to backside) https://aliexpress.com/item/33003433642.html
-- 1x small piece of prototyping board for the servo power distribution board.
+- 1x Pin header for the power distribution board with 1x soldered wires for the UPS and 8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x strobing RC light, 1x spare). insulate backside to prevent accidental short circuits.
+  - Build a small board yourself using 2 rows x 8 pin headers and prototyping board https://aliexpress.com/item/32744837236.html
+- 1x small piece of prototyping board for the power distribution board.
   - https://aliexpress.com/item/1005001807612572.html
-
-- 1x PH2.0 plug to connect the power distribution board to the ugeek v3 UPS. other UPS may have a different plug.
+- 1x PH2.0 plug to connect the power distribution board to the geekworm v3 UPS. other UPS may have a different plug.
   - "2P" https://aliexpress.com/item/4000091077742.html
 - About 5x Single DuPont pin sleeves
-  - "1P" https://aliexpress.com/item/33035707563.html
-  - alternative: about 10cm ?mm heatshrink tubing 
+  - "1P" https://aliexpress.com/item/33035707563.html 
 
-- About 10cm double sided foam duct tape (or Velcro tape)(to fix battery pack to middle plate / alternative to fix motor board to middle plate)
+- About 10cm double sided foam duct tape (or Velcro tape)(to fix battery pack to middle plate)
 
 - Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
   - https://aliexpress.com/item/32907858286.html
