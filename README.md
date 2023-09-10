@@ -91,10 +91,10 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x Active buzzer 5V
   - https://aliexpress.com/item/32762781599.html
 
-- 1x Pin header for the power distribution board with 1x soldered wires for the UPS and 8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x strobing RC light, 1x spare). insulate backside to prevent accidental short circuits.
-  - Build a small board yourself using 2 rows x 8 pin headers and prototyping board https://aliexpress.com/item/32744837236.html
-- 1x small piece of prototyping board for the power distribution board.
+- 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x strobing RC light, 1x spare). insulate backside to prevent accidental short circuits.
   - https://aliexpress.com/item/1005001807612572.html
+- 1x Pin header for the power distribution board
+  - https://aliexpress.com/item/32744837236.html
 - 1x PH2.0 plug to connect the power distribution board to the geekworm v3 UPS. other UPS may have a different plug.
   - "2P" https://aliexpress.com/item/4000091077742.html
 - About 5x Single DuPont pin sleeves
