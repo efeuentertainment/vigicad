@@ -117,7 +117,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - Standoffs Male-Female
   - https://aliexpress.com/item/32871638424.html
     - 4x "5mm" length, "M2.5" male-female standoff between the Raspberry PI board and top plate
-    - 4x "12mm" length, "M2.5" male-female standoffs between the Raspberry PI and UPS hat board
+    - 4x "17mm" length, "M2.5" male-female standoffs between the Raspberry PI and UPS geekworm v3 hat
     - 4x "25mm" length, "M2.5" male-female standoffs between the UPS hat board and middle plate
 - Standoffs Female-Female
   - https://aliexpress.com/item/32872351516.html
@@ -127,7 +127,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
     - 14x "M2.5x5x1mm" (4 between the Raspberry PI and UPS hat board / 2-4 between motor board and middle plate / 4 (or 6) between head pan plate and top plate)
     - 12x "M2x5x1mm" (4x2 between camera module and head / 4 between head and LED modules)
 - Screws
-  - https://aliexpress.com/item/32810872544.html
+  - https://aliexpress.com/item/10000183209605.html
     - 2x "M2.5", "12mm" length to fix head pan plate to the rest of the robot
     - 8x "M2.5", "6mm" length (2 top plate / 4 bottom plate / 2 middle plate)
     - 1x "M2.5", "10mm" length to fix clamp_finger_a onto the servo horn (for DIYMore metal gear)
@@ -136,11 +136,11 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
     - 2x "M2", "6mm" length (1 u-bracket to head / 1 u-bracket to gripper)
     - 1x "M2", "16mm" length to mount clamp_finger_b to gripper (estimated for DIYMore metal gear)
     - 6x "M2", "14mm" length (2 to fix 180° servo into the head / 4 to fix servo into gripper)
-    - 4x "304 Stainless Steel", "M2", "20mm" length to fix camera module and LEDs onto the head
+    - 4x "M2", "20mm" length to fix camera module and LEDs onto the head
       - CAUTION: the M2, 20mm screw has to be electrically conductive, as it powers the LED from the camera module.
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
-    - 2x "M2.5", "8mm" length to fix motor board to middle plate
+    - 2x "M2.5", "8mm" length to fix motor board to middle plate (head between middle plate and battery)
 - Nuts
   - https://aliexpress.com/item/32874684920.html
     - 4x "M2.5" as spares
