@@ -23,9 +23,12 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - enable notifications of https://twitter.com/rpilocator from https://rpilocator.com to find an available Raspberry pi. They are often sold out within 10min of restocking, ask Botkins if you need assistance.
   - ask on social media if people have an unused pi 3 or 3B+ they would be willing to donate or sell.
   - ask on social media for an exchange of 2x used 3 or 3B+ for a 4B (any variant), as the Pi 4B is overkill and have a shorter battery runtime in a robot.
+- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) (must be "h" variant.)
+  - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372h-325-lte-surfstick-router-24839569
 - 1x "WD Purple" 16-32GB MicroSD card
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 - Makers need a micro SD card reader to flash the micro SD card
+
 - 1x aftermarket *wide-angle lens* camera module (make sure you have 1x spare)
   - (optional: with IR-cut filter). There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at the time of writing
   - "Option 2" https://aliexpress.com/item/32881466491.html
@@ -38,7 +41,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x Geekworm / U-geek UPS Hat V3 (Botkins has not yet tested the vigi UPS v2)
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
-- 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (not from AliExpress!)
+- 1x 1S2P battery pack with protection, usually contains 2x 18650 Li-Ion cells (if from AliExpress, use Liitokala Brand)
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
 
 - 1x USB charger 5V / 3A (make sure you have 1x spare)
@@ -63,8 +66,6 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 3x 180° DIYMore MG90S metal gear servo (tilt axis: 1; gripper: 2) (make sure you have 2-4x spare)
   - https://aliexpress.com/item/32890522720.html
 
-- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) (must be "h" variant.)
-  - Switzerland: https://www.galaxus.ch/de/s1/product/huawei-e3372h-325-lte-surfstick-router-24839569
 - 1x USB 90° adapter (make sure you have 1x spare)
   - "to Down" https://aliexpress.com/item/32891283795.html
 - 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
@@ -72,7 +73,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 
 - 8-16x DuPont cables that have a good grip on pin headers and flow well when soldering (4x2 motors / 2x1 motor driver power / 2x1 motor signal / 2x1 LEDs / 2x1 buzzer)
   - "30cm" https://aliexpress.com/item/32840578827.html
-  - Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
+  - Note: Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
 
 - 2x white LED from Maker @Mikrorupteur for wide angle camera, controlled from GPIO (make sure you have 1x spare)
   - https://www.ebay.fr/itm/2x-Modules-Led-blanche-1W-raspberry-pi-sans-lentille/114551818867?pageci=c59edf60-e425-4de4-b250-0f3d9e4ca32c
@@ -102,7 +103,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 
 - About 10cm double sided foam duct tape (or Velcro tape)(to fix battery pack to middle plate)
 
-- Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
+- OPTIONAL: Small Strobing RC light. Vcc and Signal should both be connected to GPIO pins. Vcc to turn on and off / Signal to change pattern.
   - https://aliexpress.com/item/32907858286.html
 
 - A bit of super glue (glue LED lens onto LED board so they don't fall off / glue strobe light to top plate / glue strobe light cap - it falls off easily)
@@ -131,7 +132,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
     - 1x "M2", "16mm" length to mount clamp_finger_b to gripper (estimated for DIYMore metal gear)
     - 6x "M2", "14mm" length (2 to fix 180° servo into the head / 4 to fix servo into gripper)
     - 4x "M2", "20mm" length to fix camera module and LEDs onto the head
-      - CAUTION: the M2, 20mm screw has to be electrically conductive, as it powers the LED from the camera module.
+      - Note: the M2, 20mm screw has to be electrically conductive, as it powers the LED from the camera module.
 - Flathead screws
   - https://aliexpress.com/item/1005004122790928.html
     - 2x "M2.5", "8mm" length to fix motor board to middle plate (head between middle plate and battery)
@@ -139,12 +140,12 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
   - https://aliexpress.com/item/32798773566.html
     - 4x "M2.5" (2 for the motor board / 2 middle plate)
     - 12x "304 stainless steel", "M2" (4 to fix camera module to head / 3 to fix gripper u-bracket to middle plate / 2 to fix the pan servo to the head pan plate / 3 to fix usb bracket to top plate)
-      - CAUTION: the M2 nut has to be electrically conductive, as it powers the LED from the camera module.
+      - Note: the M2 nut has to be electrically conductive, as it powers the LED from the camera module.
 - Nuts (only as spares. use self-locking nuts everywhere. if self-locking aren't possible, use 2x normal nuts to interlock themselves.)
   - https://aliexpress.com/item/32874684920.html
     - 4x "M2.5" as spares
     - 12x "M2" as spares
-      - if you use the pololu motor brackets, use the supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size). if you use different brackets, add 8x "M2" nuts.
+      - Note: the pololu motor brackets use pololu supplied "#2-56" screws and nuts (they are between M2 and M2.5 in size).
 
 - About 10cm of about 12mm Heatshrink tubing to store the left over wire lengths (do not shrink the tube)
   - "12mm" https://aliexpress.com/item/4000904296729.html
@@ -154,10 +155,15 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 - 1x small zip tie, about 100mm in length
   - "3x100" https://aliexpress.com/item/1005001444739470.html
 
+### Notes
 
+- All stl files are provided, you will need a 3D printer to print them.
+- All sources files are provided. They are made on openscad. You will need The OpenSCAD open source software available at https://www.openscad.org to open or customize SCAD files
+- Step files are also provided to be used as raw file material for other software if you want make modification with your own prefered software.
+- This French video can help to better understand how to assemble the robot : https://youtu.be/9Eja0gG4bhI
 
 <details> 
-  <summary>Do not use! Partlist Backup for Metal Gear Servos</summary>
+  <summary>Partlist Backup for Metal Gear Servos hidden</summary>
 
 - 3D printed parts (you can decide what color(s)).
   - modifications_botkins/clamp_finger_a_botkins.stl
@@ -309,9 +315,4 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 </details>
 
 
-### Notes
 
-- All stl files are provided, you will need a 3D printer to print them.
-- All sources files are provided. They are made on openscad. You will need The OpenSCAD open source software available at https://www.openscad.org to open or customize SCAD files
-- Step files are also provided to be used as raw file material for other software if you want make modification with your own prefered software.
-- This French video can help to better understand how to assemble the robot : https://youtu.be/9Eja0gG4bhI
