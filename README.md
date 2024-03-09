@@ -4,7 +4,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 
 ![Standard Minus](https://github.com/vigibot/vigicad/blob/master/images/Minus%20render-2.png)
 
-### Partlist
+### Partlist (do not use. for reference only)
 
 - 3D printed parts (you can decide what color(s)).
   - modifications_botkins/clamp_finger_a_botkins.stl
