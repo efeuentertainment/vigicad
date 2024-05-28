@@ -1,16 +1,30 @@
-# Make your own Vigibot.com raspberry PI robot
+## Partlist and 3D files for a Vigibot robot specifically for Botkins
+Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.io/project/180558-botkins-charity-project
 
-## Minus Raspberry PI robot CAD files 
-
-### All pieces assembled for the standard Vigibot
+### Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
 
 ![Standard Minus](https://github.com/vigibot/vigicad/blob/master/images/Minus%20render-2.png)
 
-### Parts list
+If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process.
 
-#### Core assembly
+### Prerequisites
+You need:
+- soldering iron for a single small board. 
+- Micro SD card reader.
+- 3D Printer currently not required.
 
-- Raspberry PI 2 / Raspberry PI 3 / Raspberry PI 3 A+ / Raspberry PI 3 B+ / Raspberry PI 4
+
+### Partlist (DO NOT YET USE. under construction)
+
+#### Core parts
+
+- 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive). Requires 2 USB ports.
+- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) 
+  - Unfortunately the newest model "e3372h-325 (Brand: Brovi)" doesn't work anymore. The older models are no longer manufactured. Find a suitable model on secondhand platforms or ask Botkins for the time being.
+  - Must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
+- 1x "WD Purple" 16-32GB MicroSD card
+  - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
+
 
 - An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
   - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
@@ -29,6 +43,8 @@
 
 - 1S Batterie with BMS included
    - 
+
+#### Minus-Type Base kit
 
 - 3D printed parts, screws, nuts and standoffs 
   - Full kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
@@ -128,8 +144,11 @@
 - Step files are also provided to be use as raw file material for other software if you want make modification with your own prefered software.
 - This French video can help to better understand how to assemble the robot : https://youtu.be/9Eja0gG4bhI
 
+
 <details> 
   <summary>Partlist Backup for Metal Gear Servos hidden</summary>
+
+### Partlist (DO NOT USE. for reference only)
 
 - 3D printed parts (you can decide what color(s)).
   - modifications_botkins/clamp_finger_a_botkins.stl
