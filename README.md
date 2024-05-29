@@ -9,7 +9,7 @@ If you'd like to build a robot for Botkins, contact us and we'll send you the On
 
 ### Prerequisites
 You need:
-- soldering iron for a single small board. 
+- Soldering iron for a small power distribution board. 
 - Micro SD card reader.
 - 3D Printer currently not required.
 
@@ -18,31 +18,34 @@ You need:
 
 #### Core parts
 
-- 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive). Requires 2 USB ports.
+- 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
+
 - 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) 
-  - Unfortunately the newest model "e3372h-325 (Brand: Brovi)" doesn't work anymore. The older models are no longer manufactured. Find a suitable model on secondhand platforms or ask Botkins for the time being.
-  - Must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
-- 1x "WD Purple" 16-32GB MicroSD card
+  - Unfortunately the newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
+  - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
+  - Find a suitable model on secondhand platforms or ask Botkins for the time being.
+
+- 1x "WesternDigital Purple" 16-32GB MicroSD card (presumed resilient against data corruption)
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 
+- 1x aftermarket wide-angle lens camera module
+  - optional: with IR-cut filter. There is only one camera module v1 clone that combines a wide-angle lens and a motorized IR-cut filter at the time of writing
+  - Robot-Maker:
+    - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
+    - AND "30cm" https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
+  - "Option 2" https://aliexpress.com/item/32881466491.html
 
-- An aftermarket *wide-angle lens* camera module v1 clone is highly recommended
-  - The "genuine" camera module v1 or v2 use pinhole lens and are bad for first person view piloting
-  - There is only one camera module v1 clone that combines a *wide-angle lens* and a motorized IR-cut filter at time of writing
-    - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html  (fast delivery)
-    - https://www.aliexpress.com/item/32957419294.html
-  - It is better to have the *wide-angle lens* than the motorized IR-cut filter without the wide-angle lens
-  
-- 30cm Raspberry PI camera cable
-  - https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
-
-- A reliable Raspberry PI UPS hat board, there is only one at time of writing
-  - The Geekworm / U-geek UPS Hat V3
+- 1x Geekworm / U-geek UPS Hat V3 (Botkins has not yet tested the vigi UPS v2)
+    - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
-    - https://fr.aliexpress.com/item/4001113371912.html
 
-- 1S Batterie with BMS included
-   - 
+- 1x 1S2P battery pack with protection. if from AliExpress, use Liitokala Brand.
+  - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
+  - todo: aliexpress link
+
+- 1x USB charger 5V / 3A (make sure you have 1x spare)
+  - "EU" https://aliexpress.com/item/4000045865332.html
+
 
 #### Minus-Type Base kit
 
