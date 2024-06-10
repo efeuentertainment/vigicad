@@ -14,7 +14,7 @@ You need:
 - 3D Printer currently not required.
 
 
-### Partlist (DO NOT YET USE. under construction 2024-06-10)
+### Partlist
 
 #### Core parts
 
@@ -30,6 +30,7 @@ You need:
 
 - USB bracket holder
   - todo link
+  - or 3D printed file "stl/usb_bracket.stl"
 
 - 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
   - https://aliexpress.com/item/1005004454958409.html
