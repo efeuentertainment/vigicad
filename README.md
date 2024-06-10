@@ -14,16 +14,22 @@ You need:
 - 3D Printer currently not required.
 
 
-### Partlist (DO NOT YET USE. under construction)
+### Partlist (DO NOT YET USE. under construction 2024-06-10)
 
 #### Core parts
 
 - 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
 
-- 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) 
-  - Unfortunately the newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
+- 1x Huawei E3372h LTE/4G mobile data stick (without SIM card)
+  - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
   - Find a suitable model on secondhand platforms or ask Botkins for the time being.
   - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
+
+- 1x USB 90° adapter (make sure you have 1x spare)
+  - "to Down" https://aliexpress.com/item/32891283795.html
+
+- 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
+  - https://aliexpress.com/item/1005004454958409.html
 
 - 1x "WesternDigital Purple" 16-32GB MicroSD card (presumed resilient against data corruption)
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
@@ -45,7 +51,37 @@ You need:
 
 - 1x USB charger 5V / 3A (make sure you have 1x spare)
   - "EU" https://aliexpress.com/item/4000045865332.html
+- 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
+  - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
+- optional: 1x Active buzzer 5V
+  - https://aliexpress.com/item/32762781599.html
+
+- optional: About 10cm adhesive Velcro tape, to fix battery pack to middle plate.
+  - todo: link
+
+- optional: A bit of super glue (glue LED lens onto LED board so they don't fall off)
+  - https://aliexpress.com/item/1005002488174010.html
+
+#### Power distribution board
+
+- Find Build instructions and pictures on botkins cloud in /Hardware_Design/UPS_power_distribution/
+
+- 8-16x DuPont cables that have a good grip on pin headers and flow well when soldering.
+  - "30cm" https://aliexpress.com/item/32840578827.html
+  - Note: Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
+
+- 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
+  - https://aliexpress.com/item/1005001807612572.html
+
+- 1x Pin header for the power distribution board
+  - https://aliexpress.com/item/32744837236.html
+
+- 1x PH2.0 plug to connect the power distribution board to the geekworm v3 UPS. other UPS may have a different plug.
+  - "2P" https://aliexpress.com/item/4000091077742.html
+
+- About 5x Single DuPont pin sleeves
+  - "1P" https://aliexpress.com/item/33035707563.html
 
 #### Minus-Type Base kit
 
@@ -76,14 +112,13 @@ You need:
   - https://www.pololu.com/product/1454
 - 1x Feetech 2ch motor controller (provided with cables) 
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
-  - wire output to both motors on each side https://aliexpress.com/item/33056911020.html
+  - both motors of same side in parallel on each output https://aliexpress.com/item/33056911020.html
 
 #### Head assembly
 
 - Two "SG90" type micro servo
   - 270° servo is highly recommended for the pan axis : 1
     - https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
-
   - 180° servo is good for the tilt axis : 1
     - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
 
@@ -98,6 +133,7 @@ You need:
     - 14 or 16 mm M2 screw : 2 ( to fix 180° servo in the head)
     - 20 mm M2 screw : 4 (for camera assembly on the head)
     - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
+  - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
 #### Clamp assembly
 
@@ -113,40 +149,7 @@ You need:
     - 10 mm M2 screw : 1
     - 14 mm M2 screw : 5
     - M2 nut : 2
-
-#### Lateral arms
-
-- 180° servo SG90 servo : 2
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
-
-- 3D printed parts, screws and nuts
-  - Full kit : https://www.robot-maker.com/shop/kits-robots/424-kit-bras-lateraux-minus-424.html
-  - List :
-    - 3D printed parts : 4 (left and right servo holder, and left and right lateral arms)
-    - 8 mm M2 screw : 2 (to fix lateral arms on the servo)
-    - 14 mm M2.5 screw : 2 (to fix servo holders on the rest of the robot it replaces 8mm M2.5 screws)
-    - M2.5 nut : 2 (to fix servo holders on the rest of the robot, use 8mm M2.5 screws previously removed, wich was already on your robot) 
-    - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
-
-#### Charge station assembly
-
-- A USB magnetic cable with magnetic plug
-  - https://www.robot-maker.com/shop/alimentation/335-cable-usb-magnetique.html
-  - https://www.robot-maker.com/shop/alimentation/336-embout-magnetique-micro-usb-336.html
-- 3D printed part :
-  - https://www.robot-maker.com/forum/topic/13134-station-de-charge-pour-robot-de-type-minus
-
-#### Optionnal add ons
-- 40mm fan for the top plate  https://www.amazon.fr/gp/product/B07D5QBFLK/ref=ppx_yo_dt_b_asin_title_o01_s00 ( use top plate with fan hole in this case)
-- Leds to show if someone is using the robot or not
-- Cables to manually control the IR led state on the camera
-
-### Notes
-
-- All stl files are provided, you will need 3D printer to print them. ( But if you don't have one you can buy the parts you need on Robot Maker)
-- All sources files are provided. They are made on openscad. You will need The OpenSCAD open source software available at https://www.openscad.org to open or customize SCAD files
-- Step files are also provided to be use as raw file material for other software if you want make modification with your own prefered software.
-- This French video can help to better understand how to assemble the robot : https://youtu.be/9Eja0gG4bhI
+  - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
 
 <details> 
