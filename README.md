@@ -28,7 +28,7 @@ You need:
 - 1x USB 90° adapter (make sure you have 1x spare)
   - "to Down" https://aliexpress.com/item/32891283795.html
 
-- USB bracket
+- USB bracket holder
   - todo link
 
 - 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
@@ -38,13 +38,13 @@ You need:
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 
 - 1x aftermarket wide-angle lens camera module
-  - optional: with IR-cut filter. There is only one camera module v1 clone that combines a wide-angle lens and a motorized IR-cut filter at the time of writing
+  - with IR-cut filter. There is only one camera module v1 clone that combines a wide-angle lens and a motorized IR-cut filter at the time of writing
   - Robot-Maker:
     - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
     - AND "30cm" https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
   - "Option 2" https://aliexpress.com/item/32881466491.html
 
-- 1x Geekworm / U-geek UPS Hat V3 (Botkins has not yet tested the vigi UPS v2)
+- 1x Geekworm / U-geek UPS Hat V3
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
 
