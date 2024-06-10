@@ -28,6 +28,9 @@ You need:
 - 1x USB 90° adapter (make sure you have 1x spare)
   - "to Down" https://aliexpress.com/item/32891283795.html
 
+- USB bracket
+  - todo link
+
 - 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
   - https://aliexpress.com/item/1005004454958409.html
 
@@ -46,6 +49,7 @@ You need:
     - https://www.amazon.fr/gp/product/B089NF1NHS
 
 - 1x 1S2P battery pack with protection. if from AliExpress, use Liitokala Brand.
+  - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
   - todo: aliexpress link
 
@@ -68,8 +72,9 @@ You need:
 - Find Build instructions and pictures on botkins cloud in /Hardware_Design/UPS_power_distribution/
 
 - 8-16x DuPont cables that have a good grip on pin headers and flow well when soldering.
+  - https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
   - "30cm" https://aliexpress.com/item/32840578827.html
-  - Note: Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
+    - Note: Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
 
 - 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
   - https://aliexpress.com/item/1005001807612572.html
