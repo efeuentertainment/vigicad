@@ -22,8 +22,8 @@ You need:
 
 - 1x Huawei E3372h LTE/4G mobile data stick (no SIM card) 
   - Unfortunately the newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
-  - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
   - Find a suitable model on secondhand platforms or ask Botkins for the time being.
+  - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
 
 - 1x "WesternDigital Purple" 16-32GB MicroSD card (presumed resilient against data corruption)
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
@@ -65,17 +65,18 @@ You need:
 
 #### Motorization 
 
-- Four Pololu 100:1 micro metal gearmotor HP 6V
+- 4x Pololu 100:1 micro metal gearmotor HP 6V
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
   - https://www.pololu.com/product/1101
-- Four Pololu micro metal gearmotor extended bracket ( provided with screws and nuts)
+- 4x Pololu micro metal gearmotor extended bracket (provided with screws and nuts)
   - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
   - https://www.pololu.com/product/1089
-- Four Pololu wheel 40×7mm
+- 4x Pololu wheel 40×7mm (or a wider wheel with 40mm diameter)
   - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
   - https://www.pololu.com/product/1454
-- Feetech 2ch motor controller (provided with cables) 
+- 1x Feetech 2ch motor controller (provided with cables) 
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html
+  - wire output to both motors on each side https://aliexpress.com/item/33056911020.html
 
 #### Head assembly
 
