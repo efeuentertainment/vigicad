@@ -10,8 +10,9 @@ If you'd like to build a robot for Botkins, contact us and we'll send you the On
 ### Prerequisites
 You need:
 - Soldering iron for a small power distribution board. 
-- Micro SD card reader.
+- Micro SD card reader, WLAN or Ethernet, PC.
 - 3D Printer currently not required.
+- Tools: Screwdrivers, adjustable / monkey wrench, tweezers.
 
 
 ### Partlist
@@ -54,7 +55,7 @@ You need:
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
   - "1S2P 6000mAh" https://www.aliexpress.com/item/4001116123943.html
 
-- 1x USB charger 5V / 3A (make sure you have 1x spare)
+- 2x USB charger 5V / 3A (so the recipient gets 1x spare)
   - "EU" https://aliexpress.com/item/4000045865332.html
 - 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
@@ -63,9 +64,9 @@ You need:
   - "10pcs 3v" https://www.aliexpress.com/item/4000829554492.html
 
 - optional: About 10cm adhesive Velcro tape, to fix battery pack to middle plate.
-  - todo: link
+  - "White 1Meter, 25mm Wide" https://www.aliexpress.com/item/1005006680575466.html
 
-- optional: A bit of super glue (glue LED caps onto LED board so they don't fall off)
+- optional: A bit of gorilla / super glue (glue LED caps onto LED board so they don't fall off)
   - https://aliexpress.com/item/1005002488174010.html
 
 #### Power distribution board
