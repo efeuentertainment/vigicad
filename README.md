@@ -33,8 +33,8 @@ You need:
   - todo link
   - or 3D printed file "stl/usb_bracket.stl"
 
-- 1x USB Microphone "Super AI" Orange or Black.
-  - https://www.aliexpress.com/item/1005007114049915.html
+- 1x USB Microphone "Super AI".
+  - "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
 
 - 1x "WesternDigital Purple" 16-32GB MicroSD card (presumed resilient against data corruption)
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
@@ -55,16 +55,16 @@ You need:
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
   - "1S2P 6000mAh" https://www.aliexpress.com/item/4001116123943.html
 
-- 2x USB charger 5V / 3A (so the recipient gets 1x spare)
+- 2x USB charger (QC3.0 or newer should support 12V/1.2A or more). (so the recipient gets 1x spare)
   - "EU" https://aliexpress.com/item/4000045865332.html
 - 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
-  - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
+  - "Type-C ... Cable", "2m" https://aliexpress.com/item/4000374403062.html
 
 - optional: 1x Active buzzer 3V or 5V, connect to GND and GPIO 18
-  - "10pcs 3v" https://www.aliexpress.com/item/4000829554492.html
+  - "3v" https://www.aliexpress.com/item/4000829554492.html
 
 - optional: About 10cm adhesive Velcro tape, to fix battery pack to middle plate.
-  - "White 1Meter, 25mm Wide" https://www.aliexpress.com/item/1005006680575466.html
+  - "White 1Meter", "25mm Wide" https://www.aliexpress.com/item/1005006680575466.html
 
 - optional: A bit of gorilla / super glue (glue LED caps onto LED board so they don't fall off)
   - https://aliexpress.com/item/1005002488174010.html
@@ -73,16 +73,15 @@ You need:
 
 - Find Build instructions and pictures on botkins cloud in /Hardware_Design/UPS_power_distribution/
 
-- 8-16x DuPont cables that have a good grip on pin headers and flow well when soldering.
-  - https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
-  - "30cm" https://aliexpress.com/item/32840578827.html
-    - Note: Single wire DuPont cables will work too but i haven't gotten any with decent quality from AliExpress.
+- 8-16x DuPont cables.
+  - "30cm" or "20cm" https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
+  - "30CM F-F" https://www.aliexpress.com/item/32823004985.html
 
 - 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
   - https://aliexpress.com/item/1005001807612572.html
 
 - 1x Pin header for the power distribution board
-  - https://aliexpress.com/item/32744837236.html
+  - "CAIpaizhen" https://aliexpress.com/item/32744837236.html
 
 - 1x PH2.0 plug to connect the power distribution board to the geekworm v3 UPS. other UPS may have a different plug.
   - "2P" https://aliexpress.com/item/4000091077742.html
