@@ -1,5 +1,6 @@
 ## Partlist and 3D files for a Vigibot robot specifically for Botkins
 Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.io/project/180558-botkins-charity-project
+Learn more about Vigibot https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/
 
 ### Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
 
@@ -34,6 +35,7 @@ You need:
   - or 3D printed file "stl/usb_bracket.stl"
 
 - 1x USB Microphone "Super AI".
+  - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
   - "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
 
 - 1x "WesternDigital Purple" 16-32GB MicroSD card (presumed resilient against data corruption)
@@ -61,6 +63,7 @@ You need:
   - "Type-C ... Cable", "2m" https://aliexpress.com/item/4000374403062.html
 
 - optional: 1x Active buzzer 3V or 5V, connect to GND and GPIO 18
+  - "actif" https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html
   - "3v" https://www.aliexpress.com/item/4000829554492.html
 
 - optional: About 10cm adhesive Velcro tape, to fix battery pack to middle plate.
@@ -81,6 +84,7 @@ You need:
   - https://aliexpress.com/item/1005001807612572.html
 
 - 1x Pin header for the power distribution board
+  - https://www.robot-maker.com/shop/composants/93-barrette-secable-male-254mm-93.html
   - "CAIpaizhen" https://aliexpress.com/item/32744837236.html
 
 - 1x PH2.0 plug to connect the power distribution board to the geekworm v3 UPS. other UPS may have a different plug.
