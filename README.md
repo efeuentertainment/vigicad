@@ -5,7 +5,7 @@ Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.i
 
 ![Standard Minus](https://github.com/vigibot/vigicad/blob/master/images/Minus%20render-2.png)
 
-If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process.
+If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. Let us know about any broken links.
 
 ### Prerequisites
 You need:
@@ -32,8 +32,8 @@ You need:
   - todo link
   - or 3D printed file "stl/usb_bracket.stl"
 
-- 1x USB Microphone "Orange-AI" (make sure you have 1x spare)
-  - https://aliexpress.com/item/1005004454958409.html
+- 1x USB Microphone "Super AI" Orange or Black.
+  - https://www.aliexpress.com/item/1005007114049915.html
 
 - 1x "WesternDigital Purple" 16-32GB MicroSD card (presumed resilient against data corruption)
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
@@ -49,23 +49,23 @@ You need:
     - https://aliexpress.com/item/4001113371912.html
     - https://www.amazon.fr/gp/product/B089NF1NHS
 
-- 1x 1S2P battery pack with protection. if from AliExpress, use Liitokala Brand.
+- 1x 1S2P battery pack with protection. if from AliExpress, use Liitokala Brand. Maybe add 1x spare, Liion in use last about 2-3 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
-  - todo: aliexpress link
+  - "1S2P 6000mAh" https://www.aliexpress.com/item/4001116123943.html
 
 - 1x USB charger 5V / 3A (make sure you have 1x spare)
   - "EU" https://aliexpress.com/item/4000045865332.html
 - 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
   - "Type-C, 2m" https://aliexpress.com/item/4000374403062.html
 
-- optional: 1x Active buzzer 5V
-  - https://aliexpress.com/item/32762781599.html
+- optional: 1x Active buzzer 3V or 5V, connect to GND and GPIO 18
+  - "10pcs 3v" https://www.aliexpress.com/item/4000829554492.html
 
 - optional: About 10cm adhesive Velcro tape, to fix battery pack to middle plate.
   - todo: link
 
-- optional: A bit of super glue (glue LED lens onto LED board so they don't fall off)
+- optional: A bit of super glue (glue LED caps onto LED board so they don't fall off)
   - https://aliexpress.com/item/1005002488174010.html
 
 #### Power distribution board
