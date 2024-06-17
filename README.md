@@ -20,7 +20,10 @@ You need:
 
 #### Core parts
 
-- 1x Raspberry PI 3, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
+- 1x Raspberry Pi 3B, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
+  - https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html
+  - Switzerland: https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081
+  - Germany: https://www.reichelt.de/ch/de/raspberry-pi-3-b-4x-1-4-ghz-1-gb-ram-wlan-bt-raspberry-pi-3b--p217696.html
 
 - 1x Huawei E3372h LTE/4G mobile data stick (without SIM card)
   - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
@@ -81,6 +84,7 @@ You need:
 
 - 8-16x DuPont cables.
   - "30cm" or "20cm" https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
+  - "F-F (30 cm)" https://www.pololu.com/product/4566
   - "30CM F-F" https://www.aliexpress.com/item/32823004985.html
 
 - 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
