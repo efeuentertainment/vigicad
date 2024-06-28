@@ -54,11 +54,12 @@ You need:
     - AND "30cm" https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
   - "Option 2" https://aliexpress.com/item/32881466491.html
 
-- 1x Geekworm / U-geek UPS Hat V3 with 2x20 pin header extension
+- 1x Geekworm / U-geek UPS Hat V3 with 2x20 pin header 15mm pin length extension
   - https://www.robot-maker.com/shop/shield/341-ups-hat-pour-raspberry-pi-341.html
   - aliexpress:
     - https://aliexpress.com/item/4001113371912.html
-    - AND https://www.aliexpress.com/item/32805691836.html
+    - AND https://www.robot-maker.com/shop/composants/451-header-2x20-a-pins-long-451.html
+      - i have not been able to find 15mm pin length (total part length ~23.5mm) header on aliexpress yet.
   - https://www.amazon.fr/gp/product/B089NF1NHS
 
 
