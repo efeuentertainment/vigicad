@@ -13,10 +13,10 @@ You need:
 - Soldering iron for a small power distribution board. 
 - Internet Access (SIM card with mobile data, WLAN or Ethernet LAN), PC.
 - 3D Printer currently not required.
-- Tools: Screwdrivers, adjustable / monkey wrench, tweezers, ...
+- Tools: Screwdrivers, adjustable / monkey wrench, tweezers, duct tape, ...
 
 
-### Partlist
+## Partlist
 
 #### Core parts
 
@@ -54,9 +54,13 @@ You need:
     - AND "30cm" https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
   - "Option 2" https://aliexpress.com/item/32881466491.html
 
-- 1x Geekworm / U-geek UPS Hat V3
+- 1x Geekworm / U-geek UPS Hat V3 with 2x20 pin header extension
+  - https://www.robot-maker.com/shop/shield/341-ups-hat-pour-raspberry-pi-341.html
+  - aliexpress:
     - https://aliexpress.com/item/4001113371912.html
-    - https://www.amazon.fr/gp/product/B089NF1NHS
+    - AND https://www.aliexpress.com/item/32805691836.html
+  - https://www.amazon.fr/gp/product/B089NF1NHS
+
 
 - 1x 1S2P battery pack with protection. if from AliExpress, use Liitokala Brand. Maybe add 1x spare, Liion in use last about 2-3 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
