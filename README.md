@@ -34,8 +34,8 @@ You need:
   - "to Down" https://aliexpress.com/item/32891283795.html
 
 - USB bracket holder
-  - robot-maker, todo link
-  - or 3D printed file "stl/usb_bracket.stl"
+  - https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html Note in order or send an E-Mail to impression3D@robot-maker.com with your order number and text: "Custom part order for USB_bracket holder"
+  - or 3D print file "stl/usb_bracket.stl"
 
 - 1x USB Microphone "Super AI".
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
