@@ -31,11 +31,12 @@ You need:
   - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
 
 - 1x USB - USB 90° adapter
-  - "to Down" https://aliexpress.com/item/32891283795.html
+  - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
 
 - USB bracket holder
   - https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html Note in order or send an E-Mail to impression3D@robot-maker.com with your order number and text: "Custom part order for USB_bracket holder"
   - or 3D print file "stl/usb_bracket.stl"
+  - or ask in the Botkins Signal group
 
 - 1x USB Microphone "Super AI".
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
@@ -173,5 +174,9 @@ You need:
     - M2 nut : 2
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
+#### Optional Parts
+
+- Botkins is considering changing to metal gear servos. Add 3x (plus 1-2x spares) DM-S0090MD metal servo for: head pan & tilt, Gripper up-down. (Doesn't fit for gripper open-close).
+  - "5PCS" https://www.aliexpress.com/item/1005002940068629.html
 
 
