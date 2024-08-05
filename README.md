@@ -28,7 +28,7 @@ You need:
 - 1x Huawei E3372h LTE/4G mobile data stick (without SIM card)
   - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
   - Find a suitable model on secondhand platforms or ask Botkins for the time being.
-  - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot under the lid.
+  - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
 
 - 1x USB - USB 90° adapter
   - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
@@ -46,7 +46,7 @@ You need:
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 
 - if you don't already have one: a micro SD card reader.
-  - https://www.aliexpress.com/item/1005001652954196.html
+  - https://www.aliexpress.com/item/32832711883.html
 
 - 1x aftermarket wide-angle lens camera module
   - with IR-cut filter. There is only one camera module v1 clone that combines a wide-angle lens and a motorized IR-cut filter at the time of writing
@@ -72,7 +72,7 @@ You need:
 - 2x USB charger (QC3.0 or newer must support 12V/1.2A or more). (so the recipient gets 1x spare)
   - "EU" https://aliexpress.com/item/4000045865332.html
 - 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
-  - "Type-C ... Cable", "2m" https://aliexpress.com/item/4000374403062.html
+  - "Color : TypeC _ Cable", "Length : 2m(6.6ft)" https://www.aliexpress.com/item/1005001652926393.html
 
 - 1x Active buzzer 3V or 5V, connect to GND and GPIO 18.
   - "actif" https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html
