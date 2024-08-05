@@ -41,12 +41,13 @@ You need:
 - 1x USB Microphone "Super AI".
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
   - "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
+  - If they aren't available, check with Botkins.
 
 - 1x 16-32GB MicroSD card. Strongly Recomnended is the "WesternDigital Purple" (presumed resilient against data corruption, as few as 50 reboots can cause a startup failure on cheap cards!), or another "Endurance" type card. 
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 
 - if you don't already have one: a micro SD card reader.
-  - https://www.aliexpress.com/item/32832711883.html
+  - "Color : Only USB3.0" https://www.aliexpress.com/item/32832711883.html
 
 - 1x aftermarket wide-angle lens camera module
   - with IR-cut filter. There is only one camera module v1 clone that combines a wide-angle lens and a motorized IR-cut filter at the time of writing
