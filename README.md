@@ -1,10 +1,29 @@
-## Partlist and 3D files for a Vigibot robot specifically for Botkins
+# Minus-Type Vigibot robot for Botkins
+
+### Table of Contents
+- [General Info](#general-info)
+- [Prerequisites](#prerequisites)
+- [Partlist](#partlist)
+  - [Core Parts](#core-parts)
+  - [Power Distribution Board Parts](#power-distribution-board-parts)
+  - [Motor Base Parts](#motor-base-parts)
+  - [Head Parts](#head-parts)
+  - [Gripper Parts](#gripper-parts)
+  - [Optional Parts](#optional-parts)
+- [Minus-Type Assembly](#minus-type-assembly)
+- [Motor Base Assembly](#motor-base-assembly)
+- [Head Assembly](#head-assembly)
+- [Gripper Assembly](#gripper-assembly)
+- [Final Assembly](#final-assembly)
+
+
+### General Info
 Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.io/project/180558-botkins-charity-project  
 Learn more about Vigibot https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/
 
-### Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
+Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
 
-![Standard Minus](https://github.com/vigibot/vigicad/blob/master/images/Minus%20render-2.png)
+![Standard Minus](images/Minus%20render-2.png)
 
 If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. Let us know about any broken links. The maker can choose the 3D printed parts color.
 
@@ -16,9 +35,8 @@ You need:
 - Tools: Screwdrivers, adjustable / monkey wrench, tweezers, duct tape, ...
 
 
-## Partlist
-
-#### Core parts
+# Partlist
+#### Core Parts
 
 - 1x Raspberry Pi 3B, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
   - https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html
@@ -85,7 +103,7 @@ You need:
 - if you don't already have: A bit of gorilla / super glue (glue LED caps onto LED board so they don't fall off)
   - https://aliexpress.com/item/1005002488174010.html
 
-#### Power distribution board
+#### Power Distribution Board Parts
 
 - Splitter Board
   - "Color : 1 pcs" https://www.aliexpress.com/item/1005006042011391.html
@@ -118,7 +136,7 @@ You need:
 </details>
 </s>
 
-#### Minus-Type Base kit
+#### Motor Base Parts
 
 - 3D printed parts, screws, nuts and standoffs 
   - Full kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
@@ -134,8 +152,6 @@ You need:
     - 8mm length M2 screw to fix the back plate on the middle plate : 3 
     - M2 nut : 3
 
-#### Motorization 
-
 - 4x Pololu 100:1 micro metal gearmotor HP 6V
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
   - https://www.pololu.com/product/1101
@@ -149,7 +165,7 @@ You need:
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html (provided with cables)
   - https://aliexpress.com/item/33056911020.html (both motors of same side in parallel on each output)
 
-#### Head assembly
+#### Head Parts
 
 - Two "SG90" type micro servo
   - 270° servo is highly recommended for the pan axis : 1
@@ -170,7 +186,7 @@ You need:
     - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
-#### Clamp assembly
+#### Gripper Parts
 
 - 180° servo SG90 servo : 2
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
@@ -192,9 +208,9 @@ You need:
   - "5PCS" https://www.aliexpress.com/item/1005002940068629.html
 
 
-# Minus Assembly Images
+# Minus-Type Assembly
 
-## Middle Plate Assembly
+## Motor Base Assembly
 ![Middle plate assembly-1](images/Minus%20assembly/Middle%20plate%20assembly-1.png)
 ![Middle plate assembly-2](images/Minus%20assembly/Middle%20plate%20assembly-2.png)
 ![Middle plate assembly-3](images/Minus%20assembly/Middle%20plate%20assembly-3.png)
@@ -206,19 +222,20 @@ You need:
 ![Middle plate assembly-9](images/Minus%20assembly/Middle%20plate%20assembly-9.png)
 ![Middle plate assembly-10](images/Minus%20assembly/Middle%20plate%20assembly-10.png)
 
-## Pan Turret Assembly
+## Head Assembly
+#### Pan Turret Assembly
 ![Pan turret assembly-1](images/Minus%20assembly/Pan%20turret%20assembly-1.png)
 ![Pan turret assembly-2](images/Minus%20assembly/Pan%20turret%20assembly-2.png)
 
-## Tilt Turret Assembly
+#### Tilt Turret Assembly
 ![Tilt turret assembly-1](images/Minus%20assembly/Tilt%20turret%20assembly-1.png)
 ![Tilt turret assembly-2](images/Minus%20assembly/Tilt%20turret%20assembly-2.png)
 
-## Pan & Tilt Turret Assembly
+#### Pan & Tilt Turret Assembly
 ![Pan + Tilt turret assembly-1](images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png)
 ![Pan + Tilt turret assembly-2](images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png)
 
-## Camera Assembly
+#### Camera Assembly
 ![Camera assembly-1](images/Minus%20assembly/Camera%20assembly-1.png)
 ![Camera assembly-2](images/Minus%20assembly/Camera%20assembly-2.png)
 
