@@ -11,10 +11,10 @@
   - [Gripper Parts](#gripper-parts)
   - [Optional Parts](#optional-parts)
 - [Minus-Type Assembly](#minus-type-assembly)
-- [Motor Base Assembly](#motor-base-assembly)
-- [Head Assembly](#head-assembly)
-- [Gripper Assembly](#gripper-assembly)
-- [Final Assembly](#final-assembly)
+  - [Motor Base Assembly](#motor-base-assembly)
+  - [Head Assembly](#head-assembly)
+  - [Gripper Assembly](#gripper-assembly)
+  - [Final Assembly](#final-assembly)
 
 
 ### General Info
