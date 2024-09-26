@@ -91,7 +91,7 @@ You need:
   - "Color : 1 pcs" https://www.aliexpress.com/item/1005006042011391.html
 
 - PH2.0 to 2 Pin cable
-  - "Color : 2P, Length : 10CM" https://www.aliexpress.com/item/1005002901249753.html (check polarity during assembly, it usually has to be inverted)
+  - "Color : 2P", "Length : 10CM" https://www.aliexpress.com/item/1005002901249753.html (check polarity during assembly, it usually has to be inverted)
 
 - 8-16x DuPont cables.
   - "30cm" or "20cm" https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
@@ -103,7 +103,7 @@ You need:
 
 <s>
 <details>
-<summary>OLD: manually soldered PDB</summary>
+<summary>OLD: manually soldered PDB [Expand]</summary>
 - Find Build instructions and pictures on botkins cloud in /Hardware_Design/UPS_power_distribution/
 
 - 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
