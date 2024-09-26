@@ -89,17 +89,23 @@ You need:
 
 - Splitter Board
   - "Color : 1 pcs" https://www.aliexpress.com/item/1005006042011391.html
+
 - PH2.0 to 2 Pin cable
   - "Color : 2P, Length : 10CM" https://www.aliexpress.com/item/1005002901249753.html (check polarity during assembly, it usually has to be inverted)
-
-~~- Find Build instructions and pictures on botkins cloud in /Hardware_Design/UPS_power_distribution/~~
 
 - 8-16x DuPont cables.
   - "30cm" or "20cm" https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
   - "F-F (30 cm)" https://www.pololu.com/product/4566
   - "30CM F-F" https://www.aliexpress.com/item/32823004985.html
 
+- About 5x Single DuPont pin sleeves
+  - "1P" https://aliexpress.com/item/33035707563.html
+
 <s>
+<details>
+<summary>OLD: manually soldered PDB</summary>
+- Find Build instructions and pictures on botkins cloud in /Hardware_Design/UPS_power_distribution/
+
 - 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
   - https://aliexpress.com/item/1005001807612572.html
 
@@ -109,10 +115,8 @@ You need:
 
 - 1x PH2.0 plug to connect the power distribution board to the geekworm v3 UPS.
   - "2P" https://aliexpress.com/item/4000091077742.html
+</details>
 </s>
-
-- About 5x Single DuPont pin sleeves
-  - "1P" https://aliexpress.com/item/33035707563.html
 
 #### Minus-Type Base kit
 
