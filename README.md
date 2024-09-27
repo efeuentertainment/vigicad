@@ -228,7 +228,7 @@ You need:
 ## UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
-- **A:** Remove "POFF" solder bridge<br>
+- **A** Remove "POFF" solder bridge<br>
 
 
 ## Motor Base Assembly
