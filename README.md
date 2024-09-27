@@ -1,6 +1,6 @@
 # Minus-Type Vigibot robot for Botkins
 <details open>
-<summary>[COLLAPSE / EXPAND]</summary>
+<summary>[COLLAPSE]</summary>
 
 ### Table of Contents
 - [General Info](#general-info)
@@ -42,7 +42,7 @@ You need:
 
 # Partlist
 <details open>
-<summary>[COLLAPSE / EXPAND]</summary>
+<summary>[COLLAPSE]</summary>
 
 #### Core Parts
 
@@ -217,17 +217,17 @@ You need:
 </details>
 
 # Minus-Type Assembly
-<details open>                             <summary>[COLLAPSE / EXPAND]</summary>
+<details open>
+<summary>[COLLAPSE]</summary>
 
 ## Software Install
-<img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/>  
-see onboarding document  
-
-Credits: Mike118  
+<img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
+see onboarding document<br>
+(Image credit: Mike118)
 
 ## UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/>  
+<img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
 A: Remove "POFF" solder bridge
 
 
@@ -267,20 +267,20 @@ A: Remove "POFF" solder bridge
 
 ## Power Distribution Assembly
 <img src="images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_2.jpg" alt="pdb_assembly_2" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/>  
-Invert PH2.0 plug polarity (if necessary)
+<img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/><br>
+Invert PH2.0 plug polarity (if necessary)<br>
 <img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
 
 ## GPIO Wiring
 <img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/>  
-A: Head pan [x] GPIO 5  
-B: Head tilt [y] GPIO 6  
-C: Gripper claw [x] GPIO 7  
-D: Gripper claw [y] GPIO 8  
-<img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/>  
-A: ESC motor driver: left GPIO 26, right GPIO 27
+<img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
+A: Head pan [x] GPIO 5<br>
+B: Head tilt [y] GPIO 6<br>
+C: Gripper claw [x] GPIO 7<br>
+D: Gripper tilt [y] GPIO 8<br>
+<img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
+A: ESC motor driver: left motors GPIO 26, right motors GPIO 27
 
 ## Final Assembly
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>  
@@ -289,8 +289,8 @@ A: ESC motor driver: left GPIO 26, right GPIO 27
 <img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/>
 
 ## Optional: Metal Gear Servo Assembly
-<img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/>  
-If you use DM-S0090MD metal gear servo the horn has to be shortened
+<img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
+If you use DM-S0090MD metal gear servo the horn has to be shortened.
 
 
 </details>
