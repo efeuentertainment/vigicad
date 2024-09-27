@@ -266,7 +266,7 @@ todo
 
 ## image layout test
 <p>
-  <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 50%"/>
-  <img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 50%"/>
+  <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 48%"/>
+  <img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 48%"/>
 </p>
 
