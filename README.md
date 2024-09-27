@@ -11,6 +11,8 @@
   - [Gripper Parts](#gripper-parts)
   - [Optional Parts](#optional-parts)
 - [Minus-Type Assembly](#minus-type-assembly)
+  - [Software Install](#software-install)
+  - [Power Distribution Board Assembly](#power-distribution-board-assembly)
   - [Motor Base Assembly](#motor-base-assembly)
   - [Head Assembly](#head-assembly)
   - [Gripper Assembly](#gripper-assembly)
@@ -29,7 +31,7 @@ If you'd like to build a robot for Botkins, contact us and we'll send you the On
 
 ### Prerequisites
 You need:
-- Soldering iron for a small power distribution board. 
+- Soldering iron. 
 - Internet Access (SIM card with mobile data, WLAN or Ethernet LAN), PC.
 - 3D Printer currently not required.
 - Tools: Screwdrivers, adjustable / monkey wrench, tweezers, duct tape, ...
@@ -209,7 +211,10 @@ You need:
 
 
 # Minus-Type Assembly
-
+## Software Install
+see onboarding document
+## Power Distribution Board Assembly
+todo
 ## Motor Base Assembly
 ![Middle plate assembly-1](images/Minus%20assembly/Middle%20plate%20assembly-1.png)
 ![Middle plate assembly-2](images/Minus%20assembly/Middle%20plate%20assembly-2.png)
