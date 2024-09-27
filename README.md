@@ -12,8 +12,6 @@
   - [Head Parts](#head-parts)
   - [Gripper Parts](#gripper-parts)
   - [Optional Parts](#optional-parts)
-### Table of Contents
-
 - [Minus-Type Assembly](#minus-type-assembly)
   - [Software Install](#software-install)
   - [UPS Solder Bridge](#ups-solder-bridge)
