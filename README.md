@@ -38,6 +38,8 @@ You need:
 
 
 # Partlist
+<details open>
+<summary>[COLLAPSE / EXPAND]</summary>
 #### Core Parts
 
 - 1x Raspberry Pi 3B, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
@@ -208,64 +210,10 @@ You need:
 
 - Botkins is considering changing to metal gear servos. Add 3x (plus 1-2x spares) DM-S0090MD metal servo for: head pan & tilt, Gripper up-down. (Doesn't fit for gripper open-close).
   - "5PCS" https://www.aliexpress.com/item/1005002940068629.html
-
-
-# Minus-Type Assembly
-## Software Install
-see onboarding document
-## Power Distribution Board Assembly
-todo
-## Motor Base Assembly
-![Middle plate assembly-1](images/Minus%20assembly/Middle%20plate%20assembly-1.png)
-![Middle plate assembly-2](images/Minus%20assembly/Middle%20plate%20assembly-2.png)
-![Middle plate assembly-3](images/Minus%20assembly/Middle%20plate%20assembly-3.png)
-![Middle plate assembly-4](images/Minus%20assembly/Middle%20plate%20assembly-4.png)
-![Middle plate assembly-5](images/Minus%20assembly/Middle%20plate%20assembly-5.png)
-![Middle plate assembly-6](images/Minus%20assembly/Middle%20plate%20assembly-6.png)
-![Middle plate assembly-7](images/Minus%20assembly/Middle%20plate%20assembly-7.png)
-![Middle plate assembly-8](images/Minus%20assembly/Middle%20plate%20assembly-8.png)
-![Middle plate assembly-9](images/Minus%20assembly/Middle%20plate%20assembly-9.png)
-![Middle plate assembly-10](images/Minus%20assembly/Middle%20plate%20assembly-10.png)
-
-## Head Assembly
-#### Pan Turret Assembly
-![Pan turret assembly-1](images/Minus%20assembly/Pan%20turret%20assembly-1.png)
-![Pan turret assembly-2](images/Minus%20assembly/Pan%20turret%20assembly-2.png)
-
-#### Tilt Turret Assembly
-![Tilt turret assembly-1](images/Minus%20assembly/Tilt%20turret%20assembly-1.png)
-![Tilt turret assembly-2](images/Minus%20assembly/Tilt%20turret%20assembly-2.png)
-
-#### Pan & Tilt Turret Assembly
-![Pan + Tilt turret assembly-1](images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png)
-![Pan + Tilt turret assembly-2](images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png)
-
-#### Camera Assembly
-![Camera assembly-1](images/Minus%20assembly/Camera%20assembly-1.png)
-![Camera assembly-2](images/Minus%20assembly/Camera%20assembly-2.png)
-
-## Gripper Assembly
-![Gripper assembly-1](images/Minus%20assembly/Gripper%20assembly-1.png)
-![Gripper assembly-2](images/Minus%20assembly/Gripper%20assembly-2.png)
-![Gripper assembly-3](images/Minus%20assembly/Gripper%20assembly-3.png)
-![Gripper assembly-4](images/Minus%20assembly/Gripper%20assembly-4.png)
-![Gripper assembly-5](images/Minus%20assembly/Gripper%20assembly-5.png)
-![Gripper assembly-6](images/Minus%20assembly/Gripper%20assembly-6.png)
-![Gripper assembly-7](images/Minus%20assembly/Gripper%20assembly-7.png)
-
-## Final Assembly
-![Final assembly-1](images/Minus%20assembly/Final%20assembly-1.png)
-![Final assembly-2](images/Minus%20assembly/Final%20assembly-2.png)
-![Final assembly-3](images/Minus%20assembly/Final%20assembly-3.png)
-![Final assembly-4](images/Minus%20assembly/Final%20assembly-4.png)
-![Final assembly-5](images/Minus%20assembly/Final%20assembly-5.png)
-![Final assembly-6](images/Minus%20assembly/Final%20assembly-6.png)
-![Final assembly-7](images/Minus%20assembly/Final%20assembly-7.png)
-![Final assembly-8](images/Minus%20assembly/Final%20assembly-8.png)
-![Final assembly-9](images/Minus%20assembly/Final%20assembly-9.png)
+</details>
 
 # Minus-Type Assembly
-
+<details open>                             <summary>[COLLAPSE / EXPAND]</summary>
 ## Software Install
 see onboarding document
 
@@ -307,5 +255,5 @@ todo
 <img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/>
 
 
-
+</details>
 
