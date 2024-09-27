@@ -264,3 +264,9 @@ todo
 ![Final assembly-8](images/Minus%20assembly/Final%20assembly-8.png)
 ![Final assembly-9](images/Minus%20assembly/Final%20assembly-9.png)
 
+## image layout test
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 50%;"/>
+  <img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 50%;"/>
+</div>
+
