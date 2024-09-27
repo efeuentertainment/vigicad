@@ -12,13 +12,19 @@
   - [Head Parts](#head-parts)
   - [Gripper Parts](#gripper-parts)
   - [Optional Parts](#optional-parts)
+### Table of Contents
+
 - [Minus-Type Assembly](#minus-type-assembly)
   - [Software Install](#software-install)
+  - [UPS Solder Bridge](#ups-solder-bridge)
   - [Motor Base Assembly](#motor-base-assembly)
   - [Head Assembly](#head-assembly)
   - [Gripper Assembly](#gripper-assembly)
-  - [Power Distribution Board Assembly](#power-distribution-board-assembly)
+  - [Servo Plug Split](#servo-plug-split)
+  - [Power Distribution Assembly](#power-distribution-assembly)
+  - [GPIO Wiring](#gpio-wiring)
   - [Final Assembly](#final-assembly)
+  - [Optional: Metal Gear Servo Assembly](#optional-metal-gear-servo-assembly)
 - [Credits](#credits)
 
 
