@@ -289,7 +289,9 @@ You need:
 
 <img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
 
-- A: ESC motor driver: left motors GPIO 26, right motors GPIO 27<br>
+- A: ESC motor driver
+  - left motors GPIO 26
+  - right motors GPIO 27
 
 ## Final Assembly
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>  
