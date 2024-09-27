@@ -12,11 +12,12 @@
   - [Optional Parts](#optional-parts)
 - [Minus-Type Assembly](#minus-type-assembly)
   - [Software Install](#software-install)
-  - [Power Distribution Board Assembly](#power-distribution-board-assembly)
   - [Motor Base Assembly](#motor-base-assembly)
   - [Head Assembly](#head-assembly)
   - [Gripper Assembly](#gripper-assembly)
+  - [Power Distribution Board Assembly](#power-distribution-board-assembly)
   - [Final Assembly](#final-assembly)
+- [Credits](#credits)
 
 
 ### General Info
@@ -40,6 +41,7 @@ You need:
 # Partlist
 <details open>
 <summary>[COLLAPSE / EXPAND]</summary>
+
 #### Core Parts
 
 - 1x Raspberry Pi 3B, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
@@ -214,11 +216,16 @@ You need:
 
 # Minus-Type Assembly
 <details open>                             <summary>[COLLAPSE / EXPAND]</summary>
+
 ## Software Install
+<img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/>
+Credits: Mike118
 see onboarding document
 
-## Power Distribution Board Assembly
-todo
+## UPS Solder Bridge
+<img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/>
+
 
 ## Motor Base Assembly
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
@@ -246,14 +253,46 @@ todo
 <img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/>
+<img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>  
+
+## Servo Plug Split
+<img src="images/Minus_assembly_Botkins/servo_assembly_1.jpg" alt="servo_assembly_1" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/servo_assembly_2.jpg" alt="servo_assembly_2" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/servo_assembly_3.jpg" alt="servo_assembly_3" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/servo_assembly_4.jpg" alt="servo_assembly_4" style="width: 49%"/>
+
+## Power Distribution Assembly
+<img src="images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_2.jpg" alt="pdb_assembly_2" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
+
+## GPIO Wiring
+<img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/wiring_assembly_2.jpg" alt="wiring_assembly_2" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/wiring_assembly_4.jpg" alt="wiring_assembly_4" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/>
 
 ## Final Assembly
-<img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/>
 
+## Metal Gear Servo Assembly
+<img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/>
+
 
 </details>
+
+## Credits
+- Original Partlist: Vigibot
+- Assembly Renders: Narayan1986
+
+
+unused images
+<img src="images/Minus_assembly_Botkins/pinout_pi.png" alt="pinout_pi" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/pinout_pi_r.png" alt="pinout_pi_r" style="width: 49%"/>
+<img src="images/Minus_assembly_Botkins/ups_geekworm_v3.jpg" alt="ups_geekworm_v3" style="width: 49%"/>
 
