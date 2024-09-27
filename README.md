@@ -222,6 +222,7 @@ You need:
 
 ## Software Install
 <img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
+
 - see onboarding document<br>
 (Image credit: Mike118)
 
@@ -229,17 +230,7 @@ You need:
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
 
-- Label A Remove "POFF" solder bridge<br>
-
-## Software Install  
-<img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>  
-- see onboarding document<br>  
-(Image credit: Mike118)<br><br>
-
-## UPS Solder Bridge  
-<img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>  
-- **Label A:** Remove "POFF" solder bridge<br><br>
+- A: Remove "POFF" solder bridge<br>
 
 ## Motor Base Assembly
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
@@ -278,18 +269,23 @@ You need:
 ## Power Distribution Assembly
 <img src="images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_2.jpg" alt="pdb_assembly_2" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/><br>
+
 - Invert PH2.0 plug polarity (if necessary)<br>
+
 <img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
 
 ## GPIO Wiring
 <img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
+
 - A: Head pan [x] GPIO 5<br>
 - B: Head tilt [y] GPIO 6<br>
 - C: Gripper claw [x] GPIO 7<br>
 - D: Gripper tilt [y] GPIO 8<br>
+
 <img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
+
 - A: ESC motor driver: left motors GPIO 26, right motors GPIO 27<br>
 
 ## Final Assembly
@@ -300,6 +296,7 @@ You need:
 
 ## Optional: Metal Gear Servo Assembly
 <img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
+
 - If you use DM-S0090MD metal gear servo the horn has to be shortened.
 
 
