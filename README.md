@@ -228,7 +228,7 @@ You need:
 ## UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
-- A: Remove "POFF" solder bridge
+- A: Remove "POFF" solder bridge<br>
 
 
 ## Motor Base Assembly
@@ -275,12 +275,12 @@ You need:
 <img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
-- A: Head pan [x] GPIO 5
-- B: Head tilt [y] GPIO 6
-- C: Gripper claw [x] GPIO 7
-- D: Gripper tilt [y] GPIO 8
+- A: Head pan [x] GPIO 5<br>
+- B: Head tilt [y] GPIO 6<br>
+- C: Gripper claw [x] GPIO 7<br>
+- D: Gripper tilt [y] GPIO 8<br>
 <img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
-- A: ESC motor driver: left motors GPIO 26, right motors GPIO 27
+- A: ESC motor driver: left motors GPIO 26, right motors GPIO 27<br>
 
 ## Final Assembly
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>  
