@@ -228,6 +228,7 @@ You need:
 ## UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
+
 - Label A Remove "POFF" solder bridge<br>
 
 ## Software Install  
@@ -238,7 +239,7 @@ You need:
 ## UPS Solder Bridge  
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>  
-- **Label A:** Remove "POFF" solder bridge<br>
+- **Label A:** Remove "POFF" solder bridge<br><br>
 
 ## Motor Base Assembly
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
