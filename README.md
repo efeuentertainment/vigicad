@@ -1,4 +1,4 @@
-# Minus-Type Vigibot robot for Botkins
+# Minus-Type Vigibot Robot for Botkins
 <details open>
 <summary>[COLLAPSE]</summary>
 
