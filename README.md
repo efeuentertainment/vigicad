@@ -227,9 +227,11 @@ You need:
 ## Software Install
 <img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
 
-- see onboarding document<br>
-(Image credit: Mike118)
-- LTE/4G mobile data stick: Plug into PC (192.168.8.1 webpage should open) and enable data roaming.
+- Install Vigibot on Pi and test with Camera according to https://www.robot-maker.com/forum/topic/12794-how-to-add-my-raspberry-pi-robot-on-vigibot-to-control-my-robot-over-the-internet/
+
+- LTE/4G mobile data stick:
+  - Plug into a Windows or Mac PC (192.168.8.1 webpage opens or start the App on the storage medium) and enable data roaming.
+- OPTIONAL: For Wi-Fi, you can use "/Hardware Design/wpa_supplicant.conf" on botkins cloud, as an example for the raspberry pi WiFi setup. either add or replace with your WiFi network.
 
 ## UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
