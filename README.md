@@ -229,6 +229,7 @@ You need:
 
 - see onboarding document<br>
 (Image credit: Mike118)
+- LTE/4G mobile data stick: Plug into PC (192.168.8.1 webpage should open) and enable data roaming.
 
 ## UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
