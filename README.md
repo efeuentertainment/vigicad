@@ -1,6 +1,6 @@
 # Minus-Type Vigibot Robot for Botkins
 <details open>
-<summary>[COLLAPSE]</summary>
+<summary>[HIDE SECTION]</summary>
 
 ### Table of Contents
 - [General Info](#general-info)
@@ -47,7 +47,7 @@ You need:
 
 # Partlist
 <details open>
-<summary>[COLLAPSE]</summary>
+<summary>[HIDE SECTION]</summary>
 
 #### Core Parts
 
@@ -223,7 +223,7 @@ You need:
 
 # Minus-Type Assembly
 <details open>
-<summary>[COLLAPSE]</summary>
+<summary>[HIDE SECTION]</summary>
 
 ## 1. Software Install
 <img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
@@ -321,7 +321,7 @@ You need:
 ## 11. Additional Assembly Guides
 
 - You may find additional assembly guides in french on: https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/
-- [Currently Offline] ~~Full Minus assembly guide from community: https://www.wiki-vigibot.com/index.php/Comment_monter_mon_robot_%E2%80%9CMinus%E2%80%9C_de_A_%C3%A0_Z_%3F ~~
+- [Offline] ~~Full Minus assembly guide from community: https://www.wiki-vigibot.com/index.php/Comment_monter_mon_robot_%E2%80%9CMinus%E2%80%9C_de_A_%C3%A0_Z_%3F~~
 - Short Assembly Video from community: https://youtu.be/9Eja0gG4bhI
 - Vigibot FAQ: https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/
 
