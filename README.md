@@ -681,7 +681,7 @@ On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> 
 - Metal Gear Servo Assembly
 <img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
 
-  - If you use DM-S0090MD metal gear servo the horn has to be shortened.
+  - If you use DM-S0090MD metal gear servos for Head tilt or Gripper tilt, the servo horn is a bit too long and has to be shortened.
 
 ## 11. Additional Assembly Guides
 
