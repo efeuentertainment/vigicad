@@ -225,6 +225,369 @@ You need:
 <details open>
 <summary>[HIDE SECTION]</summary>
 
+## 0. Vigibot Online Configuration
+#### Remote controller Configuration
+On Vigibot Website -> «Management» -> Wrench Icon «Remote controller configuration» -> «Modifications made» -> «Form» set to «Text» -> Paste following code
+<details open>
+<summary>[SHOW CODE BLOCK]</summary>
+```
+{
+  "BUTTONS": [
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "avancer",
+      "ICON1": "",
+      "TEXT": "Forward",
+      "ACTION": "IncrementForward",
+      "SPECIAL": "yp"
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "suivant",
+      "ICON1": "",
+      "TEXT": "Next tool",
+      "ACTION": "NextTool",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "sirene0",
+      "ICON1": "sirene1",
+      "TEXT": "Buzzer",
+      "ACTION": "Switch2",
+      "SPECIAL": "i2"
+    },
+    {
+      "ICON0": "lumicont0",
+      "ICON1": "lumicont1",
+      "TEXT": "Maximize the brightness and contrast",
+      "ACTION": "Switch3",
+      "SPECIAL": "i3"
+    },
+    {
+      "ICON0": "gauche",
+      "ICON1": "",
+      "TEXT": "Left",
+      "ACTION": "IncrementTurnLeft",
+      "SPECIAL": "zn"
+    },
+    {
+      "ICON0": "stopper",
+      "ICON1": "",
+      "TEXT": "Click to stop or drag to drive",
+      "ACTION": "Brake",
+      "SPECIAL": "st"
+    },
+    {
+      "ICON0": "droite",
+      "ICON1": "",
+      "TEXT": "Right",
+      "ACTION": "IncrementTurnRight",
+      "SPECIAL": "zp"
+    },
+    {
+      "ICON0": "centrer",
+      "ICON1": "",
+      "TEXT": "Reset tools",
+      "ACTION": "ResetTools",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "reculer",
+      "ICON1": "",
+      "TEXT": "Backward",
+      "ACTION": "IncrementBackward",
+      "SPECIAL": "yn"
+    },
+    {
+      "ICON0": "capture",
+      "ICON1": "",
+      "TEXT": "Capture the last seconds of video",
+      "ACTION": "",
+      "SPECIAL": "capture"
+    },
+    {
+      "ICON0": "precedent",
+      "ICON1": "",
+      "TEXT": "Previous tool",
+      "ACTION": "PreviousTool",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "lock0",
+      "ICON1": "lock1",
+      "TEXT": "Unlink remote control and video",
+      "ACTION": "",
+      "SPECIAL": "switchlock"
+    },
+    {
+      "ICON0": "osd0",
+      "ICON1": "osd1",
+      "TEXT": "Toggle OSD",
+      "ACTION": "",
+      "SPECIAL": "switchosd"
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "dodo",
+      "ICON1": "",
+      "TEXT": "Put on standby",
+      "ACTION": "Sleep",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "vide",
+      "ICON1": "",
+      "TEXT": "",
+      "ACTION": "",
+      "SPECIAL": ""
+    },
+    {
+      "ICON0": "exit",
+      "ICON1": "",
+      "TEXT": "Restart the client process",
+      "ACTION": "ExitRobot",
+      "SPECIAL": "confirm"
+    },
+    {
+      "ICON0": "reboot",
+      "ICON1": "",
+      "TEXT": "Reboot the system",
+      "ACTION": "RebootRobot",
+      "SPECIAL": "confirm"
+    },
+    {
+      "ICON0": "poweroff",
+      "ICON1": "",
+      "TEXT": "Power off the system",
+      "ACTION": "PowerOffRobot",
+      "SPECIAL": "confirm"
+    }
+  ],
+  "COMMANDS": [
+    {
+      "NAME": "Turret control",
+      "CAMERA": 0,
+      "MIXING": 0,
+      "GAINX": 80,
+      "GAINY": 80
+    },
+    {
+      "NAME": "Gripper control",
+      "CAMERA": 0,
+      "MIXING": 1,
+      "GAINX": 80,
+      "GAINY": 80
+    },
+    {
+      "NAME": "low bandwidth 250 Kbps",
+      "CAMERA": 1,
+      "MIXING": 0,
+      "GAINX": 80,
+      "GAINY": 80
+    }
+  ],
+  "TX": {
+    "COMMANDS16": [
+      {
+        "NAME": "Turret X",
+        "INIT": 0,
+        "SCALEMIN": -180,
+        "SCALEMAX": 180,
+        "MIN": -90,
+        "MAX": 90,
+        "CLAMPMIN": -20,
+        "CLAMPMAX": 20,
+        "SIGNED": true,
+        "NBDIGITS": 2,
+        "UNIT": "°"
+      },
+      {
+        "NAME": "Turret Y",
+        "INIT": 0,
+        "SCALEMIN": -180,
+        "SCALEMAX": 180,
+        "MIN": -55,
+        "MAX": 55,
+        "CLAMPMIN": -40,
+        "CLAMPMAX": 20,
+        "SIGNED": true,
+        "NBDIGITS": 2,
+        "UNIT": "°"
+      },
+      {
+        "NAME": "Gripper X",
+        "INIT": 0,
+        "SCALEMIN": -180,
+        "SCALEMAX": 180,
+        "MIN": -30,
+        "MAX": 65,
+        "CLAMPMIN": -20,
+        "CLAMPMAX": 65,
+        "SIGNED": true,
+        "NBDIGITS": 2,
+        "UNIT": "°"
+      },
+      {
+        "NAME": "Gripper Y",
+        "INIT": 0,
+        "SCALEMIN": -180,
+        "SCALEMAX": 180,
+        "MIN": -40,
+        "MAX": 80,
+        "CLAMPMIN": 0,
+        "CLAMPMAX": 45,
+        "SIGNED": true,
+        "NBDIGITS": 2,
+        "UNIT": "°"
+      }
+    ]
+  }
+}
+```
+</details>
+
+#### Hardware Configuration
+On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> «Modifications made» -> «Form» set to «Text» -> Paste following code
+<details open>
+<summary>[SHOW CODE BLOCK]</summary>
+```
+{
+  "CAMERAS": [
+    {
+      "TYPE": "",
+      "SOURCE": 0,
+      "WIDTH": 640,
+      "HEIGHT": 480,
+      "FPS": 30,
+      "BITRATE": 1500000,
+      "ROTATE": 0,
+      "BRIGHTNESS": 50,
+      "CONTRAST": -5,
+      "BRIGHTNESSBOOST": 80,
+      "CONTRASTBOOST": 100
+    },
+    {
+      "TYPE": "",
+      "SOURCE": 0,
+      "WIDTH": 640,
+      "HEIGHT": 480,
+      "FPS": 30,
+      "BITRATE": 250000,
+      "ROTATE": 0,
+      "BRIGHTNESS": 50,
+      "CONTRAST": -5,
+      "BRIGHTNESSBOOST": 80,
+      "CONTRASTBOOST": 100
+    }
+  ],
+  "COMMANDS8": [
+    {
+      "RAMPUP": 0,
+      "RAMPDOWN": 0,
+      "RAMPINIT": 0,
+      "FAILSAFE": true,
+      "SLEEP": true
+    },
+    {
+      "RAMPUP": 15,
+      "RAMPDOWN": 15,
+      "RAMPINIT": 15,
+      "FAILSAFE": true,
+      "SLEEP": true
+    },
+    {
+      "RAMPUP": 15,
+      "RAMPDOWN": 15,
+      "RAMPINIT": 15,
+      "FAILSAFE": true,
+      "SLEEP": true
+    }
+  ]
+}
+```
+</details>
+
 ## 1. Software Install
 <img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
 
