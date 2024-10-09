@@ -231,7 +231,7 @@ On Vigibot Website -> «Management» -> Wrench Icon «Remote controller configur
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
-```
+```JSON
 {
   "BUTTONS": [
     {
@@ -532,6 +532,7 @@ On Vigibot Website -> «Management» -> Wrench Icon «Remote controller configur
 On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> «Modifications made» -> «Form» set to «Text» -> Paste following code
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
+
 ```JSON
 {
   "CAMERAS": [
@@ -587,7 +588,6 @@ On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> 
   ]
 }
 ```
-
 </details>
 
 ## 1. Software Install
