@@ -228,8 +228,9 @@ You need:
 ## 0. Vigibot Online Configuration
 #### Remote controller Configuration
 On Vigibot Website -> «Management» -> Wrench Icon «Remote controller configuration» -> «Modifications made» -> «Form» set to «Text» -> Paste following code
-<details open>
+<details>
 <summary>[SHOW CODE BLOCK]</summary>
+
 ```
 {
   "BUTTONS": [
@@ -529,9 +530,9 @@ On Vigibot Website -> «Management» -> Wrench Icon «Remote controller configur
 
 #### Hardware Configuration
 On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> «Modifications made» -> «Form» set to «Text» -> Paste following code
-<details open>
+<details>
 <summary>[SHOW CODE BLOCK]</summary>
-```
+```JSON
 {
   "CAMERAS": [
     {
@@ -586,6 +587,7 @@ On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> 
   ]
 }
 ```
+
 </details>
 
 ## 1. Software Install
