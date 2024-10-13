@@ -28,14 +28,14 @@
 
 
 ### General Info
-Learn more about Botkins Charity Project on the Hackaday Page https://hackaday.io/project/180558-botkins-charity-project  
-Learn more about Vigibot https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/
+Learn more about Botkins Charity Project: [Website (German)](https://botkins.ch), [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)  
+Learn more about [Vigibot](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 
 Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
 
 ![Standard Minus](images/Minus%20render-2.png)
 
-If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. Let us know about any broken links. The maker can choose the 3D printed parts color.
+If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. Let us know about any broken links or deficiencies. The maker can choose the 3D printed parts color.
 
 ### Prerequisites
 You need:
@@ -47,7 +47,7 @@ You need:
 
 # Partlist
 <details open>
-<summary>[HIDE SECTION]</summary>
+<summary><span style="color: blue; text-decoration: underline;">[HIDE SECTION]</span></summary>
 
 #### Core Parts
 
