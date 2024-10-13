@@ -28,8 +28,11 @@
 
 
 ### General Info
-Learn more about Botkins Charity Project: [Website (German)](https://botkins.ch), [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)  
-Learn more about [Vigibot](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
+Learn more about Botkins Charity Project:
+- [Website (German)](https://botkins.ch)
+- [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)  
+Learn more about Vigibot:
+- [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 
 Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
 
@@ -47,7 +50,7 @@ You need:
 
 # Partlist
 <details open>
-<summary><span style="color: blue; text-decoration: underline;">[HIDE SECTION]</span></summary>
+<summary><u style="color: blue;">[HIDE SECTION]</u></summary>
 
 #### Core Parts
 
