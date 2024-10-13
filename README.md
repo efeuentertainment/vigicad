@@ -74,7 +74,7 @@ You need:
   - or 3D print file "stl/usb_bracket.stl"
   - or ask in the Botkins Signal group
 
-- 1x USB Microphone "Super AI" (~10$).
+- 1x USB Microphone "Super AI" (should cost ~10$).
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
   - "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
   - If they aren't available, check with Botkins.
