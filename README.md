@@ -13,8 +13,8 @@
   - [Gripper Parts](#gripper-parts)
   - [Optional Parts](#optional-parts)
 - [Minus-Type Assembly](#minus-type-assembly)  
-    - [1. Vigibot Online Configuration](#1-vigibot-online-configuration)  
-    - [2. Software Install](#2-software-install)  
+    - [1. Software Install](#1-software-install)  
+    - [2. Vigibot Online Configuration](#2-vigibot-online-configuration)  
     - [3. UPS Solder Bridge](#3-ups-solder-bridge)  
     - [4. Servo Plug Split](#4-servo-plug-split)  
     - [5. Power Distribution Assembly](#5-power-distribution-assembly)  
@@ -230,7 +230,17 @@ You need:
 <details open>
 <summary>[HIDE SECTION]</summary>
 
-## 1. Vigibot Online Configuration
+## 1. Software Install
+<img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
+
+- Install Vigibot on Pi and test with Camera according to https://www.robot-maker.com/forum/topic/12794-how-to-add-my-raspberry-pi-robot-on-vigibot-to-control-my-robot-over-the-internet/
+
+- LTE/4G mobile data stick:
+  - Plug into a Windows or Mac PC (192.168.8.1 webpage opens or start the App on the storage medium) and enable data roaming.
+- OPTIONAL: For Wi-Fi, you can use "/Hardware Design/wpa_supplicant.conf" on botkins cloud, as an example for the raspberry pi WiFi setup. either add or replace with your WiFi network.
+- Unplug power cable. During assembly, new parts can be connected (power off robot) and tested.
+
+## 2. Vigibot Online Configuration
 #### Remote controller Configuration
 On Vigibot website click-> `Management` -> Wrench Icon (Remote controller configuration) -> `Modifications made` -> `Form` set to `Text` -> Paste following code:
 <details>
@@ -594,16 +604,6 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 }
 ```
 </details>
-
-## 2. Software Install
-<img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
-
-- Install Vigibot on Pi and test with Camera according to https://www.robot-maker.com/forum/topic/12794-how-to-add-my-raspberry-pi-robot-on-vigibot-to-control-my-robot-over-the-internet/
-
-- LTE/4G mobile data stick:
-  - Plug into a Windows or Mac PC (192.168.8.1 webpage opens or start the App on the storage medium) and enable data roaming.
-- OPTIONAL: For Wi-Fi, you can use "/Hardware Design/wpa_supplicant.conf" on botkins cloud, as an example for the raspberry pi WiFi setup. either add or replace with your WiFi network.
-- Unplug power cable. During assembly, new parts can be connected (power off robot) and tested.
 
 ## 3. UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
