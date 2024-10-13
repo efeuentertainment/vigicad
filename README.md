@@ -232,7 +232,7 @@ You need:
 
 ## 1. Vigibot Online Configuration
 #### Remote controller Configuration
-On Vigibot Website -> `Management` -> Wrench Icon `Remote controller configuration` -> `Modifications made` -> `Form` set to `Text` -> Paste following code
+On Vigibot website click-> `Management` -> Wrench Icon (Remote controller configuration) -> `Modifications made` -> `Form` set to `Text` -> Paste following code:
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
@@ -534,7 +534,7 @@ On Vigibot Website -> `Management` -> Wrench Icon `Remote controller configurati
 </details>
 
 #### Hardware Configuration
-On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> «Modifications made» -> «Form» set to «Text» -> Paste following code
+On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -> `Modifications made` -> `Form` set to `Text` -> Paste following code:
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
