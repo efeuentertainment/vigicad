@@ -1,6 +1,6 @@
 # Minus-Type Vigibot Robot for Botkins
 <details open>
-<summary>`[HIDE SECTION]`</summary>
+<summary>[HIDE SECTION]</summary>
 
 ### Table of Contents
 - [General Info](#general-info)
@@ -13,17 +13,19 @@
   - [Gripper Parts](#gripper-parts)
   - [Optional Parts](#optional-parts)
 - [Minus-Type Assembly](#minus-type-assembly)
-  - [1. Software Install](#1-software-install)
-  - [2. UPS Solder Bridge](#2-ups-solder-bridge)
-  - [3. Motor Base Assembly](#3-motor-base-assembly)
-  - [4. Head Assembly](#4-head-assembly)
-  - [5. Gripper Assembly](#5-gripper-assembly)
-  - [6. Servo Plug Split](#6-servo-plug-split)
-  - [7. Power Distribution Assembly](#7-power-distribution-assembly)
-  - [8. GPIO Wiring](#8-gpio-wiring)
-  - [9. Final Assembly](#9-final-assembly)
-  - [10. Optional Assemblies](#10-optional-assemblies)
-  - [11. Additional Assembly Guides](#11-additional-assembly-guides)
+- [Minus-Type Assembly](#minus-type-assembly)  
+    - [1. Vigibot Online Configuration](#1-vigibot-online-configuration)  
+    - [2. Software Install](#2-software-install)  
+    - [3. UPS Solder Bridge](#3-ups-solder-bridge)  
+    - [4. Servo Plug Split](#4-servo-plug-split)  
+    - [5. Power Distribution Assembly](#5-power-distribution-assembly)  
+    - [6. GPIO Wiring](#6-gpio-wiring)  
+    - [7. Motor Base Assembly](#7-motor-base-assembly)  
+    - [8. Head Assembly](#8-head-assembly)  
+    - [9. Gripper Assembly](#9-gripper-assembly)  
+    - [10. Final Assembly](#10-final-assembly)  
+    - [11. Optional Assemblies](#11-optional-assemblies)  
+    - [12. Additional Assembly Guides](#12-additional-assembly-guides)
 - [Credits](#credits)
 
 
@@ -51,7 +53,7 @@ You need:
 
 # Partlist
 <details open>
-<summary>__[HIDE SECTION]__</summary>
+<summary>_[HIDE SECTION]_</summary>
 
 #### Core Parts
 
