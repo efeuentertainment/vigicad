@@ -70,7 +70,7 @@ You need:
   - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
 
 - USB bracket holder
-  - https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html Note in order or send an E-Mail to impression3D@robot-maker.com with your order number and text: "Custom part order for USB_bracket holder"
+  - https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html (It's not defined, but robot-maker knows you'll want a USB_bracket holder.)
   - or 3D print file "stl/usb_bracket.stl"
   - or ask in the Botkins Signal group
 
@@ -96,7 +96,7 @@ You need:
   - https://www.robot-maker.com/shop/shield/341-ups-hat-pour-raspberry-pi-341.html
   - aliexpress:
     - https://aliexpress.com/item/4001113371912.html 
-      - ask seller to include a "long extension header"
+      - text seller: "hello, can you add a long extension header? thank you"
       - OR https://www.robot-maker.com/shop/composants/451-header-2x20-a-pins-long-451.html
   - https://www.amazon.fr/gp/product/B089NF1NHS
 
