@@ -12,7 +12,6 @@
   - [Head Parts](#head-parts)
   - [Gripper Parts](#gripper-parts)
   - [Optional Parts](#optional-parts)
-- [Minus-Type Assembly](#minus-type-assembly)
 - [Minus-Type Assembly](#minus-type-assembly)  
     - [1. Vigibot Online Configuration](#1-vigibot-online-configuration)  
     - [2. Software Install](#2-software-install)  
@@ -53,7 +52,7 @@ You need:
 
 # Partlist
 <details open>
-<summary>_[HIDE SECTION]_</summary>
+<summary>[HIDE SECTION]</summary>
 
 #### Core Parts
 
@@ -233,7 +232,7 @@ You need:
 
 ## 1. Vigibot Online Configuration
 #### Remote controller Configuration
-On Vigibot Website -> «Management» -> Wrench Icon «Remote controller configuration» -> «Modifications made» -> «Form» set to «Text» -> Paste following code
+On Vigibot Website -> `Management` -> Wrench Icon `Remote controller configuration` -> `Modifications made` -> `Form` set to `Text` -> Paste following code
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
@@ -643,6 +642,8 @@ On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> 
   - left motors GPIO 26
   - right motors GPIO 27
 
+- Control each servo from Vigibot. Press `Stop ■` button to center every servo before proceeding.
+
 ## 7. Motor Base Assembly
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>  
@@ -689,7 +690,7 @@ On Vigibot Website -> «Management» -> Gear Icon «Hardware configuration» -> 
 
 <img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
 
-- If you use DM-S0090MD metal gear servos for Head tilt or Gripper tilt, the servo horn is a bit too long and has to be shortened.
+- If you use DM-S0090MD metal gear servos for Head tilt [y] or Gripper tilt [y], the servo horn is a bit too long and has to be shortened.
 
 ## 12. Additional Assembly Guides
 
