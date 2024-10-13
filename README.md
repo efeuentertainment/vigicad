@@ -74,12 +74,12 @@ You need:
   - or 3D print file "stl/usb_bracket.stl"
   - or ask in the Botkins Signal group
 
-- 1x USB Microphone "Super AI".
+- 1x USB Microphone "Super AI" (~10$).
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
   - "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
   - If they aren't available, check with Botkins.
 
-- 1x 16-32GB MicroSD card. Strongly Recomnended is the "WesternDigital Purple" (presumed resilient against data corruption, as few as 50 reboots can cause a startup failure on cheap cards!), or another "Endurance" type card. 
+- 1x 16-32GB MicroSD card. Recommended is the "WesternDigital Purple" (presumed resilient against data corruption, as few as 50 reboots can cause a startup failure on cheap cards!), or another "Endurance" type card. 
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
 
 - if you don't already have one: a micro SD card reader.
@@ -95,9 +95,9 @@ You need:
 - 1x Geekworm / U-geek UPS Hat V3 with 2x20 pin header 15mm pin length extension
   - https://www.robot-maker.com/shop/shield/341-ups-hat-pour-raspberry-pi-341.html
   - aliexpress:
-    - https://aliexpress.com/item/4001113371912.html
-    - AND https://www.robot-maker.com/shop/composants/451-header-2x20-a-pins-long-451.html
-      - i have not been able to find 15mm pin length (total part length ~23.5mm) header on aliexpress yet.
+    - https://aliexpress.com/item/4001113371912.html 
+      - ask seller to include a "long extension header"
+      - OR https://www.robot-maker.com/shop/composants/451-header-2x20-a-pins-long-451.html
   - https://www.amazon.fr/gp/product/B089NF1NHS
 
 
@@ -106,7 +106,7 @@ You need:
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
   - "1S2P 6000mAh" https://www.aliexpress.com/item/4001116123943.html
 
-- 2x USB charger (QC3.0 or newer must support 12V/1.2A or more). (so the recipient gets 1x spare)
+- 2x USB charger (QC3.0 or higher, must support 12V/1.2A or more). (so the recipient gets 1x spare)
   - "EU" https://aliexpress.com/item/4000045865332.html
 - 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
   - "Color : ___ type c", "Length : 2m(6.6ft)" https://www.aliexpress.com/item/4001224959039.html
@@ -157,7 +157,7 @@ You need:
 #### Motor Base Parts
 
 - 3D printed parts, screws, nuts and standoffs 
-  - Full kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
+  - Kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
   - List :
     - 3D printed parts : 4  ( Top, middle, bottom and rear plate )
     - 12mm length M2.5 male standoffs between the Raspberry PI and UPS hat board : 4
@@ -185,14 +185,8 @@ You need:
 
 #### Head Parts
 
-- Two "SG90" type micro servo
-  - 270° servo is highly recommended for the pan axis : 1
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
-  - 180° servo is good for the tilt axis : 1
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
-
 - 3D printed parts, screws, nuts and standoffs
-  - Full kit : https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html
+  - Kit : https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html
   - List :
     - 3D printed parts : 3 or 4 (Smiling head, pan plate, tilt bracket, and 4th is an optional protection to protect camera lens)
     - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
@@ -204,13 +198,16 @@ You need:
     - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
+- Two "SG90" type micro servo
+  - 270° servo for the pan axis : 1
+    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
+  - 180° servo for the tilt axis : 1
+    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
+
 #### Gripper Parts
 
-- 180° servo SG90 servo : 2
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
-
 - 3D printed parts, screws and nuts
-  - Full kit : https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html
+  - Kit : https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html
   - List :
     - 3D printed parts : 4
     - 5 or 6 mm M2 screw : 1
@@ -219,6 +216,9 @@ You need:
     - 14 mm M2 screw : 5
     - M2 nut : 2
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
+
+- 180° servo SG90 servo : 2
+  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
 
 #### Optional Parts
 
