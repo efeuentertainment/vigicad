@@ -40,7 +40,7 @@ Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and
 
 ![Standard Minus](images/Minus%20render-2.png)
 
-If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. Let us know about any broken links or deficiencies. The maker can choose the 3D printed parts color.
+If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. Let us know about any broken links or deficiencies (e.g. unclear or missing steps). The maker can choose the 3D printed parts color.
 
 ### Prerequisites
 You need:
@@ -603,7 +603,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 - LTE/4G mobile data stick:
   - Plug into a Windows or Mac PC (192.168.8.1 webpage opens or start the App on the storage medium) and enable data roaming.
 - OPTIONAL: For Wi-Fi, you can use "/Hardware Design/wpa_supplicant.conf" on botkins cloud, as an example for the raspberry pi WiFi setup. either add or replace with your WiFi network.
-- During assembly, new parts can be connected (power off robot) and tested.
+- Unplug power cable. During assembly, new parts can be connected (power off robot) and tested.
 
 ## 3. UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
@@ -626,6 +626,8 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 <img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
 
+- Plug UPS onto Raspberry Pi.
+
 ## 6. GPIO Wiring
 <img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
@@ -642,6 +644,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
   - left motors GPIO 26
   - right motors GPIO 27
 
+- Use the magnetic USB cable to power the UPS.
 - Control each servo from Vigibot. Press `Stop ■` button to center every servo before proceeding.
 
 ## 7. Motor Base Assembly
