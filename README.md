@@ -645,7 +645,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
   - right motors GPIO 27
 
 - Use the magnetic USB cable to power the UPS.
-- Control each servo from Vigibot. Press `Stop ■` button to center every servo before proceeding.
+- Test control each servo from Vigibot. Press `Stop ■` button to center every servo, and unplug battery before proceeding.
 
 ## 7. Motor Base Assembly
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
@@ -654,7 +654,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-7.png" alt="Middle plate assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-8.png" alt="Middle plate assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-9.png" alt="Middle plate assembly-9" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-10.png" alt="Middle plate assembly-10" style="width: 49%"/>
 
-- The basic motor base assembly. NOTE: the following guide is for a different robot type (Turtle-type), only follow the guide to build the first part, the motor base: https://www.robot-maker.com/forum/topic/13155-proposition-photos-montage-de-la-base-roulante-4wd-turtle-type/
+- The basic motor base assembly. Guide in French only. NOTE: the following guide is for a different robot type (Turtle-type), only follow the guide to build the motor base `Assemblage de la plaque intermédiaire (motorisation), Etape 1 - 4`: https://www.robot-maker.com/forum/topic/13155-proposition-photos-montage-de-la-base-roulante-4wd-turtle-type/
 
 
 ## 8. Head Assembly
