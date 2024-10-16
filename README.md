@@ -35,6 +35,7 @@ Learn more about Botkins Charity Project:
 
 Learn more about Vigibot:
 - [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
+- [Drive a robot Vigibot.com](https://www.vigibot.com/)
 
 Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
 
@@ -693,7 +694,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 <img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
 
-- If you use DM-S0090MD metal gear servos for Head tilt [y] or Gripper tilt [y], the servo horn is a bit too long and has to be shortened. Doesn't fir for Gripper claw [x].
+- If you use DM-S0090MD metal gear servos for Head tilt [y] or Gripper tilt [y], the servo horn is a bit too long and has to be shortened. Doesn't fit for Gripper claw [x].
 
 ## 12. Additional Assembly Guides
 
