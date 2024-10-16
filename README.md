@@ -198,11 +198,11 @@ You need:
     - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
-- Two "SG90" type micro servo
-  - 270° servo for the pan axis : 1
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
-  - 180° servo for the tilt axis : 1
-    - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
+- 1x DM-S0090MD 270° metal gear servo for head pan [x] (add 1x spare)
+  - "1PCS" https://www.aliexpress.com/item/1005002940068629.html
+  - it's not metal gear but works too: https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
+- 1x 180° servo for head tilt [y] (add 1x spare)
+  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
 
 #### Gripper Parts
 
@@ -217,12 +217,12 @@ You need:
     - M2 nut : 2
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
-- 180° servo SG90 servo : 2
+- 2x 180° SG90 servo for gripper
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
 
 #### Optional Parts
 
-- Botkins is considering changing to metal gear servos. Add 3x (plus 1-2x spares) DM-S0090MD metal servo for: head pan & tilt, Gripper up-down. (Doesn't fit for gripper open-close).
+- Botkins is considering changing more servos to metal gear. Add 2x DM-S0090MD metal servo for: head tilt [y], gripper tilt [y]. (Doesn't fit for gripper claw [x]).
   - "5PCS" https://www.aliexpress.com/item/1005002940068629.html
 </details>
 
@@ -626,23 +626,23 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 <img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
 
-- Plug UPS onto Raspberry Pi.
+- Stack UPS onto Raspberry Pi.
 
 ## 6. GPIO Wiring
 <img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
 
-- A: Head pan [x] GPIO 5<br>
-- B: Head tilt [y] GPIO 6<br>
-- C: Gripper claw [x] GPIO 7<br>
-- D: Gripper tilt [y] GPIO 8<br>
+- A: Head pan [x] `GPIO 5`<br>
+- B: Head tilt [y] `GPIO 6`<br>
+- C: Gripper claw [x] `GPIO 7`<br>
+- D: Gripper tilt [y] `GPIO 8`<br>
 
 <img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
 
 - A: ESC motor driver
-  - left motors GPIO 26
-  - right motors GPIO 27
+  - left motors `GPIO 26`
+  - right motors `GPIO 27`
 
 - Use the magnetic USB cable to power the UPS.
 - Test control each servo from Vigibot. Press `Stop ■` button to center every servo, and unplug battery before proceeding.
@@ -693,7 +693,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 <img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
 
-- If you use DM-S0090MD metal gear servos for Head tilt [y] or Gripper tilt [y], the servo horn is a bit too long and has to be shortened.
+- If you use DM-S0090MD metal gear servos for Head tilt [y] or Gripper tilt [y], the servo horn is a bit too long and has to be shortened. Doesn't fir for Gripper claw [x].
 
 ## 12. Additional Assembly Guides
 
