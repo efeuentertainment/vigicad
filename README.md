@@ -30,7 +30,7 @@
 
 ### General Info
 Learn more about Botkins Charity Project:
-- [Website (German)](https://botkins.ch)
+- [botkins.ch (German)](https://botkins.ch)
 - [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)  
 
 Learn more about Vigibot:
