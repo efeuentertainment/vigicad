@@ -200,7 +200,8 @@ You need:
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
 - 1x DM-S0090MD 270° metal gear servo for head pan [x] (add 1x spare)
-  - "1PCS" https://www.aliexpress.com/item/1005002940068629.html
+  - ~~https://www.aliexpress.com/item/1005002940068629.html~~
+  - https://aliexpress.com/item/1005007890905728.html
   - it's not metal gear but works too: https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
 - 1x 180° servo for head tilt [y] (add 1x spare)
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
@@ -224,7 +225,8 @@ You need:
 #### Optional Parts
 
 - Botkins is considering changing more servos to metal gear. Add 2x DM-S0090MD metal servo for: head tilt [y], gripper tilt [y]. (Doesn't fit for gripper claw [x]).
-  - "5PCS" https://www.aliexpress.com/item/1005002940068629.html
+  - ~~"5PCS" https://www.aliexpress.com/item/1005002940068629.html~~
+  - https://aliexpress.com/item/1005007890905728.html
 </details>
 
 # Minus-Type Assembly
