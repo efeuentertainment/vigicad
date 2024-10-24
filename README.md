@@ -53,7 +53,7 @@ You need:
 
 # Partlist
 <details open>
-<summary>[HIDE SECTION]</summary>
+<summary>[____HIDE SECTION____]</summary>
 
 #### Core Parts
 
@@ -107,10 +107,11 @@ You need:
   - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
   - "1S2P 6000mAh" https://www.aliexpress.com/item/4001116123943.html
 
-- 2x USB charger (QC3.0 or higher, must support 12V/1.2A or more). (so the recipient gets 1x spare)
+- 2x USB charger (must support 9V/1.3A or 12V/1A or more). (so the recipient gets 1x spare)
+  - "__ Charger Only" https://aliexpress.com/item/1005007293684533.html
   - "EU" https://aliexpress.com/item/4000045865332.html
 - 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
-  - "Color : ___ type c", "Length : 2m(6.6ft)" https://www.aliexpress.com/item/4001224959039.html
+  - "Color : ____ type c", "Length : 2m(6.6ft)" https://www.aliexpress.com/item/4001224959039.html
 
 - 1x Active buzzer 3V or 5V, connect to GND and GPIO 18.
   - "actif" https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html
