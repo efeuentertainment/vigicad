@@ -64,8 +64,8 @@ You need:
 
 - 1x Huawei E3372h LTE/4G mobile data stick (without SIM card)
   - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
-  - Find a suitable model on secondhand platforms or ask Botkins for the time being.
-  - Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
+  - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
+  - Check with Botkins, we might have some spares
 
 - 1x USB - USB 90° adapter
   - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
@@ -77,8 +77,8 @@ You need:
 
 - 1x USB Microphone "Super AI" (should cost ~10$).
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
-  - "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
-  - If they aren't available, check with Botkins.
+  - often unavailable "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
+  - Check with Botkins, we might have some spares
 
 - 1x 16-32GB MicroSD card. Recommended is the "WesternDigital Purple" (presumed resilient against data corruption, as few as 50 reboots can cause a startup failure on cheap cards!), or another "Endurance" type card. 
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
@@ -200,8 +200,9 @@ You need:
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
 - 1x DM-S0090MD 270° metal gear servo for head pan [x] (add 1x spare)
-  - sold out ~~https://www.aliexpress.com/item/1005002940068629.html~~
+  - often unavailable https://www.aliexpress.com/item/1005002940068629.htmloften unavailable
   - https://aliexpress.com/item/1005007890905728.html
+  - Check with Botkins, we might have some spares
   - it's not metal gear but works too: https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
 - 1x 180° servo for head tilt [y] (add 1x spare)
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
@@ -225,8 +226,9 @@ You need:
 #### Optional Parts
 
 - Botkins is considering changing more servos to metal gear. Add 2x DM-S0090MD metal servo for: head tilt [y], gripper tilt [y]. (Doesn't fit for gripper claw [x]).
-  - sold out ~~"5PCS" https://www.aliexpress.com/item/1005002940068629.html~~
+  - often unavailable https://www.aliexpress.com/item/1005002940068629.html
   - https://aliexpress.com/item/1005007890905728.html
+  - Botkins might have some spares
 </details>
 
 # Minus-Type Assembly
