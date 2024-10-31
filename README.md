@@ -252,7 +252,7 @@ You'll need:
 
 ## 2. Vigibot Online Configuration
 #### Remote controller Configuration
-On Vigibot website click-> `Management` -> Wrench Icon (Remote controller configuration) -> `Modifications made` -> `Form` set to `Text` -> Replace existing with following code:
+On Vigibot website click-> `Management` -> Wrench Icon (Remote controller configuration) -> `Modifications made` -> `Form` set to `Text` -> Replace existing `{}` with following code:
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
@@ -554,7 +554,7 @@ On Vigibot website click-> `Management` -> Wrench Icon (Remote controller config
 </details>
 
 #### Hardware Configuration
-On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -> `Modifications made` -> `Form` set to `Text` -> Replace existing with following code:
+On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -> `Modifications made` -> `Form` set to `Text` -> Replace existing `{}` with following code:
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
