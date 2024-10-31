@@ -41,10 +41,14 @@ Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and
 
 ![Standard Minus](images/Minus%20render-2.png)
 
-If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. Let us know about any broken links or deficiencies (e.g. unclear or missing steps). The maker can choose the 3D printed parts color.
+- If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. 
+- Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
+- The maker can choose the 3D printed parts color.
+- Building your first robot may take about 10 hours, maybe more. After some practice, building may take about 3h per robot.
+- Some parts from aliexpress may take 5 weeks to arrive.
 
 ### Prerequisites
-You need:
+You'll need:
 - Soldering iron. 
 - Internet Access (SIM card with mobile data, WLAN or Ethernet LAN), PC.
 - 3D Printer currently not required.
