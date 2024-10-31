@@ -49,7 +49,7 @@ Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and
 
 ### Prerequisites
 You'll need:
-- Soldering iron. 
+- Soldering iron (for 4x motors & UPS bridge). (if you prefer not to solder, maybe another maker could solder the parts for you).
 - Internet Access (SIM card with mobile data, WLAN or Ethernet LAN), PC.
 - 3D Printer currently not required.
 - Tools: Screwdrivers, adjustable / monkey wrench, tweezers, duct tape, ...
