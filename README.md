@@ -135,10 +135,10 @@ You'll need:
 - PH2.0 to 2 Pin cable
   - "Color : 2P", "Length : 10CM" https://www.aliexpress.com/item/1005002901249753.html (check polarity during assembly, it usually has to be inverted)
 
-- 8-16x DuPont cables.
+- 8-16x DuPont cables. 
   - "30cm" or "20cm" https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
   - "F-F (30 cm)" https://www.pololu.com/product/4566
-  - "30CM F-F" https://www.aliexpress.com/item/32823004985.html
+  - "Color : Mix 10 Color", "Connector Type : Female to Female", "Pins : 30cm" https://www.aliexpress.com/item/1005005365866477.html
 
 - About 5x Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
