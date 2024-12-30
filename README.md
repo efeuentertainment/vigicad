@@ -655,7 +655,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
   - left motors `GPIO 26 (physical pin 37)`
   - right motors `GPIO 27 (physical pin 13)`
 
-- Use the magnetic USB cable to power the UPS.
+- Use the magnetic USB cable to power the UPS. (Note: from now on use the connector on the UPS board - not on the raspberry pi board)
 - Test control each servo from Vigibot. 
 - Before proceeding, press `Stop ■` button to center every servo, and unplug battery and USB power.
 
