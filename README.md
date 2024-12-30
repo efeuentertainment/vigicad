@@ -186,7 +186,7 @@ You'll need:
   - https://www.pololu.com/product/1454
 - 1x Feetech 2ch motor controller
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html (provided with cables)
-  - https://aliexpress.com/item/33056911020.html (both motors of same side in parallel on each output)
+  - https://aliexpress.com/item/33056911020.html (requires soldering a custom splitter cable: both motors of same side in parallel on each output)
 
 #### Head Parts
 
