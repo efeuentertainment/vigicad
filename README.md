@@ -627,6 +627,8 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 <img src="images/Minus_assembly_Botkins/servo_assembly_3.jpg" alt="servo_assembly_3" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/servo_assembly_4.jpg" alt="servo_assembly_4" style="width: 49%"/>
 
+- Split the signal (orange or white) wire off the 4x servos and 1x motor driver.
+
 ## 5. Power Distribution Assembly
 <img src="images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_2.jpg" alt="pdb_assembly_2" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/><br>
@@ -642,19 +644,20 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 <img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
 
-- A: Head pan [x] `GPIO 5`<br>
-- B: Head tilt [y] `GPIO 6`<br>
-- C: Gripper claw [x] `GPIO 7`<br>
-- D: Gripper tilt [y] `GPIO 8`<br>
+- A: Head pan [x] `GPIO 5 (physical pin 29)`<br>
+- B: Head tilt [y] `GPIO 6 (physical pin 31)`<br>
+- C: Gripper claw [x] `GPIO 7 (physical pin 26)`<br>
+- D: Gripper tilt [y] `GPIO 8 (physical pin 24)`<br>
 
 <img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
 
 - A: ESC motor driver
-  - left motors `GPIO 26`
-  - right motors `GPIO 27`
+  - left motors `GPIO 26 (physical pin 37)`
+  - right motors `GPIO 27 (physical pin 13)`
 
 - Use the magnetic USB cable to power the UPS.
-- Test control each servo from Vigibot. Press `Stop ■` button to center every servo, and unplug battery before proceeding.
+- Test control each servo from Vigibot. 
+- Before proceeding, press `Stop ■` button to center every servo, and unplug battery and USB power.
 
 ## 7. Motor Base Assembly
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
