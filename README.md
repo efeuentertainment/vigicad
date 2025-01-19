@@ -61,7 +61,7 @@ You'll need:
 
 #### Core Parts
 
-- 1x Raspberry Pi 3B, 3B+ or 4B (1GB or 2GB. the higher memory variants are unnecessarily expensive. Requires 2 USB ports.)
+- 1x Raspberry Pi 3B+ (or 3B), 1GB or 2GB. (requires 2 USB ports.)
   - https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html
   - Switzerland: https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081
   - Germany: https://www.reichelt.de/ch/de/raspberry-pi-3-b-4x-1-4-ghz-1-gb-ram-wlan-bt-raspberry-pi-3b--p217696.html
@@ -81,7 +81,7 @@ You'll need:
 
 - 1x USB Microphone "Super AI" (should cost ~10$).
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
-  - often unavailable "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
+  - [often unavailable] "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
   - Check with Botkins, we might have some spares
 
 - 1x 16-32GB MicroSD card. Recommended is the "WesternDigital Purple" (presumed resilient against data corruption, as few as 50 reboots can cause a startup failure on cheap cards!), or another "Endurance" type card. 
@@ -108,7 +108,7 @@ You'll need:
 
 - 1x 1S2P battery pack with protection. Not from AliExpress. Maybe add 1x spare, Liion in use last about 2 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
-  - Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956
+  - [often unavailable] ~~Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956 ~~
 
 - 2x USB charger (must support 9V/1.3A or 12V/1A or more). (so the recipient gets 1x spare)
   - "___ Charger Only" https://aliexpress.com/item/1005007293684533.html
