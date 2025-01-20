@@ -71,7 +71,7 @@ You'll need:
     - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
     - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
     - Check with Botkins, we might have some spares
-  - 2025: We're testing a more available alternative, so far it seems to work well. "LDW931" https://www.aliexpress.com/item/1005005905003893.html
+  - 2025: We're testing other, more available alternatives. Perhaps check with Botkins.
 
 - 1x USB - USB 90° adapter
   - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
