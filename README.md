@@ -66,10 +66,12 @@ You'll need:
   - Switzerland: https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081
   - Germany: https://www.reichelt.de/ch/de/raspberry-pi-3-b-4x-1-4-ghz-1-gb-ram-wlan-bt-raspberry-pi-3b--p217696.html
 
-- 1x Huawei E3372h LTE/4G mobile data stick (without SIM card)
-  - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
-  - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
-  - Check with Botkins, we might have some spares
+- 1x 4G / LTE mobile data stick (without SIM card) that works plug&play with raspberry pi / linux.
+  - Huawei E3372h
+    - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
+    - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
+    - Check with Botkins, we might have some spares
+  - 2025: We're testing a more available alternative, so far it seems to work well. "LDW931" https://www.aliexpress.com/item/1005005905003893.html
 
 - 1x USB - USB 90° adapter
   - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
