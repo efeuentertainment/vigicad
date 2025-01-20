@@ -206,7 +206,7 @@ You'll need:
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
 - 1x DM-S0090MD 270° metal gear servo for head pan [x] (add 1x spare)
-  - often unavailable https://www.aliexpress.com/item/1005002940068629.htmloften unavailable
+  - often unavailable https://www.aliexpress.com/item/1005002940068629.html
   - https://aliexpress.com/item/1005007890905728.html
   - Check with Botkins, we might have some spares
   - it's not metal gear but works too: https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
