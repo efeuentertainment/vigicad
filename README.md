@@ -108,7 +108,7 @@ You'll need:
 
 - 1x 1S2P battery pack with protection. Not from AliExpress. Maybe add 1x spare, Liion in use last about 2 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
-  - [often unavailable] ~~Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956 ~~
+  - [often unavailable] <s>Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956</s>
 
 - 2x USB charger (must support 9V/1.3A or 12V/1A or more). (so the recipient gets 1x spare)
   - "___ Charger Only" https://aliexpress.com/item/1005007293684533.html
