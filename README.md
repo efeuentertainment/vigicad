@@ -104,7 +104,6 @@ You'll need:
   - aliexpress:
     - https://aliexpress.com/item/4001113371912.html 
       - text seller: "hello, can you add a long extension header? thank you"
-      - OR https://www.robot-maker.com/shop/composants/451-header-2x20-a-pins-long-451.html
   - https://www.amazon.fr/gp/product/B089NF1NHS
 
 
