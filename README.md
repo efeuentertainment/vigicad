@@ -45,7 +45,7 @@ Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and
 - Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
 - The maker can choose the 3D printed parts color.
 - Building your first robot may take about 10 hours, maybe more. After some practice, building may take about 3h per robot.
-- Some parts from aliexpress may take 5 weeks to arrive. currently (2025) setting payment method to paypal will fail with "Sorry, some items are not available", credit card works. Disable E-Mail order updates before checking out, else you'll get 3-5 E-Mails per item.
+- Some parts from aliexpress may take 5 weeks to arrive. currently (2025) setting payment method to paypal will fail with "Sorry, some items are not available", credit card works. Disable [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) before checking out, else you'll get 3-5 E-Mails per item.
 
 ### Prerequisites
 You'll need:
