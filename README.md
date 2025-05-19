@@ -25,6 +25,7 @@
     - [10. Final Assembly](#10-final-assembly)  
     - [11. Optional Assemblies](#11-optional-assemblies)  
     - [12. Additional Assembly Guides](#12-additional-assembly-guides)
+- [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
 
@@ -717,6 +718,17 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 
 </details>
+
+## Troubleshooting
+
+| Problem | Possible Causes | Solution |
+|---------------------------|-----------------------------------|------------------------------------| 
+| Robot disconnects sporadically (every couple hours or minutes) | Low Battery. bad 4G reception | charge. try a different location |
+| Robot blinks (visual), clicks (audible) every couple seconds or multiple times per second | Low battery | turn off robot and charge for multiple hours |
+| Robot disconnects every 5 seconds | Vigibot misconfifuration | ask Botkins or Vigibot to check the robots online configuration |
+| Battery is empty after ~5 days despite being turned off | some parts (servos, motor driver) are powered even when turned off and will drain the battery | cannot be changed unfortunately |
+| Video feed stutters, driving is interrupted, red bars appear on website every couple of seconds | bad 4G reception, 4G bandwith too low | select the low bandwith view, try a different location, make sure the mobile data speed is at least "up to 50Mbit/s" |
+
 
 ## Credits
 - Original Partlist: Vigibot
