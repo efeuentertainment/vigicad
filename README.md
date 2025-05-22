@@ -112,7 +112,7 @@ You'll need:
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
   - [often unavailable] <s>Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956</s>
 
-- 2x USB charger (must support 9V/1.3A or 12V/1A or more). (so the recipient gets 1x spare)
+- 1x USB charger (must support 9V/1.3A or 12V/1A or more).
   - "___ Charger Only" https://aliexpress.com/item/1005007293684533.html
   - "EU" https://aliexpress.com/item/4000045865332.html
 - 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
@@ -134,7 +134,7 @@ You'll need:
   - "Color : 1 pcs" https://www.aliexpress.com/item/1005006042011391.html
 
 - PH2.0 to 2 Pin cable
-  - "Color : 2P", "Length : 10CM" https://www.aliexpress.com/item/1005002901249753.html (check polarity during assembly, it usually has to be inverted)
+  - "Color : 2P", "Length : 10CM" https://www.aliexpress.com/item/1005002901249753.html
 
 - 8-16x DuPont cables. 
   - "30cm" or "20cm" https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
@@ -727,7 +727,7 @@ If you can't find a solution using the following table, ask in the Vigibot disco
 |---------------------------|-----------------------------------|------------------------------------| 
 | Robot disconnects sporadically (every couple hours or minutes) | Low Battery. bad 4G reception | charge. try a different location |
 | Robot blinks (visual), clicks (audible) every couple seconds or multiple times per second | Low battery | turn off robot and charge for multiple hours |
-| Robot disconnects every 5 seconds | Vigibot misconfifuration | ask Botkins or Vigibot to check the robots' online configuration |
+| Robot disconnects every 5 seconds | Vigibot misconfiguration | ask Vigibot or Botkins to check the robots' online configuration |
 | Battery is empty after ~5 days despite being turned off | some parts (servos, motor driver) are powered even when turned off and will drain the battery | cannot be changed unfortunately |
 | Video feed stutters, driving is interrupted, red bars appear on website every couple of seconds | bad 4G reception, 4G bandwith too low | select the low bandwith view, try a different location, make sure the mobile data speed is at least "up to 50Mbit/s" |
 
