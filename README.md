@@ -69,7 +69,7 @@ You'll need:
 
 - 1x 4G / LTE mobile data stick (without SIM card) that works plug&play with raspberry pi / linux.
   - Huawei E3372h
-    - https://www.benno-shop.ch/de/shop/product/huawei-e3372-4g-lte-usb-stick~p174403 Note 2025-05-23: seller confirms this article to be the "-153" working version.
+    - Switzerland: https://www.benno-shop.ch/de/shop/product/huawei-e3372-4g-lte-usb-stick~p174403 Note 2025-05-23: seller confirms this article to be the "-153" working version.
     - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
     - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
     - Check with Botkins, we might have some spares
