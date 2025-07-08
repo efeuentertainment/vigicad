@@ -87,6 +87,8 @@ You'll need:
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
   - [often unavailable] "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
   - Check with Botkins, we might have some spares
+  - Alternative: "Color : BY-M100UA" https://aliexpress.com/item/1005004133896137.html
+  - Most other available USB microphones are unfortunately either too quiet or too noisy.
 
 - 1x 16-32GB MicroSD card. Recommended is the "WesternDigital Purple" (presumed resilient against data corruption, as few as 50 reboots can cause a startup failure on cheap cards!), or another "Endurance" type card. 
   - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
@@ -106,6 +108,7 @@ You'll need:
   - aliexpress:
     - [often sold out] https://aliexpress.com/item/4001113371912.html maximum of 2 per order
       - text seller: "hello, can you add a long extension header? thank you"
+  - UPDATE 2025-07-08: we're having trouble finding this UPS module available anywhere. Contact Botkins, we might have a small number of spares. There should be an alternative available in a couple months.
 
 - 1x 1S2P battery pack with protection. Not from AliExpress. Maybe add 1x spare, Liion in use last about 2 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
