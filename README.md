@@ -704,6 +704,10 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 <img src="images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
 
+- robot should be ready to turn on now.
+- controlling from the vigibot website, check each of the servo travels, and re-screw the servo horns where necessary. 
+- set both infra-red IR LEDs to the weakest illumination by covering the brightness sensor / photoresistor, turning the tiny potentiometer on the IR LED boards and observing by eye or with a smartphone camera.
+
 ## 11. Optional Assemblies
 
 - Metal Gear Servo Assembly
