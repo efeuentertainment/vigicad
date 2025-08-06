@@ -149,7 +149,7 @@ You'll need:
 <s>
 <details>
 <summary>OLD: manually soldered PDB [Expand]</summary>
-- Find Build instructions and pictures on botkins cloud in /Hardware_Design/UPS_power_distribution/
+- Find Build instructions and pictures on botkins cloud in /Hardware_Design/archive/UPS_power_distribution/
 
 - 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
   - https://aliexpress.com/item/1005001807612572.html
