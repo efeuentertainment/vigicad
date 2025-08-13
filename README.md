@@ -68,12 +68,11 @@ You'll need:
   - Germany: https://www.reichelt.de/ch/de/raspberry-pi-3-b-4x-1-4-ghz-1-gb-ram-wlan-bt-raspberry-pi-3b--p217696.html
 
 - 1x 4G / LTE mobile data stick (without SIM card) that works plug&play with raspberry pi / linux.
+  - Unlocked ZTE MF79 https://aliexpress.com/item/1005005844914823.html
   - Huawei E3372h
-    - Switzerland: https://www.benno-shop.ch/de/shop/product/huawei-e3372-4g-lte-usb-stick~p174403 Note 2025-05-23: seller confirms this article to be the "-153" working version.
     - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
     - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
     - Check with Botkins, we might have some spares
-  - 2025: We're testing other, more available alternatives. Perhaps check with Botkins.
 
 - 1x USB - USB 90° adapter
   - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
