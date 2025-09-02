@@ -73,6 +73,7 @@ You'll need:
     - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
     - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
     - Check with Botkins, we might have some spares
+    - the working e3372h models can have 2 different firmwares. (1) "hilink" firmware, which works plug&play and gives the pi an 192.168.8.X IP address. (2) "stick" firmware, which must be configured over ssh.
 
 - 1x USB - USB 90° adapter
   - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
