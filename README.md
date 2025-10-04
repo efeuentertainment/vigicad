@@ -621,9 +621,11 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 ## 3. UPS Solder Bridge
 <img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
 
-- A: Remove "POFF" solder bridge<br>
+- A: Remove `POFF` solder bridge<br>
 
 <img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
+
+- set the `AUTO-UPS` switch to `OFF`
 
 ## 4. Servo Plug Split
 <img src="images/Minus_assembly_Botkins/servo_assembly_1.jpg" alt="servo_assembly_1" style="width: 49%"/>
