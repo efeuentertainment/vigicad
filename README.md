@@ -644,7 +644,7 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 <img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
 
 - Stack UPS onto Raspberry Pi.
-- Update 2025-05-26: The robot may shutdown randomly or when battery is only partially charged. Another symptom is the measured battery voltage drops from 4.2V to 3.8V or less when unplugged. Cause: It appears the combined resistance from battery power running over 3 plugs is too high. Solution: Cut the battery plug off (cut + and - one after the other, to not short the battery), and solder it to the battery soldering pads on the UPS. The servos and motors can be powered as shown in the photos.
+- Update 2025-05-26: Cut the battery plug off (cut + and - one after the other, to not short the battery), and solder it to the battery soldering pads on the UPS. The servos and motors can be powered as shown in the photos. Reason: The robot may shutdown randomly or when battery is only partially charged. Another symptom is the measured battery voltage drops from 4.2V to 3.8V or less when unplugged. It appears the combined resistance from battery power running over 3 plugs is too high.
 
 ## 6. GPIO Wiring
 <img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
