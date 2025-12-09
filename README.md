@@ -52,7 +52,7 @@ Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and
 You'll need:
 - Soldering iron (for 4x motors & UPS bridge). (if you prefer not to solder, maybe another maker could solder the parts for you).
 - Internet Access (SIM card with mobile data, WLAN or Ethernet LAN), PC.
-- 3D Printer currently not required.
+- 3D Printer is currently not required. If you choose to print the 3D parts yourself, you'll need M2 and M2.5 screws and nuts not listed in this Botkins partlist, find them in the upstream Vigibot partlist in each of the 3D printed kits.
 - Tools: Screwdrivers, adjustable / monkey wrench, tweezers, duct tape, ...
 </details>
 
