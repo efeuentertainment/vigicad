@@ -108,7 +108,7 @@ You'll need:
   - aliexpress:
     - [often sold out] https://aliexpress.com/item/4001113371912.html maximum of 2 per order
       - text seller: "hello, can you add a long extension header? thank you"
-  - UPDATE 2025-07-08: we're having trouble finding this UPS module available anywhere. Contact Botkins, we might have a small number of spares. There should be an alternative available in a couple months.
+  - UPDATE 2025-12-25: it seems this UPS is no longer produced. Contact Botkins and we'll send you the up to date available alternatives (vigiUPS v2 and waveshare UPS HAT (D)) and how to use / modify them. Additionally, Vigibot is working on an better UPS, which should be available in a couple months. 
 
 - 1x 1S2P battery pack with protection. Not from AliExpress. Maybe add 1x spare, Liion in use last about 2 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
@@ -117,8 +117,10 @@ You'll need:
 - 1x USB charger (must support 9V/1.3A or 12V/1A or more).
   - "___ Charger Only" https://aliexpress.com/item/1005007293684533.html
   - "EU" https://aliexpress.com/item/4000045865332.html
-- 2x USB magnetic cable 4-pin (so the recipient gets 1x spare)
-  - "Color : ___ type c", "Length : 2m(6.6ft)" (PS: WITH Cable, not "... plug") https://www.aliexpress.com/item/4001224959039.html
+- 1x USB magnetic cable 4-pin
+  - "Color : ___ type c", "Length : 1m(3.3ft)" https://www.aliexpress.com/item/4001224959039.html
+- 1x any normal USB-A to type-c cable
+  - any works, like "Color : A-C Purple", "Length : 1m" https://de.aliexpress.com/item/1005008279278619.html
 
 - 1x Active buzzer 3V or 5V, connect to GND and GPIO 18.
   - "actif" https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html
