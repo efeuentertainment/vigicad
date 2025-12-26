@@ -108,7 +108,7 @@ You'll need:
   - aliexpress:
     - [often sold out] https://aliexpress.com/item/4001113371912.html maximum of 2 per order
       - text seller: "hello, can you add a long extension header? thank you"
-  - UPDATE 2025-12-25: it seems this UPS is no longer produced. Contact Botkins and we'll send you the up to date available alternatives (vigiUPS v2 and waveshare UPS HAT (D)) and how to use / modify them. Additionally, Vigibot is working on an better UPS, which should be available in a couple months. 
+  - UPDATE 2025-12-25: it seems this UPS is no longer produced. Contact Botkins and we'll send you the up to date available alternatives (vigiUPS v2 and waveshare UPS HAT (D)) and how to use / modify them. Additionally, Vigibot is working on a better UPS, which should be available in a couple months. 
 
 - 1x 1S2P battery pack with protection. Not from AliExpress. Maybe add 1x spare, Liion in use last about 2 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
