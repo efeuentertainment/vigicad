@@ -25,6 +25,7 @@
     - [10. Final Assembly](#10-final-assembly)  
     - [11. Optional Assemblies](#11-optional-assemblies)  
     - [12. Additional Assembly Guides](#12-additional-assembly-guides)
+    - [13. Function Tests](#13-function-tests)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
@@ -66,6 +67,8 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
   - more scenarios
   - add pictures / gifs
   - perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
+- add more function tests
+
 </details>
 
 # Partlist
@@ -745,6 +748,14 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 
 </details>
+
+## 13. Function Tests
+
+Test the robots functions
+- full head and gripper movements should not pull on any cables
+- gripper should not get "stuck", which happens if the screws are screwed in too far/tight
+- let the robot run out of charge completely, the servos might move slightly but the robot should not drive by itself
+- on a fully discharged battery, plug in the charging cable and turn the robot on, it shouldn't get stuck bootlooping
 
 ## Troubleshooting
 
