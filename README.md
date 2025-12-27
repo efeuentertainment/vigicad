@@ -100,11 +100,11 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
   - or 3D print file "stl/usb_bracket.stl"
   - or ask in the Botkins Signal group
 
-- 1x USB Microphone "Super AI" (should cost ~10$).
+- 1x USB Microphone "Super AI"
   - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
-  - [often unavailable] "Orange" or "Black" https://www.aliexpress.com/item/1005007114049915.html
+  - [often unavailable] "Orange" or "Black" (should cost ~10$) https://www.aliexpress.com/item/1005007114049915.html
   - Check with Botkins, we might have some spares
-  - Alternative: "Color : BY-M100UA" https://aliexpress.com/item/1005004133896137.html
+  - Alternative, costs ~20$: "Color : BY-M100UA" https://aliexpress.com/item/1005004133896137.html
   - Most other available USB microphones are unfortunately either too quiet or too noisy.
 
 - 1x 8-64GB MicroSD card. Good option is the "WesternDigital Purple" or another "Endurance" type card.
