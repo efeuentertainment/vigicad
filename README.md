@@ -43,7 +43,6 @@ Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and
 ![Standard Minus](images/Minus%20render-2.png)
 
 - If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. 
-- Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
 - The maker can choose the 3D printed parts color.
 - Building your first robot may take about 10 hours, maybe more. After some practice, building may take about 3h per robot.
 - Some parts from aliexpress may take 5 weeks to arrive. currently (2025) setting payment method to paypal will fail with "Sorry, some items are not available", credit card works. Disable [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) before checking out, else you'll get 3-5 E-Mails per item.
@@ -54,6 +53,19 @@ You'll need:
 - Internet Access (SIM card with mobile data, WLAN or Ethernet LAN), PC.
 - 3D Printer is currently not required. If you choose to print the 3D parts yourself, you'll need M2 and M2.5 screws and nuts not listed in this Botkins partlist, find them in the upstream Vigibot partlist in each of the 3D printed kits.
 - Tools: Screwdrivers, adjustable / monkey wrench, tweezers, duct tape, ...
+
+#### Guide improvements
+We try to make building such robots as easy as possible, this guide is not quite as clear and simple as we wish it would be.
+Improvements and suggestions to this guide are highly appreciated. Help us improve this guide through pull-request and other means. 
+
+#### Next steps
+- Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
+- Copy the parts from external guides into this guide and adjust accordingly for this specific build.
+- Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide.
+- extend the troubleshooting table
+  - more scenarios
+  - add pictures / gifs
+  - perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
 </details>
 
 # Partlist
