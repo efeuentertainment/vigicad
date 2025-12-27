@@ -76,7 +76,9 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
 
 - 1x Raspberry Pi 3B+ (or 3B), 1GB or 2GB. (requires 2 USB ports.)
   - https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html
-  - Switzerland: https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081
+  - Switzerland:
+    - https://www.pi-shop.ch/raspberry-pi-3-model-b/
+    - https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081
   - Germany: https://www.reichelt.de/ch/de/raspberry-pi-3-b-4x-1-4-ghz-1-gb-ram-wlan-bt-raspberry-pi-3b--p217696.html
 
 - 1x 4G / LTE mobile data stick (without SIM card) that works plug&play with raspberry pi / linux.
@@ -102,8 +104,10 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
   - Alternative: "Color : BY-M100UA" https://aliexpress.com/item/1005004133896137.html
   - Most other available USB microphones are unfortunately either too quiet or too noisy.
 
-- 1x 16-32GB MicroSD card. Recommended is the "WesternDigital Purple" (presumed resilient against data corruption, as few as 50 reboots can cause a startup failure on cheap cards!), or another "Endurance" type card. 
-  - Switzerland: https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
+- 1x 8-64GB MicroSD card. Good option is the "WesternDigital Purple" or another "Endurance" type card.
+  - Switzerland:
+    - https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
+    - https://www.pi-shop.ch/kingston-sdhc-karte-industrial-uhs-i-8-gb
 
 - if you don't already have one: a micro SD card reader.
   - "Color : Only USB3.0" https://www.aliexpress.com/item/32832711883.html
@@ -128,11 +132,11 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
 
 - 1x USB charger (must support 9V/1.3A or 12V/1A or more).
   - "___ Charger Only" https://aliexpress.com/item/1005007293684533.html
-  - "EU" https://aliexpress.com/item/4000045865332.html
+  - "Only ___ Charger" https://de.aliexpress.com/item/1005003522221749.html
 - 1x USB magnetic cable 4-pin
   - "Color : ___ type c", "Length : 1m(3.3ft)" https://www.aliexpress.com/item/4001224959039.html
 - 1x any normal USB-A to type-c cable
-  - any works, like "Color : A-C Purple", "Length : 1m" https://de.aliexpress.com/item/1005008279278619.html
+  - any works, like "Color : A-C Purple", "Length : 1m" https://aliexpress.com/item/1005008279278619.html
 
 - 1x Active buzzer 3V or 5V, connect to GND and GPIO 18.
   - "actif" https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html
@@ -142,7 +146,7 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
   - "White 1Meter", "25mm Wide" https://www.aliexpress.com/item/1005006680575466.html
 
 - if you don't already have: A bit of gorilla / super glue (glue LED caps onto LED board so they don't fall off)
-  - https://aliexpress.com/item/1005002488174010.html
+  - "1ML x10pcs" https://aliexpress.com/item/1005008238433750.html
 
 #### Power Distribution Board Parts
 
@@ -204,7 +208,7 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
   - https://www.pololu.com/product/1454
 - 1x Feetech 2ch motor controller
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html (provided with cables)
-  - https://aliexpress.com/item/33056911020.html (requires soldering a custom splitter cable: both motors of same side in parallel on each output)
+  - https://aliexpress.com/item/1005010108693072.html (requires soldering a custom splitter cable: both motors of same side in parallel on each output)
 
 #### Head Parts
 
@@ -222,7 +226,7 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
   - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
 
 - 1x DM-S0090MD 270° metal gear servo for head pan [x] (add 1x spare)
-  - often unavailable https://www.aliexpress.com/item/1005002940068629.html
+  - "Color : 1PCS DM-S0090MD 270" https://aliexpress.com/item/1005010339946695.html
   - https://aliexpress.com/item/1005007890905728.html
   - Check with Botkins, we might have some spares
   - it's not metal gear but works too: https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
@@ -248,7 +252,7 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
 #### Optional Parts
 
 - Botkins is considering changing more servos to metal gear. Add 2x DM-S0090MD metal servo for: head tilt [y], gripper tilt [y]. (Doesn't fit for gripper claw [x]).
-  - often unavailable https://www.aliexpress.com/item/1005002940068629.html
+  - "Color : 1PCS DM-S0090MD 270" https://aliexpress.com/item/1005010339946695.html
   - https://aliexpress.com/item/1005007890905728.html
   - Botkins might have some spares
 </details>
