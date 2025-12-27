@@ -58,7 +58,7 @@ You'll need:
 We try to make building such robots as easy as possible, this guide is not quite as clear and simple as we wish it would be.
 Improvements and suggestions to this guide are highly appreciated. Help us improve this guide through pull-request and other means. 
 
-#### Next steps
+#### Next steps (for Makers who would like to help improve this guide)
 - Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
 - Copy the parts from external guides into this guide and adjust accordingly for this specific build.
 - Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide.
