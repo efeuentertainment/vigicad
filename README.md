@@ -60,12 +60,13 @@ We try to make building such robots as easy as possible, this guide is not quite
 Improvements and suggestions to this guide are highly appreciated. Help us improve this guide through pull-request and other means. 
 
 #### Next steps (for Makers who would like to help improve this guide)
-- Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
+Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
 - [ ] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
-- [ ] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide.
+- [ ] Translate the parts of the external guide from french to english.
+- [ ] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide. [to be done by fire_ned]
 - [ ] extend the troubleshooting table
   - [ ] more scenarios
-  - [ ] add pictures / gifs
+  - [ ] add pictures / gifs of led blinking patterns
   - [ ] perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
 - [ ] add more function tests
 
@@ -746,9 +747,6 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 - Short Assembly Video from community: https://youtu.be/9Eja0gG4bhI
 - Vigibot FAQ: https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/
 
-
-</details>
-
 ## 13. Function Tests
 
 Test the robots functions
@@ -756,6 +754,8 @@ Test the robots functions
 - gripper should not get "stuck", which happens if the screws are screwed in too far/tight
 - let the robot run out of charge completely, the servos might move slightly but the robot should not drive by itself
 - on a fully discharged battery, plug in the charging cable and turn the robot on, it shouldn't get stuck bootlooping
+
+</details>
 
 ## Troubleshooting
 
