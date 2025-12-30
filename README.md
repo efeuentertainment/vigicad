@@ -61,13 +61,13 @@ Improvements and suggestions to this guide are highly appreciated. Help us impro
 
 #### Next steps (for Makers who would like to help improve this guide)
 - Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
-- Copy the parts from external guides into this guide and adjust accordingly for this specific build.
-- Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide.
-- extend the troubleshooting table
-  - more scenarios
-  - add pictures / gifs
-  - perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
-- add more function tests
+- [] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
+- [] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide.
+- [] extend the troubleshooting table
+  - [] more scenarios
+  - [] add pictures / gifs
+  - [] perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
+- [] add more function tests
 
 </details>
 
