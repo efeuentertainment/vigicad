@@ -155,7 +155,7 @@ As of 2025-12, the Geekworm UPS3 is unfortunately no longer produced.
 Currently the available alternatives are:
 
 <details open>
-<summary>**A. vigiUPSv2 [HIDE SECTION]**</summary>
+**<summary>A. vigiUPSv2 [HIDE SECTION]</summary>**
 Currently the easiest option. 
 - https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html
 - Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.
