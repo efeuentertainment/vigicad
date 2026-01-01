@@ -181,13 +181,13 @@ Works but needs some modifications:
 
 To get Voltage and Current measurements working, SSH into the robot and configure it:
 
-Voltage reading:
+B.1) Voltage reading:
 ```
 sudo nano /usr/local/vigiclient/sys.json
 ```
 - Change to `"INA219ADDRESS": 67,`
 
-Current measurement works too, but i'd recommend to skip this step since it's not that important.
+B.2) Current measurement works too, but i'd recommend to skip this step since it's not that important.
 
 <img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>  
 <img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
