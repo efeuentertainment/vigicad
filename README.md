@@ -7,6 +7,7 @@
 - [Prerequisites](#prerequisites)
 - [Partlist](#partlist)
   - [Core Parts](#core-parts)
+  - [UPS Alternatives](#ups-alternatives)
   - [Power Distribution Board Parts](#power-distribution-board-parts)
   - [Motor Base Parts](#motor-base-parts)
   - [Head Parts](#head-parts)
@@ -123,13 +124,6 @@ Let us know about any broken links or deficiencies (e.g. unclear or missing step
     - AND "30cm" https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
   - "Option 2" https://aliexpress.com/item/32881466491.html
 
-- 1x Geekworm / U-geek UPS Hat V3 with 2x20 pin header 15mm pin length extension
-  - https://www.robot-maker.com/shop/shield/341-ups-hat-pour-raspberry-pi-341.html
-  - aliexpress:
-    - [often sold out] https://aliexpress.com/item/4001113371912.html maximum of 2 per order
-      - text seller: "hello, can you add a long extension header? thank you"
-  - UPDATE 2025-12-25: it seems this UPS is no longer produced. Contact Botkins and we'll send you the up to date available alternatives (vigiUPS v2 and waveshare UPS HAT (D)) and how to use / modify them. Additionally, Vigibot is working on a better UPS, which should be available in a couple months. 
-
 - 1x 1S2P battery pack with protection. Not from AliExpress. Maybe add 1x spare, Liion in use last about 2 years until capacity drops to 50%.
   - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
   - [often unavailable] <s>Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956</s>
@@ -151,6 +145,57 @@ Let us know about any broken links or deficiencies (e.g. unclear or missing step
 
 - if you don't already have: A bit of gorilla / super glue (glue LED caps onto LED board so they don't fall off)
   - "1ML x10pcs" https://aliexpress.com/item/1005008238433750.html
+
+
+## UPS Alternatives
+
+As of 2025-12, the Geekworm UPS3 is unfortunately no longer produced.
+- vigiUPSv3 should be available within a few months. Until then:
+
+Currently the available alternatives are:
+
+A. vigiUPSv2 Currently the easiest option. 
+- https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html?search_query=ups&results=3
+⚠️ Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.  
+- Get 2x USLION QC3.0 charger instead of the one from the partlist. One of these should work:  
+  - Aliexpress https://de.aliexpress.com/item/1005009579749293.html)  
+  - Aliexpress slightly more expensive due to shipping https://de.aliexpress.com/item/1005003522221749.html
+
+B. Waveshare UPS hat (D): 
+- https://aliexpress.com/item/1005006100404260.html
+  Works but needs some modifications:  
+<img src="images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>  
+  - Solder power cables for servos and motors to the pictured spots.  
+  - Buy 2x 21700 Liion Cells instead of the battery pack from the partlist.  
+  - Buy an additional 4x 20mm M2.5 metal hex stands.  
+  - Get 1x angled USB plug "toUp" instead of the "toDown" from the partlist.  
+<img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
+  - To get Voltage and Current measurements working, SSH into the robot and configure it:  
+    Voltage reading:  
+    ```bash
+    sudo nano /usr/local/vigiclient/sys.json
+    ```
+    Change `"INA219ADDRESS": 67,`  
+
+
+  - Current measurement works too, but i'd recommend to skip this step since it's not that important.
+<img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>  
+<img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
+    Due to the shunt resistor being 1/10 of the commonly used value and Vin+ / Vin- swapped, code modifications in `/usr/local/vigibot/vigiclient.js` would be required. Be cautious as this may disable future automatic updates.
+
+C. There are 3 other available UPS models that have not been tested.
+
+<s>
+<details>
+<summary>OLD: previous UPS [Expand]</summary>
+- 1x Geekworm / U-geek UPS Hat V3 with 2x20 pin header 15mm pin length extension
+  - https://www.robot-maker.com/shop/shield/341-ups-hat-pour-raspberry-pi-341.html
+  - aliexpress:
+    - [often sold out] https://aliexpress.com/item/4001113371912.html maximum of 2 per order
+      - text seller: "hello, can you add a long extension header? thank you"
+  - UPDATE 2025-12-25: it seems this UPS is no longer produced. Contact Botkins and we'll send you the up to date available alternatives (vigiUPS v2 and waveshare UPS HAT (D)) and how to use / modify them. Additionally, Vigibot is working on a better UPS, which should be available in a couple months. 
+</details>
+</s>
 
 #### Power Distribution Board Parts
 
