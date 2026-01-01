@@ -177,11 +177,12 @@ Works but needs some modifications:
 - Buy an additional 4x 20mm M2.5 metal hex stands.
 - Get 1x angled USB plug "toUp" instead of the "toDown" from the partlist.
 
-<img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
-
 To get Voltage and Current measurements working, SSH into the robot and configure it:
 
 B.1) Voltage reading:
+
+<img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
+
 ```
 sudo nano /usr/local/vigiclient/sys.json
 ```
