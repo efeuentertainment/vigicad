@@ -154,36 +154,41 @@ As of 2025-12, the Geekworm UPS3 is unfortunately no longer produced.
 
 Currently the available alternatives are:
 
-A. vigiUPSv2 Currently the easiest option. 
-- https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html?search_query=ups&results=3
-⚠️ Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.  
+##### A. vigiUPSv2 Currently the easiest option. 
+- https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html
+  - Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.  
 - Get 2x USLION QC3.0 charger instead of the one from the partlist. One of these should work:  
-  - Aliexpress https://de.aliexpress.com/item/1005009579749293.html)  
+  - https://de.aliexpress.com/item/1005009579749293.html)  
   - Aliexpress slightly more expensive due to shipping https://de.aliexpress.com/item/1005003522221749.html
 
-B. Waveshare UPS hat (D): 
+##### B. Waveshare UPS hat (D): 
 - https://aliexpress.com/item/1005006100404260.html
   Works but needs some modifications:  
-<img src="images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>  
-  - Solder power cables for servos and motors to the pictured spots.  
-  - Buy 2x 21700 Liion Cells instead of the battery pack from the partlist.  
-  - Buy an additional 4x 20mm M2.5 metal hex stands.  
-  - Get 1x angled USB plug "toUp" instead of the "toDown" from the partlist.  
+
+<img src="images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>
+
+- Solder power cables for servos and motors to the pictured spots.
+- Buy 2x 21700 Liion Cells instead of the battery pack from the partlist.  
+- Buy an additional 4x 20mm M2.5 metal hex stands.
+- Get 1x angled USB plug "toUp" instead of the "toDown" from the partlist.  
+
 <img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
-  - To get Voltage and Current measurements working, SSH into the robot and configure it:  
-    Voltage reading:  
-    ```bash
-    sudo nano /usr/local/vigiclient/sys.json
-    ```
-    Change `"INA219ADDRESS": 67,`  
 
+- To get Voltage and Current measurements working, SSH into the robot and configure it:
+  - Voltage reading:
+```
+sudo nano /usr/local/vigiclient/sys.json
+```
+Change to `"INA219ADDRESS": 67,`
 
-  - Current measurement works too, but i'd recommend to skip this step since it's not that important.
+- Current measurement works too, but i'd recommend to skip this step since it's not that important.
+
 <img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>  
 <img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
-    Due to the shunt resistor being 1/10 of the commonly used value and Vin+ / Vin- swapped, code modifications in `/usr/local/vigibot/vigiclient.js` would be required. Be cautious as this may disable future automatic updates.
 
-C. There are 3 other available UPS models that have not been tested.
+  - Due to the shunt resistor being 1/10 of the commonly used value and Vin+ / Vin- swapped, code modifications in `/usr/local/vigibot/vigiclient.js` would be required. Be cautious as this may disable future automatic updates.
+
+##### C. There are 3 other available UPS models that have not been tested.
 
 <s>
 <details>
