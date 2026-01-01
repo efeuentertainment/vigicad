@@ -180,19 +180,20 @@ Works but needs some modifications:
 <img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
 
 To get Voltage and Current measurements working, SSH into the robot and configure it:
-- Voltage reading:
+
+Voltage reading:
 ```
 sudo nano /usr/local/vigiclient/sys.json
 ```
-  - Change to `"INA219ADDRESS": 67,`
+- Change to `"INA219ADDRESS": 67,`
 
-- Current measurement works too, but i'd recommend to skip this step since it's not that important.
+Current measurement works too, but i'd recommend to skip this step since it's not that important.
 
 <img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>  
 <img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
 
-  - make the modifications as shown in the pictures
-  - Because the shunt resistor is 1/10 of the commonly used and Vin+ and Vin- are swapped, it needs a small change in the `/usr/local/vigibot/vigiclient.js` code. I'm not sure if that's smart, because a modification of the code will disable future automatic vigibot updates as far as i know.
+- make the modifications as shown in the pictures
+- Because the shunt resistor is 1/10 of the commonly used and Vin+ and Vin- are swapped, it needs a small change in the `/usr/local/vigibot/vigiclient.js` code. I'm not sure if that's smart, because a modification of the code will disable future automatic vigibot updates as far as i know.
 
 **C. There are 3 other available UPS models that have not been tested.**
 
