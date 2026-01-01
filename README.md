@@ -154,7 +154,7 @@ As of 2025-12, the Geekworm UPS3 is unfortunately no longer produced.
 
 Currently the available alternatives are:
 
-**A. vigiUPSv2 [HIDE SECTION]**
+**A. vigiUPSv2**
 Currently the easiest option. 
 - https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html
 - Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.
@@ -162,7 +162,7 @@ Currently the easiest option.
   - https://de.aliexpress.com/item/1005009579749293.html
   - Aliexpress slightly more expensive due to shipping https://de.aliexpress.com/item/1005003522221749.html
 
-**B. Waveshare UPS hat (D) [HIDE SECTION]**
+**B. Waveshare UPS hat (D)**
 - https://aliexpress.com/item/1005006100404260.html
 
 Works but needs some modifications:
