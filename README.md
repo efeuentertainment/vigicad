@@ -154,18 +154,15 @@ As of 2025-12, the Geekworm UPS3 is unfortunately no longer produced.
 
 Currently the available alternatives are:
 
-<details open>
-**<summary>A. vigiUPSv2 [HIDE SECTION]</summary>**
+**A. vigiUPSv2 [HIDE SECTION]**
 Currently the easiest option. 
 - https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html
 - Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.
 - Get 2x USLION QC3.0 charger instead of the one from the partlist. One of these should work:
   - https://de.aliexpress.com/item/1005009579749293.html
   - Aliexpress slightly more expensive due to shipping https://de.aliexpress.com/item/1005003522221749.html
-</details>
 
-<details open>
-<summary>**B. Waveshare UPS hat (D) [HIDE SECTION]**</summary>
+**B. Waveshare UPS hat (D) [HIDE SECTION]**
 - https://aliexpress.com/item/1005006100404260.html
 
 Works but needs some modifications:
@@ -194,7 +191,6 @@ sudo nano /usr/local/vigiclient/sys.json
 
   - make the modifications as shown in the pictures
   - Because the shunt resistor is 1/10 of the commonly used and Vin+ and Vin- are swapped, it needs a small change in the `/usr/local/vigibot/vigiclient.js` code. I'm not sure if that's smart, because a modification of the code will disable future automatic vigibot updates as far as i know.
-</details>
 
 **C. There are 3 other available UPS models that have not been tested.**
 
