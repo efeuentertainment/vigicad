@@ -154,7 +154,7 @@ As of 2025-12, the Geekworm UPS3 is unfortunately no longer produced.
 
 Currently the available alternatives are:
 
-##### A. vigiUPSv2
+**A. vigiUPSv2**
 Currently the easiest option. 
 - https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html
 - Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.
@@ -162,7 +162,7 @@ Currently the easiest option.
   - https://de.aliexpress.com/item/1005009579749293.html
   - Aliexpress slightly more expensive due to shipping https://de.aliexpress.com/item/1005003522221749.html
 
-##### B. Waveshare UPS hat (D):
+**B. Waveshare UPS hat (D):**
 - https://aliexpress.com/item/1005006100404260.html
 
 Works but needs some modifications:
@@ -182,9 +182,9 @@ To get Voltage and Current measurements working, SSH into the robot and configur
 ```
 sudo nano /usr/local/vigiclient/sys.json
 ```
-- Change to `"INA219ADDRESS": 67,`
+  - Change to `"INA219ADDRESS": 67,`
 
-Current measurement works too, but i'd recommend to skip this step since it's not that important.
+- Current measurement works too, but i'd recommend to skip this step since it's not that important.
 
 <img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>  
 <img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
@@ -192,7 +192,7 @@ Current measurement works too, but i'd recommend to skip this step since it's no
   - make the modifications as shown in the pictures
   - Because the shunt resistor is 1/10 of the commonly used and Vin+ and Vin- are swapped, it needs a small change in the `/usr/local/vigibot/vigiclient.js` code. I'm not sure if that's smart, because a modification of the code will disable future automatic vigibot updates as far as i know.
 
-##### C. There are 3 other available UPS models that have not been tested.
+**C. There are 3 other available UPS models that have not been tested.**
 
 <s>
 <details>
