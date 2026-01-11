@@ -130,7 +130,7 @@ Let us know about any broken links or deficiencies (e.g. unclear or missing step
 
 - 1x USB charger (must support 9V/1.3A or 12V/1A or more).
   - "___ Charger Only" https://aliexpress.com/item/1005007293684533.html
-  - "Only ___ Charger" https://de.aliexpress.com/item/1005003522221749.html
+  - "Only ___ Charger" https://aliexpress.com/item/1005003522221749.html
 - 1x USB magnetic cable 4-pin
   - "Color : ___ type c", "Length : 1m(3.3ft)" https://www.aliexpress.com/item/4001224959039.html
 - 1x any normal USB-A to type-c cable
@@ -160,8 +160,8 @@ Currently the easiest option.
 - https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html
 - Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.
 - Get 2x USLION QC3.0 charger instead of the one from the partlist. One of these should work:
-  - https://de.aliexpress.com/item/1005009579749293.html
-  - Aliexpress slightly more expensive due to shipping https://de.aliexpress.com/item/1005003522221749.html
+  - https://aliexpress.com/item/1005009579749293.html
+  - Aliexpress slightly more expensive due to shipping https://aliexpress.com/item/1005003522221749.html
 
 **B. Waveshare UPS hat (D)**
 
