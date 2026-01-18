@@ -110,6 +110,7 @@ Let us know about any broken links or deficiencies (e.g. unclear or missing step
   - Most other available USB microphones are unfortunately either too quiet or too noisy.
 
 - 1x 8-64GB MicroSD card. Good option is the "WesternDigital Purple" or another "Endurance" type card.
+  - https://www.robot-maker.com/shop/composants/91-carte-sd-32go-91.html?search_query=microsd&results=12
   - Switzerland:
     - https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
     - https://www.pi-shop.ch/kingston-sdhc-karte-industrial-uhs-i-8-gb
