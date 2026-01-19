@@ -234,7 +234,7 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 - 1x 180° servo for head tilt [y] (add 1x spare)
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
 
-## Greiffer-Teile
+## Greifer-Teile
 
 - 3D printed parts, screws and nuts
   - Kit : https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html
