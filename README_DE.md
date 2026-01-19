@@ -3,7 +3,7 @@
 <summary>[HIDE SECTION]</summary>
 
 ### Table of Contents
-- [General Info](#general-info)
+- [Generelle Info](#general-info)
 - [Prerequisites](#prerequisites)
 - [Partlist](#partlist)
   - [Core Parts](#core-parts)
@@ -34,28 +34,32 @@
 
 ### Generelle Info
 Erfahre mehr über das Botkins Charity Project:
-- [botkins.ch (German)](https://botkins.ch)
+- [botkins.ch ](https://botkins.ch)
 - [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)  
 
-Learn more about Vigibot:
+Erfahre mehr über Vigibot:
+Das französische Roboter-Projekt, auf dem Botkins aufgebaut ist. Sie stellen die Navigation zur Verfügung
 - [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 - [Drive a robot Vigibot.com](https://www.vigibot.com/)
 
-Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
+Als Basis dient die Standard Vigibot Minus-Type Version (siehe Bild, ein reines Botkin Bild folgt). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
 
 ![Standard Minus](images/Minus%20render-2.png)
 
-- If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. 
-- The maker can choose the 3D printed parts color.
-- Building your first robot may take about 10 hours, maybe more. After some practice, building may take about 3h per robot.
-- Some parts from aliexpress may take 5 weeks to arrive. currently (2025) setting payment method to paypal will fail with "Sorry, some items are not available", credit card works. Disable [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) before checking out, else you'll get 3-5 E-Mails per item.
+- Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir den Onboarding Process. 
+- Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben.
+- Der Bau Ihres ersten Roboters kann etwa 10 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 3 Stunden pro Roboter.
+- Einige Teile von Aliexpress können bis zu 5 Wochen bis zur Lieferung benötigen. Derzeit (2025) schlägt die Einstellung der Zahlungsmethode auf PayPal fehl, wenn "Sorry, some items are not available", Kreditkare funktioniert. Wähle [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) vor dem Checkout ab, sonst bekommst du pro Bestellposition 3-5 Mails.
 
-### Prerequisites
-You'll need:
-- Soldering iron (for 4x motors & UPS bridge). (if you prefer not to solder, maybe another maker could solder the parts for you).
-- Internet Access (SIM card with mobile data, WLAN or Ethernet LAN), PC.
-- 3D Printer is currently not required. If you choose to print the 3D parts yourself, you'll need M2 and M2.5 screws and nuts not listed in this Botkins partlist, find them in the upstream Vigibot partlist in each of the 3D printed kits.
-- Tools: Screwdrivers, adjustable / monkey wrench, tweezers, duct tape, ...
+### Voraussetzungen
+Du benötigst:
+- Lötkolben (für die 4 Motoren und UPS-Brücke). (Wenn du nicht löten möchtest, kann vielleicht ein anderer Maker die Teile für löten).
+- Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
+- Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn Sie die 3D-Teile selbst drucken möchten, benötigen Sie M2- und M2,5-Schrauben und Muttern, die nicht in dieser Botkins-Teileliste aufgeführt sind. Sie finden sie in der vorgelagerten Vigibot-Teileliste in jedem der 3D-gedruckten Bausätze.
+- Werkzeuge: Schraubendreher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, ...
+*** Übersetzt mit www.DeepL.com/Translator (kostenlose Version) ***
+
+
 
 #### Guide improvements
 We try to make building such robots as easy as possible, this guide is not quite as clear and simple as we wish it would be.
