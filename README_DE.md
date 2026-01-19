@@ -55,18 +55,15 @@ Als Basis dient die Standard Vigibot Minus-Type Version (siehe Bild, ein reines 
 Du benötigst:
 - Lötkolben (für die 4 Motoren und UPS-Brücke). (Wenn du nicht löten möchtest, kann vielleicht ein anderer Maker die Teile für löten).
 - Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
-- Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn Sie die 3D-Teile selbst drucken möchten, benötigen Sie M2- und M2,5-Schrauben und Muttern, die nicht in dieser Botkins-Teileliste aufgeführt sind. Sie finden sie in der vorgelagerten Vigibot-Teileliste in jedem der 3D-gedruckten Bausätze.
+- Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die nicht in dieser Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der vorgelagerten Vigibot-Teileliste in jedem der 3D-gedruckten Bausätze.
 - Werkzeuge: Schraubendreher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, ...
-*** Übersetzt mit www.DeepL.com/Translator (kostenlose Version) ***
 
+#### Geplante Verbesserungen am Leitfaden
+Wir versuchen, den Bau der Botkins so einfach wie möglich zu gestalten, aber dieser Leitfaden ist nicht ganz so klar und einfach, wie wir es uns wünschen würden.
+Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen und andere Mittel zu verbessern. 
 
-
-#### Guide improvements
-We try to make building such robots as easy as possible, this guide is not quite as clear and simple as we wish it would be.
-Improvements and suggestions to this guide are highly appreciated. Help us improve this guide through pull-request and other means. 
-
-#### Next steps (for Makers who would like to help improve this guide)
-Let us know about any broken links or deficiencies (e.g. unclear or missing steps). 
+#### Nächste Schritte (für Maker, die zur Verbesserung dieses Leitfadens beitragen möchten)
+Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte) mit. 
 - [ ] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
 - [ ] Translate the parts of the external guide from french to english.
 - [ ] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide. [to be done by fire_ned]
