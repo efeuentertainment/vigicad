@@ -3,9 +3,9 @@
 <summary>[HIDE SECTION]</summary>
 
 ### Table of Contents
-- [Generelle Info](#general-info)
-- [Prerequisites](#prerequisites)
-- [Partlist](#partlist)
+- [Generelle Info](#generelle-info)
+- [Prerequisites](#voraussetzungen)
+- [Teileliste](#teileliste)
   - [Core Parts](#core-parts)
   - [UPS Alternatives](#ups-alternatives)
   - [Power Distribution Board Parts](#power-distribution-board-parts)
@@ -75,9 +75,9 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
 
 </details>
 
-# Partlist
+# Teileliste
 <details open>
-<summary>[HIDE SECTION]</summary>
+<summary>[Verberge diesen Abschnitt]</summary>
 
 #### Core Parts
 
