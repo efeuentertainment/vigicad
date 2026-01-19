@@ -95,9 +95,7 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 |---|---|---|---|
 | 1 | USB - USB 90° adapter, Version "Down" | [Link](https://www.aliexpress.com/item/1005006057729975.html) | fehlt |
 |---|---|---|---|
-| 1 | USB Microphone "Super AI" | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [Modell BY-M100UA](https://aliexpress.com/item/1005004133896137.html) |
-|---|---|---|---|
-| Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder zu laut|
+| 1 | USB Microphone "Super AI". Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder zu laut| [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [Modell BY-M100UA](https://aliexpress.com/item/1005004133896137.html) |
 |---|---|---|---|
 | 1 | 8-64GB MicroSD Karte | [Link](https://www.pi-shop.ch/raspberry-pi-a2-class-sd-card-64gb) | [Alternative](https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268) |
 
