@@ -89,43 +89,36 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 
 | Stk | Benennung | Shop | Alternative |
 |---|---|---|---|
-| 1 | 1x Raspberry Pi 3B+ (or 3B), 1GB or 2GB | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/) | [Alternative](https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081) |
+| 1 | Raspberry Pi 3B+ (or 3B), 1GB or 2GB | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/) | [Alternative](https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081) |
+|---|---|---|---|
+| 1 | Unlocked ZTE MF79 4G / LTE Stick | [Link](https://aliexpress.com/item/1005005844914823.html) | Huawei E3372h (Modell -153, -320 oder -607  |
+|---|---|---|---|
+| 1 | USB - USB 90° adapter, Version "Down" | [Link](https://www.aliexpress.com/item/1005006057729975.html) | fehlt |
+|---|---|---|---|
+| 1 | USB Microphone "Super AI" | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [Modell BY-M100UA](https://aliexpress.com/item/1005004133896137.html) |
+|---|---|---|---|
+| Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder zu laut|
+|---|---|---|---|
+| 1 | 8-64GB MicroSD Karte | [Link](https://www.pi-shop.ch/raspberry-pi-a2-class-sd-card-64gb) | [Alternative](https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268) |
 
-- 1x Raspberry Pi 3B+ (or 3B), 1GB or 2GB. (requires 2 USB ports.)
-  - https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html
-  - Switzerland:
-    - https://www.pi-shop.ch/raspberry-pi-3-model-b/
-    - https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081
-  - Germany: https://www.reichelt.de/ch/de/raspberry-pi-3-b-4x-1-4-ghz-1-gb-ram-wlan-bt-raspberry-pi-3b--p217696.html
+Hinweise zu Alternativen:
+<details>
+<summary>[öffne diesen Abschnitt]</summary>
+- 4G / LTE Stick: Huawei E3372h
+    - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.. 
+    - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
+    - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
 
-- 1x 4G / LTE mobile data stick (without SIM card) that works plug&play with raspberry pi / linux.
-  - Unlocked ZTE MF79 https://aliexpress.com/item/1005005844914823.html
-  - Huawei E3372h
-    - The newest model "e3372h-325 (Brand: Brovi)" doesn't work. The older models are no longer manufactured. 
-    - Find a suitable model on secondhand platforms. Model must be "e3372h-153", "e3372h-320" or "e3372h-607". The model is printed onto the SIM slot beneath the lid.
-    - Check with Botkins, we might have some spares
-    - the working e3372h models can have 2 different firmwares. (1) "hilink" firmware, which works plug&play and gives the pi an 192.168.8.X IP address. (2) "stick" firmware, which must be configured over ssh.
+</details>
 
-- 1x USB - USB 90° adapter
-  - "Color : Adapter", "Cable Length : Down" https://www.aliexpress.com/item/1005006057729975.html
 
-- USB bracket holder
-  - https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html (It's not defined, but robot-maker knows you'll want a USB_bracket holder.)
-  - or 3D print file "stl/usb_bracket.stl"
-  - or ask in the Botkins Signal group
+# Druckteile
+In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
 
-- 1x USB Microphone "Super AI"
-  - https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html
-  - [often unavailable] "Orange" or "Black" (should cost ~10$) https://www.aliexpress.com/item/1005007114049915.html
-  - Check with Botkins, we might have some spares
-  - Alternative, costs ~20$: "Color : BY-M100UA" https://aliexpress.com/item/1005004133896137.html
-  - Most other available USB microphones are unfortunately either too quiet or too noisy.
+| Stk | Beschreibung | Benennung im Ordner |
+|---|---|---|
+| 1 | USB bracket holder | stl/usb_bracket.stl |
 
-- 1x 8-64GB MicroSD card. Good option is the "WesternDigital Purple" or another "Endurance" type card.
-  - https://www.robot-maker.com/shop/composants/91-carte-sd-32go-91.html?search_query=microsd&results=12
-  - Switzerland:
-    - https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268
-    - https://www.pi-shop.ch/kingston-sdhc-karte-industrial-uhs-i-8-gb
 
 - if you don't already have one: a micro SD card reader.
   - "Color : Only USB3.0" https://www.aliexpress.com/item/32832711883.html
