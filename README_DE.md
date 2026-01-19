@@ -4,9 +4,9 @@
 
 ### Table of Contents
 - [Generelle Info](#generelle-info)
-- [Prerequisites](#voraussetzungen)
+- [Voraussetzungen](#voraussetzungen)
 - [Teileliste](#teileliste)
-  - [Core Parts](#core-parts)
+  - [Hauptteile](#hauptteile)
   - [UPS Alternatives](#ups-alternatives)
   - [Power Distribution Board Parts](#power-distribution-board-parts)
   - [Motor Base Parts](#motor-base-parts)
@@ -33,6 +33,9 @@
 !!!! Dieses Dokument wird gerade übersetzt !!!!
 
 ### Generelle Info
+
+Dieser Leitfaden behandelt den Botkins V2. Weitere Verbesserungen sind in Arbeit und werden bald publiziert. Es ist geplant, ein komplettes Kit für Maker anzubieten. Es gibt aber keine Hürde oder Nachteil, einen Bot nach dieser Anleitung zu bauen. Die Funktionalität für die Patienten wird die selbe bleiben.
+
 Erfahre mehr über das Botkins Charity Project:
 - [botkins.ch ](https://botkins.ch)
 - [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)  
@@ -76,10 +79,17 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
 </details>
 
 # Teileliste
+Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft
+Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
+
 <details open>
 <summary>[Verberge diesen Abschnitt]</summary>
 
-#### Core Parts
+#### Hauptteile
+
+| Stk | Benennung | Shop | Alternative |
+|---|---|---|---|
+| 1 | 1x Raspberry Pi 3B+ (or 3B), 1GB or 2GB | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/) | [Alternative](https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081) |
 
 - 1x Raspberry Pi 3B+ (or 3B), 1GB or 2GB. (requires 2 USB ports.)
   - https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html
