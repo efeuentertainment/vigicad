@@ -1,6 +1,6 @@
 # Minus-Type Vigibot Robot for Botkins
 <details open>
-<summary>[HIDE SECTION]</summary>
+<summary>[Verberge diesen Abschnitt]</summary>
 
 ### Table of Contents
 - [Generelle Info](#generelle-info)
@@ -26,7 +26,7 @@
     - [10. Final Assembly](#10-final-assembly)  
     - [11. Optional Assemblies](#11-optional-assemblies)  
     - [12. Additional Assembly Guides](#12-additional-assembly-guides)
-    - [13. Function Tests](#13-function-tests)
+    - [13. Funktionstest](#13-funktionstest)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
@@ -94,14 +94,73 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 | 1 | USB - USB 90° adapter, Version "Down" | [Link](https://www.aliexpress.com/item/1005006057729975.html) | fehlt |
 | 1 | USB Microphone "Super AI". Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder zu laut| [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [Modell BY-M100UA](https://aliexpress.com/item/1005004133896137.html) |
 | 1 | 8-64GB MicroSD Karte | [Link](https://www.pi-shop.ch/raspberry-pi-a2-class-sd-card-64gb) | [Alternative](https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268) |
+| 1 | Falls nicht vorhanden: CardReader für microSD | [Link](https://www.pi-shop.ch/sandisk-card-reader-usb-3-0-reader) | nach Belieben |
+| 1 | Weitwinkelkamera mit Infrarot-Filter | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html) | nicht wirklich |
+| 1 | 30cm Verbindungskabel für Kamera (als Ersatz für kurzes Original) | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm) | nach Belieben |
+| 1 | Li-Ion Akku 1S2P 6800mAh | [Link](https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html) | 5-7Ah mit DuPont Stecker |
+| 2 | USB-Ladegerät (9V/2A oder 12V/1.6A+) | [Link](https://aliexpress.com/item/1005009579749293.html) | tbd |
+| 1 | USB Kabel magnetisch, 1m | [Link](https://www.aliexpress.com/item/4001224959039.html) | nach Belieben |
+| 1 | USB-A zu USB-C Kabel, 1m | [Link](https://aliexpress.com/item/1005008279278619.html) | nach Belieben |
+| 1 | Active Buzzer 3V/5V, verbinde zwischen GND (kurzer Pin) und GPIO 18 | [Link](https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html) | [Alternative](https://www.aliexpress.com/item/4000829554492.html) |
+| 1 | Etwas Klett-Tape zum Befestigen der Batterie | tbd | - |
+| 1 | Sekundenkleber für ??? | tbd | - |
+| 1 | Strommangement vigiUPSv2 | [Link](https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html) | siehe "Hinweise zu Alternativen" |
+
+Hinweis zum vigiUPSv2: Installiere die 2x Kamera-LEDs nicht, da sonst das Lademodul möglicherweise nicht mehr funktioniert, da der Akku aufgrund des zu hohen Leerlaufstromverbrauchs möglicherweise nie 100 % erreicht.
 
 *Hinweise zu Alternativen:
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
-  - 4G / LTE Stick: Huawei E3372h
-  - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.. 
+  
+- 4G / LTE Stick: Huawei E3372h
+  - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.
   - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
   - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
+ 
+## UPS Alternativen
+
+Seit Dezember 2025 wird das Geekworm UPS3 leider nicht mehr hergestellt.
+
+- vigiUPSv3 sollte in einigen Monaten verfügbar sein. Bis dahin: Version aus der Teileliste (A) oder mit Mehraufwand (B)
+
+Derzeit stehen folgende Alternativen zur Verfügung:
+
+**A. vigiUPSv2**
+
+Version aus der Teileliste, siehe oben
+
+**B. Waveshare UPS hat (D)**
+
+- https://aliexpress.com/item/1005006100404260.html
+
+Funktioniert, benötigt jedoch einige Änderungen:
+
+<img src="images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>
+
+- Löte die Stromkabel für Servos und Motoren an den abgebildeten Stellen an.
+- Gib einen Tropfen Sekundenkleber hinzu, um die Drähte auf der USV-Platine zu befestigen.
+- Kaufe 2x 21700 Liion-Zellen anstelle des Akkus aus der Teileliste.
+- Kaufe zusätzlich 4x 20 mm M2,5 Metall-Sechskantständer.
+- Nimm 1x abgewinkelten USB-Stecker „toUp“ anstelle des „toDown“ aus der Teileliste.
+
+Um die Spannungs- und Strommessungen zum Laufen zu bringen, verbinde dich per ssh mit dem Roboter und konfiguriere ihn:
+
+B.1) Spannungsmessung:
+
+<img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
+
+```
+sudo nano /usr/local/vigiclient/sys.json
+```
+- Ändern in `"INA219ADDRESS": 67,`
+
+B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schritt zu überspringen, da er nicht so wichtig ist.
+
+<img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>  
+<img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
+
+- Nimm die Änderungen wie in den Bildern gezeigt vor
+- Da der Shunt-Widerstand 1/10 des üblicherweise verwendeten Widerstands beträgt und Vin+ und Vin- vertauscht sind, muss der Code in `/usr/local/vigibot/vigiclient.js` geringfügig geändert werden. Ich bin mir nicht sicher, ob das sinnvoll ist, da eine Änderung des Codes meines Wissens nach zukünftige automatische Vigibot-Updates deaktiviert.
 
 </details>
 
@@ -113,102 +172,6 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 |---|---|---|
 | 1 | USB bracket holder | stl/usb_bracket.stl |
 
-
-- if you don't already have one: a micro SD card reader.
-  - "Color : Only USB3.0" https://www.aliexpress.com/item/32832711883.html
-
-- 1x aftermarket wide-angle lens camera module
-  - with IR-cut filter. There is only one camera module v1 clone that combines a wide-angle lens and a motorized IR-cut filter at the time of writing
-  - Robot-Maker:
-    - https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html
-    - AND "30cm" https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm
-  - "Option 2" https://aliexpress.com/item/32881466491.html
-
-- 1x 1S2P battery pack with protection. Not from AliExpress. Maybe add 1x spare, Liion in use last about 2 years until capacity drops to 50%.
-  - https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html
-  - [often unavailable] <s>Switzerland: https://www.galaxus.ch/de/s1/product/ansmann-1s2p-akkupack-2x-18650-kabel-li-ion-37-v-5200-mah-18650-5200-mah-akku-akku-ladegeraet-14527956</s>
-
-- 1x USB charger (must support 9V/1.3A or 12V/1A or more).
-  - "___ Charger Only" https://aliexpress.com/item/1005007293684533.html
-  - "Only ___ Charger" https://aliexpress.com/item/1005003522221749.html
-- 1x USB magnetic cable 4-pin
-  - "Color : ___ type c", "Length : 1m(3.3ft)" https://www.aliexpress.com/item/4001224959039.html
-- 1x any normal USB-A to type-c cable
-  - any works, like "Color : A-C Purple", "Length : 1m" https://aliexpress.com/item/1005008279278619.html
-
-- 1x Active buzzer 3V or 5V, connect to GND and GPIO 18.
-  - "actif" https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html
-  - "3v" https://www.aliexpress.com/item/4000829554492.html
-
-- About 10cm adhesive Velcro tape, to fix battery pack to middle plate.
-  - "White 1Meter", "25mm Wide" https://www.aliexpress.com/item/1005006680575466.html
-
-- if you don't already have: A bit of gorilla / super glue (glue LED caps onto LED board so they don't fall off)
-  - "1ML x10pcs" https://aliexpress.com/item/1005008238433750.html
-
-
-## UPS Alternatives
-
-As of 2025-12, the Geekworm UPS3 is unfortunately no longer produced.
-- vigiUPSv3 should be available within a few months. Until then:
-
-Currently the available alternatives are:
-
-**A. vigiUPSv2**
-
-Currently the easiest option. 
-- https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html
-- Don't install the 2x camera LEDs, else the charge module might stop since the battery might never reach 100% due to too large idle power consumption.
-- Get 2x USLION QC3.0 charger instead of the one from the partlist. One of these should work:
-  - https://aliexpress.com/item/1005009579749293.html
-  - Aliexpress slightly more expensive due to shipping https://aliexpress.com/item/1005003522221749.html
-
-**B. Waveshare UPS hat (D)**
-
-- https://aliexpress.com/item/1005006100404260.html
-
-Works but needs some modifications:
-
-<img src="images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>
-
-- Solder power cables for servos and motors to the pictured spots.
-- add a drop of superglue to secure the wires to the UPS board.
-- Buy 2x 21700 Liion Cells instead of the battery pack from the partlist.
-- Buy an additional 4x 20mm M2.5 metal hex stands.
-- Get 1x angled USB plug "toUp" instead of the "toDown" from the partlist.
-
-To get Voltage and Current measurements working, SSH into the robot and configure it:
-
-B.1) Voltage reading:
-
-<img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
-
-```
-sudo nano /usr/local/vigiclient/sys.json
-```
-- Change to `"INA219ADDRESS": 67,`
-
-B.2) Current measurement works too, but i'd recommend to skip this step since it's not that important.
-
-<img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>  
-<img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
-
-- make the modifications as shown in the pictures
-- Because the shunt resistor is 1/10 of the commonly used and Vin+ and Vin- are swapped, it needs a small change in the `/usr/local/vigibot/vigiclient.js` code. I'm not sure if that's smart, because a modification of the code will disable future automatic vigibot updates as far as i know.
-
-**C. There are 3 other available UPS models that have not been tested.**
-
-<s>
-<details>
-<summary>OLD: previous UPS [Expand]</summary>
-- 1x Geekworm / U-geek UPS Hat V3 with 2x20 pin header 15mm pin length extension
-  - https://www.robot-maker.com/shop/shield/341-ups-hat-pour-raspberry-pi-341.html
-  - aliexpress:
-    - [often sold out] https://aliexpress.com/item/4001113371912.html maximum of 2 per order
-      - text seller: "hello, can you add a long extension header? thank you"
-  - UPDATE 2025-12-25: it seems this UPS is no longer produced. Contact Botkins and we'll send you the up to date available alternatives (vigiUPS v2 and waveshare UPS HAT (D)) and how to use / modify them. Additionally, Vigibot is working on a better UPS, which should be available in a couple months. 
-</details>
-</s>
 
 #### Power Distribution Board Parts
 
@@ -226,22 +189,6 @@ B.2) Current measurement works too, but i'd recommend to skip this step since it
 - About 5x Single DuPont pin sleeves
   - "1P" https://aliexpress.com/item/33035707563.html
 
-<s>
-<details>
-<summary>OLD: manually soldered PDB [Expand]</summary>
-- Find Build instructions and pictures on botkins cloud in /Hardware_Design/archive/UPS_power_distribution/
-
-- 1x small piece of prototyping board for the power distribution board. Build a small 2-row header board with 1x soldered wires for the UPS and 6-8x pin header slots (1x battery, 4x servo, 1x motor driver, 1x spare). insulate backside with duct tape to prevent accidental short circuits.
-  - https://aliexpress.com/item/1005001807612572.html
-
-- 1x Pin header for the power distribution board
-  - https://www.robot-maker.com/shop/composants/93-barrette-secable-male-254mm-93.html
-  - "CAIpaizhen" https://aliexpress.com/item/32744837236.html
-
-- 1x PH2.0 plug to connect the power distribution board to the geekworm v3 UPS.
-  - "2P" https://aliexpress.com/item/4000091077742.html
-</details>
-</s>
 
 #### Motor Base Parts
 
@@ -319,9 +266,9 @@ B.2) Current measurement works too, but i'd recommend to skip this step since it
   - Botkins might have some spares
 </details>
 
-# Minus-Type Assembly
+# Minus-Type Zusammenbau
 <details open>
-<summary>[HIDE SECTION]</summary>
+<summary>[Verberge diesen Abschnitt]</summary>
 
 ## 1. Software Install
 <img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
@@ -798,35 +745,35 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 - If you use DM-S0090MD metal gear servos for Head tilt [y] or Gripper tilt [y], the servo horn is a bit too long and has to be shortened. Doesn't fit for Gripper claw [x].
 
-## 12. Additional Assembly Guides
+## 12. Zusätzliche Bauanleitungen
 
-- You may find additional assembly guides in french on: https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/
-- [Offline] ~~Full Minus assembly guide from community: https://www.wiki-vigibot.com/index.php/Comment_monter_mon_robot_%E2%80%9CMinus%E2%80%9C_de_A_%C3%A0_Z_%3F~~
-- Short Assembly Video from community: https://youtu.be/9Eja0gG4bhI
+- Weitere Montageanleitungen in französischer Sprache: https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/
+- Kurzes Montagevideo aus der Community: https://youtu.be/9Eja0gG4bhI
 - Vigibot FAQ: https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/
 
-## 13. Function Tests
+## 13. Funktionstest
 
-Test the robots functions
-- full head and gripper movements should not pull on any cables
-- gripper should not get "stuck", which happens if the screws are screwed in too far/tight
-- let the robot run out of charge completely, the servos might move slightly but the robot should not drive by itself
-- on a fully discharged battery, plug in the charging cable and turn the robot on, it shouldn't get stuck bootlooping
+Teste die Funktionen des Roboters:
+
+- Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
+- Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind.
+- Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
+- Schliesse bei vollständig entladenem Akku das Ladekabel an und schalte den Roboter ein. Er sollte nicht in einer Boot-Schleife hängenbleiben.
 
 </details>
 
 ## Troubleshooting
 
-If you can't find a solution using the following table, ask in the Vigibot discord server (tag @firened) or in the Botkins maker signal group.
+Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Discord-Server (Tag @firened) oder in der Botkins Maker Signal-Gruppe nach.
 
-| Problem | Possible Causes | Solution |
+| Problem | Mögliche Ursachen | Lösung |
 |---------------------------|-----------------------------------|------------------------------------| 
-| Robot disconnects sporadically (every couple hours or minutes) | (1) Low Battery (2) bad 4G reception | (1) charge (2) try a different location |
-| Robot blinks (visual), clicks (audible) every couple seconds or multiple times per second | Low battery | turn off robot and charge for multiple hours |
-| Robot disconnects every 5 seconds | Vigibot misconfiguration | ask Vigibot or Botkins to check the robots' online configuration |
-| Battery is empty after ~5 days despite being turned off | some parts (servos, motor driver) are powered even when turned off and will drain the battery | cannot be changed unfortunately |
-| Video feed stutters, driving is interrupted, red bars appear on website every couple of seconds | bad 4G reception, 4G bandwith too low | select the low bandwith view, try a different location, make sure the mobile data speed is at least "up to 50Mbit/s" |
-| During Assembly, after a reboot, the robot is online for a few seconds then disappears | No 4G connection / reception | unplug the 4G stick and try WLAN or ethernet |
+| Der Roboter trennt sich sporadisch (alle paar Stunden oder Minuten) | (1) Schwache Batterie (2) Schlechter 4G-Empfang | (1) Aufladen (2) Einen anderen Standort ausprobieren |
+| Der Roboter blinkt (visuell) und klickt (akustisch) alle paar Sekunden oder mehrmals pro Sekunde | Schwache Batterie | Roboter ausschalten und mehrere Stunden lang aufladen |
+| Der Roboter trennt alle 5 Sekunden die Verbindung | Fehlerhafte Konfiguration von Vigibot | Bitten Sie Vigibot oder Botkins, die Online-Konfiguration der Roboter zu überprüfen |
+| Der Akku ist nach ~5 Tagen leer, obwohl das Gerät ausgeschaltet ist | Einige Teile (Servos, Motortreiber) werden auch im ausgeschalteten Zustand mit Strom versorgt und entladen die Batterie | kann leider nicht geändert werden |
+| Das Video stottert, das Fahren wird unterbrochen, alle paar Sekunden erscheinen rote Balken auf der Website | Schlechter 4G-Empfang, zu geringe 4G-Bandbreite | Wählen Sie die Ansicht mit niedriger Bandbreite, probieren Sie einen anderen Standort aus und stellen Sie sicher, dass die mobile Datenübertragungsgeschwindigkeit mindestens „bis zu 50 Mbit/s“ beträgt |
+| Während der Montage ist der Roboter nach einem Neustart für einige Sekunden online und verschwindet dann | Keine 4G-Verbindung/Empfang | Ziehen Sie den 4G-Stick ab und versuchen Sie es mit WLAN oder Ethernet |
 
 
 ## Credits
