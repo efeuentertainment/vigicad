@@ -87,25 +87,20 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 
 #### Hauptteile
 
-| Stk | Benennung | Shop | Alternative |
-|---|---|---|---|
+| Stk | Benennung | Shop | Alternative* |
 | 1 | Raspberry Pi 3B+ (or 3B), 1GB or 2GB | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/) | [Alternative](https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081) |
-|---|---|---|---|
 | 1 | Unlocked ZTE MF79 4G / LTE Stick | [Link](https://aliexpress.com/item/1005005844914823.html) | Huawei E3372h (Modell -153, -320 oder -607  |
-|---|---|---|---|
 | 1 | USB - USB 90° adapter, Version "Down" | [Link](https://www.aliexpress.com/item/1005006057729975.html) | fehlt |
-|---|---|---|---|
 | 1 | USB Microphone "Super AI". Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder zu laut| [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [Modell BY-M100UA](https://aliexpress.com/item/1005004133896137.html) |
-|---|---|---|---|
 | 1 | 8-64GB MicroSD Karte | [Link](https://www.pi-shop.ch/raspberry-pi-a2-class-sd-card-64gb) | [Alternative](https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268) |
 
-Hinweise zu Alternativen:
+*Hinweise zu Alternativen:
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
-- 4G / LTE Stick: Huawei E3372h
-    - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.. 
-    - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
-    - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
+  - 4G / LTE Stick: Huawei E3372h
+  - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.. 
+  - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
+  - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
 
 </details>
 
