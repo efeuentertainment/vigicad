@@ -85,7 +85,7 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 <details open>
 <summary>[Verberge diesen Abschnitt]</summary>
 
-#### Hauptteile
+## Hauptteile
 
 | Stk | Benennung | Shop | Alternative* |
 |---|---|---|---|
@@ -108,7 +108,7 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 
 Hinweis zum vigiUPSv2: Installiere die 2x Kamera-LEDs nicht, da sonst das Lademodul möglicherweise nicht mehr funktioniert, da der Akku aufgrund des zu hohen Leerlaufstromverbrauchs möglicherweise nie 100 % erreicht.
 
-*Hinweise zu Alternativen:
+## *Hinweise zu Alternativen:
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
   
@@ -117,7 +117,7 @@ Hinweis zum vigiUPSv2: Installiere die 2x Kamera-LEDs nicht, da sonst das Lademo
   - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
   - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
  
-## UPS Alternativen
+### UPS Alternativen
 
 Seit Dezember 2025 wird das Geekworm UPS3 leider nicht mehr hergestellt.
 
@@ -165,7 +165,7 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 </details>
 
 
-# Druckteile
+## Zusammenstellung Druckteile
 In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
 
 | Stk | Beschreibung | Benennung im Ordner |
@@ -173,24 +173,16 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 | 1 | USB bracket holder | stl/usb_bracket.stl |
 
 
-#### Power Distribution Board Parts
+## Teile für Stromverteilung
 
-- Splitter Board
-  - "Color : 1 pcs" https://www.aliexpress.com/item/1005006042011391.html
+| Stk | Benennung | Shop |
+|---|---|---|
+| 1 | Splitter Board | [Link](https://www.aliexpress.com/item/1005006042011391.html) |
+| 1 | PH2.0 zu 2 Pin Kabel 10cm | [Link](https://www.aliexpress.com/item/1005002901249753.html) |
+| 8-16 | DuPont-Kabel 20 oder 30cm F-F| [Link](https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html) |
+| 5 | Einzelne DuPont Pin Hüllen F | [Link](https://aliexpress.com/item/33035707563.html) |
 
-- PH2.0 to 2 Pin cable
-  - "Color : 2P", "Length : 10CM" https://www.aliexpress.com/item/1005002901249753.html
-
-- 8-16x DuPont cables. 
-  - "30cm" or "20cm" https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html
-  - "F-F (30 cm)" https://www.pololu.com/product/4566
-  - "Color : Mix 10 Color", "Connector Type : Female to Female", "Pins : 30cm" https://www.aliexpress.com/item/1005005365866477.html
-
-- About 5x Single DuPont pin sleeves
-  - "1P" https://aliexpress.com/item/33035707563.html
-
-
-#### Motor Base Parts
+## Basisplatte Motor
 
 - 3D printed parts, screws, nuts and standoffs 
   - Kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
@@ -219,7 +211,7 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
   - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html (provided with cables)
   - https://aliexpress.com/item/1005010108693072.html (requires soldering a custom splitter cable: both motors of same side in parallel on each output)
 
-#### Head Parts
+## Kopf-Teile
 
 - 3D printed parts, screws, nuts and standoffs
   - Kit : https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html
@@ -242,7 +234,7 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 - 1x 180° servo for head tilt [y] (add 1x spare)
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
 
-#### Gripper Parts
+## Greiffer-Teile
 
 - 3D printed parts, screws and nuts
   - Kit : https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html
@@ -258,22 +250,42 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 - 2x 180° SG90 servo for gripper
   - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
 
-#### Optional Parts
+## Optionale Teile
 
 - Botkins is considering changing more servos to metal gear. Add 2x DM-S0090MD metal servo for: head tilt [y], gripper tilt [y]. (Doesn't fit for gripper claw [x]).
   - "Color : 1PCS DM-S0090MD 270" https://aliexpress.com/item/1005010339946695.html
   - https://aliexpress.com/item/1005007890905728.html
-  - Botkins might have some spares
 </details>
 
 # Minus-Type Zusammenbau
 <details open>
 <summary>[Verberge diesen Abschnitt]</summary>
 
-## 1. Software Install
+## 1. Software Installieren
 <img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
 
-- Install Vigibot on Pi and test with Camera according to https://www.robot-maker.com/forum/topic/12794-how-to-add-my-raspberry-pi-robot-on-vigibot-to-control-my-robot-over-the-internet/
+Füge deinen Roboter bei Vigibot ganz einfach hinzu.
+Du benötigst: einen Rapsery Pi (empfohlen 3B+), eine 16 oder 32 GB microSD Karte, eine Spannungsversorgung für den Pi, die Kamera mit dem passenden Kabel.
+Mit wenigen einfachen Schritten kannst du deine Kamera auf [vigibot.com](https://www.vigibot.com/) live schalten:
+
+- Erstelle auf [vigibot.com](https://www.vigibot.com/) einen Account.
+-	Klick auf "Management" und dann "Add a Robot". Wähle einen Namen für deinen Robter, den Roboter Typ Standard und ein Passwort für den Roboter. Das brauchen wir weiter unten gleich wieder, also merken.
+-	Lade das Image runter: vigimage.zip und entpacke die ZIP-Datei.
+-	Um die Image-Datei auf deine microSD Karte schreiben zu können, musst du diese mit dem PC verbinden (Kartenleser) und ein Tool zum Schreiben verwenden. Ich empfehle den Raspberry Pi Imager. Runterladen, installieren.
+-	Andere Tools wie das HDD Raw Copy Tool oder win32diskImager gehen auch. ApplePiBacker (Mac) oder balena etcher (Für Windows, Mac und Linux)
+-	Hinweis: Wenn du eine Karte grösser 32GB verwendest, musst du im Pi Imager zuerst das Modell 3 wählen, dann beim Betriebssystem löschen, um die Karte in FAT32 zu formatieren.
+-	Nach dem Ausführen des Pi Imager musst du das Modell des Pis auswählen, bei uns meist 3B+. Unter Betriebssystem wählst du zuunterst „Eigenes Image auswählen“, suchst das vigimage.img und wählst es aus. Dann wählst du die SD Karte als Zielmedium und bestätigst eine allfällige Überschreibewarnung. Starte den Schreibvorgang. Das dauert nun je nach Schreibgeschwindigkeit der Karte einige Minuten.
+-	Wenn das gemacht ist, öffne den /boot Ordner deiner SD Card. Windows: Sollte im Explorer der /boot Ordner nicht erscheinen, Drücke Win+R und gibt diskmgmt.msc ein. So gelangst du in die Datenträgerverwaltung. Wenn dort eine 100MB Partition gelistet ist, gib ihr über Rechtsklick > Laufwerkbuchstabe und -pfade ändern einen noch freien Buchstaben.
+-	Ändere die Datei "wpa_supplicant.conf" mittels Rechtsklick und "in Editor anpassen" (Ändere die SSID „Demo“ und das Standardpasswort „Default“ entsprechend dem WLAN-Netzwerk, mit dem sich der Botkin verbinden soll. Tipp: Wenn (noch) kein 4G / LTE Stick vorhanden ist, kann mit dem Smartphone ein Hotspot eingerichtet werden. Vorteil: man kann den Botkin schon mitnehmen, wenn ein entsprechender Hotspot "mitreist". Nachteil: um auf den PI zuzugreifen via ssh, muss man im gleichen WLAN sein)
+-	Ändere die Datei "robot.json" gemäss dem zuvor gewählten Roboternamen und Roboterpasswort. ( Ändere den „Demo”-Benutzernamen und das „Standard”-Passwort) 
+-	Installiere die SD-Karte im Raspberry Pi mit der installierten Kamera und schalte ihn dann ein (aufgrund des Kompilierungsprozesses dauert der erste Start einige Minuten, bevor der Roboter auf der Website erscheint (etwa 10 Minuten): Schalte den Raspberry Pi während dieser Zeit nicht aus).
+
+Falls du auf den Pi zugreifen willst:
+•	Der Pi und dein PC müssen in gleichen Netzwerk sein. Finde die IP Adresse des Pi raus (Verbindung über deinen Router > Verbundene Geräte)
+•	Win+R > „Powershell“ > Ausführen.
+•	Gib im Fenster ein: ssh pi@IP-ADRESSE (Ersetze die Adresse mit der Adresse des Pi, zB 192.168.1.146)
+•	Das Terminal wird dich fragen, ob du sicher bist, eine Verbindung herstellen zu wollen. Schreibe „yes“ und bestätige
+•	Das Passwort ist „raspberry“, wenn du es nicht anderweitig vergeben hast
 
 - LTE/4G mobile data stick:
   - Plug into a Windows or Mac PC (192.168.8.1 webpage opens or start the App on the storage medium) and enable data roaming.
