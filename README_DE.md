@@ -67,8 +67,8 @@ Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen
 
 #### Nächste Schritte (für Maker, die zur Verbesserung dieses Leitfadens beitragen möchten)
 Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte) mit. 
-- [ ] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
-- [ ] Translate the parts of the external guide from french to english.
+- [x] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
+- [x] Translate the parts of the external guide from french to english.
 - [ ] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide. [to be done by fire_ned]
 - [ ] extend the troubleshooting table
   - [ ] more scenarios
@@ -79,7 +79,7 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
 </details>
 
 # Teileliste
-Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft
+Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
 Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
 
 <details open>
@@ -164,15 +164,6 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 
 </details>
 
-
-## Zusammenstellung Druckteile
-In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
-
-| Stk | Beschreibung | Benennung im Ordner |
-|---|---|---|
-| 1 | USB bracket holder | stl/usb_bracket.stl |
-
-
 ## Teile für Stromverteilung
 
 | Stk | Benennung | Shop |
@@ -187,7 +178,7 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 
 | Stk | Benennung | Shop |
 |---|---|---|
-| 1 | Komplettes Kit mit Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html) |
+| 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html) |
 | 4 | Pololu 100:1 Getriebemotoren HP 6V <br> mit Kabeln zum selber löten | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html) |
 | 4 | Pololu Motorhalter | [Link](https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html) |
 | 4 | Pololu Räder 40x7mm <br> es gibt Radmodelle bei den 3D Daten <br> Durchmesser beachten kleiner 40mm| [Link](https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html) |
@@ -195,76 +186,57 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 
 Die Pololu Artikel gibt es auch direkt bei Pololu.
 
-
-
 ## Kopf-Teile
 
-- 3D printed parts, screws, nuts and standoffs
-  - Kit : https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html
-  - List :
-    - 3D printed parts : 3 or 4 (Smiling head, pan plate, tilt bracket, and 4th is an optional protection to protect camera lens)
-    - 10mm or 12mm length M2.5 screw  : 2 ( to fix pan plate to the rest of the robot)
-    - M2.5 nut : 2
-    - 5 or 6 mm M2 screw : 1 
-    - 8 mm M2 screw : 2  (to fix 270° servo on the pan plate)
-    - 14 or 16 mm M2 screw : 2 ( to fix 180° servo in the head)
-    - 20 mm M2 screw : 4 (for camera assembly on the head)
-    - M2 nut : 10 (8 for the camera, 2 to fix the servo on the pan plate)
-  - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
+| Stk | Benennung | Shop |
+|---|---|---|
+| 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html) |
+| 1 + 1 Reserve | DM-S0090MD 270° Metall Getriebe Servo 9g <br> (Kopf Schütteln) | [Link](https://aliexpress.com/item/1005010339946695.html) |
+| 1 + 1 Reserve | 180° Servo 9g <br> (Nicken)| [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html) |
 
-- 1x DM-S0090MD 270° metal gear servo for head pan [x] (add 1x spare)
-  - "Color : 1PCS DM-S0090MD 270" https://aliexpress.com/item/1005010339946695.html
-  - https://aliexpress.com/item/1005007890905728.html
-  - Check with Botkins, we might have some spares
-  - it's not metal gear but works too: https://www.robot-maker.com/shop/moteurs-et-actionneurs/370-servomoteur-9g-270-370.html
-- 1x 180° servo for head tilt [y] (add 1x spare)
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
+Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
 
 ## Greifer-Teile
 
-- 3D printed parts, screws and nuts
-  - Kit : https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html
-  - List :
-    - 3D printed parts : 4
-    - 5 or 6 mm M2 screw : 1
-    - 8 mm M2 screw : 3
-    - 10 mm M2 screw : 1
-    - 14 mm M2 screw : 5
-    - M2 nut : 2
-  - Note : use the long screws provided with servomotors to fix the servomotors on the servo holder
+| Stk | Benennung | Shop |
+|---|---|---|
+| 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html) |
+| 2 + 1 Reserve | 180° Servo 9g <br> (Nicken)| [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html) |
 
-- 2x 180° SG90 servo for gripper
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html
+Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
 
 ## Optionale Teile
 
-- Botkins is considering changing more servos to metal gear. Add 2x DM-S0090MD metal servo for: head tilt [y], gripper tilt [y]. (Doesn't fit for gripper claw [x]).
-  - "Color : 1PCS DM-S0090MD 270" https://aliexpress.com/item/1005010339946695.html
-  - https://aliexpress.com/item/1005007890905728.html
+Wenn auch das Nicken und das Heben/Senken des Greifers mit Metall-Getriebe Servos gelöst werden soll, füge zwei weitere dieser Servos hinzu: [Link](https://aliexpress.com/item/1005010339946695.html)
+Funktioniert nicht für das Auf/Zu des Greifers.
+
+Je nach Modell des Servos kann es sein, dass die Druckteile angepasst werden müssen. Die CAD Modelle der Druckteile liegen vor, Änderung für den jeweiligen Roboter können gemacht werden.
  
+## Druckteile, falls ihr selber druckt
+In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
+
+| Stk | Beschreibung | Benennung im Ordner |
+|---|---|---|
+| 1 | USB bracket holder | stl/usb_bracket.stl |
 
 ## Kleinteile, falls ihr selber druckt
-Motorplatte
 
-  - 3D printed parts : 4  ( Top, middle, bottom and rear plate )
-    - 12mm length M2.5 male standoffs between the Raspberry PI and UPS hat board : 4
-    - 25mm length M2.5 male standoffs between the UPS hat board and middle plate : 4
-    - 10mm length M2.5 female standoffs between the middle plate and bottom plate : 4
-    - 5mm length M2.5 male standoffs between the Raspberry PI board and top plate : 4
-    - 6 mm M2.5 screw : 10 ( 4 top plate / 4 bottom plate / 2 middle plate)
-    - 8 or 10 mm M2.5 screw to fix motor board : 2 
-    - M2.5 nut : 6 ( 4 for the motor board / 2 middle plate)
-    - 8mm length M2 screw to fix the back plate on the middle plate : 3 
-    - M2 nut : 3
-
-| Stk | Benennung | Dimmensionen |
-|---|---|---|
-| 4 | Distanzbolzen M2.5 Pi <> UPS | Männchen 12mm |
-| 4 | Distanzbolzen M2.5 UPS <> Mittelplatte | Männchen 25mm |
-| 4 | Distanzbolzen M2.5 Mittelplatte <> Motorplatte | Weibchen 10mm |
-| 4 | Distanzbolzen M2.5 Pi <> Topplatte | Männchen 5mm |
-| 10 | Schraube M2.5 (4x Topplatte, 4x Motorplatte, 2x Mittelplatte) | 6mm |
-| 2 | Schraube M2.5 für Motortreiber | 8 oder 10mm |
+| Stk | Benennung | Dimmensionen | wird verwendet für |
+|---|---|---|---|
+| 4 | Distanzbolzen M2.5 | Männchen 12mm | Pi <> UPS |
+| 4 | Distanzbolzen M2.5 | Männchen 25mm | UPS <> Mittelplatte |
+| 4 | Distanzbolzen M2.5 | Weibchen 10mm | Mittelplatte <> Motorplatte |
+| 4 | Distanzbolzen M2.5 | Männchen 5mm | Pi <> Topplatte |
+| 10 | Schraube M2.5 | 6mm | 4x Topplatte <br> 4x Motorplatte <br> 2x Mittelplatte |
+| 2 | Schraube M2.5 | 8 oder 10mm | für Motortreiber |
+| 2 | Schraube M2.5 | 10 oder 12mm | Pan Plate <> Roboter |
+| 2 | Mutter M2.5 | - | 4x Motorplatte <br> 2x Mittelplatte <br> 2x Pan Plate|
+| 4 | Schraube M2| 20mm | 4x Kamera <> Kopf |
+| 5 | Schraube M2| 14 oder 16mm | 2x 180° Servo <> Kopf <br> 5x Greifer|
+| 1 | Schraube M2| 10mm | 1x Greifer|
+| 3 | Schraube M2| 8mm | 3x Rückplatte <> Mittelplatte <br> 2x 270° Servo <> Pan Plate <br> 3x Greifer|
+| 2 | Schraube M2| 5 oder 6mm | ? |
+| 15 | Mutter M2| - | 3x Rückplatte <> Mittelplatte <br> 8x Kamera <br> 2x 270° Servo <> Pan Plate <br> 2x Greifer|
 
 </details>
 
