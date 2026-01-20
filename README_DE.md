@@ -1,8 +1,8 @@
-# Minus-Type Vigibot Robot for Botkins
+# Minus-Type Vigibot Robot für Botkins
 <details open>
 <summary>[Verberge diesen Abschnitt]</summary>
 
-## Table of Contents
+## Inhalt
 - [Generelle Info](#generelle-info)
 - [Voraussetzungen](#voraussetzungen)
 - [Teileliste](#teileliste)
