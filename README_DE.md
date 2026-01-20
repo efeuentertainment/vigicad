@@ -69,14 +69,14 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
 
 </details>
 
-# Teileliste
+## Teileliste
 Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
 Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
 
 <details open>
 <summary>[Verberge diesen Abschnitt]</summary>
 
-## Hauptteile
+### Hauptteile
 
 | Stk | Benennung | Shop | Alternative* |
 |---|---|---|---|
@@ -99,18 +99,18 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 
 Hinweis zum vigiUPSv2: Installiere die 2x Kamera-LEDs nicht, da sonst das Lademodul möglicherweise nicht mehr funktioniert, da der Akku aufgrund des zu hohen Leerlaufstromverbrauchs möglicherweise nie 100 % erreicht.
 
-## *Hinweise zu Alternativen:
+### *Hinweise zu Alternativen:
 Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschreibung.
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
   
-### 4G / LTE Stick: Huawei E3372h
+#### 4G / LTE Stick: Huawei E3372h
 
   - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.
   - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
   - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
  
-### UPS Alternativen
+#### UPS Alternativen
 
 Seit Dezember 2025 wird das Geekworm UPS3 leider nicht mehr hergestellt.
 
@@ -157,7 +157,7 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 
 </details>
 
-## Teile für Stromverteilung
+### Teile für Stromverteilung
 
 | Stk | Benennung | Shop |
 |---|---|---|
@@ -166,7 +166,7 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 | 8-16 | DuPont-Kabel 20 oder 30cm F-F| [Link](https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html) |
 | 5 | Einzelne DuPont Pin Hüllen F | [Link](https://aliexpress.com/item/33035707563.html) |
 
-## Basisplatte Motor
+### Basisplatte Motor
 
 
 | Stk | Benennung | Shop |
@@ -179,7 +179,7 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 
 Die Pololu Artikel gibt es auch direkt bei Pololu.
 
-## Kopf-Teile
+### Kopf-Teile
 
 | Stk | Benennung | Shop |
 |---|---|---|
@@ -189,7 +189,7 @@ Die Pololu Artikel gibt es auch direkt bei Pololu.
 
 Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
 
-## Greifer-Teile
+### Greifer-Teile
 
 | Stk | Benennung | Shop |
 |---|---|---|
@@ -198,21 +198,21 @@ Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Ser
 
 Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
 
-## Optionale Teile
+### Optionale Teile
 
 Wenn auch das Nicken und das Heben/Senken des Greifers mit Metall-Getriebe Servos gelöst werden soll, füge zwei weitere dieser Servos hinzu: [Link](https://aliexpress.com/item/1005010339946695.html).
 Funktioniert nicht für das Auf/Zu des Greifers.
 
 Je nach Modell des Servos kann es sein, dass die Druckteile angepasst werden müssen. Die CAD Modelle der Druckteile liegen vor. Ihr dürft sie herunterladen und für eure Zwecke anpassen.
  
-## Druckteile, falls ihr selber druckt
+### Druckteile, falls ihr selber druckt
 In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
 
 | Stk | Beschreibung | Benennung im Ordner |
 |---|---|---|
 | 1 | USB bracket holder | stl/usb_bracket.stl |
 
-## Kleinteile, falls ihr selber druckt
+### Kleinteile, falls ihr selber druckt
 
 | Stk | Benennung | Dimmensionen | wird verwendet für |
 |---|---|---|---|
@@ -689,8 +689,19 @@ Sollte ein Motor eine falsche Drehrichtung haben, Polarität der Motorkabel am T
 - Bevor Sie fortfahren, drücke `Stop ■` Drücke die Taste, um alle Servos zu zentrieren. Fahre den Bot über die Taste mit dem durchgestrichenen Steckersymbol im Vigibot Kontrollfeld herunter und ziehe den Akku und das USB-Kabel ab.
 
 ## 7. Zusammenbau Motorplatte
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>  
+
+Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
+
+  - Motorplatte
+  - 4 Motoren mit angelöteten Kabeln
+  - 4 Motorhalter mit Schrauben und Muttern
+  - Motortreiber mit Schrauben und Muttern
+
+1. Befestigung der Motoren mit Motorhalten, je 2 Schrauben und 2 Muttern (von unten)
+<img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>
+2. Motortreiber mit zwei Schrauben und zwei Muttern an der Motorplatte befestigen
+<img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>
+3. Distanzbolzen setzen. Jetzt entscheidet sich, wo vorne und hinten wird am Roboter. Hinten 
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-7.png" alt="Middle plate assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-8.png" alt="Middle plate assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-9.png" alt="Middle plate assembly-9" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-10.png" alt="Middle plate assembly-10" style="width: 49%"/>
