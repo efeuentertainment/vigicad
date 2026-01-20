@@ -726,7 +726,7 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
 
 #### Kamera
-Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden sein. Auf die Polarität achten. Mit den langen Schrauben und Muttern klemmen, danach ins gedruckte Teil einbauen und noch einmal mit Muttern sichern. Oder so wie auf den Bildern. Wichtig ist, dass die IR-Seitenteile mit Spannung versorgt werden.
+Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden sein. Auf die Polarität achten. Mit den langen Schrauben und Muttern klemmen, danach ins gedruckte Teil einbauen und noch einmal mit Muttern sichern. Oder so wie auf den Bildern. Wichtig ist, dass die IR-Seitenteile mit Spannung versorgt werden. <br>
 <img src="images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13101-pan-tilt-minus-hardware-documentation/)
