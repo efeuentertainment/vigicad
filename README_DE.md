@@ -99,7 +99,7 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 | 1 | 30cm Verbindungskabel für Kamera (als Ersatz für kurzes Original) | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm) | nach Belieben |
 | 1 | Li-Ion Akku 1S2P 6800mAh | [Link](https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html) | 5-7Ah mit DuPont Stecker |
 | 2 | USB-Ladegerät (9V/2A oder 12V/1.6A+) | [Link](https://aliexpress.com/item/1005009579749293.html) | tbd |
-| 1 | USB Kabel magnetisch, 1m | [Link](https://www.aliexpress.com/item/4001224959039.html) | nach Belieben |
+| 1 | USB Kabel magnetisch, 1m für den UPS| [Link](https://www.aliexpress.com/item/4001224959039.html) | nach Belieben |
 | 1 | USB-A zu USB-C Kabel, 1m | [Link](https://aliexpress.com/item/1005008279278619.html) | nach Belieben |
 | 1 | Active Buzzer 3V/5V, verbinde zwischen GND (kurzer Pin) und GPIO 18 | [Link](https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html) | [Alternative](https://www.aliexpress.com/item/4000829554492.html) |
 | 1 | Etwas Klett-Tape zum Befestigen der Batterie | tbd | - |
@@ -184,32 +184,18 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 
 ## Basisplatte Motor
 
-- 3D printed parts, screws, nuts and standoffs 
-  - Kit : https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html
-  - List :
-    - 3D printed parts : 4  ( Top, middle, bottom and rear plate )
-    - 12mm length M2.5 male standoffs between the Raspberry PI and UPS hat board : 4
-    - 25mm length M2.5 male standoffs between the UPS hat board and middle plate : 4
-    - 10mm length M2.5 female standoffs between the middle plate and bottom plate : 4
-    - 5mm length M2.5 male standoffs between the Raspberry PI board and top plate : 4
-    - 6 mm M2.5 screw : 10 ( 4 top plate / 4 bottom plate / 2 middle plate)
-    - 8 or 10 mm M2.5 screw to fix motor board : 2 
-    - M2.5 nut : 6 ( 4 for the motor board / 2 middle plate)
-    - 8mm length M2 screw to fix the back plate on the middle plate : 3 
-    - M2 nut : 3
 
-- 4x Pololu 100:1 micro metal gearmotor HP 6V
-  - https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html (provided with cable you need to solder, but can be provided soldered)
-  - https://www.pololu.com/product/1101
-- 4x Pololu micro metal gearmotor extended bracket (provided with screws and nuts)
-  - https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html
-  - https://www.pololu.com/product/1089
-- 4x Pololu wheel 40×7mm
-  - https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html  
-  - https://www.pololu.com/product/1454
-- 1x Feetech 2ch motor controller
-  - https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html (provided with cables)
-  - https://aliexpress.com/item/1005010108693072.html (requires soldering a custom splitter cable: both motors of same side in parallel on each output)
+| Stk | Benennung | Shop |
+|---|---|---|
+| 1 | Komplettes Kit mit Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html) |
+| 4 | Pololu 100:1 Getriebemotoren HP 6V <br> mit Kabeln zum selber löten | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html) |
+| 4 | Pololu Motorhalter | [Link](https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html) |
+| 4 | Pololu Räder 40x7mm <br> es gibt Radmodelle bei den 3D Daten <br> Durchmesser beachten kleiner 40mm| [Link](https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html) |
+| 1 | Feetech 2-Kanal Motortreiber <br> Kabel inkl. | [Link](https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html) |
+
+Die Pololu Artikel gibt es auch direkt bei Pololu.
+
+
 
 ## Kopf-Teile
 
@@ -255,6 +241,31 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 - Botkins is considering changing more servos to metal gear. Add 2x DM-S0090MD metal servo for: head tilt [y], gripper tilt [y]. (Doesn't fit for gripper claw [x]).
   - "Color : 1PCS DM-S0090MD 270" https://aliexpress.com/item/1005010339946695.html
   - https://aliexpress.com/item/1005007890905728.html
+ 
+
+## Kleinteile, falls ihr selber druckt
+Motorplatte
+
+  - 3D printed parts : 4  ( Top, middle, bottom and rear plate )
+    - 12mm length M2.5 male standoffs between the Raspberry PI and UPS hat board : 4
+    - 25mm length M2.5 male standoffs between the UPS hat board and middle plate : 4
+    - 10mm length M2.5 female standoffs between the middle plate and bottom plate : 4
+    - 5mm length M2.5 male standoffs between the Raspberry PI board and top plate : 4
+    - 6 mm M2.5 screw : 10 ( 4 top plate / 4 bottom plate / 2 middle plate)
+    - 8 or 10 mm M2.5 screw to fix motor board : 2 
+    - M2.5 nut : 6 ( 4 for the motor board / 2 middle plate)
+    - 8mm length M2 screw to fix the back plate on the middle plate : 3 
+    - M2 nut : 3
+
+| Stk | Benennung | Dimmensionen |
+|---|---|---|
+| 4 | Distanzbolzen M2.5 Pi <> UPS | Männchen 12mm |
+| 4 | Distanzbolzen M2.5 UPS <> Mittelplatte | Männchen 25mm |
+| 4 | Distanzbolzen M2.5 Mittelplatte <> Motorplatte | Weibchen 10mm |
+| 4 | Distanzbolzen M2.5 Pi <> Topplatte | Männchen 5mm |
+| 10 | Schraube M2.5 (4x Topplatte, 4x Motorplatte, 2x Mittelplatte) | 6mm |
+| 2 | Schraube M2.5 für Motortreiber | 8 oder 10mm |
+
 </details>
 
 # Minus-Type Zusammenbau
