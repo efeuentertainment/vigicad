@@ -702,7 +702,7 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 2. Motortreiber mit zwei Schrauben und zwei Muttern an der Motorplatte befestigen
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>
 3. Schlussendlich sollten die Kabel so aussehen wie im nächsten Bild. Die Motoren auf der gleichen Seite haben die Stecker jeweils nebeneinander
-<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/>
+<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
 4. Auffahrschutz, Greiferhalter und Abstandshalter montieren. Länge siehe Tabelle unten
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-7.png" alt="Middle plate assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-8.png" alt="Middle plate assembly-8" style="width: 49%"/>  
