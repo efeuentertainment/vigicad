@@ -256,6 +256,8 @@ Mit wenigen einfachen Schritten kannst du deine Kamera auf [vigibot.com](https:/
 -	Ändere die Datei "robot.json" gemäss dem zuvor gewählten Roboternamen und Roboterpasswort. ( Ändere den „Demo”-Benutzernamen und das „Standard”-Passwort) 
 -	Installiere die SD-Karte im Raspberry Pi mit der installierten Kamera und schalte ihn dann ein (aufgrund des Kompilierungsprozesses dauert der erste Start einige Minuten, bevor der Roboter auf der Website erscheint (etwa 10 Minuten): Schalte den Raspberry Pi während dieser Zeit nicht aus).
 
+Hinweis zur Arbeit mit dem Pi: Wenn du dem Pi einfach den Saft abdrehst, können Daten auf der SD Karte verloren gehen. Der Pi verfügt über ein Betriebssystem, das gebootet und auch wieder sauber heruntergefahren werden muss. Fahre den Pi immer sauber aus dem Vigibot Kontrollpanel herunter.
+
 Falls du auf den Pi zugreifen willst:
 •	Der Pi und dein PC müssen in gleichen Netzwerk sein. Finde die IP Adresse des Pi raus (Verbindung über deinen Router > Verbundene Geräte)
 •	Win+R > „Powershell“ > Ausführen.
