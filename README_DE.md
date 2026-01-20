@@ -6,7 +6,7 @@
 - [Generelle Info](#generelle-info)
 - [Voraussetzungen](#voraussetzungen)
 - [Teileliste](#teileliste)
-- [Minus-Type Assembly](#minus-type-assembly)  
+- [Minus-Type Zusammenbau](#minus-type-zusammenbau)  
     - [1. Software Install](#1-software-install)  
     - [2. Vigibot Online Configuration](#2-vigibot-online-configuration)  
     - [3. UPS Solder Bridge](#3-ups-solder-bridge)  
@@ -217,8 +217,8 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 | Stk | Benennung | Dimmensionen | wird verwendet für |
 |---|---|---|---|
 | 4 | Distanzbolzen M2.5 | Männchen 12mm | Pi <> UPS |
-| 4 | Distanzbolzen M2.5 | Männchen 25mm | UPS <> Mittelplatte |
-| 4 | Distanzbolzen M2.5 | Weibchen 10mm | Mittelplatte <> Motorplatte |
+| 4 | Distanzbolzen M2.5 | Männchen 25mm | UPS <> Motorplatte |
+| 4 | Distanzbolzen M2.5 | Weibchen 10mm | Grundplatte <> Motorplatte |
 | 4 | Distanzbolzen M2.5 | Männchen 5mm | Pi <> Topplatte |
 | 10 | Schraube M2.5 | 6mm | 4x Topplatte <br> 4x Motorplatte <br> 2x Mittelplatte |
 | 2 | Schraube M2.5 | 8 oder 10mm | für Motortreiber |
@@ -703,27 +703,33 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>
 3. Schlussendlich sollten die Kabel so aussehen wie im nächsten Bild. Die Motoren auf der gleichen Seite haben die Stecker jeweils nebeneinander
 <img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/>
+4. Auffahrschutz, Greiferhalter und Abstandshalter montieren. Länge siehe Tabelle unten
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-7.png" alt="Middle plate assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-8.png" alt="Middle plate assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-9.png" alt="Middle plate assembly-9" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-10.png" alt="Middle plate assembly-10" style="width: 49%"/>
 
-- The basic motor base assembly. Guide in French only. NOTE: the following guide is for a different robot type (Turtle-type), only follow the guide to build the motor base `Assemblage de la plaque intermédiaire (motorisation), Etape 1 - 4`: https://www.robot-maker.com/forum/topic/13155-proposition-photos-montage-de-la-base-roulante-4wd-turtle-type/
+| Stk | Benennung | Dimmensionen | wird verwendet für |
+|---|---|---|---|
+| 4 | Distanzbolzen M2.5 | Männchen 12mm | Pi <> UPS |
+| 4 | Distanzbolzen M2.5 | Männchen 25mm | UPS <> Motorplatte |
+| 4 | Distanzbolzen M2.5 | Weibchen 10mm | Grundplatte <> Motorplatte |
+| 4 | Distanzbolzen M2.5 | Männchen 5mm | Pi <> Topplatte |
 
-
-## 8. Head Assembly
-#### Pan Turret Assembly
+## 8. Zusammenbau Kopf
+#### Kopf Schütteln
 <img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20turret%20assembly-2.png" alt="Pan turret assembly-2" style="width: 49%"/>
 
-#### Tilt Turret Assembly
+#### Nicken
 <img src="images/Minus%20assembly/Tilt%20turret%20assembly-1.png" alt="Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Tilt%20turret%20assembly-2.png" alt="Tilt turret assembly-2" style="width: 49%"/>
 
-#### Pan & Tilt Turret Assembly
+#### kompletter Kopf
 <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
 
-#### Camera Assembly
+#### Kamera
+Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden sein. Auf die Polarität achten. Mit den langen Schrauben und Muttern klemmen, danach ins gedruckte Teil einbauen und noch einmal mit Muttern sichern. Oder so wie auf den Bildern. Wichtig ist, dass die IR-Seitenteile mit Spannung versorgt werden.
 <img src="images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
 
-- Minus Pan & Tilt: https://www.robot-maker.com/forum/topic/13101-pan-tilt-minus-hardware-documentation/
+[Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13101-pan-tilt-minus-hardware-documentation/)
 
 ## 9. Gripper Assembly
 <img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>  
@@ -732,7 +738,7 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 <img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/>
 <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>  
 
-- Minus 2 axis gripper: https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/
+[Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
 
 ## 10. Final Assembly
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>  
@@ -740,17 +746,16 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 <img src="images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
 
-- robot should be ready to turn on now.
-- controlling from the vigibot website, check each of the servo travels, and re-screw the servo horns where necessary. 
-- set both infra-red IR LEDs to the weakest illumination by covering the brightness sensor / photoresistor, turning the tiny potentiometer on the IR LED boards and observing by eye or with a smartphone camera.
+- Der Roboter sollte nun betriebsbereit sein.
+- Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. 
+- Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
-## 11. Optional Assemblies
+## 11. Aufbau mit Metall-Getriebe Servos
 
-- Metal Gear Servo Assembly
 
 <img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
 
-- If you use DM-S0090MD metal gear servos for Head tilt [y] or Gripper tilt [y], the servo horn is a bit too long and has to be shortened. Doesn't fit for Gripper claw [x].
+- Wenn DM-S0090MD-Metallgetriebe-Servos für die Neigung des Kopfes oder die Neigung des Greifers verwenden werden, ist das Servo-Horn etwas zu lang und muss gekürzt werden. Passt nicht für die Greiferklaue.
 
 ## 12. Zusätzliche Bauanleitungen
 
