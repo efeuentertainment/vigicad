@@ -6,13 +6,6 @@
 - [Generelle Info](#generelle-info)
 - [Voraussetzungen](#voraussetzungen)
 - [Teileliste](#teileliste)
-  - [Hauptteile](#hauptteile)
-  - [UPS Alternatives](#ups-alternatives)
-  - [Power Distribution Board Parts](#power-distribution-board-parts)
-  - [Motor Base Parts](#motor-base-parts)
-  - [Head Parts](#head-parts)
-  - [Gripper Parts](#gripper-parts)
-  - [Optional Parts](#optional-parts)
 - [Minus-Type Assembly](#minus-type-assembly)  
     - [1. Software Install](#1-software-install)  
     - [2. Vigibot Online Configuration](#2-vigibot-online-configuration)  
@@ -29,8 +22,6 @@
     - [13. Funktionstest](#13-funktionstest)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
-
-!!!! Dieses Dokument wird gerade übersetzt !!!!
 
 ### Generelle Info
 
@@ -109,10 +100,12 @@ Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com
 Hinweis zum vigiUPSv2: Installiere die 2x Kamera-LEDs nicht, da sonst das Lademodul möglicherweise nicht mehr funktioniert, da der Akku aufgrund des zu hohen Leerlaufstromverbrauchs möglicherweise nie 100 % erreicht.
 
 ## *Hinweise zu Alternativen:
+Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschreibung.
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
   
-- 4G / LTE Stick: Huawei E3372h
+### 4G / LTE Stick: Huawei E3372h
+
   - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.
   - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
   - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
