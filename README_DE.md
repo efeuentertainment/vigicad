@@ -2,7 +2,7 @@
 <details open>
 <summary>[Verberge diesen Abschnitt]</summary>
 
-### Table of Contents
+## Table of Contents
 - [Generelle Info](#generelle-info)
 - [Voraussetzungen](#voraussetzungen)
 - [Teileliste](#teileliste)
@@ -23,7 +23,7 @@
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
-### Generelle Info
+## Generelle Info
 
 Dieser Leitfaden behandelt den Botkins V2. Weitere Verbesserungen sind in Arbeit und werden bald publiziert. Es ist geplant, ein komplettes Kit für Maker anzubieten. Es gibt aber keine Hürde oder Nachteil, einen Bot nach dieser Anleitung zu bauen. Die Funktionalität für die Patienten wird die selbe bleiben.
 
@@ -200,10 +200,10 @@ Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Ser
 
 ## Optionale Teile
 
-Wenn auch das Nicken und das Heben/Senken des Greifers mit Metall-Getriebe Servos gelöst werden soll, füge zwei weitere dieser Servos hinzu: [Link](https://aliexpress.com/item/1005010339946695.html)
+Wenn auch das Nicken und das Heben/Senken des Greifers mit Metall-Getriebe Servos gelöst werden soll, füge zwei weitere dieser Servos hinzu: [Link](https://aliexpress.com/item/1005010339946695.html).
 Funktioniert nicht für das Auf/Zu des Greifers.
 
-Je nach Modell des Servos kann es sein, dass die Druckteile angepasst werden müssen. Die CAD Modelle der Druckteile liegen vor, Änderung für den jeweiligen Roboter können gemacht werden.
+Je nach Modell des Servos kann es sein, dass die Druckteile angepasst werden müssen. Die CAD Modelle der Druckteile liegen vor. Ihr dürft sie herunterladen und für eure Zwecke anpassen.
  
 ## Druckteile, falls ihr selber druckt
 In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
