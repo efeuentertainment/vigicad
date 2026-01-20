@@ -287,14 +287,14 @@ Falls du auf den Pi zugreifen willst:
 •	Das Terminal wird dich fragen, ob du sicher bist, eine Verbindung herstellen zu wollen. Schreibe „yes“ und bestätige
 •	Das Passwort ist „raspberry“, wenn du es nicht anderweitig vergeben hast
 
-- LTE/4G mobile data stick:
-  - Plug into a Windows or Mac PC (192.168.8.1 webpage opens or start the App on the storage medium) and enable data roaming.
-- OPTIONAL: For Wi-Fi, you can use "/Hardware Design/wpa_supplicant.conf" on botkins cloud, as an example for the raspberry pi WiFi setup. either add or replace with your WiFi network.
+- LTE/4G Mobile Data Stick:
+  - An einen Windows- oder Mac-PC anschliessen (die Webseite 192.168.8.1 wird geöffnet oder die App auf dem Speichermedium gestartet) und Datenroaming aktivieren.
+- OPTIONAL: Für Wi-Fi kannst du in der Datei "/boot/wpa_supplicant.conf" auf der Speicherkarte Netzwerkname und Schlüssel eingeben (Datei Rechtsklick "Im Editor bearbeiten") Supertrick: Erstelle mit deinem Smartphone einen Hotspot. Dort kannst du Name und Passwort frei wählen. Schreibe die Verbindungsdaten auf den Roboter. So kann jeder, der einen Hotspot mit diesen Verbindungsdaten erstellt, dem Botkin ein Netzwerk bieten. Du kannst so theoretisch sogar den 4G / LTE Stick sparen.
 - Unplug power cable. During assembly, new parts can be connected (power off robot) and tested.
 
-## 2. Vigibot Online Configuration
-#### Remote controller Configuration
-On Vigibot website click-> `Management` -> Wrench Icon (Remote controller configuration) -> `Modifications made` -> `Form` set to `Text` -> Replace existing `{}` with following code:
+## 2. Vigibot Online Konfiguration
+#### Konfiguration der Fernsteuerung über Vigibot
+Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controller configuration) -> `Modifications made` -> Wechsle von `Form` zu `Text` -> ersetze die `{}` mit dem folgenden Code:
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
@@ -595,8 +595,8 @@ On Vigibot website click-> `Management` -> Wrench Icon (Remote controller config
 ```
 </details>
 
-#### Hardware Configuration
-On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -> `Modifications made` -> `Form` set to `Text` -> Replace existing `{}` with following code:
+#### Hardware Konfiguration
+Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configuration) -> `Modifications made` -> Wechsle von `Form` zu `Text` -> ersetze `{}` mit dem folgenden Code:
 <details>
 <summary>[SHOW CODE BLOCK]</summary>
 
@@ -666,46 +666,53 @@ On Vigibot website click -> `Management` -> Gear Icon (Hardware configuration) -
 
 - set the `AUTO-UPS` switch to `OFF`
 
-## 4. Servo Plug Split
+## 4. Servostecker teilen
 <img src="images/Minus_assembly_Botkins/servo_assembly_1.jpg" alt="servo_assembly_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/servo_assembly_2.jpg" alt="servo_assembly_2" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/servo_assembly_3.jpg" alt="servo_assembly_3" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/servo_assembly_4.jpg" alt="servo_assembly_4" style="width: 49%"/>
 
+- Die Servos werden in dieser Version über die Spannungsversorgungsprint mit Strom versorgt. Die Signalleitungen werden direkt auf dem Pi eingesteckt. Dazu müssen die Kabel "geteilt" werden.
+- Hinweis zu Servokabelfarben: Pluspos ist immer rot. GND ist entweder schwarz oder braun. Die Signalleitung ist entweder orange, gelb, weiss oder blau. Kompliziert, ich weiss.
+- Erstelle nun für jedes Servo einen Stecker mit zwei Polen (+ und GND) und eine einpolige Signalleitung. Um die Stecker einstecken zu können, entfernen wir die Kabel inkl. gecrimpte Buchsen und packen sie in neu Zweier-, resp. Einer-Kunststoffhüllen. Siehe Teileliste, die DuPont Buchsen. 
 - Split the signal (orange or white) wire off the 4x servos and 1x motor driver.
 
-## 5. Power Distribution Assembly
+## 5. Spannungsversorgung
 <img src="images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/><br>
 
-- Invert PH2.0 plug polarity (if necessary)<br>
+- Wenn nötig, Polarität des PH2.0 Kabels anpassen, je nach USP<br>
 
 <img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
 
-- Stack UPS onto Raspberry Pi.
-- Update 2025-05-26: Cut the battery plug off (cut + and - one after the other, to not short the battery), and solder it to the battery soldering pads on the UPS. The servos and motors can be powered as shown in the photos. Reason: The robot may shutdown randomly or when battery is only partially charged. Another symptom is the measured battery voltage drops from 4.2V to 3.8V or less when unplugged. It appears the combined resistance from battery power running over 3 plugs is too high.
+- Baue den UPS auf den Raspberry Pi.
+- Update 26.05.2025: Schneide den Batteriestecker ab (schneide + und - nacheinander ab, um die Batterie nicht kurzzuschliessen) und löte ihn an die Batterielötpads der USV. Die Servos und Motoren können wie auf den Fotos gezeigt mit Strom versorgt werden. Grund: Der Roboter kann sich zufällig oder bei nur teilweise geladener Batterie ausschalten. Ein weiteres Symptom ist, dass die gemessene Batteriespannung von 4,2 V auf 3,8 V oder weniger abfällt, wenn das Gerät vom Stromnetz getrennt wird. Es scheint, dass der kombinierte Widerstand der Batterieleistung, die über drei Stecker läuft, zu hoch ist.
 
-## 6. GPIO Wiring
+## 6. Signalleitungen verbinden
 <img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
 
-- A: Head pan [x] `GPIO 5 (physical pin 29)`<br>
-- B: Head tilt [y] `GPIO 6 (physical pin 31)`<br>
-- C: Gripper claw [x] `GPIO 7 (physical pin 26)`<br>
-- D: Gripper tilt [y] `GPIO 8 (physical pin 24)`<br>
+Nun werden die Servos an der richtigen Stelle auf dem Pi eingesteckt:
+
+- A: Kopf Schütteln : Head pan [x] `GPIO 5 (physical pin 29)`<br>
+- B: Nicken: Head tilt [y] `GPIO 6 (physical pin 31)`<br>
+- C: Greifer auf/zu: Gripper claw [x] `GPIO 7 (physical pin 26)`<br>
+- D: Greifer heben/senken: Gripper tilt [y] `GPIO 8 (physical pin 24)`<br>
 
 <img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
 
-- A: ESC motor driver
-  - left motors `GPIO 26 (physical pin 37)`
-  - right motors `GPIO 27 (physical pin 13)`
+- A: ESC Motortreiber
+  - Linke Motoren `GPIO 26 (physical pin 37)`
+  - Rechte Motoren `GPIO 27 (physical pin 13)`
+ 
+Sollte ein Motor eine falsche Drehrichtung haben, Polarität der Motorkabel am Treiber andersherum anschliessen.
 
-- Use the magnetic USB cable to power the UPS. (Note: from now on use the connector on the UPS board - not on the raspberry pi board)
-- Test control each servo from Vigibot. 
-- Before proceeding, press `Stop ■` button to center every servo, and unplug battery and USB power.
+- Verwende das magnetische USB-Kabel, um die USV mit Strom zu versorgen. (Hinweis: Verwende ab sofort den Anschluss auf der USV-Platine – nicht auf der Raspberry Pi-Platine.)
+- Testen Sie die Steuerung jedes Servos von Vigibot. 
+- Bevor Sie fortfahren, drücke `Stop ■` Drücke die Taste, um alle Servos zu zentrieren. Fahre den Bot über die Taste mit dem durchgestrichenen Steckersymbol im Vigibot Kontrollfeld herunter und ziehe den Akku und das USB-Kabel ab.
 
-## 7. Motor Base Assembly
+## 7. Zusammenbau Motorplatte
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>  
