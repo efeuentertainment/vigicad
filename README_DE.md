@@ -7,18 +7,18 @@
 - [Voraussetzungen](#voraussetzungen)
 - [Teileliste](#teileliste)
 - [Minus-Type Zusammenbau](#minus-type-zusammenbau)  
-    - [1. Software Install](#1-software-install)  
-    - [2. Vigibot Online Configuration](#2-vigibot-online-configuration)  
+    - [1. Software Installieren](#1-software-installieren)  
+    - [2. Vigibot Online Konfiguration](#2-vigibot-online-konfiguration)  
     - [3. UPS Solder Bridge](#3-ups-solder-bridge)  
-    - [4. Servo Plug Split](#4-servo-plug-split)  
-    - [5. Power Distribution Assembly](#5-power-distribution-assembly)  
-    - [6. GPIO Wiring](#6-gpio-wiring)  
-    - [7. Motor Base Assembly](#7-motor-base-assembly)  
-    - [8. Head Assembly](#8-head-assembly)  
-    - [9. Gripper Assembly](#9-gripper-assembly)  
+    - [4. Servostecker teilen](#4-servostecker-teilen)  
+    - [5. Spannungsversorgung](#5-spannungsversorgung)  
+    - [6. Signalleitungen verbinden](#6-signalleitungen-verbinden)  
+    - [7. Zusammenbau Motorplatte](#7-zusammenbau-motorplatte)  
+    - [8. Zusammenbau Kopf](#8-zusammenbau-kopf)  
+    - [9. Zusammenbau Greifer](#9-zusammenbau-greifer)  
     - [10. Final Assembly](#10-final-assembly)  
-    - [11. Optional Assemblies](#11-optional-assemblies)  
-    - [12. Additional Assembly Guides](#12-additional-assembly-guides)
+    - [11. Aufbau mit Metall-Getriebe Servos](#11-aufbau-mit-metall-getriebe-servos)  
+    - [12. Zusätzliche Bauanleitungen](#12-zusätzliche-bauanleitungen)
     - [13. Funktionstest](#13-funktionstest)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
@@ -731,7 +731,7 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13101-pan-tilt-minus-hardware-documentation/)
 
-## 9. Gripper Assembly
+## 9. Zusammenbau Greifer
 <img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>  
