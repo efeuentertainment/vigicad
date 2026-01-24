@@ -67,6 +67,7 @@ Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen
 <details>
 <summary>[Öffne diesen Abschnitt]</summary>
 Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte) mit. 
+    
 - [x] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
 - [x] Translate the parts of the external guide from french to english.
 - [ ] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide. [to be done by fire_ned]
@@ -75,6 +76,7 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
   - [ ] add pictures / gifs of led blinking patterns
   - [x] perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
 - [ ] add more function tests
+
 </details>
 
 </details>
