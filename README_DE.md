@@ -707,7 +707,7 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>
 2. Motortreiber mit zwei Schrauben und zwei Muttern an der Motorplatte befestigen
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>
-3. Schlussendlich sollten die Kabel so aussehen wie im nächsten Bild. Die Motoren auf der gleichen Seite haben die Stecker jeweils nebeneinander <br>
+3. Schlussendlich sollten die Kabel so aussehen wie im nächsten Bild. Die Motoren auf der gleichen Seite haben die Stecker jeweils nebeneinander. Die Verbindung zum Pi stellt ihr anhand der Beschriftung auf dem Treiber her. Linke Motoren `GPIO 26 (physical pin 37)`, rechte Motoren `GPIO 27 (physical pin 13)`<br>
 <img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
 4. Auffahrschutz, Greiferhalter und Abstandshalter montieren. Länge siehe Tabelle unten
 <img src="images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>  
@@ -752,12 +752,13 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 <img src="images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
 
+- Mikrofon an einem der USB Anschlüsse einstecken.
+- LTE / 4G Stick in 90° Winkelstecker stecken und diesen in einen der USB Anschlüsse einstecken.
 - Der Roboter sollte nun betriebsbereit sein.
 - Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. 
 - Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
 ## 11. Aufbau mit Metall-Getriebe Servos
-
 
 <img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
 
@@ -784,14 +785,14 @@ Teste die Funktionen des Roboters:
 
 Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Discord-Server (Tag @firened) oder in der Botkins Maker Signal-Gruppe nach.
 
-| Problem | Mögliche Ursachen | Lösung |
-|---------------------------|-----------------------------------|------------------------------------| 
-| Der Roboter trennt sich sporadisch (alle paar Stunden oder Minuten) | (1) Schwache Batterie (2) Schlechter 4G-Empfang | (1) Aufladen (2) Einen anderen Standort ausprobieren |
-| Der Roboter blinkt (visuell) und klickt (akustisch) alle paar Sekunden oder mehrmals pro Sekunde | Schwache Batterie | Roboter ausschalten und mehrere Stunden lang aufladen |
-| Der Roboter trennt alle 5 Sekunden die Verbindung | Fehlerhafte Konfiguration von Vigibot | Bitten Sie Vigibot oder Botkins, die Online-Konfiguration der Roboter zu überprüfen |
-| Der Akku ist nach ~5 Tagen leer, obwohl das Gerät ausgeschaltet ist | Einige Teile (Servos, Motortreiber) werden auch im ausgeschalteten Zustand mit Strom versorgt und entladen die Batterie | kann leider nicht geändert werden |
-| Das Video stottert, das Fahren wird unterbrochen, alle paar Sekunden erscheinen rote Balken auf der Website | Schlechter 4G-Empfang, zu geringe 4G-Bandbreite | Wählen Sie die Ansicht mit niedriger Bandbreite, probieren Sie einen anderen Standort aus und stellen Sie sicher, dass die mobile Datenübertragungsgeschwindigkeit mindestens „bis zu 50 Mbit/s“ beträgt |
-| Während der Montage ist der Roboter nach einem Neustart für einige Sekunden online und verschwindet dann | Keine 4G-Verbindung/Empfang | Ziehen Sie den 4G-Stick ab und versuchen Sie es mit WLAN oder Ethernet |
+| Problem | Mögliche Ursachen | Lösung | wichtig für |
+|---------------------------|-----------------------------------|------------------------------------| ---- |
+| Der Roboter trennt sich sporadisch (alle paar Stunden oder Minuten) | (1) Schwache Batterie (2) Schlechter 4G-Empfang | (1) Aufladen (2) Einen anderen Standort ausprobieren | Nutzer |
+| Der Roboter blinkt (visuell) und klickt (akustisch) alle paar Sekunden oder mehrmals pro Sekunde | Schwache Batterie | Roboter ausschalten und mehrere Stunden lang aufladen | Nutzer |
+| Der Roboter trennt alle 5 Sekunden die Verbindung | Fehlerhafte Konfiguration von Vigibot | Bitten Sie Vigibot oder Botkins, die Online-Konfiguration der Roboter zu überprüfen | Nutzer |
+| Der Akku ist nach ~5 Tagen leer, obwohl das Gerät ausgeschaltet ist | Einige Teile (Servos, Motortreiber) werden auch im ausgeschalteten Zustand mit Strom versorgt und entladen die Batterie | kann leider nicht geändert werden | Nutzer |
+| Das Video stottert, das Fahren wird unterbrochen, alle paar Sekunden erscheinen rote Balken auf der Website | Schlechter 4G-Empfang, zu geringe 4G-Bandbreite | Wählen Sie die Ansicht mit niedriger Bandbreite, probieren Sie einen anderen Standort aus und stellen Sie sicher, dass die mobile Datenübertragungsgeschwindigkeit mindestens „bis zu 50 Mbit/s“ beträgt | Nutzer |
+| Während der Montage ist der Roboter nach einem Neustart für einige Sekunden online und verschwindet dann | Keine 4G-Verbindung/Empfang | Ziehen Sie den 4G-Stick ab und versuchen Sie es mit WLAN oder Ethernet | Maker |
 
 
 ## Credits
