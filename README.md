@@ -23,7 +23,12 @@
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
+</details>
+
 ## Generelle Info
+
+<details open>
+<summary>[Verberge diesen Abschnitt]</summary>
 
 Dieser Leitfaden behandelt den Botkins V2. Weitere Verbesserungen sind in Arbeit und werden bald publiziert. Es ist geplant, ein komplettes Kit für Maker anzubieten. Es gibt aber keine Hürde oder Nachteil, einen Bot nach dieser Anleitung zu bauen. Die Funktionalität für die Patienten wird die selbe bleiben.
 
