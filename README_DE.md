@@ -211,9 +211,10 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
 
-| Stk | Beschreibung | Benennung im Ordner |
-|---|---|---|
-| 1 | USB bracket holder | stl/usb_bracket.stl |
+| Stk | Beschreibung | Benennung im Ordner | Bild |
+|---|---|---|:-:|
+| 1 | USB bracket holder | stl/usb_bracket.stl | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Clamp Finger a" style="width: 10%"/> |
+| 1 | USB bracket holder | stl/usb_bracket.stl | - |
 
 ### Kleinteile, falls ihr selber druckt
 
