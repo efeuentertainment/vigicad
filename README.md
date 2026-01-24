@@ -64,6 +64,8 @@ Wir versuchen, den Bau der Botkins so einfach wie möglich zu gestalten, aber di
 Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen und andere Mittel zu verbessern. 
 
 #### Nächste Schritte (für Maker, die zur Verbesserung dieses Leitfadens beitragen möchten)
+<details>
+<summary>[Öffne diesen Abschnitt]</summary>
 Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte) mit. 
 - [x] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
 - [x] Translate the parts of the external guide from french to english.
@@ -71,8 +73,9 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
 - [ ] extend the troubleshooting table
   - [ ] more scenarios
   - [ ] add pictures / gifs of led blinking patterns
-  - [ ] perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
+  - [x] perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
 - [ ] add more function tests
+</details>
 
 </details>
 
