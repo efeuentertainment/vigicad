@@ -205,8 +205,11 @@ Funktioniert nicht für das Auf/Zu des Greifers.
 
 Je nach Modell des Servos kann es sein, dass die Druckteile angepasst werden müssen. Die CAD Modelle der Druckteile liegen vor. Ihr dürft sie herunterladen und für eure Zwecke anpassen.
  
-### Druckteile, falls ihr selber druckt
+### Druckteile und Kleinteile, falls ihr selber druckt
 In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
+
+<details>
+<summary>[öffne diesen Abschnitt]</summary>
 
 | Stk | Beschreibung | Benennung im Ordner |
 |---|---|---|
