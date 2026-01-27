@@ -225,12 +225,23 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 
 | Pos | Beschreibung | Benennung im Ordner | V2 | Bild |
 |---|---|---|---|:-:|
-| 1 | Finger A zu Greifer | stl/clamp_finger_a.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Finger A zu Greifer" style="width: 35px"/> |
-| 2 | Finger B zu Greifer | stl/clamp_finger_b.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_b.jpg" alt="Finger B zu Greifer" style="width: 35px"/> |
-| 3 | Servoaufnahme Greifer | stl/clamp_servo_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_servo_bracket.jpg" alt="Servoaufnahme Greifer" style="width: 35px"/> |
-| 4 | Greiferhalter | stl/clamp_u_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_u_bracket.jpg" alt="Greiferhalter" style="width: 35px"/> |
-| 5 | Servohalter Kopf schütteln | stl/head_pan_servo_bracket.stl | 1 Stk | <img src="images/3D-parts/head_pan_servo_bracket.jpg" alt="Servohalter Kopf schütteln" style="width: 35px"/> |
-| 4 | USB bracket holder | stl/usb_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Clamp Finger a" style="width: 35px"/> |
+| 1 | Finger A zu Greifer | stl/clamp_finger_a.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Finger A zu Greifer" style="width: 45px"/> |
+| 2 | Finger B zu Greifer | stl/clamp_finger_b.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_b.jpg" alt="Finger B zu Greifer" style="width: 45px"/> |
+| 3 | Servoaufnahme Greifer | stl/clamp_servo_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_servo_bracket.jpg" alt="Servoaufnahme Greifer" style="width: 45px"/> |
+| 4 | Greiferhalter | stl/clamp_u_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_u_bracket.jpg" alt="Greiferhalter" style="width: 45px"/> |
+| 5 | Servohalter Kopf schütteln | stl/head_pan_servo_bracket.stl | 1 Stk | <img src="images/3D-parts/head_pan_servo_bracket.jpg" alt="Servohalter Kopf schütteln" style="width: 45px"/> |
+| 6a | Kopf ohne Smile | stl/head_servo_camera_bracket_nosmile.stl | 1 Stk <br> 6a oder 6b | <img src="images/3D-parts/head_servo_camera_bracket_nosmile.jpg" alt="Kopf ohne Smile" style="width: 45px"/> |
+| 6b | Kopf mit Smile | stl/head_servo_camera_bracket_smile.stl | 1 Stk <br> 6a oder 6b | <img src="images/3D-parts/head_servo_camera_bracket_smile.jpg" alt="Kopf mit Smile" style="width: 45px"/> |
+| 7 | Adapter Kopf schütteln | stl/head_u_bracket.stl | 1 Stk | <img src="images/3D-parts/head_u_bracket.jpg" alt="Adapter Kopf schütteln" style="width: 45px"/> |
+| 8 | Kamera Abdeckung | stl/photoresistor_cap.stl | 1 Stk <br> optional | <img src="images/3D-parts/photoresistor_cap.jpg" alt="Kamera Abdeckung" style="width: 45px"/> |
+| 9 | Motorhalter | stl/n20_motor_holder.stl | 4 Stk | <img src="images/3D-parts/n20_motor_holder.jpg" alt="Motorhalter" style="width: 45px"/> |
+| 10 | Bodenplatte | stl/plate_bottom.stl | 1 Stk | <img src="images/3D-parts/plate_bottom.jpg" alt="Bodenplatte" style="width: 45px"/> |
+| 11 | Mittelplatte = <br> Motorplatte | stl/plate_middle.stl | 1 Stk | <img src="images/3D-parts/plate_middle.jpg" alt="Mittelplatte" style="width: 45px"/> |
+| 12a | Topplatte mit Lüfterloch | stl/plate_top_fan.stl | 1 Stk <br> 12a oder 12b | <img src="images/3D-parts/plate_top_fan.jpg" alt="Topplatte Fan" style="width: 45px"/> |
+| 12b | Topplatte ohne Lüfterloch | stl/plate_top_nofan.stl | 1 Stk <br> 12a oder 12b | <img src="images/3D-parts/plate_top_nofan.jpg" alt="Topplatte No Fan" style="width: 45px"/> |
+| 13 | Rad 40 x 7mm | stl/pololu_wheel_40x7mm.stl | 4 Stk | <img src="images/3D-parts/pololu_wheel_40x7mm.jpg" alt="Rad" style="width: 45px"/> |
+| 14 | Stosstange hinten | stl/rear_protection.stl | 1 Stk | <img src="images/3D-parts/rear_protection.jpg" alt="Stossstange" style="width: 45px"/> |
+| 15 | 4G Stick Schutz | stl/usb_bracket.stl | 1 Stk | <img src="images/3D-parts/usb_bracket.jpg" alt="4G Stick Schutz" style="width: 45px"/> |
 
 
 ### Kleinteile, falls ihr selber druckt
