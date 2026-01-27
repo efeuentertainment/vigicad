@@ -224,7 +224,7 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 <summary>[öffne diesen Abschnitt]</summary>
 
 | Pos | Beschreibung | Benennung im Ordner | V2 | Bild |
-|---|---|---|---|:-:|
+|---|---|---|:-:|:-:|
 | 1 | Finger A zu Greifer | stl/clamp_finger_a.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Finger A zu Greifer" style="width: 45px"/> |
 | 2 | Finger B zu Greifer | stl/clamp_finger_b.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_b.jpg" alt="Finger B zu Greifer" style="width: 45px"/> |
 | 3 | Servoaufnahme Greifer | stl/clamp_servo_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_servo_bracket.jpg" alt="Servoaufnahme Greifer" style="width: 45px"/> |
