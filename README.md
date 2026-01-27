@@ -223,10 +223,15 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
 
-| Stk | Beschreibung | Benennung im Ordner | Bild |
-|---|---|---|:-:|
-| 1 | USB bracket holder | stl/usb_bracket.stl | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Clamp Finger a" style="width: 25px"/> |
-| 1 | USB bracket holder | stl/usb_bracket.stl | - |
+| Pos | Beschreibung | Benennung im Ordner | V2 | Bild |
+|---|---|---|---|:-:|
+| 1 | Finger A zu Greifer | stl/clamp_finger_a.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Finger A zu Greifer" style="width: 35px"/> |
+| 2 | Finger B zu Greifer | stl/clamp_finger_b.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_b.jpg" alt="Finger B zu Greifer" style="width: 35px"/> |
+| 3 | Servoaufnahme Greifer | stl/clamp_servo_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_servo_bracket.jpg" alt="Servoaufnahme Greifer" style="width: 35px"/> |
+| 4 | Greiferhalter | stl/clamp_u_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_u_bracket.jpg" alt="Greiferhalter" style="width: 35px"/> |
+| 5 | Servohalter Kopf schütteln | stl/head_pan_servo_bracket.stl | 1 Stk | <img src="images/3D-parts/head_pan_servo_bracket.jpg" alt="Servohalter Kopf schütteln" style="width: 35px"/> |
+| 4 | USB bracket holder | stl/usb_bracket.stl | 1 Stk | <img src="images/3D-parts/clamp_finger_a.jpg" alt="Clamp Finger a" style="width: 35px"/> |
+
 
 ### Kleinteile, falls ihr selber druckt
 
