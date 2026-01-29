@@ -19,9 +19,8 @@
     - [8. Zusammenbau Kopf](#8-zusammenbau-kopf)  
     - [9. Zusammenbau Greifer](#9-zusammenbau-greifer)  
     - [10. Final Assembly](#10-final-assembly)  
-    - [11. Aufbau mit Metall-Getriebe Servos](#11-aufbau-mit-metall-getriebe-servos)  
-    - [12. Zusätzliche Bauanleitungen](#12-zusätzliche-bauanleitungen)
-    - [13. Funktionstest](#13-funktionstest)
+    - [11. Zusätzliche Bauanleitungen](#12-zusätzliche-bauanleitungen)
+    - [12. Funktionstest](#13-funktionstest)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
@@ -97,7 +96,7 @@ Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) bes
 | 1 | USB Microphone "Super AI". Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder rauschen | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [BOYA "Color : BY-M100UA"](https://aliexpress.com/item/1005004133896137.html) |
 | 1 | 8-64GB "Endurance" Typ MicroSD Karte | [Link](https://www.robot-maker.com/shop/composants/91-carte-sd-32go-91.html) | [Alternative](https://www.pi-shop.ch/raspberry-pi-a2-class-sd-card-64gb) |
 | 1 | Falls keinen vorhanden: CardReader für microSD | [Link](https://www.pi-shop.ch/sandisk-card-reader-usb-3-0-reader) | nach Belieben |
-| 1 | Weitwinkelkamera mit Infrarot-Filter | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html) | [Alternative: "Option 2"]("https://aliexpress.com/item/32881466491.html) |
+| 1 | Weitwinkelkamera mit Infrarot-Filter | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html) | [Alternative: "Option 2"](https://aliexpress.com/item/32881466491.html) |
 | 1 | 30cm Verbindungskabel für Kamera (zum ersetzen des kurzen Originals) | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm) | nach Belieben |
 | 1 | Li-Ion Akku 1S2P 6800mAh | [Link](https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html) | Li-ion 1S2P 5-7Ah |
 | 2 | USB-Ladegerät (9V/1.3A, 12V/1A oder mehr) | [Link, "Plug Type: ** EU With Cable"](https://aliexpress.com/item/1005009579749293.html) | nach Belieben |
@@ -778,19 +777,13 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 - Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. 
 - Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
-## 11. Aufbau mit Metall-Getriebe Servos
-
-<img src="images/Minus_assembly_Botkins/metal_servo_horn_1.jpg" alt="metal_servo_horn_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/metal_servo_horn_2.jpg" alt="metal_servo_horn_2" style="width: 49%"/><br>
-
-- Wenn DM-S0090MD-Metallgetriebe-Servos für die Neigung des Kopfes oder die Neigung des Greifers verwenden werden, ist das Servo-Horn etwas zu lang und muss gekürzt werden. Passt nicht für die Greiferklaue.
-
-## 12. Zusätzliche Bauanleitungen
+## 11. Zusätzliche Bauanleitungen
 
 - Weitere Montageanleitungen in französischer Sprache: https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/
 - Kurzes Montagevideo aus der Community: https://youtu.be/9Eja0gG4bhI
 - Vigibot FAQ: https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/
 
-## 13. Funktionstest
+## 12. Funktionstest
 
 Teste die Funktionen des Roboters:
 
