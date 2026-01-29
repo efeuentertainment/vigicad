@@ -39,7 +39,7 @@ Erfahre mehr über das Botkins Charity Project:
 - [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)  
 
 Erfahre mehr über Vigibot:
-Das französische Roboter-Projekt, auf dem Botkins aufgebaut ist. Sie stellen die Navigation zur Verfügung
+Das französische Roboter-Projekt, wessen Software und Hardware Design Botkins benutzt.
 - [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 - [Drive a robot Vigibot.com](https://www.vigibot.com/)
 
@@ -47,21 +47,21 @@ Als Basis dient die Standard Vigibot Minus-Type Version (siehe Bild, ein reines 
 
 ![Standard Minus](images/Minus%20render-2.png)
 
-- Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir den Onboarding Process. 
+- Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen. 
 - Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben.
-- Der Bau Ihres ersten Roboters kann etwa 10 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 3 Stunden pro Roboter.
-- Einige Teile von Aliexpress können bis zu 5 Wochen bis zur Lieferung benötigen. Derzeit (2025) schlägt die Einstellung der Zahlungsmethode auf PayPal fehl, wenn "Sorry, some items are not available", Kreditkare funktioniert. Wähle [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) vor dem Checkout ab, sonst bekommst du pro Bestellposition 3-5 Mails.
+- Der Bau des ersten Roboters kann etwa 10 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 3 Stunden pro Roboter.
+- Einige Teile von Aliexpress können bis zu 5 Wochen fúr die Lieferung benötigen. Derzeit (2026) schlägt die Einstellung der Zahlungsmethode auf PayPal fehl, mit der Meldung "Sorry, some items are not available", bezahlen per Kreditkare funktioniert. Wähle [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) vor dem Checkout ab, sonst bekommst du pro Bestellposition 3-5 Mails.
 
 ### Voraussetzungen
 Du benötigst:
 - Lötkolben (für die 4 Motoren und UPS-Brücke). (Wenn du nicht löten möchtest, kann vielleicht ein anderer Maker die Teile für löten).
 - Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
-- Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die nicht in dieser Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der vorgelagerten Vigibot-Teileliste in jedem der 3D-gedruckten Bausätze.
-- Werkzeuge: Schraubendreher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, ...
+- Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die nicht in dieser Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der upstream Vigibot-Teileliste in jedem der 3D-gedruckten Sektionen.
+- Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, ...
 
 #### Geplante Verbesserungen am Leitfaden
 Wir versuchen, den Bau der Botkins so einfach wie möglich zu gestalten, aber dieser Leitfaden ist nicht ganz so klar und einfach, wie wir es uns wünschen würden.
-Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen und andere Mittel zu verbessern. 
+Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen oder anderen Wegen zu verbessern. 
 
 #### Nächste Schritte (für Maker, die zur Verbesserung dieses Leitfadens beitragen möchten)
 <details>
@@ -78,35 +78,34 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
 - [ ] add more function tests
 
 </details>
-
 </details>
 
 ## Teileliste
-Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
-Die meisten Teile können auch bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
-
 <details open>
 <summary>[Verberge diesen Abschnitt]</summary>
+Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
+Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
 
 ### Hauptteile
 
 | Stk | Benennung | Shop | Alternative* |
 |---|---|---|---|
-| 1 | Raspberry Pi 3B+ (or 3B), 1GB or 2GB | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/) | [Alternative](https://www.galaxus.ch/de/s1/product/raspberry-pi-3-model-b-entwicklungsboard-kit-8024081) |
-| 1 | Unlocked ZTE MF79 4G / LTE Stick | [Link](https://aliexpress.com/item/1005005844914823.html) | Huawei E3372h (Modell -153, -320 oder -607  |
-| 1 | USB - USB 90° adapter, Version "Down" | [Link](https://www.aliexpress.com/item/1005006057729975.html) | fehlt |
-| 1 | USB Microphone "Super AI". Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder zu laut| [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [Modell BY-M100UA](https://aliexpress.com/item/1005004133896137.html) |
-| 1 | 8-64GB MicroSD Karte | [Link](https://www.pi-shop.ch/raspberry-pi-a2-class-sd-card-64gb) | [Alternative](https://www.galaxus.ch/de/s1/product/wd-wdd032g1p0c-microsdhc-32-gb-u1-uhs-i-speicherkarte-13745268) |
-| 1 | Falls nicht vorhanden: CardReader für microSD | [Link](https://www.pi-shop.ch/sandisk-card-reader-usb-3-0-reader) | nach Belieben |
-| 1 | Weitwinkelkamera mit Infrarot-Filter | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html) | nicht wirklich |
-| 1 | 30cm Verbindungskabel für Kamera (als Ersatz für kurzes Original) | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm) | nach Belieben |
-| 1 | Li-Ion Akku 1S2P 6800mAh | [Link](https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html) | 5-7Ah mit DuPont Stecker |
-| 2 | USB-Ladegerät (9V/2A oder 12V/1.6A+) | [Link](https://aliexpress.com/item/1005009579749293.html) | tbd |
-| 1 | USB Kabel magnetisch, 1m für den UPS| [Link](https://www.aliexpress.com/item/4001224959039.html) | nach Belieben |
-| 1 | USB-A zu USB-C Kabel, 1m | [Link](https://aliexpress.com/item/1005008279278619.html) | nach Belieben |
-| 1 | Active Buzzer 3V/5V, verbinde zwischen GND (kurzer Pin) und GPIO 18 | [Link](https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html) | [Alternative](https://www.aliexpress.com/item/4000829554492.html) |
-| 1 | Etwas Klett-Tape zum Befestigen der Batterie | tbd | - |
-| 1 | Sekundenkleber für ??? | tbd | - |
+| 1 | Raspberry Pi 3B+ (or 3B), 1GB or 2GB | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/) | [Alternative](https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html) |
+| 1 | Unlocked ZTE MF79 4G / LTE Stick | [Link](https://aliexpress.com/item/1005005844914823.html) | Huawei E3372h (Modell -153, -320 oder -607 |
+| 1 | USB - USB 90° adapter | [Link, "Color : Adapter", "Cable Length : Down"](https://www.aliexpress.com/item/1005006057729975.html) | - |
+| 1 | USB bracket holder | [Link](https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html) | - |
+| 1 | USB Microphone "Super AI". Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder rauschen | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html) | [BOYA "Color : BY-M100UA"](https://aliexpress.com/item/1005004133896137.html) |
+| 1 | 8-64GB "Endurance" Typ MicroSD Karte | [Link](https://www.robot-maker.com/shop/composants/91-carte-sd-32go-91.html) | [Alternative](https://www.pi-shop.ch/raspberry-pi-a2-class-sd-card-64gb) |
+| 1 | Falls keinen vorhanden: CardReader für microSD | [Link](https://www.pi-shop.ch/sandisk-card-reader-usb-3-0-reader) | nach Belieben |
+| 1 | Weitwinkelkamera mit Infrarot-Filter | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html) | [Alternative: "Option 2"]("https://aliexpress.com/item/32881466491.html) |
+| 1 | 30cm Verbindungskabel für Kamera (zum ersetzen des kurzen Originals) | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm) | nach Belieben |
+| 1 | Li-Ion Akku 1S2P 6800mAh | [Link](https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html) | Li-ion 1S2P 5-7Ah |
+| 2 | USB-Ladegerät (9V/1.3A, 12V/1A oder mehr) | [Link, "Plug Type: ** EU With Cable"](https://aliexpress.com/item/1005009579749293.html) | nach Belieben |
+| 1 | USB Kabel magnetisch | [Link, "Color : ** type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) |
+| 1 | USB-A zu USB-C Kabel | [Link, "Color : A-C ** ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html) | nach Belieben |
+| 1 | Active Buzzer 3V/5V, verbinde zwischen GND (kurzer Pin) und GPIO 18 | [Link, "activ"](https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html) | [Alternative, "3v"](https://www.aliexpress.com/item/4000829554492.html) |
+| 1 | Etwas Klett-Tape zum Befestigen der Batterie | [Link, "White 1Meter", "25mm Wide"](https://www.aliexpress.com/item/1005006680575466.html) | - |
+| 1 | Falls noch keinen Vorhanden: Sekundenkleber | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html) | - |
 | 1 | Strommangement vigiUPSv2 | [Link](https://www.robot-maker.com/shop/alimentation/429-ups-hat-pour-raspberry-pi-429.html) | siehe "Hinweise zu Alternativen" |
 
 Hinweis zum vigiUPSv2: Installiere die 2x Kamera-LEDs nicht, da sonst das Lademodul möglicherweise nicht mehr funktioniert, da der Akku aufgrund des zu hohen Leerlaufstromverbrauchs möglicherweise nie 100 % erreicht.
@@ -120,7 +119,7 @@ Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschrei
 
   - Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.
   - Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
-  - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. (Pi-Kenntnisse nötig)
+  - Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. [Anleitung](https://www.robot-maker.com/forum/topic/14850-how-to-use-the-e3372h-with-stick-firmware-instead-of-hilink-firmware/#entry122357) (Pi-Kenntnisse nötig)
  
 #### UPS Alternativen
 
@@ -171,51 +170,42 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 
 ### Teile für Stromverteilung
 
-| Stk | Benennung | Shop |
-|---|---|---|
-| 1 | Splitter Board | [Link](https://www.aliexpress.com/item/1005006042011391.html) |
-| 1 | PH2.0 zu 2 Pin Kabel 10cm | [Link](https://www.aliexpress.com/item/1005002901249753.html) |
-| 8-16 | DuPont-Kabel 20 oder 30cm F-F| [Link](https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html) |
-| 5 | Einzelne DuPont Pin Hüllen F | [Link](https://aliexpress.com/item/33035707563.html) |
+| Stk | Benennung | Shop | Alternative |
+|---|---|---|---|
+| 1 | Splitter Board | [Link, "Color : 1 pcs"](https://www.aliexpress.com/item/1005006042011391.html) | - |
+| 1 | PH2.0 zu 2 Pin Kabel 10cm | [Link, "Color : 2P", "Length : 10CM"](https://www.aliexpress.com/item/1005002901249753.html) | - |
+| 8-16 | DuPont-Kabel | [Link, "30cm" or "20cm"](https://www.robot-maker.com/shop/composants/42-nappe-40-fils-femelle-femelle-42.html) |[Alternative, "Color : Mix 10 Color", "Connector Type : Female to Female", "Pins : 30cm"](https://www.aliexpress.com/item/1005005365866477.html) |
+| 5 | Einzelne DuPont Pin Hüllen | [Link, "1P"](https://aliexpress.com/item/33035707563.html) | - |
 
 ### Basisplatte Motor
 
 
-| Stk | Benennung | Shop |
-|---|---|---|
-| 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html) |
-| 4 | Pololu 100:1 Getriebemotoren HP 6V <br> mit Kabeln zum selber löten | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html) |
-| 4 | Pololu Motorhalter | [Link](https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html) |
-| 4 | Pololu Räder 40x7mm <br> es gibt Radmodelle bei den 3D Daten <br> Durchmesser beachten kleiner 40mm| [Link](https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html) |
-| 1 | Feetech 2-Kanal Motortreiber <br> Kabel inkl. | [Link](https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html) |
-
-Die Pololu Artikel gibt es auch direkt bei Pololu.
+| Stk | Benennung | Shop | Alternative |
+|---|---|---|---|
+| 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/425-kit-chassis-4wd-minus-425.html) | - |
+| 4 | Pololu 100:1 Getriebemotoren HP 6V <br> mit Kabeln zum selber löten | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html) | [Alternative](https://www.pololu.com/product/1101) |
+| 4 | Pololu Motorhalter Extended | [Link](https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html) |[Alternative](https://www.pololu.com/product/1089) |
+| 4 | Pololu Räder 40x7mm <br> es gibt Radmodelle bei den 3D Daten <br> Durchmesser beachten kleiner 40mm| [Link](https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html) | [Alternative](https://www.pololu.com/product/1454) |
+| 1 | Feetech 2-Kanal Motortreiber <br> Kabel inkl. | [Link](https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html) | [Alternative](https://aliexpress.com/item/1005010108693072.html) |
 
 ### Kopf-Teile
 
-| Stk | Benennung | Shop |
-|---|---|---|
-| 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html) |
-| 1 + 1 Reserve | DM-S0090MD 270° Metall Getriebe Servo 9g <br> (Kopf Schütteln) | [Link](https://aliexpress.com/item/1005010339946695.html) |
+| Stk | Benennung | Shop | Alternative |
+|---|---|---|---|
+| 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html) | - |
+| 1 + 1 Reserve | DM-S0090MD 270° Metall Getriebe Servo 9g <br> (Kopf Schütteln) | [Link, "Color : 1PCS DM-S0090MD 270"](https://aliexpress.com/item/1005010339946695.html) | [Alternative, "Color: 1PCS-270 Degree"](https://aliexpress.com/item/1005007890905728.html) |
 | 1 + 1 Reserve | 180° Servo 9g <br> (Nicken)| [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html) |
 
-Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
+Hinweis: Verwende die langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
 
 ### Greifer-Teile
 
 | Stk | Benennung | Shop |
 |---|---|---|
 | 1 | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html) |
-| 2 + 1 Reserve | 180° Servo 9g <br> (Nicken)| [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html) |
+| 2 | 180° Servo 9g | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html) |
 
-Hinweis: Verwende die mit den Servos mitgelieferten langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
-
-### Optionale Teile
-
-Wenn auch das Nicken und das Heben/Senken des Greifers mit Metall-Getriebe Servos gelöst werden soll, füge zwei weitere dieser Servos hinzu: [Link](https://aliexpress.com/item/1005010339946695.html).
-Funktioniert nicht für das Auf/Zu des Greifers.
-
-Je nach Modell des Servos kann es sein, dass die Druckteile angepasst werden müssen. Die CAD Modelle der Druckteile liegen vor. Ihr dürft sie herunterladen und für eure Zwecke anpassen.
+Hinweis: Verwende die langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
  
 ### Druckteile und Kleinteile, falls ihr selber druckt
 In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
@@ -233,18 +223,19 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 | 6a | Kopf ohne Smile | stl/head_servo_camera_bracket_nosmile.stl | 1 Stk <br> 6a oder 6b | <img src="images/3D-parts/head_servo_camera_bracket_nosmile.jpg" alt="Kopf ohne Smile" style="width: 45px"/> |
 | 6b | Kopf mit Smile | stl/head_servo_camera_bracket_smile.stl | 1 Stk <br> 6a oder 6b | <img src="images/3D-parts/head_servo_camera_bracket_smile.jpg" alt="Kopf mit Smile" style="width: 45px"/> |
 | 7 | Adapter Kopf schütteln | stl/head_u_bracket.stl | 1 Stk | <img src="images/3D-parts/head_u_bracket.jpg" alt="Adapter Kopf schütteln" style="width: 45px"/> |
-| 8 | Kamera Abdeckung | stl/photoresistor_cap.stl | 1 Stk <br> optional | <img src="images/3D-parts/photoresistor_cap.jpg" alt="Kamera Abdeckung" style="width: 45px"/> |
-| 9 | Motorhalter | stl/n20_motor_holder.stl | 4 Stk | <img src="images/3D-parts/n20_motor_holder.jpg" alt="Motorhalter" style="width: 45px"/> |
-| 10 | Bodenplatte | stl/plate_bottom.stl | 1 Stk | <img src="images/3D-parts/plate_bottom.jpg" alt="Bodenplatte" style="width: 45px"/> |
-| 11 | Mittelplatte = <br> Motorplatte | stl/plate_middle.stl | 1 Stk | <img src="images/3D-parts/plate_middle.jpg" alt="Mittelplatte" style="width: 45px"/> |
-| 12a | Topplatte mit Lüfterloch | stl/plate_top_fan.stl | 1 Stk <br> 12a oder 12b | <img src="images/3D-parts/plate_top_fan.jpg" alt="Topplatte Fan" style="width: 45px"/> |
-| 12b | Topplatte ohne Lüfterloch | stl/plate_top_nofan.stl | 1 Stk <br> 12a oder 12b | <img src="images/3D-parts/plate_top_nofan.jpg" alt="Topplatte No Fan" style="width: 45px"/> |
-| 13 | Rad 40 x 7mm | stl/pololu_wheel_40x7mm.stl | 4 Stk | <img src="images/3D-parts/pololu_wheel_40x7mm.jpg" alt="Rad" style="width: 45px"/> |
-| 14 | Stosstange hinten | stl/rear_protection.stl | 1 Stk | <img src="images/3D-parts/rear_protection.jpg" alt="Stossstange" style="width: 45px"/> |
-| 15 | 4G Stick Schutz | stl/usb_bracket.stl | 1 Stk | <img src="images/3D-parts/usb_bracket.jpg" alt="4G Stick Schutz" style="width: 45px"/> |
+| 8 | Motorhalter | stl/n20_motor_holder.stl | 4 Stk | <img src="images/3D-parts/n20_motor_holder.jpg" alt="Motorhalter" style="width: 45px"/> |
+| 9 | Bodenplatte | stl/plate_bottom.stl | 1 Stk | <img src="images/3D-parts/plate_bottom.jpg" alt="Bodenplatte" style="width: 45px"/> |
+| 10 | Mittelplatte = <br> Motorplatte | stl/plate_middle.stl | 1 Stk | <img src="images/3D-parts/plate_middle.jpg" alt="Mittelplatte" style="width: 45px"/> |
+| 11a | Topplatte mit Lüfterloch | stl/plate_top_fan.stl | 1 Stk <br> 12a oder 12b | <img src="images/3D-parts/plate_top_fan.jpg" alt="Topplatte Fan" style="width: 45px"/> |
+| 11b | Topplatte ohne Lüfterloch | stl/plate_top_nofan.stl | 1 Stk <br> 12a oder 12b | <img src="images/3D-parts/plate_top_nofan.jpg" alt="Topplatte No Fan" style="width: 45px"/> |
+| 12 | Rad 40 x 7mm | stl/pololu_wheel_40x7mm.stl | 4 Stk | <img src="images/3D-parts/pololu_wheel_40x7mm.jpg" alt="Rad" style="width: 45px"/> |
+| 13 | Stosstange hinten | stl/rear_protection.stl | 1 Stk | <img src="images/3D-parts/rear_protection.jpg" alt="Stossstange" style="width: 45px"/> |
+| 14 | 4G Stick Halter | stl/usb_bracket.stl | 1 Stk | <img src="images/3D-parts/usb_bracket.jpg" alt="4G Stick Schutz" style="width: 45px"/> |
 
 
 ### Kleinteile, falls ihr selber druckt
+
+Anmerkung: Die Kamera <> Kopf Schrauben und Muttern müssen elektrisch leiten.
 
 | Stk | Benennung | Dimmensionen | wird verwendet für |
 |---|---|---|---|
@@ -263,6 +254,7 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 | 2 | Schraube M2| 5 oder 6mm | ? |
 | 15 | Mutter M2| - | 3x Rückplatte <> Mittelplatte <br> 8x Kamera <br> 2x 270° Servo <> Pan Plate <br> 2x Greifer|
 
+</details>
 </details>
 
 # Minus-Type Zusammenbau
