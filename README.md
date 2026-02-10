@@ -269,7 +269,7 @@ Mit wenigen einfachen Schritten kannst du deine Kamera auf [vigibot.com](https:/
 
 - Erstelle auf [vigibot.com](https://www.vigibot.com/) einen Account.
 -	Klick auf "Management" und dann "Add a Robot". Wähle einen Namen für deinen Robter, den Roboter Typ Standard und ein Passwort für den Roboter. Das brauchen wir weiter unten gleich wieder, also merken.
--	Lade das Image runter: vigimage.zip und entpacke die ZIP-Datei.
+-	Lade das Image runter: [vigimage.zip](https://www.vigibot.com/vigimage/vigimage.zip) und entpacke die ZIP-Datei.
 -	Um die Image-Datei auf deine microSD Karte schreiben zu können, musst du diese mit dem PC verbinden (Kartenleser) und ein Tool zum Schreiben verwenden. Ich empfehle den Raspberry Pi Imager. Runterladen, installieren.
 -	Andere Tools wie das HDD Raw Copy Tool oder win32diskImager gehen auch. ApplePiBacker (Mac) oder balena etcher (Für Windows, Mac und Linux)
 -	Hinweis: Wenn du eine Karte grösser 32GB verwendest, musst du im Pi Imager zuerst das Modell 3 wählen, dann beim Betriebssystem löschen, um die Karte in FAT32 zu formatieren.
