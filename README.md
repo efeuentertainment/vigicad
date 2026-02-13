@@ -26,6 +26,11 @@
 
 </details>
 
+## Stand 2026-02-13
+
+Das UPS Bauteil ist aufgrund der mehreren neu gestarteten Roboterbauten im robot-maker Store ausverkauft.
+Es gibt eine funktionierende Alternative, das «Waveshare UPS hat (D)» UPS, aber dies benötigt Modifikationen, sodass wir empfehlen auf das VigiUPSv3 zu warten, welches innert Monaten verfügbar sein sollte. Gib uns bescheid und wir schreiben dir sobald es verfügbar ist.
+
 ## Generelle Info
 
 <details open>
@@ -796,6 +801,9 @@ Teste die Funktionen des Roboters:
 
 ## Troubleshooting
 
+<details open>
+<summary>[Verberge diesen Abschnitt]</summary>
+
 Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Discord-Server (Tag @firened) oder in der Botkins Maker Signal-Gruppe nach.
 
 | Problem | Mögliche Ursachen | Lösung | wichtig für |
@@ -807,6 +815,7 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 | Das Video stottert, das Fahren wird unterbrochen, alle paar Sekunden erscheinen rote Balken auf der Website | Schlechter 4G-Empfang, zu geringe 4G-Bandbreite | Wählen Sie die Ansicht mit niedriger Bandbreite, probieren Sie einen anderen Standort aus und stellen Sie sicher, dass die mobile Datenübertragungsgeschwindigkeit mindestens „bis zu 50 Mbit/s“ beträgt | Nutzer |
 | Während der Montage ist der Roboter nach einem Neustart für einige Sekunden online und verschwindet dann | Keine 4G-Verbindung/Empfang | Ziehen Sie den 4G-Stick ab und versuchen Sie es mit WLAN oder Ethernet | Maker |
 
+</details>
 
 ## Credits
 - Original Partlist: Vigibot
