@@ -168,7 +168,7 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 <img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
 
 - Nimm die Änderungen wie in den Bildern gezeigt vor
-- Da der Shunt-Widerstand 1/10 des üblicherweise verwendeten Widerstands beträgt und Vin+ und Vin- vertauscht sind, muss der Code in `/usr/local/vigibot/vigiclient.js` geringfügig geändert werden. Ich bin mir nicht sicher, ob das sinnvoll ist, da eine Änderung des Codes meines Wissens nach zukünftige automatische Vigibot-Updates deaktiviert.
+- Da der Shunt-Widerstand 1/10 des üblicherweise verwendeten Widerstands beträgt und Vin+ und Vin- vertauscht sind, muss der Code in `/usr/local/vigibot/clientrobotpi.js` geringfügig geändert werden. Ich bin mir nicht sicher, ob das sinnvoll ist, da eine Änderung des Codes meines Wissens nach zukünftige automatische Vigibot-Updates deaktiviert.
 
 </details>
 
