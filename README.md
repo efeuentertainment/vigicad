@@ -803,7 +803,7 @@ Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit de
 - **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)  
 - **Android:** Nutze [JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh) oder eine andere SSH-App.
 
-Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit standart passwort `raspberry`.
+Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit standart Passwort `raspberry`.
 ```bash
 ssh pi@ROBOT_IP
 ```
