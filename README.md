@@ -789,6 +789,7 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
+
 Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena `wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
 
 > ⚠️ Achtung: Während der Installation wird die bestehende WLAN-Verbindung getrennt.
