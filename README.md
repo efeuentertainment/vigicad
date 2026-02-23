@@ -18,9 +18,10 @@
     - [7. Zusammenbau Motorplatte](#7-zusammenbau-motorplatte)  
     - [8. Zusammenbau Kopf](#8-zusammenbau-kopf)  
     - [9. Zusammenbau Greifer](#9-zusammenbau-greifer)  
-    - [10. Final Assembly](#10-final-assembly)  
-    - [11. Zusätzliche Bauanleitungen](#12-zusätzliche-bauanleitungen)
-    - [12. Funktionstest](#13-funktionstest)
+    - [10. Finale Fertigstellung](#10-finale-fertigstellung)  
+    - [11. Optionale Schritte](#11-optionale-schritte)  
+    - [12. Zusätzliche Bauanleitungen](#12-zusätzliche-bauanleitungen)
+    - [13. Funktionstest](#13-funktionstest)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
@@ -770,7 +771,7 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
 
-## 10. Final Assembly
+## 10. Finale Fertigstellung
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>  
@@ -782,13 +783,103 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 - Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. 
 - Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
-## 11. Zusätzliche Bauanleitungen
+## 11. Optionale Schritte
+
+#### WLAN Unterstützung Einrichten
+
+Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena `wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
+
+> ⚠️ Achtung: Während der Installation wird die bestehende WLAN-Verbindung getrennt.
+
+### 1. Roboter vorbereiten
+
+1. Verbinde den Roboter über **Ethernet** mit deinem lokalen Netzwerk.
+2. Öffne die [Vigibot Website](https://www.robot-maker.com) und klicke **lange** auf das Roboter-Icon.  
+   - Notiere die **LAN-IP-Adresse** deines Roboters, die angezeigt wird.
+
+### 2. Verbindung per SSH herstellen
+
+Je nach Betriebssystem:
+
+- **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)  
+- **Android:** Nutze [JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh) oder eine andere SSH-App.
+
+Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit standart passwort `raspberry`.
+```bash
+ssh pi@ROBOT_IP
+```
+
+### 3. Script-Dateien erstellen
+
+1. start_BotkinsAP.sh erstellen
+
+```
+nano ~/start_BotkinsAP.sh
+```
+Füge folgenden Inhalt ein:
+```
+#!/usr/bin/env bash
+
+printf 'Warten, um der WLAN verbindung Zeit zu geben, sich zu verbinden\n'
+sleep 25
+
+# Prüfen, ob bereits eine WLAN-Verbindung besteht
+iwgetid -r
+if [ $? -eq 0 ]; then
+    printf 'Skipping WiFi Connect\n'
+else
+    printf 'Starting WiFi Connect\n'
+    /usr/local/sbin/wifi-connect --portal-ssid "BotkinsAP" --portal-passphrase "03Sessel"
+fi
+
+sleep infinity
+```
+PuTTY Speichern: Strg+O, Enter, Strg+X.
+
+2. Datei ausführbar machen
+```
+chmod +x ~/start_BotkinsAP.sh
+```
+### 4. rc.local anpassen
+
+Damit das WLAN-Captive-Portal automatisch beim Booten startet:
+```
+sudo nano /etc/rc.local
+```
+Füge vor `exit 0` folgende Zeile ein:
+```
+/home/pi/start_BotkinsAP.sh &
+```
+Speichern PuTTY: Strg+O, Enter, Strg+X.
+
+### 5. Roboter neu starten
+```
+sudo reboot
+```
+Nach dem Neustart startet der Roboter automatisch das Captive-Portal `BotkinsAP` mit dem Passwort `03Sessel`.
+
+Verbinde dich per WLAN mit diesem Netzwerk.
+
+Du kannst dann auf das Portal zugreifen, um das gewünschte WLAN-Netzwerk zu konfigurieren.
+
+### Hinweise & Tipps
+
+Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird. Gedulde dich ein wenig, bevor du prüfst, ob das WLAN verbunden ist.
+
+Mit der LAN-Verbindung bleibt der Roboter während der Konfiguration erreichbar, falls etwas schiefgeht.
+
+Ändere SSID und Passphrase im Script nach Bedarf.
+
+Wenn das Captive-Portal später automatisch wieder auftaucht, kann das an einem Bug in wifi-connect liegen. Das ist aktuell bekannt.
+
+
+## 12. Zusätzliche Bauanleitungen
 
 - Weitere Montageanleitungen in französischer Sprache: https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/
 - Kurzes Montagevideo aus der Community: https://youtu.be/9Eja0gG4bhI
 - Vigibot FAQ: https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/
 
-## 12. Funktionstest
+## 13. Funktionstest
 
 Teste die Funktionen des Roboters:
 
