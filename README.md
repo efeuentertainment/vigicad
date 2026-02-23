@@ -785,22 +785,18 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 ## 11. Optionale Schritte
 
-#### WLAN Unterstützung Einrichten
+### WLAN Unterstützung Einrichten
 
 Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena `wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
 
 > ⚠️ Achtung: Während der Installation wird die bestehende WLAN-Verbindung getrennt.
 
-### 1. Roboter vorbereiten
-
 1. Verbinde den Roboter über **Ethernet** mit deinem lokalen Netzwerk.
-2. Öffne die [Vigibot Website](https://www.robot-maker.com) und klicke **lange** auf das Roboter-Icon.  
+
+2. Öffne die [Vigibot Website](https://www.vigibot.com) und klicke **lange** auf das Roboter-Icon.  
    - Notiere die **LAN-IP-Adresse** deines Roboters, die angezeigt wird.
 
-### 2. Verbindung per SSH herstellen
-
-Je nach Betriebssystem:
-
+3. Verbindung per SSH herstellen. Je nach Betriebssystem:
 - **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)  
 - **Android:** Nutze [JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh) oder eine andere SSH-App.
 
@@ -809,9 +805,12 @@ Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit
 ssh pi@ROBOT_IP
 ```
 
-### 3. Script-Dateien erstellen
+4. balena wifi-connect installieren
+```
+bash <(curl -L https://github.com/balena-io/wifi-connect/raw/master/scripts/raspbian-install.sh)
+```
 
-1. start_BotkinsAP.sh erstellen
+5. start_BotkinsAP.sh erstellen
 
 ```
 nano ~/start_BotkinsAP.sh
@@ -836,12 +835,12 @@ sleep infinity
 ```
 PuTTY Speichern: Strg+O, Enter, Strg+X.
 
-2. Datei ausführbar machen
+6. Datei ausführbar machen
 ```
 chmod +x ~/start_BotkinsAP.sh
 ```
-### 4. rc.local anpassen
 
+7. rc.local anpassen
 Damit das WLAN-Captive-Portal automatisch beim Booten startet:
 ```
 sudo nano /etc/rc.local
@@ -852,26 +851,16 @@ Füge vor `exit 0` folgende Zeile ein:
 ```
 Speichern PuTTY: Strg+O, Enter, Strg+X.
 
-### 5. Roboter neu starten
+8. Roboter neu starten
 ```
 sudo reboot
 ```
 Nach dem Neustart startet der Roboter automatisch das Captive-Portal `BotkinsAP` mit dem Passwort `03Sessel`.
 
-Verbinde dich per WLAN mit diesem Netzwerk.
+9. Verbinde dich mit deinem Smartphone per WLAN zu `BotkinsAP`.
 
-Du kannst dann auf das Portal zugreifen, um das gewünschte WLAN-Netzwerk zu konfigurieren.
-
-### Hinweise & Tipps
-
-Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird. Gedulde dich ein wenig, bevor du prüfst, ob das WLAN verbunden ist.
-
-Mit der LAN-Verbindung bleibt der Roboter während der Konfiguration erreichbar, falls etwas schiefgeht.
-
-Ändere SSID und Passphrase im Script nach Bedarf.
-
-Wenn das Captive-Portal später automatisch wieder auftaucht, kann das an einem Bug in wifi-connect liegen. Das ist aktuell bekannt.
-
+Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
+Öffne einen Browser, um auf das Portal zuzugreifen, um das gewünschte WLAN-Netzwerk zu konfigurieren.
 
 ## 12. Zusätzliche Bauanleitungen
 
