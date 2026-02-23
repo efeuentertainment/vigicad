@@ -3,7 +3,7 @@
 ## Inhalt
 
 <details open>
-<summary>[Verberge diesen Abschnitt]</summary>
+<summary>[Diesen Abschnitt verbergen]</summary>
     
 - [Generelle Info](#generelle-info)
 - [Voraussetzungen](#voraussetzungen)
@@ -35,7 +35,7 @@ Es gibt eine funktionierende Alternative, das «Waveshare UPS hat (D)» UPS, abe
 ## Generelle Info
 
 <details open>
-<summary>[Verberge diesen Abschnitt]</summary>
+<summary>[Diesen Abschnitt verbergen]</summary>
 
 Dieser Leitfaden behandelt den Botkins V2. Weitere Verbesserungen sind in Arbeit und werden bald publiziert. Es ist geplant, ein komplettes Kit für Maker anzubieten. Es gibt aber keine Hürde oder Nachteil, einen Bot nach dieser Anleitung zu bauen. Die Funktionalität für die Patienten wird die selbe bleiben.
 
@@ -87,7 +87,7 @@ Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte
 
 ## Teileliste
 <details open>
-<summary>[Verberge diesen Abschnitt]</summary>
+<summary>[Diesen Abschnitt verbergen]</summary>
 Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
 Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
 
@@ -264,7 +264,7 @@ Anmerkung: Die Kamera <> Kopf Schrauben und Muttern müssen elektrisch leiten.
 
 # Minus-Type Zusammenbau
 <details open>
-<summary>[Verberge diesen Abschnitt]</summary>
+<summary>[Diesen Abschnitt verbergen]</summary>
 
 ## 1. Software Installieren
 <img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
@@ -787,6 +787,8 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 ### WLAN Unterstützung Einrichten
 
+<details open>
+<summary>[Diesen Abschnitt verbergen]</summary>
 Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena `wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
 
 > ⚠️ Achtung: Während der Installation wird die bestehende WLAN-Verbindung getrennt.
@@ -862,6 +864,8 @@ Nach dem Neustart startet der Roboter automatisch das Captive-Portal `BotkinsAP`
 Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 Öffne einen Browser, um auf das Portal zuzugreifen, um das gewünschte WLAN-Netzwerk zu konfigurieren.
 
+</details>
+
 ## 12. Zusätzliche Bauanleitungen
 
 - Weitere Montageanleitungen in französischer Sprache: https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/
@@ -882,7 +886,7 @@ Teste die Funktionen des Roboters:
 ## Troubleshooting
 
 <details open>
-<summary>[Verberge diesen Abschnitt]</summary>
+<summary>[Diesen Abschnitt verbergen]</summary>
 
 Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Discord-Server (Tag @firened) oder in der Botkins Maker Signal-Gruppe nach.
 
