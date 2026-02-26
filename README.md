@@ -785,6 +785,43 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 ## 11. Optionale Schritte
 
+### apt repositories aktualisieren
+
+<details>
+<summary>[Diesen Abschnitt anzeigen]</summary>
+
+Um dinge installieren zu können, müssen die Quellen für `apt` aktualisiert werden, da die ursprünglichen Paketquellen nicht mehr verfügbar sind.
+
+### 1. raspi.list anpassen
+
+```bash
+sudo nano /etc/apt/sources.list.d/raspi.list
+```
+Kommentiere alle vorhandenen Zeilen aus (mit # am Anfang der Zeile)
+und füge stattdessen folgende Zeilen ein:
+```
+deb http://legacy.raspbian.org/raspbian/ buster main contrib non-free rpi
+deb http://archive.raspberrypi.org/debian buster main
+```
+Speichern (PuTTY):
+Strg+O → Enter → Strg+X
+
+2. sources.list anpassen
+```
+sudo nano /etc/apt/sources.list
+```
+Kommentiere hier ebenfalls alle vorhandenen Zeilen aus.
+
+Speichern (PuTTY):
+Strg+O → Enter → Strg+X
+
+3. Paketlisten aktualisieren
+```
+sudo apt update
+```
+Danach sollte apt korrekt funktionieren.
+</details>
+
 ### WLAN Unterstützung Einrichten
 
 <details>
