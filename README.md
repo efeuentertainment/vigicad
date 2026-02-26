@@ -792,13 +792,12 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 Um dinge installieren zu können, müssen die Quellen für `apt` aktualisiert werden, da die ursprünglichen Paketquellen nicht mehr verfügbar sind.
 
-### 1. raspi.list anpassen
-
+1. raspi.list anpassen
 ```bash
 sudo nano /etc/apt/sources.list.d/raspi.list
 ```
 Kommentiere alle vorhandenen Zeilen aus (mit # am Anfang der Zeile)
-und füge stattdessen folgende Zeilen ein:
+und füge folgende Zeilen ein:
 ```
 deb http://legacy.raspbian.org/raspbian/ buster main contrib non-free rpi
 deb http://archive.raspberrypi.org/debian buster main
@@ -828,6 +827,8 @@ Danach sollte apt korrekt funktionieren.
 <summary>[Diesen Abschnitt anzeigen]</summary>
 
 Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena `wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
+
+Führe zuerst den obigen Abschnitt `apt repositories aktualisieren` durch, bevor du weiterfährst.
 
 > ⚠️ Achtung: Während der Installation wird die bestehende WLAN-Verbindung getrennt.
 
