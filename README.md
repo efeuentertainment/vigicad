@@ -898,10 +898,10 @@ sudo reboot
 ```
 Nach dem Neustart startet der Roboter automatisch das Captive-Portal `BotkinsAP` mit dem Passwort `03Sessel`.
 
-9. Verbinde dich mit deinem Smartphone per WLAN zu `BotkinsAP`.
+9. Verbinde dein Smartphone zum Access Point `BotkinsAP`.
 
 Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
-Öffne einen Browser, um auf das Portal zuzugreifen, um das gewünschte WLAN-Netzwerk zu konfigurieren.
+Öffne eine beliebige Website in einem Browser, das Captive-Portal wird dich automatisch zum Konfikurationsportal weiterleiten. Dort kannst du das gewünschte Heim-WLAN-Netzwerk aus einer Liste auswählen, womit sich der Roboter dann verbindet.
 
 </details>
 
