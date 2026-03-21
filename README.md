@@ -521,7 +521,7 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
   ],
   "COMMANDS": [
     {
-      "NAME": "Turret control",
+      "NAME": "Camera control",
       "CAMERA": 0,
       "MIXING": 0,
       "GAINX": 80,
@@ -535,9 +535,16 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
       "GAINY": 80
     },
     {
-      "NAME": "low bandwidth 250 Kbps",
+      "NAME": "250 Kbps - Camera control",
       "CAMERA": 1,
       "MIXING": 0,
+      "GAINX": 80,
+      "GAINY": 80
+    },
+    {
+      "NAME": "250 Kbps - Gripper control",
+      "CAMERA": 1,
+      "MIXING": 1,
       "GAINX": 80,
       "GAINY": 80
     }
