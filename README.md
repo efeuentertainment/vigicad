@@ -928,6 +928,7 @@ Teste die Funktionen des Roboters:
 - Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
 - Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind.
 - Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
+- Verbinde dich mit Vigibot und stell die Kamera auf einen Text gerichtet scharf
 - Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand, ob Abstürze auftreten.
 - Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
 - Schliesse bei vollständig entladenem Akku das Ladekabel an und schalte den Roboter ein. Er sollte nicht in einer Boot-Schleife hängenbleiben.
@@ -952,7 +953,7 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 | Der Roboter lässt sich über ssh nicht verbinden, obwohl die IP-Adresse bekannnt ist | Firewall oder VPN blockt | Firewall oder VPN temporär ausschalten | Maker |
 | ssh meldet trotz korrekter IP Adresse "  @@@ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @@@ ..." | Neues Image, alter Key | ssh-keygen -R 192.168.1.200 im Terminal eingeben und Enter, alter Key gelöscht. Erneut einloggen | Maker |
 | Verbindung per ssh nicht möglich nach Aufspielen von neuem Image | Image hat Standardpasswort mitgegeben | SD Card in PC > boot > robot.json Name und Passwort vergeben ODER Standardpasswort "raspberry" verwenden, um ssh zu starten | Maker |
-
+| 
 </details>
 
 ## Credits
