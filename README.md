@@ -281,23 +281,19 @@ Mit wenigen einfachen Schritten kannst du deine Kamera auf [vigibot.com](https:/
 -	Hinweis: Wenn du eine Karte grösser 32GB verwendest, musst du im Pi Imager zuerst das Modell 3 wählen, dann beim Betriebssystem löschen, um die Karte in FAT32 zu formatieren.
 -	Nach dem Ausführen des Pi Imager musst du das Modell des Pis auswählen, bei uns meist 3B+. Unter Betriebssystem wählst du zuunterst „Eigenes Image auswählen“, suchst das vigimage.img und wählst es aus. Dann wählst du die SD Karte als Zielmedium und bestätigst eine allfällige Überschreibewarnung. Starte den Schreibvorgang. Das dauert nun je nach Schreibgeschwindigkeit der Karte einige Minuten.
 -	Wenn das gemacht ist, öffne den /boot Ordner deiner SD Card. Windows: Sollte im Explorer der /boot Ordner nicht erscheinen, Drücke Win+R und gibt diskmgmt.msc ein. So gelangst du in die Datenträgerverwaltung. Wenn dort eine 100MB Partition gelistet ist, gib ihr über Rechtsklick > Laufwerkbuchstabe und -pfade ändern einen noch freien Buchstaben.
--	Ändere die Datei "wpa_supplicant.conf" mittels Rechtsklick und "in Editor anpassen" (Ändere die SSID „Demo“ und das Standardpasswort „Default“ entsprechend dem WLAN-Netzwerk, mit dem sich der Botkin verbinden soll. Tipp: Wenn (noch) kein 4G / LTE Stick vorhanden ist, kann mit dem Smartphone ein Hotspot eingerichtet werden. Vorteil: man kann den Botkin schon mitnehmen, wenn ein entsprechender Hotspot "mitreist". Nachteil: um auf den PI zuzugreifen via ssh, muss man im gleichen WLAN sein)
+-	Optional: Ändere die Datei "wpa_supplicant.conf" mittels Rechtsklick und "in Editor anpassen" (Ändere die SSID „Demo“ und das Standardpasswort „Default“ entsprechend dem WLAN-Netzwerk, mit dem sich der Botkin verbinden soll. Tipp: Wenn (noch) kein 4G / LTE Stick vorhanden ist, kann mit dem Smartphone ein Hotspot eingerichtet werden. Vorteil: man kann den Botkin schon mitnehmen, wenn ein entsprechender Hotspot "mitreist". Nachteil: um auf den PI zuzugreifen via ssh, muss man im gleichen WLAN sein)
 -	Ändere die Datei "robot.json" gemäss dem zuvor gewählten Roboternamen und Roboterpasswort. ( Ändere den „Demo”-Benutzernamen und das „Standard”-Passwort) 
 -	Installiere die SD-Karte im Raspberry Pi mit der installierten Kamera und schalte ihn dann ein (aufgrund des Kompilierungsprozesses dauert der erste Start einige Minuten, bevor der Roboter auf der Website erscheint (etwa 10 Minuten): Schalte den Raspberry Pi während dieser Zeit nicht aus).
 
-Hinweis zur Arbeit mit dem Pi: Wenn du dem Pi einfach den Saft abdrehst, können Daten auf der SD Karte verloren gehen. Der Pi verfügt über ein Betriebssystem, das gebootet und auch wieder sauber heruntergefahren werden muss. Fahre den Pi immer sauber aus dem Vigibot Kontrollpanel herunter.
-
 Falls du auf den Pi zugreifen willst:
-•	Der Pi und dein PC müssen in gleichen Netzwerk sein. Finde die IP Adresse des Pi raus (Verbindung über deinen Router > Verbundene Geräte)
-•	Win+R > „Powershell“ > Ausführen.
+•	Der Pi und dein PC müssen in gleichen Netzwerk sein. Finde die IP Adresse des Pi raus (Verbindung über deinen Router (häufig hat der Router die IP 192.168.1.1) > Verbundene Geräte oder nutze eine App wie "Fing")
+•	Win+R > „Powershell“ > Ausführen öffnet das Terminal
 •	Gib im Fenster ein: ssh pi@IP-ADRESSE (Ersetze die Adresse mit der Adresse des Pi, zB 192.168.1.146)
 •	Das Terminal wird dich fragen, ob du sicher bist, eine Verbindung herstellen zu wollen. Schreibe „yes“ und bestätige
-•	Das Passwort ist „raspberry“, wenn du es nicht anderweitig vergeben hast
+•	Verwende das Passwort, das du oben vergeben hast. Hast du robot.json nicht verändert, ist es „raspberry“.
 
 - LTE/4G Mobile Data Stick:
-  - An einen Windows- oder Mac-PC anschliessen (die Webseite 192.168.8.1 wird geöffnet oder die App auf dem Speichermedium gestartet) und Datenroaming aktivieren.
-- OPTIONAL: Für Wi-Fi kannst du in der Datei "/boot/wpa_supplicant.conf" auf der Speicherkarte Netzwerkname und Schlüssel eingeben (Datei Rechtsklick "Im Editor bearbeiten") Supertrick: Erstelle mit deinem Smartphone einen Hotspot. Dort kannst du Name und Passwort frei wählen. Schreibe die Verbindungsdaten auf den Roboter. So kann jeder, der einen Hotspot mit diesen Verbindungsdaten erstellt, dem Botkin ein Netzwerk bieten. Du kannst so theoretisch sogar den 4G / LTE Stick sparen.
-- Unplug power cable. During assembly, new parts can be connected (power off robot) and tested.
+- An einen Windows- oder Mac-PC anschliessen (die Webseite 192.168.8.1 wird geöffnet oder die App auf dem Speichermedium gestartet) und Datenroaming aktivieren.
 
 ## 2. Vigibot Online Konfiguration
 #### Konfiguration der Fernsteuerung über Vigibot
@@ -769,6 +765,7 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 
 #### Kamera
 Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden sein. Auf die Polarität achten. Mit den langen Schrauben und Muttern klemmen, danach ins gedruckte Teil einbauen und noch einmal mit Muttern sichern. Oder so wie auf den Bildern. Wichtig ist, dass die IR-Seitenteile mit Spannung versorgt werden. <br>
+
 <img src="images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13101-pan-tilt-minus-hardware-documentation/)
@@ -787,6 +784,8 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 <img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>  
 <img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
+
+Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 
 - Mikrofon an einem der USB Anschlüsse einstecken.
 - LTE / 4G Stick in 90° Winkelstecker stecken und diesen in einen der USB Anschlüsse einstecken.
@@ -918,9 +917,9 @@ Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 
 ## 12. Zusätzliche Bauanleitungen
 
-- Weitere Montageanleitungen in französischer Sprache: https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/
-- Kurzes Montagevideo aus der Community: https://youtu.be/9Eja0gG4bhI
-- Vigibot FAQ: https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/
+- Weitere [Montageanleitungen](https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/) in französischer Sprache
+- Kurzes [Montagevideo](https://youtu.be/9Eja0gG4bhI) aus der Community
+- [Vigibot FAQ](https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/)
 
 ## 13. Funktionstest
 
@@ -928,6 +927,8 @@ Teste die Funktionen des Roboters:
 
 - Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
 - Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind.
+- Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
+- Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand, ob Abstürze auftreten.
 - Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
 - Schliesse bei vollständig entladenem Akku das Ladekabel an und schalte den Roboter ein. Er sollte nicht in einer Boot-Schleife hängenbleiben.
 
@@ -948,6 +949,9 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 | Der Akku ist nach ~5 Tagen leer, obwohl das Gerät ausgeschaltet ist | Einige Teile (Servos, Motortreiber) werden auch im ausgeschalteten Zustand mit Strom versorgt und entladen die Batterie | kann leider nicht geändert werden | Nutzer |
 | Das Video stottert, das Fahren wird unterbrochen, alle paar Sekunden erscheinen rote Balken auf der Website | Schlechter 4G-Empfang, zu geringe 4G-Bandbreite | Wählen Sie die Ansicht mit niedriger Bandbreite, probieren Sie einen anderen Standort aus und stellen Sie sicher, dass die mobile Datenübertragungsgeschwindigkeit mindestens „bis zu 50 Mbit/s“ beträgt | Nutzer |
 | Während der Montage ist der Roboter nach einem Neustart für einige Sekunden online und verschwindet dann | Keine 4G-Verbindung/Empfang | Ziehen Sie den 4G-Stick ab und versuchen Sie es mit WLAN oder Ethernet | Maker |
+| Der Roboter lässt sich über ssh nicht verbinden, obwohl die IP-Adresse bekannnt ist | Firewall oder VPN blockt | Firewall oder VPN temporär ausschalten | Maker |
+| ssh meldet trotz korrekter IP Adresse "  @@@ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @@@ ..." | Neues Image, alter Key | ssh-keygen -R 192.168.1.200 im Terminal eingeben und Enter, alter Key gelöscht. Erneut einloggen | Maker |
+| Verbindung per ssh nicht möglich nach Aufspielen von neuem Image | Image hat Standardpasswort mitgegeben | SD Card in PC > boot > robot.json Name und Passwort vergeben ODER Standardpasswort "raspberry" verwenden, um ssh zu starten | Maker |
 
 </details>
 
