@@ -191,7 +191,7 @@ B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schri
 | 4 | Pololu 100:1 Getriebemotoren HP 6V <br> mit Kabeln zum selber löten | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/384-moteur-pololu-300-rpm.html) | [Alternative](https://www.pololu.com/product/1101) |
 | 4 | Pololu Motorhalter Extended | [Link](https://www.robot-maker.com/shop/elements-mecaniques/385-support-moteur-pololu-long.html) |[Alternative](https://www.pololu.com/product/1089) |
 | 4 | Pololu Räder 40x7mm <br> es gibt Radmodelle bei den 3D Daten <br> Durchmesser beachten kleiner 40mm| [Link](https://www.robot-maker.com/shop/elements-mecaniques/346-roue-pololu-40mm.html) | [Alternative](https://www.pololu.com/product/1454) |
-| 1 | Feetech 2-Kanal Motortreiber <br> Kabel inkl. | [Link](https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html) | [Alternative](https://aliexpress.com/item/1005010108693072.html) |
+| 1 | Feetech 2-Kanal Motortreiber <br> Kabel inkl. | [Link](https://www.robot-maker.com/shop/drivers-d-actionneurs/280-driver-convertisseur-moteur-cc-servomoteur.html) | - |
 
 ### Kopf-Teile
 
