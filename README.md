@@ -105,7 +105,7 @@ Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) bes
 | 1 | Weitwinkelkamera mit Infrarot-Filter | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html) | [Alternative: "Option 2"](https://aliexpress.com/item/32881466491.html) |
 | 1 | 30cm Verbindungskabel für Kamera (zum ersetzen des kurzen Originals) | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm) | nach Belieben |
 | 1 | Li-Ion Akku 1S2P 6800mAh | [Link](https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html) | Li-ion 1S2P 5-7Ah |
-| 2 | USB-Ladegerät (9V/1.3A, 12V/1A oder mehr) | [Link, "Plug Type: ** EU With Cable"](https://aliexpress.com/item/1005009579749293.html) | nach Belieben |
+| 2 | 6A 67W Fast USB Charger | [Link, "Plug Type: EU Charger and Cable"](https://aliexpress.com/item/1005006632595521.html) | - |
 | 1 | USB Kabel magnetisch | [Link, "Color : ** type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) |
 | 1 | USB-A zu USB-C Kabel | [Link, "Color : A-C ** ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html) | nach Belieben |
 | 1 | Active Buzzer 3V/5V, verbinde zwischen GND (kurzer Pin) und GPIO 18 | [Link, "activ"](https://www.robot-maker.com/shop/accessoires-robotiques/487-buzzer-5v-487.html) | [Alternative, "3v"](https://www.aliexpress.com/item/4000829554492.html) |
