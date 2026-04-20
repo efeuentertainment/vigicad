@@ -932,7 +932,7 @@ Teste die Funktionen des Roboters:
 5. Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand (ca 3,3V – 3,5V), ob Abstürze auftreten.
 6. Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
 7. Lasse den Roboter eingeschaltet und schliesse bei vollständig entladenem Akku das Ladekabel an. Er sollte nicht in einer Boot-Schleife hängenbleiben.
-8. Lade den Roboter Komplett auf (aufladen dauert bis zu 10h eingeschaltet, 4h ausgeschaltet). Die Spannung sollte beim ausgestecken von 4,1–4,2V nicht unter 3,9V fallen. Sonst ist der widerstand zum Akku zu gross, dazu evtl die Akkukabel direkt am UPS anlöten.
+8. Lade den Roboter Komplett auf (aufladen dauert bis zu 10h eingeschaltet, 4h ausgeschaltet). Die Spannung sollte beim ausgestecken von 4,1–4,2V nicht unter 3,9V fallen. Sonst ist der Widerstand zum Akku zu gross, dazu evtl die Akkukabel direkt am UPS anlöten.
 
 
 </details>
