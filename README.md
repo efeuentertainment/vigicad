@@ -925,13 +925,15 @@ Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 
 Teste die Funktionen des Roboters:
 
-- Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
-- Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind.
-- Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
-- Verbinde dich mit Vigibot und stell die Kamera auf einen Text gerichtet scharf
-- Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand, ob Abstürze auftreten.
-- Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
-- Schliesse bei vollständig entladenem Akku das Ladekabel an und schalte den Roboter ein. Er sollte nicht in einer Boot-Schleife hängenbleiben.
+1. Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
+2. Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind. Dazu die Bewegungen ganz langsam durchführen.
+3. Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
+4. Verbinde dich mit Vigibot und stell die Kamera auf einen Text gerichtet scharf.
+5. Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand (ca 3,3V – 3,5V), ob Abstürze auftreten.
+6. Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
+7. Lasse den Roboter eingeschaltet und schliesse bei vollständig entladenem Akku das Ladekabel an. Er sollte nicht in einer Boot-Schleife hängenbleiben.
+8. Lade den Roboter Komplett auf (aufladen dauert bis zu 10h eingeschaltet, 4h ausgeschaltet). Die Spannung sollte beim ausgestecken von 4,1–4,2V nicht unter 3,9V fallen. Sonst ist der widerstand zum Akku zu gross, dazu evtl die Akkukabel direkt am UPS anlöten.
+
 
 </details>
 
