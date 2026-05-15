@@ -1013,8 +1013,10 @@ Nun ist es Zeit für den finalen Check!
 Teste die Funktionen des Roboters:
 
 1. Roboter auf vigibot.com sichtbar mit korrektem Namen?
-2. Alle Bedienelemente vorhanden? Wenn nicht > botkins Team fragen <img src="images/Minus_assembly_Botkins/vigi-standard-icons.jpg" alt="servo_assembly_4" style="width: 29%"/>
-3. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen <img src="images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 29%"/>
+2. Alle Bedienelemente vorhanden? Wenn nicht > botkins Team fragen
+   <img src="images/Minus_assembly_Botkins/vigi-standard-icons.jpg" alt="servo_assembly_4" style="width: 29%"/>
+3. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
+   <img src="images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 29%"/>
 4. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
 5. Alle Räder drehen?
 6. Robo lässt sich präzise fahren, auch schnelles Drehen ist möglich?
