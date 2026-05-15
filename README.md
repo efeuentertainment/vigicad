@@ -1018,7 +1018,7 @@ Teste die Funktionen des Roboters:
    <img src="images/Minus_assembly_Botkins/vigi-standard-icons.jpg" alt="servo_assembly_4" style="width: 29%"/>
 4. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
 
-   <img src="images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 29%"/>
+   <img src="images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 19%"/>
 6. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
 7. Alle Räder drehen?
 8. Robo lässt sich präzise fahren, auch schnelles Drehen ist möglich?
