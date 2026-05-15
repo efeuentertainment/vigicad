@@ -826,6 +826,25 @@ Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein.
 * Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
+### 10.1 Aufkleber auf dem Roboter
+
+Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, folgende Aufkleber zu drucken und anzubringen. Die mit ** Text ** geführten Ausdrücke müssen passend zu eurem Roboter angepasst werden. Die Schriftgrösse so anpassen, dass die Aufkleber Platz haben. Beim Hinweis zum LED-Farbcode des 4G Sticks muss auf den Typ des Sticks geachtet werden.
+
+| Nr. | Benennung          | Text  | Position am Roboter        |
+| --- | ------------------ | ------------- | -------------------------- |
+| 1   | Name | *Name: ** NAME ** botkins.ch [Nr. ** Roboternummer **]*| oben auf dem Roboter |
+| 2   | Hauptschalter | *Ein / Aus* | Beim Hauptschalter des Spannungsversorgungsmoduls (UPS) |
+| 3   | Startvorgang | *Startvorgang dauert 30s* | oben auf dem Roboter |
+| 4   | Hinweis Betrieb | *Roboterli ist designt, um durchgehend eingesteckt und eingeschaltet zu sein.*  | oben auf dem Roboter|
+| 5   | Empfang 4G Stick | *2x Blau: Empfang ok, Rot + Blau: kein Empfang* | auf dem 4G Stick |
+| 6   | Hinweis 4G Stick | *4G Stick für ** Robotername ** botkins.ch vigibot.com* | auf dem 4G Stick |
+| 7*   | Ladehinweis | *Roboter mit dem Netzteil laden, nicht am Raspberry* | in der Nähe der Ladebuchse |
+| 8*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Config" verbinden* | oben auf dem Roboter |
+
+7* Je nach verbauter Spannungsversorgung (UPS) ist dieser Hinweis anders zu gestalten. Wichtig ist, dass der Robo nicht über den USB-Anschluss des Raspberry geladen wird. Am besten den richtigen Anschluss farblich kennzeichnen und ein Foto dem Begleitbrief beilegen.
+8* Nur, wenn balena WLAN-Config installiert ist
+
+
 ## 11. Optionale Schritte
 
 ### apt repositories aktualisieren
