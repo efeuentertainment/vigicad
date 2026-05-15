@@ -1014,32 +1014,34 @@ Teste die Funktionen des Roboters:
 
 1. Roboter auf vigibot.com sichtbar mit korrektem Namen?
 2. Alle Bedienelemente vorhanden? Wenn nicht > botkins Team fragen
+
    <img src="images/Minus_assembly_Botkins/vigi-standard-icons.jpg" alt="servo_assembly_4" style="width: 29%"/>
-3. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
+4. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
+
    <img src="images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 29%"/>
-4. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
-5. Alle Räder drehen?
-6. Robo lässt sich präzise fahren, auch schnelles Drehen ist möglich?
-7. Robo fällt beim abrupten Bremsen nicht vornüber?
-8. Antriebsmotoren sind vor Staub und Zugriff geschützt?
-9. Ruderhörner der Servos sind passgenau und spielfrei verbaut?
-10. Kopf lässt sich drehen?
-11. Kopf dreht symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
-12. Nicken funktioniert?
-13. Nicken symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
-14. Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
-15. Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind. Dazu die Bewegungen ganz langsam durchführen.
-16. Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
-17. Verbinde dich mit Vigibot und stell die Kamera auf einen Text gerichtet scharf.
-18. Schau mit dem Smartphone auf die "Augen", die IR-LEDs. Decke den runden Helligkeitssensor ab. Stelle die Helligkeit nun mit einem winzigen Schlitzschraubendreher auf das Minimum. Auf der anderen Seite wiederholen. Das verhindert übermässigen Akkuverbrauch.
-19. Ist der Winkelstecker und der LTE/4G Stick und der Auffahrschutz montiert?
-20. Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand (ca 3,3V – 3,5V), ob Abstürze auftreten.
-21. Ist die Ladebuchse des Roboters zugänglich?
-22. Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
-23. Lasse den Roboter eingeschaltet und schliesse bei vollständig entladenem Akku das Ladekabel an. Er sollte nicht in einer Boot-Schleife hängenbleiben.
-24. Lade den Roboter Komplett auf (aufladen dauert bis zu 10h eingeschaltet, 4h ausgeschaltet). Die Spannung sollte beim Ausgestecken von 4,1–4,2V nicht unter 3,9V fallen. Sonst ist der Widerstand zum Akku zu gross, dazu evtl die Akkukabel direkt am UPS anlöten.
-25. Mirofon testen
-26. Sind die Aufkleber angebracht?
+6. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
+7. Alle Räder drehen?
+8. Robo lässt sich präzise fahren, auch schnelles Drehen ist möglich?
+9. Robo fällt beim abrupten Bremsen nicht vornüber?
+10. Antriebsmotoren sind vor Staub und Zugriff geschützt?
+11. Ruderhörner der Servos sind passgenau und spielfrei verbaut?
+12. Kopf lässt sich drehen?
+13. Kopf dreht symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
+14. Nicken funktioniert?
+15. Nicken symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
+16. Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
+17. Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind. Dazu die Bewegungen ganz langsam durchführen.
+18. Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
+19. Verbinde dich mit Vigibot und stell die Kamera auf einen Text gerichtet scharf.
+20. Schau mit dem Smartphone auf die "Augen", die IR-LEDs. Decke den runden Helligkeitssensor ab. Stelle die Helligkeit nun mit einem winzigen Schlitzschraubendreher auf das Minimum. Auf der anderen Seite wiederholen. Das verhindert übermässigen Akkuverbrauch.
+21. Ist der Winkelstecker und der LTE/4G Stick und der Auffahrschutz montiert?
+22. Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand (ca 3,3V – 3,5V), ob Abstürze auftreten.
+23. Ist die Ladebuchse des Roboters zugänglich?
+24. Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
+25. Lasse den Roboter eingeschaltet und schliesse bei vollständig entladenem Akku das Ladekabel an. Er sollte nicht in einer Boot-Schleife hängenbleiben.
+26. Lade den Roboter Komplett auf (aufladen dauert bis zu 10h eingeschaltet, 4h ausgeschaltet). Die Spannung sollte beim Ausgestecken von 4,1–4,2V nicht unter 3,9V fallen. Sonst ist der Widerstand zum Akku zu gross, dazu evtl die Akkukabel direkt am UPS anlöten.
+27. Mirofon testen
+28. Sind die Aufkleber angebracht?
 
 </details>
 
