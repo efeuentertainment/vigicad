@@ -849,7 +849,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 | 3   | Startvorgang | *Startvorgang dauert 30s* | oben/unten auf dem Roboter |
 | 4   | Hinweis Betrieb | *Roboterli ist designt, um durchgehend eingesteckt und eingeschaltet zu sein.*  | oben/unten auf dem Roboter|
 | 5   | Empfang 4G Stick | *2x Blau: Empfang ok, Rot + Blau: kein Empfang* | auf dem 4G Stick |
-| 6   | Hinweis 4G Stick | *4G Stick für ** Robotername ** botkins.ch vigibot.com* | auf dem 4G Stick |
+| 6   | Hinweis 4G Stick | *4G Stick für botkins.ch vigibot.com* | auf dem 4G Stick |
 | 7*   | Ladehinweis | *Roboter mit dem Netzteil laden, nicht am Raspberry* | in der Nähe der Ladebuchse |
 | 8*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "VigibotWiFiConfig" verbinden* | oben/unten auf dem Roboter |
 
