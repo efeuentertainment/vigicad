@@ -851,7 +851,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 | 5   | Empfang 4G Stick | *2x Blau: Empfang ok, Rot + Blau: kein Empfang* | auf dem 4G Stick |
 | 6   | Hinweis 4G Stick | *4G Stick für botkins.ch vigibot.com* | auf dem 4G Stick |
 | 7*   | Ladehinweis | *Roboter mit dem Netzteil laden, nicht am Raspberry* | in der Nähe der Ladebuchse |
-| 8*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "VigibotWiFiConfig" verbinden* | oben/unten auf dem Roboter |
+| 8*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Vigibot WiFi Config" verbinden* | oben/unten auf dem Roboter |
 
 7* Je nach verbauter Spannungsversorgung (UPS) ist dieser Hinweis anders zu gestalten. Wichtig ist, dass der Robo nicht über den USB-Anschluss des Raspberry geladen wird. Am besten den richtigen Anschluss farblich kennzeichnen und ein Foto dem Begleitbrief beilegen.
 8* Nur, wenn balena WLAN-Config installiert ist
