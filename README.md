@@ -922,7 +922,7 @@ Führe zuerst den obigen Abschnitt `apt repositories aktualisieren` durch, bevor
 3. Verbindung per SSH herstellen. Je nach Betriebssystem:
 
 * **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)
-* **Android:** Nutze [JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh) oder eine andere SSH-App.
+* **Android:** Nutze [Termius](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client) oder eine andere SSH-App.
 
 Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit standart Passwort `raspberry`.
 
