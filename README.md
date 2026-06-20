@@ -27,6 +27,10 @@
 
 </details>
 
+## Stand 2026-06-20
+
+Das vigiUPSv3 ist nun verfügbar. Wir sind dabei die Updates von der upstream repo in diese Botkins Teileliste zu übernehmen.
+
 ## Stand 2026-02-13
 
 Das UPS Bauteil ist aufgrund der mehreren neu gestarteten Roboterbauten im robot-maker Store ausverkauft.
