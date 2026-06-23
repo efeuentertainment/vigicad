@@ -1,4 +1,4 @@
-# Minus-Type Vigibot Robot for Botkins
+# Minus-Type 1S Vigibot Robot for Botkins
 <details open>
 <summary>[HIDE SECTION]</summary>
 
