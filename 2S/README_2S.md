@@ -58,7 +58,7 @@ Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins b
 
 Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild, ein reines Botkin Bild folgt). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
 
-<img src="2S/images/klara.jpg" alt="Botkins S2" style="width: 49%"/>
+<img src="images/klara.jpg" alt="Botkins S2" style="width: 49%"/>
 
 * Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen.
 * Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben.
