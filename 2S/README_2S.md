@@ -62,22 +62,22 @@ Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild, ein rein
 
 * Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen.
 * Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben.
-* Der Bau des ersten Roboters kann etwa 10 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 3 Stunden pro Roboter.
-* Einige Teile von Aliexpress können bis zu 5 Wochen fúr die Lieferung benötigen. Derzeit (2026) schlägt die Einstellung der Zahlungsmethode auf PayPal fehl, mit der Meldung "Sorry, some items are not available", bezahlen per Kreditkare funktioniert. Wähle [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) vor dem Checkout ab, sonst bekommst du pro Bestellposition 3-5 Mails.
+* Der Bau des ersten Roboters kann etwa 3 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 1 Stunde pro Roboter.
+* Das Einfachste ist, das ganze Kit bei robot-maker.com zu kaufen. Einige Teile von Aliexpress können bis zu 5 Wochen fúr die Lieferung benötigen. Derzeit (2026) schlägt die Einstellung der Zahlungsmethode auf PayPal fehl, mit der Meldung "Sorry, some items are not available", bezahlen per Kreditkare funktioniert. Wähle [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) vor dem Checkout ab, sonst bekommst du pro Bestellposition 3-5 Mails.
 
 ### Voraussetzungen
 
 Du benötigst:
 
-* Lötkolben (für die 4 Motoren und UPS-Brücke). (Wenn du nicht löten möchtest, kann vielleicht ein anderer Maker die Teile für löten).
 * Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
 * Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die nicht in dieser Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der upstream Vigibot-Teileliste in jedem der 3D-gedruckten Sektionen.
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, ...
+* SD-Cardreader für microSD
 
 #### Geplante Verbesserungen am Leitfaden
 
-Wir versuchen, den Bau der Botkins so einfach wie möglich zu gestalten, aber dieser Leitfaden ist nicht ganz so klar und einfach, wie wir es uns wünschen würden.
-Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen oder anderen Wegen zu verbessern.
+Wir versuchen, den Bau der Botkins so einfach wie möglich zu gestalten. Wir möchten diesen Leitfaden so klar und einfach, aber komplett wie möglich gestalten.
+Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen oder auf anderen Wegen zu verbessern.
 
 #### Nächste Schritte (für Maker, die zur Verbesserung dieses Leitfadens beitragen möchten)
 
@@ -85,6 +85,7 @@ Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen
 <summary>[Öffne diesen Abschnitt]</summary>
 Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte) mit. 
 
+* [ ] Anpassen der ganzen Anleitung inkl. Bilder für Version S2 > Newbie1891
 * [x] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
 * [x] Translate the parts of the external guide from french to english.
 * [ ] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide. \[to be done by fire\_ned]
@@ -141,58 +142,6 @@ Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschrei
 * Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
 * Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug\&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. [Anleitung](https://www.robot-maker.com/forum/topic/14850-how-to-use-the-e3372h-with-stick-firmware-instead-of-hilink-firmware/#entry122357) (Pi-Kenntnisse nötig)
 
-#### UPS Alternativen
-
-Seit Dezember 2025 wird das Geekworm UPS3 leider nicht mehr hergestellt.
-
-* vigiUPSv3 sollte in einigen Monaten verfügbar sein. Bis dahin: Version aus der Teileliste (A) oder mit Mehraufwand (B)
-
-Derzeit stehen folgende Alternativen zur Verfügung:
-
-**A. vigiUPSv2**
-
-Version aus der Teileliste, siehe oben
-
-**B. Waveshare UPS hat (D)**
-
-* <https://aliexpress.com/item/1005006100404260.html>
-
-Funktioniert, benötigt jedoch einige Änderungen:
-
-<img src="images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>
-
-* Löte die Stromkabel für Servos und Motoren an den abgebildeten Stellen an.
-* Gib einen Tropfen Sekundenkleber hinzu, um die Drähte auf der USV-Platine zu befestigen.
-* Kaufe 2x 21700 Liion-Zellen anstelle des Akkus aus der Teileliste.
-* Kaufe zusätzlich 4x 20 mm M2,5 Metall-Sechskantständer.
-* Nimm 1x abgewinkelten USB-Stecker „toUp“ anstelle des „toDown“ aus der Teileliste.
-
-Um die Spannungs- und Strommessungen zum Laufen zu bringen, verbinde dich per ssh mit dem Roboter und konfiguriere ihn:
-
-B.1) Spannungsmessung:
-
-<img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
-
-```
-sudo nano /usr/local/vigiclient/sys.json
-```
-
-* Ändern in `"INA219ADDRESS": 67,`
-
-B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schritt zu überspringen, da er nicht so wichtig ist.
-
-<img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>\ <img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
-
-* Nimm die Änderungen wie in den Bildern gezeigt vor
-* Da der Shunt-Widerstand 1/10 des üblicherweise verwendeten Widerstands beträgt und Vin+ und Vin- vertauscht sind, muss der Code in `/usr/local/vigibot/clientrobotpi.js` geringfügig geändert werden. Ich bin mir nicht sicher, ob das sinnvoll ist, da eine Änderung des Codes meines Wissens nach zukünftige automatische Vigibot-Updates deaktiviert.
-
-Stromverteilung für den Waveshare UPS hat (D)
-
-| Stk  | Benennung                  | Shop                                                                                                           | Alternative                                                                                                                                      |
-| ---- | -------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | Splitter Board             | [Link, "Color : 1 pcs"](https://www.aliexpress.com/item/1005006042011391.html)                                 | -                                                                                                                                                |
-| 1    | PH2.0 zu 2 Pin Kabel 10cm  | [Link, "Color : 2P", "Length : 10CM"](https://www.aliexpress.com/item/1005002901249753.html)                   | -                                                                                                                                                |
-</details>
 
 ### Basisplatte Motor
 
@@ -275,7 +224,7 @@ Anmerkung: Die Kamera <> Kopf Schrauben und Muttern müssen elektrisch leiten.
 </details>
 </details>
 
-# Minus-Type Zusammenbau
+# Minus-Type S2 Zusammenbau
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
@@ -689,79 +638,6 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 </details>
 
-## 3. UPS Solder Bridge
-
-<img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
-
-* A: Remove `POFF` solder bridge<br>
-
-<img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
-
-* set the `AUTO-UPS` switch to `OFF`
-
-## 4. Servostecker teilen
-
-<img src="images/Minus_assembly_Botkins/servo_assembly_1.jpg" alt="servo_assembly_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/servo_assembly_2.jpg" alt="servo_assembly_2" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/servo_assembly_3.jpg" alt="servo_assembly_3" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/servo_assembly_4.jpg" alt="servo_assembly_4" style="width: 49%"/>
-
-* Die Servos werden in dieser Version über die Spannungsversorgungsprint mit Strom versorgt. Die Signalleitungen werden direkt auf dem Pi eingesteckt. Dazu müssen die Kabel "geteilt" werden.
-* Hinweis zu Servokabelfarben: Pluspos ist immer rot. GND ist entweder schwarz oder braun. Die Signalleitung ist entweder orange, gelb, weiss oder blau. Kompliziert, ich weiss.
-* Erstelle nun für jedes Servo einen Stecker mit zwei Polen (+ und GND) und eine einpolige Signalleitung. Um die Stecker einstecken zu können, entfernen wir die Kabel inkl. gecrimpte Buchsen und packen sie in neu Zweier-, resp. Einer-Kunststoffhüllen. Siehe Teileliste, die DuPont Buchsen.
-* Split the signal (orange or white) wire off the 4x servos and 1x motor driver.
-
-## 5. Spannungsversorgung
-
-<img src="images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/><br>
-
-* Wenn nötig, Polarität des PH2.0 Kabels anpassen, je nach USP<br>
-
-<img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
-
-* Baue den UPS auf den Raspberry Pi.
-* Update 26.05.2025: Schneide den Batteriestecker ab (schneide + und - nacheinander ab, um die Batterie nicht kurzzuschliessen) und löte ihn an die Batterielötpads der USV. Die Servos und Motoren können wie auf den Fotos gezeigt mit Strom versorgt werden. Grund: Der Roboter kann sich zufällig oder bei nur teilweise geladener Batterie ausschalten. Ein weiteres Symptom ist, dass die gemessene Batteriespannung von 4,2 V auf 3,8 V oder weniger abfällt, wenn das Gerät vom Stromnetz getrennt wird. Es scheint, dass der kombinierte Widerstand der Batterieleistung, die über drei Stecker läuft, zu hoch ist.
-
-## 6. Signalleitungen verbinden
-
-<img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
-
-Nun werden die Servos an der richtigen Stelle auf dem Pi eingesteckt:
-
-* A: Kopf Schütteln : Head pan \[x] `GPIO 5 (physical pin 29)`<br>
-* B: Nicken: Head tilt \[y] `GPIO 6 (physical pin 31)`<br>
-* C: Greifer auf/zu: Gripper claw \[x] `GPIO 7 (physical pin 26)`<br>
-* D: Greifer heben/senken: Gripper tilt \[y] `GPIO 8 (physical pin 24)`<br>
-
-<img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
-
-* A: ESC Motortreiber
-  * Linke Motoren `GPIO 26 (physical pin 37)`
-  * Rechte Motoren `GPIO 27 (physical pin 13)`
-
-Sollte ein Motor eine falsche Drehrichtung haben, Polarität der Motorkabel am Treiber andersherum anschliessen.
-
-* Verwende das magnetische USB-Kabel, um die USV mit Strom zu versorgen. (Hinweis: Verwende ab sofort den Anschluss auf der USV-Platine – nicht auf der Raspberry Pi-Platine.)
-* Testen Sie die Steuerung jedes Servos von Vigibot.
-* Bevor Sie fortfahren, drücke `Stop ■` Drücke die Taste, um alle Servos zu zentrieren. Fahre den Bot über die Taste mit dem durchgestrichenen Steckersymbol im Vigibot Kontrollfeld herunter und ziehe den Akku und das USB-Kabel ab.
-
-### Zusammenstellung aller PINS
-
-Da die zu verwendenen PINs verstreut in der Beschreibung zu finden sind, hier eine Zusammenstellung:
-
-| Beschreibung     | GPIO | PIN Nummer |
-| :--------------- | :--: | :--------: |
-| Kopf schütteln   |   5  |     29     |
-| Kopf nicken      |   6  |     31     |
-| Greifer auf / zu |   7  |     26     |
-| Greifer auf / ab |   8  |     24     |
-| Motor rechts     |  27  |     13     |
-| Motor links      |  26  |     37     |
-| Buzzer +         |  18  |     12     |
-| Buzzer GND       |      |     14     |
-
 ## 7. Zusammenbau Motorplatte
 
 Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
@@ -817,6 +693,8 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 ## 9. Zusammenbau Greifer
 
+Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. Der Halter für die Greiferservos muss danach senkrecht stehen, sonst ist das Ruderhorn nicht in der richtigen Position angeschraubt.
+
 <img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
 <img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
 <img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>
@@ -837,7 +715,7 @@ Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 * Mikrofon an einem der USB Anschlüsse einstecken.
 * LTE / 4G Stick in 90° Winkelstecker stecken und diesen in einen der USB Anschlüsse einstecken.
 * Der Roboter sollte nun betriebsbereit sein.
-* Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein.
+* Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
 * Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
 ### 10.1 Aufkleber auf dem Roboter
