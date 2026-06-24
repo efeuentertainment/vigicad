@@ -43,7 +43,7 @@ Es gibt eine funktionierende Alternative, das «Waveshare UPS hat (D)» UPS, abe
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
 
-Dieser Leitfaden behandelt den Botkins V2. Weitere Verbesserungen sind in Arbeit und werden bald publiziert. Es ist geplant, ein komplettes Kit für Maker anzubieten. Es gibt aber keine Hürde oder Nachteil, einen Bot nach dieser Anleitung zu bauen. Die Funktionalität für die Patienten wird die selbe bleiben.
+Dieser Leitfaden behandelt den Botkins S2. Weitere Verbesserungen sind in Arbeit und werden bald publiziert. Es ist geplant, ein komplettes Kit für Maker anzubieten.
 
 Erfahre mehr über das Botkins Charity Project:
 
@@ -51,12 +51,12 @@ Erfahre mehr über das Botkins Charity Project:
 * [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)
 
 Erfahre mehr über Vigibot:
-Das französische Roboter-Projekt, wessen Software und Hardware Design Botkins benutzt.
+Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins benutzt.
 
 * [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 * [Drive a robot Vigibot.com](https://www.vigibot.com/)
 
-Als Basis dient die Standard Vigibot Minus-Type Version (siehe Bild, ein reines Botkin Bild folgt). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
+Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild, ein reines Botkin Bild folgt). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
 
 ![1.00](images/Minus%20render-2.png)
 
