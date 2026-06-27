@@ -867,7 +867,25 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 <details>
 <summary>[Diesen Abschnitt anzeigen]</summary>
 
-Um dinge installieren zu können, müssen die Quellen für `apt` aktualisiert werden, da die ursprünglichen Paketquellen nicht mehr verfügbar sind.
+Um Dinge installieren zu können, müssen die Quellen für `apt` aktualisiert werden, da die ursprünglichen Paketquellen nicht mehr verfügbar sind.
+
+> ⚠️ Achtung: Während der Installation wird die bestehende WLAN-Verbindung getrennt.
+
+* Verbinde den Roboter über **Ethernet** mit deinem lokalen Netzwerk.
+
+* Öffne die [Vigibot Website](https://www.vigibot.com) und fahre mit dem Cursor auf das Roboter-Icon.
+   * Notiere die **LAN-IP-Adresse** deines Roboters, die angezeigt wird, zB 192.168.1.90
+
+* Verbindung per SSH herstellen. Je nach Betriebssystem:
+
+* **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)
+* **Android:** Nutze [Termius](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client) oder eine andere SSH-App.
+
+* Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit standart Passwort `raspberry`.
+* Win+R > „Powershell“ > Ausführen öffnet das Terminal
+*	Gib im Fenster ein: ssh pi\@IP-ADRESSE (Ersetze die Adresse mit der Adresse des Pi, zB 192.168.1.146)
+*	Das Terminal wird dich fragen, ob du sicher bist, eine Verbindung herstellen zu wollen. Schreibe „yes“ und bestätige
+*	Verwende das Passwort, das du oben vergeben hast. Hast du robot.json nicht verändert, ist es „raspberry“.
 
 1. raspi.list anpassen
 
@@ -915,20 +933,6 @@ Danach sollte apt korrekt funktionieren.
 Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena** **`wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
 
 Führe zuerst den obigen Abschnitt `apt repositories aktualisieren` durch, bevor du weiterfährst.
-
-> ⚠️ Achtung: Während der Installation wird die bestehende WLAN-Verbindung getrennt.
-
-1. Verbinde den Roboter über **Ethernet** mit deinem lokalen Netzwerk.
-
-2. Öffne die [Vigibot Website](https://www.vigibot.com) und klicke **lange** auf das Roboter-Icon.
-   * Notiere die **LAN-IP-Adresse** deines Roboters, die angezeigt wird.
-
-3. Verbindung per SSH herstellen. Je nach Betriebssystem:
-
-* **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)
-* **Android:** Nutze [Termius](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client) oder eine andere SSH-App.
-
-Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit standart Passwort `raspberry`.
 
 ```Shell
 ssh pi@ROBOT_IP
