@@ -878,10 +878,9 @@ Um Dinge installieren zu können, müssen die Quellen für `apt` aktualisiert we
 
 * Verbindung per SSH herstellen. Je nach Betriebssystem:
 
-* **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)
-* **Android:** Nutze [Termius](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client) oder eine andere SSH-App.
+  * **Windows:** Nutze z.B. [PuTTY](https://www.putty.org/)
+  * **Android:** Nutze [Termius](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client) oder eine andere SSH-App.
 
-* Verbinde dich zu der notierten **IP-Adresse** des Roboters als Benutzer `pi` mit standart Passwort `raspberry`.
 * Win+R > „Powershell“ > Ausführen öffnet das Terminal
 *	Gib im Fenster ein: ssh pi\@IP-ADRESSE (Ersetze die Adresse mit der Adresse des Pi, zB 192.168.1.146)
 *	Das Terminal wird dich fragen, ob du sicher bist, eine Verbindung herstellen zu wollen. Schreibe „yes“ und bestätige
