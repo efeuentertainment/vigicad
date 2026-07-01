@@ -56,12 +56,12 @@ Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins b
 * [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 * [Drive a robot Vigibot.com](https://www.vigibot.com/)
 
-Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild, ein reines Botkin Bild folgt). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
+Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
 
 <img src="images/klara.jpg" alt="Botkins S2" style="width: 49%"/>
 
 * Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen.
-* Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben.
+* Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben. Kaufst du ein Komplettkit auf robot-maker.com, kannst du dort je nach Verfügbarkeit Teilefarben wählen.
 * Der Bau des ersten Roboters kann etwa 3 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 1 Stunde pro Roboter.
 * Das Einfachste ist, das ganze Kit bei robot-maker.com zu kaufen. Einige Teile von Aliexpress können bis zu 5 Wochen fúr die Lieferung benötigen. Derzeit (2026) schlägt die Einstellung der Zahlungsmethode auf PayPal fehl, mit der Meldung "Sorry, some items are not available", bezahlen per Kreditkare funktioniert. Wähle [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) vor dem Checkout ab, sonst bekommst du pro Bestellposition 3-5 Mails.
 
@@ -70,8 +70,8 @@ Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild, ein rein
 Du benötigst:
 
 * Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
-* Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die nicht in dieser Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der upstream Vigibot-Teileliste in jedem der 3D-gedruckten Sektionen.
-* Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, ...
+* Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die in der entsprechenden Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der Teileliste in jedem der 3D-gedruckten Sektionen.
+* Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
 * SD-Cardreader für microSD
 
 #### Geplante Verbesserungen am Leitfaden
@@ -79,23 +79,6 @@ Du benötigst:
 Wir versuchen, den Bau der Botkins so einfach wie möglich zu gestalten. Wir möchten diesen Leitfaden so klar und einfach, aber komplett wie möglich gestalten.
 Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen oder auf anderen Wegen zu verbessern.
 
-#### Nächste Schritte (für Maker, die zur Verbesserung dieses Leitfadens beitragen möchten)
-
-<details>
-<summary>[Öffne diesen Abschnitt]</summary>
-Bitte teile uns defekte Links oder Mängel (z. B. unklare oder fehlende Schritte) mit. 
-
-* [ ] Anpassen der ganzen Anleitung inkl. Bilder für Version S2 > Newbie1891
-* [x] Copy the parts from external guides into this guide and adjust accordingly for this specific build.
-* [x] Translate the parts of the external guide from french to english.
-* [ ] Move annotations and instructions that are littered through the partlist further down into the specific sections of the assembly guide. \[to be done by fire\_ned]
-* [ ] extend the troubleshooting table
-  * [ ] more scenarios
-  * [ ] add pictures / gifs of led blinking patterns
-  * [x] perhaps label whether that specific problem can happen during assembly (for makers) or during everyday use (for patients).
-* [ ] add more function tests
-
-</details>
 </details>
 
 ## Teileliste
@@ -107,18 +90,20 @@ Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) bes
 
 ### Hauptteile
 
+Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) für ca. 360€
+
 | Stk | Benennung                                                                                                            | Shop                                                                                                    | Alternative\*                                                                                          |
 | --- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | 1   | Raspberry Pi 3B+ (or 3B), 1GB or 2GB                                                                                 | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/)                                                  | [Alternative](https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html) |
 | 1   | Unlocked ZTE MF79 4G / LTE Stick                                                                                     | [Link](https://aliexpress.com/item/1005005844914823.html)                                               | Huawei E3372h (Modell -153, -320 oder -607                                                             |
 | 1   | USB - USB 90° adapter                                                                                                | [Link, "Color : Down Angle Black"](https://aliexpress.com/item/1005003690522920.html) | -                                                                                                      |
 | 1   | USB bracket holder                                                                                                   | [Link](https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html)           | -                                                                                                      |
-| 1   | USB Microphone "Super AI". Die meisten anderen verfügbaren USB-Mikrofone sind leider entweder zu leise oder rauschen | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html)                         | [BOYA "Color : BY-M100UA"](https://aliexpress.com/item/1005004133896137.html)                          |
+| 1   | USB Microphone sind aktuell in Evaluation. Der verlinkte Artikel wird nicht mehr hergestellt. Fragt uns. | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html)                         | [BOYA "Color : BY-M100UA"](https://aliexpress.com/item/1005004133896137.html)                          |
 | 1   | 8-64GB "Endurance" Typ MicroSD Karte                                                                                 | [Link](https://www.robot-maker.com/shop/composants/91-carte-sd-32go-91.html)                            | [Alternative](https://www.berrybase.ch/sandisk-high-endurance-microsdhc-uhs-i-u3-speicherkarte-adapter-32gb)                               |
 | 1   | Falls keinen vorhanden: CardReader für microSD                                                                       | [Link](https://www.pi-shop.ch/sandisk-card-reader-usb-3-0-reader)                                       | nach Belieben                                                                                          |
 | 1   | Weitwinkelkamera mit Infrarot-Filter                                                                                 | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html)                          | [Alternative: "Color : Option 10"](https://aliexpress.com/item/1005004276506212.html)                                |
 | 1   | 30cm Verbindungskabel für Kamera (zum ersetzen des kurzen Originals)                                                 | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm)       | nach Belieben                                                                                          |
-| 1   | Li-Ion Akku 1S2P 6800mAh                                                                                             | [Link](https://www.robot-maker.com/shop/alimentation/383-batterie-lithium-ion-1s2p-ncr-383.html)        | Li-ion 1S2P 5-7Ah                                                                                      |
+| 1   | Li-Ion Akku 2S                                                                                            | [Link](https://www.robot-maker.com/shop/alimentation/75-batterie-2s-1p-75.html)       | -                                                                                      |
 | 2   | 6A 67W Fast USB Charger                                                                                              | [Link, "Plug Type: EU Charger and Cable"](https://aliexpress.com/item/1005006632595521.html)            | -                                                                                                      |
 | 1   | USB Kabel magnetisch                                                                                                 | [Link, "Color : \*\* type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative Kabel](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) + [Alternative Stecker "USB C"](https://www.robot-maker.com/shop/alimentation/609-embout-magnetique-micro-usb-ou-usb-c-rechargedata-609.html)    |
 | 1   | USB-A zu USB-C Kabel                                                                                                 | [Link, "Color : A-C \*\* ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html)           | nach Belieben                                                                                          |
