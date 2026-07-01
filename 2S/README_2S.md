@@ -2,7 +2,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 
 # Minus-Type S2 Robot für Botkins
 
-## Inhalt
+## Inhalt *tbc*
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
@@ -122,76 +122,6 @@ Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschrei
 * Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug\&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. [Anleitung](https://www.robot-maker.com/forum/topic/14850-how-to-use-the-e3372h-with-stick-firmware-instead-of-hilink-firmware/#entry122357) (Pi-Kenntnisse nötig)
 
 
-### Basisplatte Motor
-
-| Stk | Benennung                                                                                           | Shop                                                                                                               | Alternative                                        |
-| --- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
-| 1   | Bodenplatte                         | Druckteile/Chassis/2S101.0 Basis.step                           | -                                                  |
-| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten                                | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/270-motoreducteur-dc-gm12-n20-270.html) *tbc*                      | Es werden spezielle Prints mit Federkontakten benötigt |
-| 1   | Halter für Greifer und Kopf                                                                         | Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step              | - |
-| 4   | Räder 32mm  | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)                             | es gibt Radmodelle bei den 3D Daten <br> Durchmesser beachten kleiner 40mm|
-| 1   | Print Basisplatte aus Kit                                                      | tbd | -                                                  |
-
-### Kopf-Teile *tbc*
-
-| Stk           | Benennung                                                                 | Shop                                                                                      | Alternative                                                                                |
-| ------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| 1             | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/88-kit-tourelle-pan-tilt-88.html)     | -                                                                                          |
-| 1 + 1 Reserve | DM-S0090MD 180° oder 270° Metall Getriebe Servo 9g <br> (Kopf Schütteln)            | [Link, "Color : 1PCS DM-S0090MD 180"](https://aliexpress.com/item/1005010339946695.html)  | [Alternative, "Color: 1PCS-270 Degree"](https://aliexpress.com/item/1005007890905728.html) |
-| 1 + 1 Reserve | 180° Servo 9g <br> (Nicken)                                               | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html) |                                                                                            |
-
-Hinweis: Verwende die langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
-
-### Greifer-Teile *tbc*
-
-| Stk | Benennung                                                                 | Shop                                                                                      |
-| --- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1   | Komplettes Kit mit Druckteilen, <br> Schrauben, Muttern und Distanzbolzen | [Link](https://www.robot-maker.com/shop/kits-robots/423-kit-pince-minus-423.html)         |
-| 2   | 180° Servo 9g                                                             | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/18-servomoteur-9g-18.html) |
-
-Hinweis: Verwende die langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
-
-### Druckteile und Kleinteile, falls ihr selber druckt
-
-In der Ordnerstruktur befinden sich die Druckteile. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
-
-<details>
-<summary>[öffne diesen Abschnitt]</summary>
-
-| Pos | Beschreibung                    | Benennung im Ordner                           |            V2           |                                                     Bild                                                     |
-| --- | ------------------------------- | --------------------------------------------- | :---------------------: | :----------------------------------------------------------------------------------------------------------: |
-| 1   | Finger A zu Greifer             | stl/clamp\_finger\_a.stl                      |          1 Stk          |         <img src="images/3D-parts/clamp_finger_a.jpg" alt="Finger A zu Greifer" style="width: 45px"/>        |
-| 2   | Finger B zu Greifer             | stl/clamp\_finger\_b.stl                      |          1 Stk          |         <img src="images/3D-parts/clamp_finger_b.jpg" alt="Finger B zu Greifer" style="width: 45px"/>        |
-| 3   | Servoaufnahme Greifer           | stl/clamp\_servo\_bracket.stl                 |          1 Stk          |     <img src="images/3D-parts/clamp_servo_bracket.jpg" alt="Servoaufnahme Greifer" style="width: 45px"/>     |
-| 4   | Greiferhalter                   | stl/clamp\_u\_bracket.stl                     |          1 Stk          |           <img src="images/3D-parts/clamp_u_bracket.jpg" alt="Greiferhalter" style="width: 45px"/>           |
-| 5   | Servohalter Kopf schütteln      | stl/head\_pan\_servo\_bracket.stl             |          1 Stk          | <img src="images/3D-parts/head_pan_servo_bracket.jpg" alt="Servohalter Kopf schütteln" style="width: 45px"/> |
-| 6a  | Kopf ohne Smile                 | stl/head\_servo\_camera\_bracket\_nosmile.stl |  1 Stk <br> 6a oder 6b  | <img src="images/3D-parts/head_servo_camera_bracket_nosmile.jpg" alt="Kopf ohne Smile" style="width: 45px"/> |
-| 6b  | Kopf mit Smile                  | stl/head\_servo\_camera\_bracket\_smile.stl   |  1 Stk <br> 6a oder 6b  |   <img src="images/3D-parts/head_servo_camera_bracket_smile.jpg" alt="Kopf mit Smile" style="width: 45px"/>  |
-| 7   | Adapter Kopf schütteln          | stl/head\_u\_bracket.stl                      |          1 Stk          |       <img src="images/3D-parts/head_u_bracket.jpg" alt="Adapter Kopf schütteln" style="width: 45px"/>       |
-| 8   | Motorhalter                     | stl/n20\_motor\_holder.stl                    |          4 Stk          |            <img src="images/3D-parts/n20_motor_holder.jpg" alt="Motorhalter" style="width: 45px"/>           |
-| 9   | Bodenplatte                     | stl/plate\_bottom.stl                         |          1 Stk          |              <img src="images/3D-parts/plate_bottom.jpg" alt="Bodenplatte" style="width: 45px"/>             |
-| 10  | Mittelplatte = <br> Motorplatte | stl/plate\_middle.stl                         |          1 Stk          |             <img src="images/3D-parts/plate_middle.jpg" alt="Mittelplatte" style="width: 45px"/>             |
-| 11a | Topplatte mit Lüfterloch        | stl/plate\_top\_fan.stl                       | 1 Stk <br> 12a oder 12b |            <img src="images/3D-parts/plate_top_fan.jpg" alt="Topplatte Fan" style="width: 45px"/>            |
-| 11b | Topplatte ohne Lüfterloch       | stl/plate\_top\_nofan.stl                     | 1 Stk <br> 12a oder 12b |          <img src="images/3D-parts/plate_top_nofan.jpg" alt="Topplatte No Fan" style="width: 45px"/>         |
-| 12  | Rad 40 x 7mm                    | stl/pololu\_wheel\_40x7mm.stl                 |          4 Stk          |              <img src="images/3D-parts/pololu_wheel_40x7mm.jpg" alt="Rad" style="width: 45px"/>              |
-| 13  | Stosstange hinten               | stl/rear\_protection.stl                      |          1 Stk          |            <img src="images/3D-parts/rear_protection.jpg" alt="Stossstange" style="width: 45px"/>            |
-| 14  | 4G Stick Halter                 | stl/usb\_bracket.stl                          |          1 Stk          |            <img src="images/3D-parts/usb_bracket.jpg" alt="4G Stick Schutz" style="width: 45px"/>            |
-
-### Kleinteile, falls ihr selber druckt *tbc*
-
-Anmerkung: Die Kamera <> Kopf Schrauben und Muttern müssen elektrisch leiten.
-
-| Stk | Benennung          | Dimmensionen  | wird verwendet für                                                                           |
-| --- | ------------------ | ------------- | -------------------------------------------------------------------------------------------- |
-| 4   | Schraube M2        | 20mm          | 4x Kamera <> Kopf                                                                            |
-| 5   | Schraube M2        | 14 oder 16mm  | 2x 180° Servo <> Kopf <br> 5x Greifer                                                        |
-| 1   | Schraube M2        | 10mm          | 1x Greifer                                                                                   |
-| 3   | Schraube M2        | 8mm           | 3x Rückplatte <> Mittelplatte <br> 2x 270° Servo <> Pan Plate <br> 3x Greifer                |
-| 2   | Schraube M2        | 5 oder 6mm    | ?                                                                                            |
-| 15  | Mutter M2          | -             | 3x Rückplatte <> Mittelplatte <br> 8x Kamera <br> 2x 270° Servo <> Pan Plate <br> 2x Greifer |
-
-</details>
-</details>
 
 # Minus-Type S2 Zusammenbau
 
@@ -607,42 +537,19 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 </details>
 
-## 7. Zusammenbau Motorplatte
+## 2. Zusammenbau Greifer *tbc*
 
-Benötigtes Material aus dem Kit
-* 3D gedruckte Basis (Druckteile/Chassis/2S101.0 Basis.step)
-* 3D gedruckter Batteriehalter (Druckteile/Chassis/2S102.0 Batteriehalter.step)
-* 3D gedruckter Halter für Greifer und Kopf (Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step)
-* Basisprint
-* 4 Motoren mit angelöteten Prints mit Federpins
-* 3 Schrauben für Halter
-* 4 Schrauben für Befestigung Basisprint
-* 4 Räder (max 40mm Durchmesser)
-* Batterie 2S
+Zuerst wird die Greifer-Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
 
-1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
+<img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
+<img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
+<img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>
+<img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/>
+<img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>
 
-*Bild*
-2\. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen
-*Bild*
-3\. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
-*Bild*
+[Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
 
-<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
-4\. Auffahrschutz, Greiferhalter und Abstandshalter montieren. Länge siehe Tabelle unten
-
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/><img src="images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-7.png" alt="Middle plate assembly-7" style="width: 49%"/><img src="images/Minus%20assembly/Middle%20plate%20assembly-8.png" alt="Middle plate assembly-8" style="width: 49%"/>
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-9.png" alt="Middle plate assembly-9" style="width: 49%"/><img src="images/Minus%20assembly/Middle%20plate%20assembly-10.png" alt="Middle plate assembly-10" style="width: 49%"/>
-
-| Stk | Benennung          | Dimmensionen  | wird verwendet für         |
-| --- | ------------------ | ------------- | -------------------------- |
-| 4   | Distanzbolzen M2.5 | Männchen 12mm | Pi <> UPS                  |
-| 4   | Distanzbolzen M2.5 | Männchen 25mm | UPS <> Motorplatte         |
-| 4   | Distanzbolzen M2.5 | Weibchen 10mm | Grundplatte <> Motorplatte |
-| 4   | Distanzbolzen M2.5 | Männchen 5mm  | Pi <> Topplatte            |
-
-## 8. Zusammenbau Kopf
+## 3. Zusammenbau Kopf *tbc*
 
 #### Kopf Schütteln
 
@@ -662,21 +569,65 @@ Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden
 
 <img src="images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
 
-[Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13101-pan-tilt-minus-hardware-documentation/)
+## 4. Zusammenbau Motorplatte
 
-## 9. Zusammenbau Greifer
+Benötigtes Material aus dem Kit:
 
-Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. Der Halter für die Greiferservos muss danach senkrecht stehen, sonst ist das Ruderhorn nicht in der richtigen Position angeschraubt.
+| Stk | Benennung                                                 | Teilenummer                                            |
+| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
+| 1   | 3D gedruckte Basis                                        | Druckteile/Chassis/2S101.0 Basis.step                  | 
+| 1   | 3D gedruckter Batteriehalter                              | Druckteile/Chassis/2S102.0 Batteriehalter.step         |
+| 1   | 3D gedruckter Halter für Greifer und Kopf                 | Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step |
+| 1   | Basisprint                                                | aus Kit                                                |
+| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
+| 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
+| 4   | Schrauben für Befestigung  Basisprint                     | *tbd*                                                  |
+| 4   | Räder 32mm                                                | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
+| 1   | Batterie 2S                                               | aus Kit                                                | 
 
-<img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/>
-<img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>
+1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
 
-[Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
+*Bild*<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
 
-## 10. Finale Fertigstellung
+2. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen
+*Bild*
+
+3. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
+*Bild*
+
+## 5. Zusammenbau Body *tbc*
+
+Benötigtes Material aus dem Kit:
+
+| Stk | Benennung                                                 | Teilenummer                                            |
+| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
+| 1   | Seitenplatte links                                        | aus Kit                 | 
+| 1   | Seitenplatte rechts                                       | aus Kit         |
+| 1   | Rapsberry Pi 3B+                                          | aus Kit |
+| 1   | Verbinderleiste                                           | aus Kit                                                |
+| 1   | Deckprint                                                 | aus Kit                                                | 
+| 4   | Schrauben für Befestigung Pi                              | *tbd*                                                  |
+| 1   | Flachbandkabel Pi <> Kamera                               | *tbd*                                                  |
+| 1   | Lautsprecher                                              | aus Kit        | 
+| 2   | Schrauben zur Befestigung des Lautsprechers               | *tbd*                                                | 
+| 1   | Mikrophon                                                 | *tbd*                                                |
+| 1*  | 4G/LTE Stick                                              | *tbd*                                                |
+| 1*  | Drehlicht                                                 | *tbd*                                                | 
+
+*Optinale Teile
+
+1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
+
+*Bild*<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
+
+2. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen
+*Bild*
+
+3. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
+*Bild*
+
+
+## 6. Finale Fertigstellung
 
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
 <img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
@@ -691,7 +642,7 @@ Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
 * Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
-### 10.1 Aufkleber auf dem Roboter
+### 6.1 Aufkleber auf dem Roboter
 
 <img src="images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
@@ -713,7 +664,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 8* Nur, wenn balena WLAN-Config installiert ist
 
 
-## 11. Optionale Schritte
+## 7. Optionale Schritte
 
 ### apt repositories aktualisieren
 
@@ -857,13 +808,13 @@ Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 
 </details>
 
-## 12. Zusätzliche Bauanleitungen
+## 8. Zusätzliche Bauanleitungen
 
 * Weitere [Montageanleitungen](https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/) in französischer Sprache
 * Kurzes [Montagevideo](https://youtu.be/9Eja0gG4bhI) aus der Community
 * [Vigibot FAQ](https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/)
 
-## 13. Funktionstest
+## 9. Funktionstest
 
 Nun ist es Zeit für den finalen Check!
 Teste die Funktionen des Roboters:
@@ -901,7 +852,7 @@ Teste die Funktionen des Roboters:
 
 </details>
 
-## Troubleshooting
+## 10. Troubleshooting
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
