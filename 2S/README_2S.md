@@ -39,11 +39,11 @@ Das UPS Bauteil ist aufgrund der mehreren neu gestarteten Roboterbauten im robot
 Es gibt eine funktionierende Alternative, das «Waveshare UPS hat (D)» UPS, aber dies benötigt Modifikationen, sodass wir empfehlen auf das VigiUPSv3 zu warten, welches innert Monaten verfügbar sein sollte. Gib uns bescheid und wir schreiben dir sobald es verfügbar ist.
 
 ## Generelle Info
+Dieser Leitfaden behandelt den Botkins S2, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
+Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
-
-Dieser Leitfaden behandelt den Botkins S2. Weitere Verbesserungen sind in Arbeit und werden bald publiziert. Es ist geplant, ein komplettes Kit für Maker anzubieten.
 
 Erfahre mehr über das Botkins Charity Project:
 
@@ -63,23 +63,21 @@ Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild). Botkins
 * Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen.
 * Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben. Kaufst du ein Komplettkit auf robot-maker.com, kannst du dort je nach Verfügbarkeit Teilefarben wählen.
 * Der Bau des ersten Roboters kann etwa 3 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 1 Stunde pro Roboter.
-* Das Einfachste ist, das ganze Kit bei robot-maker.com zu kaufen. Einige Teile von Aliexpress können bis zu 5 Wochen fúr die Lieferung benötigen. Derzeit (2026) schlägt die Einstellung der Zahlungsmethode auf PayPal fehl, mit der Meldung "Sorry, some items are not available", bezahlen per Kreditkare funktioniert. Wähle [E-Mail order updates](https://www.aliexpress.com/p/edm-setting/index.html) vor dem Checkout ab, sonst bekommst du pro Bestellposition 3-5 Mails.
+* Bestelle bei uns oder über robot-maker.com das Komplettkit und leg los!
+
+</details>
 
 ### Voraussetzungen
 
 Du benötigst:
 
+* Komplettkit Minus-Type S2 [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) oder bestellbar bei uns *Kontaktinfos hinzufügen*
 * Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
 * Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die in der entsprechenden Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der Teileliste in jedem der 3D-gedruckten Sektionen.
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
 * SD-Cardreader für microSD
 
-#### Geplante Verbesserungen am Leitfaden
 
-Wir versuchen, den Bau der Botkins so einfach wie möglich zu gestalten. Wir möchten diesen Leitfaden so klar und einfach, aber komplett wie möglich gestalten.
-Verbesserungsvorschläge und Anregungen zu diesem Leitfaden sind sehr willkommen. Hilf uns, diesen Leitfaden durch Pull-Anfragen oder auf anderen Wegen zu verbessern.
-
-</details>
 
 ## Teileliste
 
@@ -129,12 +127,12 @@ Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschrei
 | Stk | Benennung                                                                                           | Shop                                                                                                               | Alternative                                        |
 | --- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
 | 1   | Bodenplatte                         | Druckteile/Chassis/2S101.0 Basis.step                           | -                                                  |
-| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Kabeln zum selber löten                                 | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/270-motoreducteur-dc-gm12-n20-270.html)                     | tbd |
+| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten                                | [Link](https://www.robot-maker.com/shop/moteurs-et-actionneurs/270-motoreducteur-dc-gm12-n20-270.html) *tbc*                      | Es werden spezielle Prints mit Federkontakten benötigt |
 | 1   | Halter für Greifer und Kopf                                                                         | Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step              | - |
 | 4   | Räder 32mm  | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)                             | es gibt Radmodelle bei den 3D Daten <br> Durchmesser beachten kleiner 40mm|
 | 1   | Print Basisplatte aus Kit                                                      | tbd | -                                                  |
 
-### Kopf-Teile
+### Kopf-Teile *tbc*
 
 | Stk           | Benennung                                                                 | Shop                                                                                      | Alternative                                                                                |
 | ------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -144,7 +142,7 @@ Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschrei
 
 Hinweis: Verwende die langen Schrauben, um die Servos auf dem Servohalter zu befestigen.
 
-### Greifer-Teile
+### Greifer-Teile *tbc*
 
 | Stk | Benennung                                                                 | Shop                                                                                      |
 | --- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -155,7 +153,7 @@ Hinweis: Verwende die langen Schrauben, um die Servos auf dem Servohalter zu bef
 
 ### Druckteile und Kleinteile, falls ihr selber druckt
 
-In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
+In der Ordnerstruktur befinden sich die Druckteile. Hier eine Auflistung der benötigten Teile in den jeweiligen Stückzahlen
 
 <details>
 <summary>[öffne diesen Abschnitt]</summary>
@@ -179,20 +177,12 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 | 13  | Stosstange hinten               | stl/rear\_protection.stl                      |          1 Stk          |            <img src="images/3D-parts/rear_protection.jpg" alt="Stossstange" style="width: 45px"/>            |
 | 14  | 4G Stick Halter                 | stl/usb\_bracket.stl                          |          1 Stk          |            <img src="images/3D-parts/usb_bracket.jpg" alt="4G Stick Schutz" style="width: 45px"/>            |
 
-### Kleinteile, falls ihr selber druckt
+### Kleinteile, falls ihr selber druckt *tbc*
 
 Anmerkung: Die Kamera <> Kopf Schrauben und Muttern müssen elektrisch leiten.
 
 | Stk | Benennung          | Dimmensionen  | wird verwendet für                                                                           |
 | --- | ------------------ | ------------- | -------------------------------------------------------------------------------------------- |
-| 4   | Distanzbolzen M2.5 | Männchen 12mm | Pi <> UPS                                                                                    |
-| 4   | Distanzbolzen M2.5 | Männchen 25mm | UPS <> Motorplatte                                                                           |
-| 4   | Distanzbolzen M2.5 | Weibchen 10mm | Grundplatte <> Motorplatte                                                                   |
-| 4   | Distanzbolzen M2.5 | Männchen 5mm  | Pi <> Topplatte                                                                              |
-| 10  | Schraube M2.5      | 6mm           | 4x Topplatte <br> 4x Motorplatte <br> 2x Mittelplatte                                        |
-| 2   | Schraube M2.5      | 8 oder 10mm   | für Motortreiber                                                                             |
-| 2   | Schraube M2.5      | 10 oder 12mm  | Pan Plate <> Roboter                                                                         |
-| 2   | Mutter M2.5        | -             | 4x Motorplatte <br> 2x Mittelplatte <br> 2x Pan Plate                                        |
 | 4   | Schraube M2        | 20mm          | 4x Kamera <> Kopf                                                                            |
 | 5   | Schraube M2        | 14 oder 16mm  | 2x 180° Servo <> Kopf <br> 5x Greifer                                                        |
 | 1   | Schraube M2        | 10mm          | 1x Greifer                                                                                   |
@@ -619,20 +609,24 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 ## 7. Zusammenbau Motorplatte
 
-Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
+Benötigtes Material aus dem Kit
+* 3D gedruckte Basis (Druckteile/Chassis/2S101.0 Basis.step)
+* 3D gedruckter Batteriehalter (Druckteile/Chassis/2S102.0 Batteriehalter.step)
+* 3D gedruckter Halter für Greifer und Kopf (Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step)
+* Basisprint
+* 4 Motoren mit angelöteten Prints mit Federpins
+* 3 Schrauben für Halter
+* 4 Schrauben für Befestigung Basisprint
+* 4 Räder (max 40mm Durchmesser)
+* Batterie 2S
 
-* Motorplatte
-* 4 Motoren mit angelöteten Kabeln, Länge ca. 12cm
-* 4 Motorhalter mit Schrauben und Muttern
-* Motortreiber mit Schrauben und Muttern
+1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
 
-1. Befestigung der Motoren mit Motorhalten, je 2 Schrauben und 2 Muttern (von unten)
-
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>
-2\. Motortreiber mit zwei Schrauben und zwei Muttern an der Motorplatte befestigen
-
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>
-3\. Schlussendlich sollten die Kabel so aussehen wie im nächsten Bild. Die Motoren auf der gleichen Seite haben die Stecker jeweils nebeneinander. Die Verbindung zum Pi stellt ihr anhand der Beschriftung auf dem Treiber her. Linke Motoren `GPIO 26 (physical pin 37)`, rechte Motoren `GPIO 27 (physical pin 13)`<br>
+*Bild*
+2\. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen
+*Bild*
+3\. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
+*Bild*
 
 <img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
 4\. Auffahrschutz, Greiferhalter und Abstandshalter montieren. Länge siehe Tabelle unten
