@@ -95,7 +95,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 1   | Falls noch keinen Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
 </details>
 
-# Minus-Type S2 Zusammenbau
+# Minus-Type 2S Zusammenbau
 
 ## 1. Software Installieren
 
