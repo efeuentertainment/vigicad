@@ -130,7 +130,7 @@ Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschrei
 
 ## 1. Software Installieren
 
-<img src="images/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
+<img src="2S/images/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
 
 Füge deinen Roboter bei Vigibot ganz einfach hinzu.
 Du benötigst: einen Rapsery Pi (empfohlen 3B+), eine 16 oder 32 GB microSD Karte, eine Spannungsversorgung für den Pi, die Kamera mit dem passenden Kabel.
