@@ -92,7 +92,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 
 | Stk | Benennung                                                                                                            | Shop                                                                                                    | Alternative\*                                                                                          |
 | --- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| 1   | Raspberry Pi 3B+ (or 3B), 1GB or 2GB                                                                                 | [Link](https://www.pi-shop.ch/raspberry-pi-3-model-b/)                                                  | [Alternative](https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html) |
+| 1   | Raspberry Pi 3B+ (or 3B), 1GB or 2GB                                                                                 | [Link](https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html)         | [Alternative](https://www.pi-shop.ch/raspberry-pi-3-model-b/) |
 | 1   | Unlocked ZTE MF79 4G / LTE Stick                                                                                     | [Link](https://aliexpress.com/item/1005005844914823.html)                                               | Huawei E3372h (Modell -153, -320 oder -607                                                             |
 | 1   | USB - USB 90° adapter                                                                                                | [Link, "Color : Down Angle Black"](https://aliexpress.com/item/1005003690522920.html) | -                                                                                                      |
 | 1   | USB bracket holder                                                                                                   | [Link](https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html)           | -                                                                                                      |
@@ -107,21 +107,6 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 1   | USB-A zu USB-C Kabel                                                                                                 | [Link, "Color : A-C \*\* ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html)           | nach Belieben                                                                                          |
 | 1   | Falls noch keinen Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
 
-
-### \*Hinweise zu Alternativen:
-
-Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschreibung.
-
-<details>
-<summary>[öffne diesen Abschnitt]</summary>
-
-#### 4G / LTE Stick: Huawei E3372h
-
-* Das neueste Modell "e3372h-325 (Brand: Brovi)" funktioniert nicht. Die älteren Modelle werden nicht mehr hergestellt.
-* Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
-* Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug\&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. [Anleitung](https://www.robot-maker.com/forum/topic/14850-how-to-use-the-e3372h-with-stick-firmware-instead-of-hilink-firmware/#entry122357) (Pi-Kenntnisse nötig)
-
-<details>
 
 # Minus-Type S2 Zusammenbau
 
@@ -157,7 +142,7 @@ Falls du auf den Pi zugreifen willst:
 
 ## 2. Vigibot Online Konfiguration
 
-#### Konfiguration der Fernsteuerung über Vigibot
+### Konfiguration der Fernsteuerung über Vigibot
 
 Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controller configuration) -> `Modifications made` -> Wechsle von `Form` zu `Text` -> ersetze die `{}` mit dem folgenden Code:
 
@@ -469,7 +454,7 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
 
 </details>
 
-#### Hardware Konfiguration
+### Hardware Konfiguration
 
 Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configuration) -> `Modifications made` -> Wechsle von `Form` zu `Text` -> ersetze `{}` mit dem folgenden Code:
 
@@ -546,39 +531,40 @@ Zuerst wird die Greifer-Kopf Baugruppe zusammengesetzt. Diese wird dann in die B
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
 
-## 3. Zusammenbau Kopf *tbc*
+## 4. Zusammenbau Kopf
 
-#### Kopf Schütteln
+### Kopf Schütteln
 
 <img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20turret%20assembly-2.png" alt="Pan turret assembly-2" style="width: 49%"/>
 
-#### Nicken
+### Nicken
 
 <img src="images/Minus%20assembly/Tilt%20turret%20assembly-1.png" alt="Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Tilt%20turret%20assembly-2.png" alt="Tilt turret assembly-2" style="width: 49%"/>
 
-#### kompletter Kopf
+### kompletter Kopf
 
 <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
 
-#### Kamera
+### Kamera
 
 Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden sein. Auf die Polarität achten. Mit den langen Schrauben und Muttern klemmen, danach ins gedruckte Teil einbauen und noch einmal mit Muttern sichern. Oder so wie auf den Bildern. Wichtig ist, dass die IR-Seitenteile mit Spannung versorgt werden. <br>
 
 <img src="images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
 
-## 4. Zusammenbau Motorplatte
+## 5. Zusammenbau Motorplatte
 
 Benötigtes Material aus dem Kit:
 
-| Stk | Benennung                                                 | Teilenummer                                            |
+| Stk | Benennung                                                 | Teilenummer (*tbc)                                     |
 | --- | --------------------------------------------------------- | ------------------------------------------------------ | 
-| 1   | 3D gedruckte Basis                                        | Druckteile/Chassis/2S101.0 Basis.step                  | 
-| 1   | 3D gedruckter Batteriehalter                              | Druckteile/Chassis/2S102.0 Batteriehalter.step         |
-| 1   | 3D gedruckter Halter für Greifer und Kopf                 | Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step |
+| 1   | 3D gedruckte Basis                                        | *Druckteile/Chassis/2S101.0 Basis.step                 | 
+| 1   | 3D gedruckter Batteriehalter                              | *Druckteile/Chassis/2S102.0 Batteriehalter.step        |
+| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step|
 | 1   | Basisprint                                                | aus Kit                                                |
 | 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
 | 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
-| 4   | Schrauben für Befestigung  Basisprint                     | *tbd*                                                  |
+| 2   | Schrauben für Befestigung  Basisprint                     | Kreuzschlitzschraube M2x7                              |
+| 2   | Schrauben für Befestigung  Basisprint inkl. Batteriehalter| Kreuzschlitzschraube M2x9                              |
 | 4   | Räder 32mm                                                | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
 | 1   | Batterie 2S                                               | aus Kit                                                | 
 
@@ -592,39 +578,41 @@ Benötigtes Material aus dem Kit:
 3. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
 *Bild*
 
-## 5. Zusammenbau Body *tbc*
+## 6. Zusammenbau Body
 
 Benötigtes Material aus dem Kit:
 
 | Stk | Benennung                                                 | Teilenummer                                            |
 | --- | --------------------------------------------------------- | ------------------------------------------------------ | 
-| 1   | Seitenplatte links                                        | aus Kit                 | 
-| 1   | Seitenplatte rechts                                       | aus Kit         |
-| 1   | Rapsberry Pi 3B+                                          | aus Kit |
+| 1   | Seitenplatte links                                        | Seite mit Aufdruck botkins.ch                          | 
+| 1   | Seitenplatte rechts                                       | Seite mit Aufdruck On/Off                              |
+| 1   | Rapsberry Pi 3B+                                          | aus Kit                                                |
 | 1   | Verbinderleiste                                           | aus Kit                                                |
 | 1   | Deckprint                                                 | aus Kit                                                | 
 | 4   | Schrauben für Befestigung Pi                              | *tbd*                                                  |
 | 1   | Flachbandkabel Pi <> Kamera                               | *tbd*                                                  |
-| 1   | Lautsprecher                                              | aus Kit        | 
-| 2   | Schrauben zur Befestigung des Lautsprechers               | *tbd*                                                | 
-| 1   | Mikrophon                                                 | *tbd*                                                |
-| 1*  | 4G/LTE Stick                                              | *tbd*                                                |
-| 1*  | Drehlicht                                                 | *tbd*                                                | 
+| 1   | Lautsprecher                                              | aus Kit                                                | 
+| 2   | Schrauben zur Befestigung des Lautsprechers               | *tbd*                                                  |
+| 1   | Verbindungskabel Deckprint zur Kamera                     | Servokabel F-F 20cm                                    |
+| 1   | Mikrophon                                                 | aus Kit                                                |
+| 1   | gedruckte Pinabdeckung und Auffahrschutz 4G Stick         | *tbd*                                                  |
+| 1*  | 4G/LTE Stick                                              | *tbd*                                                  |
+| 1*  | 90° USB Winkelstecker für 4G/LTE Stick                    | *tbd*                                                  |
+| 1   | Drehlicht                                                 | aus Kit                                                | 
 
 *Optinale Teile
 
-1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
+1. Verbinden der Servokabel
 
 *Bild*<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
 
-2. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen
+2. Verbinderleiste auf Basisprint aufsetzen
 *Bild*
 
-3. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
-*Bild*
+9. Mikrofon an einem der USB Anschlüsse einstecken
 
 
-## 6. Finale Fertigstellung
+## 7. Finale Fertigstellung
 
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
 <img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
@@ -633,7 +621,7 @@ Benötigtes Material aus dem Kit:
 
 Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 
-* Mikrofon an einem der USB Anschlüsse einstecken.
+
 * LTE / 4G Stick in 90° Winkelstecker stecken und diesen in einen der USB Anschlüsse einstecken.
 * Der Roboter sollte nun betriebsbereit sein.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
