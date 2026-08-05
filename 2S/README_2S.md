@@ -13,7 +13,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 * [Minus-Type Zusammenbau](#minus-type-zusammenbau)
   * [1. Software Installieren](#1-software-installieren)
   * [2. Vigibot Online Konfiguration](#2-vigibot-online-konfiguration)
-  * [3. UPS Solder Bridge](#3-ups-solder-bridge)
+  * [3. Zusammenbau Greifer](#3-zusammenbau-greifer)
   * [4. Servostecker teilen](#4-servostecker-teilen)
   * [5. Spannungsversorgung](#5-spannungsversorgung)
   * [6. Signalleitungen verbinden](#6-signalleitungen-verbinden)
@@ -121,12 +121,9 @@ Für gewisse Bauteile gibt es geprüfte Alternativen mit entsprechender Beschrei
 * Finden Sie ein passendes Modell auf Secondhand-Plattformen. Das Modell muss „e3372h-153”, „e3372h-320” oder „e3372h-607” sein. Das Modell ist auf dem SIM-Steckplatz unter der Abdeckung aufgedruckt.
 * Die funktionierenden e3372h-Modelle können zwei verschiedene Firmwares haben. (1) Die „hilink”-Firmware, die Plug\&Play-fähig ist und dem Pi eine IP-Adresse im Bereich 192.168.8.X zuweist. (2) Die „stick”-Firmware, die über ssh Verbindung via Terminal konfiguriert werden muss. [Anleitung](https://www.robot-maker.com/forum/topic/14850-how-to-use-the-e3372h-with-stick-firmware-instead-of-hilink-firmware/#entry122357) (Pi-Kenntnisse nötig)
 
-
+<details>
 
 # Minus-Type S2 Zusammenbau
-
-<details open>
-<summary>[Diesen Abschnitt verbergen]</summary>
 
 ## 1. Software Installieren
 
@@ -537,15 +534,15 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 </details>
 
-## 2. Zusammenbau Greifer *tbc*
+## 3. Zusammenbau Greifer
 
 Zuerst wird die Greifer-Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
 
 <img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
 <img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
 <img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/>
-<img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>
+<img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/> 
+
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
 
