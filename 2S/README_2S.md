@@ -93,7 +93,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 1   | USB Kabel magnetisch                                                                                                 | [Link, "Color : \*\* type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative Kabel](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) + [Alternative Stecker "USB C"](https://www.robot-maker.com/shop/alimentation/609-embout-magnetique-micro-usb-ou-usb-c-rechargedata-609.html)    |
 | 1   | USB-A zu USB-C Kabel                                                                                                 | [Link, "Color : A-C \*\* ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html)           | nach Belieben                                                                                          |
 | 1   | Falls noch keinen Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
-
+</details>
 
 # Minus-Type S2 Zusammenbau
 
