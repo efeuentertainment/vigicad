@@ -2,7 +2,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 
 # Minus-Type S2 Robot für Botkins
 
-## Inhalt *tbc*
+## Inhalt
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
@@ -35,8 +35,9 @@ Das UPS Bauteil ist aufgrund der mehreren neu gestarteten Roboterbauten im robot
 Es gibt eine funktionierende Alternative, das «Waveshare UPS hat (D)» UPS, aber dies benötigt Modifikationen, sodass wir empfehlen auf das VigiUPSv3 zu warten, welches innert Monaten verfügbar sein sollte. Gib uns bescheid und wir schreiben dir sobald es verfügbar ist.
 
 ## Generelle Info
-Dieser Leitfaden behandelt den Botkins S2, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
-Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
+*Dieser Leitfaden behandelt den Botkins S2, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
+*Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
+*Die Angaben zu rechts oder links in dieser Anleitung sind immer in Fahrtrichtung gesehen.
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
@@ -517,7 +518,7 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 ## 3. Zusammenbau Greifer
 
-Zuerst wird die Greifer-Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
+Zuerst wird die Greifer und Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
 
 <img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
 <img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
@@ -529,6 +530,22 @@ Zuerst wird die Greifer-Kopf Baugruppe zusammengesetzt. Diese wird dann in die B
 
 ## 4. Zusammenbau Kopf
 
+<img src="images/Uebersicht-Greifer" alt="Übersicht Greiferteile" style="width: 49%"/>
+
+Benötigtes Material aus dem Kit:
+
+| Stk | Benennung                                                 | Teilenummer (*tbc)                                     |
+| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
+| 1   | 3D gedruckte Basis                                        | *Druckteile/Chassis/2S101.0 Basis.step                 | 
+| 1   | 3D gedruckter Batteriehalter                              | *Druckteile/Chassis/2S102.0 Batteriehalter.step        |
+| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step|
+| 1   | Basisprint                                                | aus Kit                                                |
+| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
+| 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
+| 2   | Schrauben für Befestigung  Basisprint                     | Kreuzschlitzschraube M2x7                              |
+| 2   | Schrauben für Befestigung  Basisprint inkl. Batteriehalter| Kreuzschlitzschraube M2x9                              |
+| 4   | Räder 32mm                                                | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
+| 1   | Batterie 2S                                               | aus Kit                                                | 
 ### Kopf Schütteln
 
 <img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20turret%20assembly-2.png" alt="Pan turret assembly-2" style="width: 49%"/>
