@@ -13,13 +13,12 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 * [Minus-Type Zusammenbau](#minus-type-zusammenbau)
   * [1. Software Installieren](#1-software-installieren)
   * [2. Vigibot Online Konfiguration](#2-vigibot-online-konfiguration)
-  * [3. Zusammenbau Greifer](#3-zusammenbau-greifer)
-  * [4. Zusammenbau Kopf](#4-zusammenbau-kopf)
-  * [5. Zusammenbau Motorplatte](#5-zusammenbau-motorplatte)
-  * [6. Zusammenbau Body](#6-zusammenbau-body)
-  * [7. Finale Fertigstellung](#7-finale-fertigstellung)
-  * [8. Optionale Schritte](#8-optionale-schritte)
-  * [9. Funktionstest](#9-funktionstest)
+  * [3. Zusammenbau Greifer und Kopf](#3-zusammenbau-greifer)
+  * [4. Zusammenbau Motorplatte](#4-zusammenbau-motorplatte)
+  * [5. Zusammenbau Body](#5-zusammenbau-body)
+  * [6. Finale Fertigstellung](#6-finale-fertigstellung)
+  * [7. Optionale Schritte](#7-optionale-schritte)
+  * [8. Funktionstest](#8-funktionstest)
 * [Troubleshooting](#troubleshooting)
 * [Credits](#credits)
 
@@ -549,23 +548,27 @@ Die Kamera mit den Schrauben durch den Print mit den IR LED Stecken, Kamera und 
 
 <img src="images/Kamera-Zusammenbau" alt="Kamera Zusammenbau" style="width: 49%"/> 
 
-### Kopf Schütteln
-
-<img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20turret%20assembly-2.png" alt="Pan turret assembly-2" style="width: 49%"/>
+Nun Kamera und IR-LED Print mit den vier Schrauben am gedruckten Kopf befestigen.
 
 ### Nicken
 
-<img src="images/Minus%20assembly/Tilt%20turret%20assembly-1.png" alt="Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Tilt%20turret%20assembly-2.png" alt="Tilt turret assembly-2" style="width: 49%"/>
+Servo von hinten ins gedruckte Kopfteil montieren und von der Seite mit zwei M2x14 Schrauben befestigen
+
+<img src="images/Minus%20assembly/Tilt%20turret%20assembly-1.png" alt="Tilt turret assembly-1" style="width: 49%"/> 
+
+### Kopf Schütteln
+
+U-förmiges Druckteil mit einem einseitigen und dem doppelseitigen Servohorn bestücken. Servo zum Kopfschütteln von unten an das u-förmige Druckteil befestigen.
+
+<img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> 
 
 ### kompletter Kopf
 
+Druckteil inkl. Servo am Kopf befestigen und von beiden Seiten mit einer Schraube fixieren.
+
 <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
 
-
-
-
-
-## 5. Zusammenbau Motorplatte
+## 4. Zusammenbau Motorplatte
 
 Benötigtes Material aus dem Kit:
 
@@ -586,13 +589,17 @@ Benötigtes Material aus dem Kit:
 
 *Bild*<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
 
-2. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen
+2. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen.
 *Bild*
 
 3. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
 *Bild*
 
-## 6. Zusammenbau Body
+4. Servokabel des Kopfes gem. folgenden Abbildungen mit dem Basisprint verbinden.
+
+<img src="images/movements-desc.jpg" alt="Bewegungen Kopf und Greifer" style="width: 49%"/> <img src="images/servo-pinout.jpg" alt="Steckerbelegung" style="width: 49%"/><br>
+
+## 5. Zusammenbau Body
 
 Benötigtes Material aus dem Kit:
 
@@ -626,7 +633,7 @@ Benötigtes Material aus dem Kit:
 9. Mikrofon an einem der USB Anschlüsse einstecken
 
 
-## 7. Finale Fertigstellung
+## 6. Finale Fertigstellung
 
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
 <img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
@@ -641,7 +648,7 @@ Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
 * Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
-### 7.1 Aufkleber auf dem Roboter
+### 6.1 Aufkleber auf dem Roboter
 
 <img src="images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
@@ -663,7 +670,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 8* Nur, wenn balena WLAN-Config installiert ist
 
 
-## 8. Optionale Schritte
+## 7. Optionale Schritte
 
 ### apt repositories aktualisieren
 
@@ -807,7 +814,7 @@ Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 
 </details>
 
-## 9. Funktionstest
+## 8. Funktionstest
 
 Nun ist es Zeit für den finalen Check!
 Teste die Funktionen des Roboters:
