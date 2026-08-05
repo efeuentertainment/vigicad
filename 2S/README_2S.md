@@ -14,16 +14,12 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
   * [1. Software Installieren](#1-software-installieren)
   * [2. Vigibot Online Konfiguration](#2-vigibot-online-konfiguration)
   * [3. Zusammenbau Greifer](#3-zusammenbau-greifer)
-  * [4. Servostecker teilen](#4-servostecker-teilen)
-  * [5. Spannungsversorgung](#5-spannungsversorgung)
-  * [6. Signalleitungen verbinden](#6-signalleitungen-verbinden)
-  * [7. Zusammenbau Motorplatte](#7-zusammenbau-motorplatte)
-  * [8. Zusammenbau Kopf](#8-zusammenbau-kopf)
-  * [9. Zusammenbau Greifer](#9-zusammenbau-greifer)
-  * [10. Finale Fertigstellung](#10-finale-fertigstellung)
-  * [11. Optionale Schritte](#11-optionale-schritte)
-  * [12. Zusätzliche Bauanleitungen](#12-zusätzliche-bauanleitungen)
-  * [13. Funktionstest](#13-funktionstest)
+  * [4. Zusammenbau Kopf](#4-zusammenbau-kopf)
+  * [5. Zusammenbau Motorplatte](#5-zusammenbau-motorplatte)
+  * [6. Zusammenbau Body](#6-zusammenbau-body)
+  * [7. Finale Fertigstellung](#7-finale-fertigstellung)
+  * [8. Optionale Schritte](#8-optionale-schritte)
+  * [9. Funktionstest](#9-funktionstest)
 * [Troubleshooting](#troubleshooting)
 * [Credits](#credits)
 
@@ -627,7 +623,7 @@ Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
 * Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
-### 6.1 Aufkleber auf dem Roboter
+### 7.1 Aufkleber auf dem Roboter
 
 <img src="images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
@@ -649,7 +645,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 8* Nur, wenn balena WLAN-Config installiert ist
 
 
-## 7. Optionale Schritte
+## 8. Optionale Schritte
 
 ### apt repositories aktualisieren
 
@@ -793,12 +789,6 @@ Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 
 </details>
 
-## 8. Zusätzliche Bauanleitungen
-
-* Weitere [Montageanleitungen](https://www.robot-maker.com/forum/topic/13063-vigibot-hardware-documentation/) in französischer Sprache
-* Kurzes [Montagevideo](https://youtu.be/9Eja0gG4bhI) aus der Community
-* [Vigibot FAQ](https://www.robot-maker.com/forum/topic/12787-vigibot-faq-en-fr/)
-
 ## 9. Funktionstest
 
 Nun ist es Zeit für den finalen Check!
@@ -837,7 +827,7 @@ Teste die Funktionen des Roboters:
 
 </details>
 
-## 10. Troubleshooting
+# Troubleshooting
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
