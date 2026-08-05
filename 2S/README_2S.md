@@ -29,11 +29,14 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 * Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
 * Die Angaben zu rechts oder links in dieser Anleitung sind immer in Fahrtrichtung gesehen.
 
+
+### Das Botkins Charity Project
 Erfahre mehr über das Botkins Charity Project:
 
 * [botkins.ch](https://botkins.ch)&#x20;
 * [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)
 
+### Vigibot
 Erfahre mehr über Vigibot:
 Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins benutzt.
 
@@ -59,12 +62,10 @@ Du benötigst:
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
 * SD-Cardreader für microSD
 
-
-
 ## Teileliste
 
 <details close>
-<summary>[Diesen Abschnitt verbergen]</summary>
+<summary>[Diesen Abschnitt anzeigen]</summary>
 Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
 Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
 
@@ -87,7 +88,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 2   | 6A 67W Fast USB Charger                                                                                              | [Link, "Plug Type: EU Charger and Cable"](https://aliexpress.com/item/1005006632595521.html)            | -                                                                                                      |
 | 1   | USB Kabel magnetisch                                                                                                 | [Link, "Color : \*\* type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative Kabel](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) + [Alternative Stecker "USB C"](https://www.robot-maker.com/shop/alimentation/609-embout-magnetique-micro-usb-ou-usb-c-rechargedata-609.html)    |
 | 1   | USB-A zu USB-C Kabel                                                                                                 | [Link, "Color : A-C \*\* ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html)           | nach Belieben                                                                                          |
-| 1   | Falls noch keinen Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
+| 1   | Falls noch keiner Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
 </details>
 
 # Minus-Type 2S Zusammenbau
