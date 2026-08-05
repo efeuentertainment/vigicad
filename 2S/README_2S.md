@@ -528,13 +528,13 @@ Benötigtes Material aus dem Kit:
 | 1   | Servohorn zwei seitig                                     | aus Zubehör Servos                                     |
 | 4   | Servos                                                    | 9g                                                     |
 | 4   | Schrauben für Befestigung  Kamera an Kopf                 | Kreuzschlitzschraube M2x8                              |
-| 4   | 6kt-Mutter für Befestigung  Kamera an Kopf                | M2                                                     |
+| 4   | 6kt-Mutter Kunststoff für Befestigung  Kamera an Kopf     | M2                                                     |
 | 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
 | 2   | Schrauben für Befestigung Servo Kopfschütteln an Halter   | Kreuzschlitzschraube M2x5.5                            |
 | 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
 
 ### Kamera
-Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Mutter sichern. Die Mutter dient als Distanz. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
+Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Kunststoff-Mutter sichern. Die Mutter dient als Distanz und elektrische Isolation. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
 Die Kamera mit den Schrauben durch den Print mit den IR LED Stecken, Kamera und LED müssen in die gleiche Richtung schauen. <br>
 
 <img src="images/cam1.jpg" alt="Kamera auf Print" style="width: 49%"/> 
