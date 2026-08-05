@@ -29,9 +29,6 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 * Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
 * Die Angaben zu rechts oder links in dieser Anleitung sind immer in Fahrtrichtung gesehen.
 
-<details open>
-<summary>[Diesen Abschnitt verbergen]</summary>
-
 Erfahre mehr über das Botkins Charity Project:
 
 * [botkins.ch](https://botkins.ch)&#x20;
@@ -52,8 +49,6 @@ Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins
 * Der Bau des ersten Roboters kann etwa 3 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 1 Stunde pro Roboter.
 * Bestelle bei uns oder über robot-maker.com das Komplettkit und leg los!
 
-</details>
-
 ### Voraussetzungen
 
 Du benötigst:
@@ -68,7 +63,7 @@ Du benötigst:
 
 ## Teileliste
 
-<details open>
+<details close>
 <summary>[Diesen Abschnitt verbergen]</summary>
 Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
 Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
