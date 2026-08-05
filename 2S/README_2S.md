@@ -855,7 +855,6 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 ## Credits
 
 * Original Partlist: Vigibot
-* Assembly Renders: Narayan1986
 * Partlist Modifications: Botkins Charity Project
 * Assembly Guide: Botkins Charity Project (unless otherwise noted)
 
