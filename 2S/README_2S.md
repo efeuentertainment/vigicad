@@ -546,27 +546,35 @@ Benötigtes Material aus dem Kit:
 Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Mutter sichern. Die Mutter dient als Distanz. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
 Die Kamera mit den Schrauben durch den Print mit den IR LED Stecken, Kamera und LED müssen in die gleiche Richtung schauen. <br>
 
-<img src="images/Kamera-Zusammenbau" alt="Kamera Zusammenbau" style="width: 49%"/> 
+<img src="images/Kamera-Zusammenbau" alt="Kamera Zusammenbau" style="width: 49%"/> <img src="images/cam1.jpg" alt="Kamera auf Print" style="width: 49%"/> 
 
 Nun Kamera und IR-LED Print mit den vier Schrauben am gedruckten Kopf befestigen.
+
+<img src="images/cam2.jpg" alt="Kamera an Kopf befestigen" style="width: 49%"/> 
+
 
 ### Nicken
 
 Servo von hinten ins gedruckte Kopfteil montieren und von der Seite mit zwei M2x14 Schrauben befestigen
 
-<img src="images/Minus%20assembly/Tilt%20turret%20assembly-1.png" alt="Tilt turret assembly-1" style="width: 49%"/> 
+<img src="images/head1.jpg" alt="Servo in Kopf" style="width: 49%"/> 
 
 ### Kopf Schütteln
 
 U-förmiges Druckteil mit einem einseitigen und dem doppelseitigen Servohorn bestücken. Servo zum Kopfschütteln von unten an das u-förmige Druckteil befestigen.
 
-<img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> 
+<img src="images/head2.jpg" alt="Teile vorbereiten" style="width: 49%"/> 
+
 
 ### kompletter Kopf
 
 Druckteil inkl. Servo am Kopf befestigen und von beiden Seiten mit einer Schraube fixieren.
 
-<img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
+<img src="images/head3.jpg" alt="Kopf komplett" style="width: 49%"/> 
+
+### Greifer zusammenbauen
+
+Servohorn einseitig in Greifarm einbauen
 
 ## 4. Zusammenbau Motorplatte
 
@@ -821,34 +829,31 @@ Teste die Funktionen des Roboters:
 
 1. Roboter auf vigibot.com sichtbar mit korrektem Namen?
 2. Alle Bedienelemente vorhanden? Wenn nicht > botkins Team fragen
-
-   <img src="images/Minus_assembly_Botkins/vigi-standard-icons.jpg" alt="servo_assembly_4" style="width: 29%"/>
-4. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
-
-   <img src="images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 19%"/>
-6. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
-7. Alle Räder drehen?
-8. Robo lässt sich präzise fahren, auch schnelles Drehen ist möglich?
-9. Robo fällt beim abrupten Bremsen nicht vornüber?
-10. Antriebsmotoren sind vor Staub und Zugriff geschützt?
-11. Ruderhörner der Servos sind passgenau und spielfrei verbaut?
-12. Kopf lässt sich drehen?
-13. Kopf dreht symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
-14. Nicken funktioniert?
-15. Nicken symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
-16. Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
-17. Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind. Dazu die Bewegungen ganz langsam durchführen.
-18. Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
-19. Verbinde dich mit Vigibot und stell die Kamera auf einen Text gerichtet scharf.
-20. Schau mit dem Smartphone auf die "Augen", die IR-LEDs. Decke den runden Helligkeitssensor ab. Stelle die Helligkeit nun mit einem winzigen Schlitzschraubendreher auf das Minimum. Auf der anderen Seite wiederholen. Das verhindert übermässigen Akkuverbrauch.
-21. Ist der Winkelstecker und der LTE/4G Stick und der Auffahrschutz montiert?
-22. Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand (ca 3,3V – 3,5V), ob Abstürze auftreten.
-23. Ist die Ladebuchse des Roboters zugänglich?
-24. Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
-25. Lasse den Roboter eingeschaltet und schliesse bei vollständig entladenem Akku das Ladekabel an. Er sollte nicht in einer Boot-Schleife hängenbleiben.
-26. Lade den Roboter Komplett auf (aufladen dauert bis zu 10h eingeschaltet, 4h ausgeschaltet). Die Spannung sollte beim Ausgestecken von 4,1–4,2V nicht unter 3,9V fallen. Sonst ist der Widerstand zum Akku zu gross, dazu evtl die Akkukabel direkt am UPS anlöten.
-27. Mirofon testen
-28. Sind die Aufkleber angebracht?
+3. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
+4. Bei Drücken auf das Stop-Symbol in der Steuerung bewegen sich alle Servos in die Mittelstellung. Stimmen die Mittelstellungen?
+5. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
+6. Alle Räder drehen?
+7. Robo lässt sich präzise fahren, auch schnelles Drehen ist möglich?
+8. Robo fällt beim abrupten Bremsen nicht vornüber?
+9. Antriebsmotoren sind vor Staub und Zugriff geschützt?
+10. Ruderhörner der Servos sind passgenau und spielfrei verbaut?
+11. Kopf lässt sich drehen?
+12. Kopf dreht symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
+13. Nicken funktioniert?
+14. Nicken symmetrisch in beide Richtungen? Wenn nicht > Servohorn lösen und in Ruhestellung einmitten
+15. Der Greifer muss bis auf den Boden greifen können und sich komplett öffnen und schliessen lassen.
+16. Der Greifer darf nicht „hängenbleiben“, was passieren kann, wenn die Schrauben zu weit/zu fest eingeschraubt sind. Dazu die Bewegungen ganz langsam durchführen.
+17. Bei vollständigen Kopf- und Greiferbewegungen dürfen keine Kabel gezogen werden.
+18. Verbinde dich mit Vigibot und stell die Kamera auf einen Text gerichtet scharf.
+19. Schau mit dem Smartphone auf die "Augen", die IR-LEDs. Decke den runden Helligkeitssensor ab. Stelle die Helligkeit nun mit einem winzigen Schlitzschraubendreher auf das Minimum. Auf der anderen Seite wiederholen. Das verhindert übermässigen Akkuverbrauch.
+20. Sind der Winkelstecker und der LTE/4G Stick und der Auffahrschutz montiert?
+21. Teste den Roboter mit LTE/4G Stick, bei Dunkelheit, fahre und bewege Kopf oder Greifer bei niedrigem Akkustand (ca 3,3V – 3,5V), teste, ob Abstürze auftreten.
+22. Ist die Ladebuchse des Roboters zugänglich?
+23. Lass den Akku des Roboters vollständig entladen. Die Servos können sich leicht bewegen, aber der Roboter sollte nicht von selbst fahren.
+24. Lass den Roboter eingeschaltet und schliesse bei vollständig entladenem Akku das Ladekabel an. Er sollte nicht in einer Boot-Schleife hängenbleiben.
+25. Dreht das Drehlicht, wenn du dich mit dem Roboter verbindest?
+26. Mirofon testen
+27. Sind die Aufkleber angebracht?
 
 </details>
 
