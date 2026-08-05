@@ -103,7 +103,7 @@ Mit wenigen einfachen Schritten kannst du deine Kamera auf [vigibot.com](https:/
 
 * Erstelle auf [vigibot.com](https://www.vigibot.com/) einen Account.
 * Klick auf "Management" und dann "Add a Robot". Wähle einen Namen für deinen Robter, den Roboter Typ Standard und ein Passwort für den Roboter. Das brauchen wir weiter unten gleich wieder, also merken.
-* Lade das Image runter: [vigimage.zip](https://www.vigibot.com/vigimage/vigimage.zip) und entpacke die ZIP-Datei.
+* Lade das Image runter: [vigimage.zip](https://www.vigibot.com/vigimage/vigimage.zip) und entpacke die ZIP-Datei. *neues Botkins Image mit Balena verlinken*
 * Um die Image-Datei auf deine microSD Karte schreiben zu können, musst du diese mit dem PC verbinden (Kartenleser) und ein Tool zum Schreiben verwenden. Ich empfehle den Raspberry Pi Imager. Runterladen, installieren.
 * Andere Tools wie das HDD Raw Copy Tool oder win32diskImager gehen auch. ApplePiBacker (Mac) oder balena etcher (Für Windows, Mac und Linux)
 * Hinweis: Wenn du eine Karte grösser 32GB verwendest, musst du im Pi Imager zuerst das Modell 3 wählen, dann beim Betriebssystem löschen, um die Karte in FAT32 zu formatieren.
@@ -653,26 +653,26 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 | Nr. | Benennung          | Text  | Position am Roboter        |
 | --- | ------------------ | ------------- | -------------------------- |
 | 1   | Name | *Name: ** NAME ** botkins.ch [Nr. ** Roboternummer **]*| oben/unten auf dem Roboter |
-| 2   | Hauptschalter | *Ein / Aus* | Beim Hauptschalter des Spannungsversorgungsmoduls (UPS) |
-| 3   | Startvorgang | *Startvorgang dauert 30s* | oben/unten auf dem Roboter |
-| 4   | Hinweis Betrieb | *Roboterli ist designt, um durchgehend eingesteckt und eingeschaltet zu sein.*  | oben/unten auf dem Roboter|
-| 5   | Empfang 4G Stick | *2x Blau: Empfang ok, Rot + Blau: kein Empfang* | auf dem 4G Stick |
-| 6   | Hinweis 4G Stick | *4G Stick für botkins.ch vigibot.com* | auf dem 4G Stick |
-| 7*   | Ladehinweis | *Roboter mit dem Netzteil laden, nicht am Raspberry* | in der Nähe der Ladebuchse |
-| 8*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Vigibot WiFi Config" verbinden* | oben/unten auf dem Roboter |
+| 2   | Startvorgang | *Startvorgang dauert 30s* | oben/unten auf dem Roboter |
+| 3   | Hinweis Betrieb | *Roboterli ist designt, um durchgehend eingesteckt und eingeschaltet zu sein.*  | oben/unten auf dem Roboter|
+| 4   | Empfang 4G Stick | *2x Blau: Empfang ok, Rot + Blau: kein Empfang* | auf dem 4G Stick |
+| 5   | Hinweis 4G Stick | *4G Stick für botkins.ch vigibot.com* | auf dem 4G Stick |
+| 6   | Ladehinweis | *Roboter vorne rechts mit USB-C laden* | - |
+| 7*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Botkins AP" verbinden* | oben/unten auf dem Roboter |
 
-7* Je nach verbauter Spannungsversorgung (UPS) ist dieser Hinweis anders zu gestalten. Wichtig ist, dass der Robo nicht über den USB-Anschluss des Raspberry geladen wird. Am besten den richtigen Anschluss farblich kennzeichnen und ein Foto dem Begleitbrief beilegen.
-8* Nur, wenn balena WLAN-Config installiert ist
+7* Nur, wenn balena WLAN-Config installiert ist
 
 
 ## 7. Optionale Schritte
+
+Diese Schritte sind nützlich, wenn Balena WiFi installiert werden soll. Kommt das Kit von Botkins, sind die optionalen Schritte breits vorinstalliert.
 
 ### apt repositories aktualisieren
 
 <details>
 <summary>[Diesen Abschnitt anzeigen]</summary>
 
-Um dinge installieren zu können, müssen die Quellen für `apt` aktualisiert werden, da die ursprünglichen Paketquellen nicht mehr verfügbar sind.
+Um Dinge installieren zu können, müssen die Quellen für `apt` aktualisiert werden, da die ursprünglichen Paketquellen nicht mehr verfügbar sind.
 
 1. raspi.list anpassen
 
