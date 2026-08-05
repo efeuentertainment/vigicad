@@ -546,7 +546,7 @@ Benötigtes Material aus dem Kit:
 Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Mutter sichern. Die Mutter dient als Distanz. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
 Die Kamera mit den Schrauben durch den Print mit den IR LED Stecken, Kamera und LED müssen in die gleiche Richtung schauen. <br>
 
-<img src="images/Kamera-Zusammenbau" alt="Kamera Zusammenbau" style="width: 49%"/> <img src="images/cam1.jpg" alt="Kamera auf Print" style="width: 49%"/> 
+<img src="images/cam1.jpg" alt="Kamera auf Print" style="width: 49%"/> 
 
 Nun Kamera und IR-LED Print mit den vier Schrauben am gedruckten Kopf befestigen.
 
