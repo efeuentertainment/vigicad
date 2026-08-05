@@ -1,6 +1,6 @@
 Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Roboters, basierend auf dem Vigibot Minus 2S
 
-# Minus-Type S2 Robot für Botkins
+# Minus-Type 2S Robot für Botkins
 
 ## Inhalt
 
