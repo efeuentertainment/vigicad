@@ -25,7 +25,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 </details>
 
 ## Generelle Info
-* Dieser Leitfaden behandelt den Botkins S2, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
+* Dieser Leitfaden behandelt den Botkins 2S, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
 * Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
 * Die Angaben zu rechts oder links in dieser Anleitung sind immer in Fahrtrichtung gesehen.
 
@@ -43,7 +43,7 @@ Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins b
 * [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 * [Drive a robot Vigibot.com](https://www.vigibot.com/)
 
-Als Basis dient die Standard Vigibot Minus-Type Version S2 (siehe Bild). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
+Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
 
 <img src="images/klara.jpg" alt="Botkins S2" style="width: 49%"/>
 
