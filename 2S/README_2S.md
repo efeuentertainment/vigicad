@@ -530,7 +530,7 @@ Zuerst wird die Greifer und Kopf Baugruppe zusammengesetzt. Diese wird dann in d
 
 ## 4. Zusammenbau Kopf
 
-<img src="images/Uebersicht-Greifer" alt="Übersicht Greiferteile" style="width: 49%"/>
+<img src="images/Uebersicht-Greifer.jpg" alt="Übersicht Greiferteile" style="width: 49%"/>
 
 Benötigtes Material aus dem Kit:
 
