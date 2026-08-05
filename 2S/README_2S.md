@@ -24,15 +24,6 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 
 </details>
 
-## Stand 2026-06-20
-
-Die Version Minus-2S ist nun verfügbar. Wir sprechen hier von 2S für die neue Version. Wir sind dabei, die Updates von der upstream repo in diese Botkins Teileliste zu übernehmen.
-
-## Stand 2026-02-13
-
-Das UPS Bauteil ist aufgrund der mehreren neu gestarteten Roboterbauten im robot-maker Store ausverkauft.
-Es gibt eine funktionierende Alternative, das «Waveshare UPS hat (D)» UPS, aber dies benötigt Modifikationen, sodass wir empfehlen auf das VigiUPSv3 zu warten, welches innert Monaten verfügbar sein sollte. Gib uns bescheid und wir schreiben dir sobald es verfügbar ist.
-
 ## Generelle Info
 *Dieser Leitfaden behandelt den Botkins S2, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
 *Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
