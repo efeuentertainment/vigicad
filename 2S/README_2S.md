@@ -516,19 +516,9 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 </details>
 
-## 3. Zusammenbau Greifer
+## 3. Zusammenbau Greifer und Kopf
 
 Zuerst wird die Greifer und Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
-
-<img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/> 
-
-
-[Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
-
-## 4. Zusammenbau Kopf
 
 <img src="images/Uebersicht-Greifer.jpg" alt="Übersicht Greiferteile" style="width: 49%"/>
 
@@ -536,16 +526,29 @@ Benötigtes Material aus dem Kit:
 
 | Stk | Benennung                                                 | Teilenummer (*tbc)                                     |
 | --- | --------------------------------------------------------- | ------------------------------------------------------ | 
-| 1   | 3D gedruckte Basis                                        | *Druckteile/Chassis/2S101.0 Basis.step                 | 
-| 1   | 3D gedruckter Batteriehalter                              | *Druckteile/Chassis/2S102.0 Batteriehalter.step        |
-| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step|
-| 1   | Basisprint                                                | aus Kit                                                |
-| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
-| 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
-| 2   | Schrauben für Befestigung  Basisprint                     | Kreuzschlitzschraube M2x7                              |
-| 2   | Schrauben für Befestigung  Basisprint inkl. Batteriehalter| Kreuzschlitzschraube M2x9                              |
-| 4   | Räder 32mm                                                | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
-| 1   | Batterie 2S                                               | aus Kit                                                | 
+| 1   | 3D gedruckter Kopf                                        | *Druckteile/...             | 
+| 1   | 3D gedruckter Halter für Kopf                             | *Druckteile/...        |
+| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/...       |
+| 1   | 3D gedruckter Halter für Greifer                          | *Druckteile/...       |
+| 1   | 3D gedruckter Greifarm rechts                             | *Druckteile/...       |
+| 1   | 3D gedruckter Greifarm links                              | *Druckteile/...       |
+| 1   | Kamera                                                    | aus Kit                                                |
+| 1   | Kamera-Print mit IR LEDS                                  | aus Kit                                                |
+| 3   | Servohörner einseitig                                     | aus Zubehör Servos                                     |
+| 1   | Servohorn zwei seitig                                     | aus Zubehör Servos                                     |
+| 4   | Servos                                                    | 9g                                                     |
+| 4   | Schrauben für Befestigung  Kamera an Kopf                 | Kreuzschlitzschraube M2x8                              |
+| 4   | 6kt-Mutter für Befestigung  Kamera an Kopf                | M2                                                     |
+| 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
+| 2   | Schrauben für Befestigung Servo Kopfschütteln an Halter   | Kreuzschlitzschraube M2x5.5                            |
+| 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
+
+### Kamera
+Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Mutter sichern. Die Mutter dient als Distanz. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
+Die Kamera mit den Schrauben durch den Print mit den IR LED Stecken, Kamera und LED müssen in die gleiche Richtung schauen. <br>
+
+<img src="images/Kamera-Zusammenbau" alt="Kamera Zusammenbau" style="width: 49%"/> 
+
 ### Kopf Schütteln
 
 <img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20turret%20assembly-2.png" alt="Pan turret assembly-2" style="width: 49%"/>
@@ -558,11 +561,9 @@ Benötigtes Material aus dem Kit:
 
 <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
 
-### Kamera
 
-Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden sein. Auf die Polarität achten. Mit den langen Schrauben und Muttern klemmen, danach ins gedruckte Teil einbauen und noch einmal mit Muttern sichern. Oder so wie auf den Bildern. Wichtig ist, dass die IR-Seitenteile mit Spannung versorgt werden. <br>
 
-<img src="images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
+
 
 ## 5. Zusammenbau Motorplatte
 
