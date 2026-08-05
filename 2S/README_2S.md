@@ -13,7 +13,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 * [Minus-Type Zusammenbau](#minus-type-zusammenbau)
   * [1. Software Installieren](#1-software-installieren)
   * [2. Vigibot Online Konfiguration](#2-vigibot-online-konfiguration)
-  * [3. Zusammenbau Greifer und Kopf](#3-zusammenbau-greifer)
+  * [3. Zusammenbau Greifer und Kopf](#3-zusammenbau-greifer-und-kopf)
   * [4. Zusammenbau Motorplatte](#4-zusammenbau-motorplatte)
   * [5. Zusammenbau Body](#5-zusammenbau-body)
   * [6. Finale Fertigstellung](#6-finale-fertigstellung)
