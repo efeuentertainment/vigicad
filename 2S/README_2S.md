@@ -7,11 +7,11 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
 
-* [Generelle Info](#generelle-info)
-* [Voraussetzungen](#voraussetzungen)
-* [Teileliste](#teileliste)
-* [Minus-Type Zusammenbau](#minus-type-zusammenbau)
-  * [1. Software Installieren](#1-software-installieren)
+* [1. Generelle Info](#1-generelle-info)
+* [2. Voraussetzungen](#2-voraussetzungen)
+* [3. Teileliste](#3-teileliste)
+* [4. Minus-Type Zusammenbau](#4-minus-type-zusammenbau)
+  * [4.1 Software Installieren](#4-1-software-installieren)
   * [2. Vigibot Online Konfiguration](#2-vigibot-online-konfiguration)
   * [3. Zusammenbau Greifer und Kopf](#3-zusammenbau-greifer-und-kopf)
   * [4. Zusammenbau Motorplatte](#4-zusammenbau-motorplatte)
@@ -24,19 +24,19 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 
 </details>
 
-## Generelle Info
+## 1. Generelle Info
 * Dieser Leitfaden behandelt den Botkins 2S, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
 * Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
 * Die Angaben zu rechts oder links in dieser Anleitung sind immer in Fahrtrichtung gesehen.
 
 
-### Das Botkins Charity Project
+### 1.1 Das Botkins Charity Project
 Erfahre mehr über das Botkins Charity Project:
 
 * [botkins.ch](https://botkins.ch)&#x20;
 * [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)
 
-### Vigibot
+### 1.2 Vigibot
 Erfahre mehr über Vigibot:
 Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins benutzt.
 
@@ -52,7 +52,7 @@ Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins
 * Der Bau des ersten Roboters kann etwa 3 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 1 Stunde pro Roboter.
 * Bestelle bei uns oder über robot-maker.com das Komplettkit und leg los!
 
-### Voraussetzungen
+## 2. Voraussetzungen
 
 Du benötigst:
 
@@ -62,14 +62,14 @@ Du benötigst:
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
 * SD-Cardreader für microSD
 
-## Teileliste
+## 3. Teileliste
 
 <details close>
 <summary>[Diesen Abschnitt anzeigen]</summary>
 Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
 Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
 
-### Hauptteile
+### 3.1 Hauptteile
 
 Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) für ca. 360€
 
@@ -91,9 +91,9 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 1   | Falls noch keiner Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
 </details>
 
-# Minus-Type 2S Zusammenbau
+# 4. Minus-Type 2S Zusammenbau
 
-## 1. Software Installieren
+## 4.1 Software Installieren
 
 <img src="images/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
 
