@@ -129,6 +129,8 @@ Falls du auf den Pi zugreifen willst:
 * LTE/4G Mobile Data Stick:
 * An einen Windows- oder Mac-PC anschliessen (die Webseite 192.168.8.1 wird geöffnet oder die App auf dem Speichermedium gestartet) und Datenroaming aktivieren.
 
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
 ## 4.2 Vigibot Online Konfiguration
 
 ### Konfiguration der Fernsteuerung über Vigibot
