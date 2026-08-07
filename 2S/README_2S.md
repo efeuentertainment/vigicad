@@ -534,8 +534,9 @@ Benötigtes Material aus dem Kit:
 | 4   | Schrauben für Befestigung  Kamera an Kopf                 | Kreuzschlitzschraube M2x8                              |
 | 4   | 6kt-Mutter Kunststoff für Befestigung  Kamera an Kopf     | M2                                                     |
 | 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
-| 2   | Schrauben für Befestigung Servo Kopfschütteln an Halter   | Kreuzschlitzschraube M2x5.5                            |
-| 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
+| 2   | Schrauben für Befestigung Servo Kopfschütteln an Halter   | Kreuzschlitzschraube M2x5                              |
+| 2   | Schrauben für Befestigung  Greifarme am Halter für Greifer| Kreuzschlitzschraube M2x12                             |
+| 2   | Schrauben für Befestigung Servo Greifer an Halter         | Kreuzschlitzschraube M2x5                              |
 
 ### Kamera
 Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Kunststoff-Mutter sichern. Die Mutter dient als Distanz und elektrische Isolation. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
@@ -569,7 +570,32 @@ Druckteil inkl. Servo am Kopf befestigen und von beiden Seiten mit einer Schraub
 
 ### Greifer zusammenbauen
 
-Servohorn einseitig in Greifarm einbauen
+Servohorn einseitig in Greifarm links einbauen. 
+
+<img src="images/gripper1.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+Das Servokabel durch das Druckteil fädeln wie im Bild.
+
+<img src="images/gripper2.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+
+Die beiden Greifarme platzieren und mit den M2x12 Schrauben befestigen. Auf symmetrische Montage der Greifarme achten.
+
+Servo mit 2x M2x14 am Halter Greifer befestigen.
+
+<img src="images/gripper3.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+
+Den Halter Greifer und Kopf zur Hand nehmen. Ein einseitiges Servohorn im Druckteil einbauen. Servo mit Abtriebswelle gegen oben in Druckteil einbauen und mit 2x M2x14 am Druckteil befestigen.
+
+<img src="images/gripper4.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+
+### Kopf und Greifer an Halter bauen
+
+Ganzer Greifer in den Halter Greifer und Kopf einbauen und von beiden Seiten eine je eine M2x5 Schraube verbauten. Nicht zu stark anziehen, der Greifer muss sich noch leichtgängig heben und senken lassen.
+
+<img src="images/gripper5.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+
+Ganzer Kopf mit zwei M2x5 Schrauben am Halter Greifer und Kopf befestigen. Sicherstellen, dass die Drehachse zum Kopf Schütteln in der Mitte der Baugruppe ist, sonst ist der Kopf daneben :-)
+
+<img src="images/head-complete.jpg" alt="Kopf und Greifer" style="width: 49%"/>
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
