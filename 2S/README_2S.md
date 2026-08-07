@@ -64,6 +64,8 @@ Du benötigst:
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
 * SD-Cardreader für microSD
 
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
 ## 3. Teileliste
 
 <details close>
@@ -91,6 +93,8 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 1   | USB Kabel magnetisch                                                                                                 | [Link, "Color : \*\* type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative Kabel](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) + [Alternative Stecker "USB C"](https://www.robot-maker.com/shop/alimentation/609-embout-magnetique-micro-usb-ou-usb-c-rechargedata-609.html)    |
 | 1   | USB-A zu USB-C Kabel                                                                                                 | [Link, "Color : A-C \*\* ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html)           | nach Belieben                                                                                          |
 | 1   | Falls noch keiner Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
+
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 </details>
 
 # 4. Minus Type 2S Zusammenbau
@@ -125,7 +129,7 @@ Falls du auf den Pi zugreifen willst:
 * LTE/4G Mobile Data Stick:
 * An einen Windows- oder Mac-PC anschliessen (die Webseite 192.168.8.1 wird geöffnet oder die App auf dem Speichermedium gestartet) und Datenroaming aktivieren.
 
-## 2. Vigibot Online Konfiguration
+## 4.2 Vigibot Online Konfiguration
 
 ### Konfiguration der Fernsteuerung über Vigibot
 
@@ -501,10 +505,10 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
   ]
 }
 ```
-
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 </details>
 
-## 3. Zusammenbau Greifer und Kopf
+## 4.3 Zusammenbau Greifer und Kopf
 
 Zuerst wird die Greifer und Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
 
@@ -565,7 +569,9 @@ Druckteil inkl. Servo am Kopf befestigen und von beiden Seiten mit einer Schraub
 
 Servohorn einseitig in Greifarm einbauen
 
-## 4. Zusammenbau Motorplatte
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
+## 4.4 Zusammenbau Motorplatte
 
 Benötigtes Material aus dem Kit:
 
@@ -596,7 +602,9 @@ Benötigtes Material aus dem Kit:
 
 <img src="images/movements-desc.jpg" alt="Bewegungen Kopf und Greifer" style="width: 49%"/> <img src="images/servo-pinout.jpg" alt="Steckerbelegung" style="width: 49%"/><br>
 
-## 5. Zusammenbau Body
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
+## 4.5 Zusammenbau Body
 
 Benötigtes Material aus dem Kit:
 
@@ -629,8 +637,9 @@ Benötigtes Material aus dem Kit:
 
 9. Mikrofon an einem der USB Anschlüsse einstecken
 
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
-## 6. Finale Fertigstellung
+## 4.6 Finale Fertigstellung
 
 <img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
 <img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
@@ -645,7 +654,7 @@ Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
 * Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
-### 6.1 Aufkleber auf dem Roboter
+### Aufkleber auf dem Roboter
 
 <img src="images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
 <img src="images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
@@ -664,14 +673,15 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 
 7* Nur, wenn balena WLAN-Config installiert ist
 
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
-## 7. Optionale Schritte
+## 4.7 Optionale Schritte
 
 Diese Schritte sind nützlich, wenn Balena WiFi installiert werden soll. Kommt das Kit von Botkins, sind die optionalen Schritte breits vorinstalliert.
 
 ### apt repositories aktualisieren
 
-<details>
+<details close>
 <summary>[Diesen Abschnitt anzeigen]</summary>
 
 Um Dinge installieren zu können, müssen die Quellen für `apt` aktualisiert werden, da die ursprünglichen Paketquellen nicht mehr verfügbar sind.
@@ -716,7 +726,7 @@ Danach sollte apt korrekt funktionieren.
 
 ### WLAN Unterstützung Einrichten
 
-<details>
+<details close>
 <summary>[Diesen Abschnitt anzeigen]</summary>
 
 Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena** **`wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
@@ -809,9 +819,11 @@ Nach dem Neustart startet der Roboter automatisch das Captive-Portal `BotkinsAP`
 Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 Öffne eine beliebige Website in einem Browser, das Captive-Portal wird dich automatisch zum Konfikurationsportal weiterleiten. Dort kannst du das gewünschte Heim-WLAN-Netzwerk aus einer Liste auswählen, womit sich der Roboter dann verbindet.
 
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
 </details>
 
-## 8. Funktionstest
+## 4.8 Funktionstest
 
 Nun ist es Zeit für den finalen Check!
 Teste die Funktionen des Roboters:
@@ -844,9 +856,9 @@ Teste die Funktionen des Roboters:
 26. Mirofon testen
 27. Sind die Aufkleber angebracht?
 
-</details>
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
-# Troubleshooting
+# 5. Troubleshooting
 
 <details open>
 <summary>[Diesen Abschnitt verbergen]</summary>
@@ -871,7 +883,7 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 
 </details>
 
-## Credits
+## 6. Credits
 
 * Original Partlist: Vigibot
 * Partlist Modifications: Botkins Charity Project
