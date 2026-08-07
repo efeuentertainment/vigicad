@@ -881,7 +881,6 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 | Verbindung per ssh nicht möglich nach Aufspielen von neuem Image                                            | Image hat Standardpasswort mitgegeben                                                                                   | SD Card in PC > boot > robot.json Name und Passwort vergeben ODER Standardpasswort "raspberry" verwenden, um ssh zu starten                                                                              | Maker       |
 | Spannung wird im vigibot Interface nicht korrekt angezeigt (2.5V)                                       | Grund liegt je nach UPS am Pin, auf dem die Info an den PI gelangt.                                                                                      |Bsp: sudo nano /usr/local/vigiclient/sys.json > "INA219ADDRESS": 66                                                                              | Maker       |
 
-|                                                                                                             |                                                                                                                         |                                                                                                                                                                                                          |             |
 
 </details>
 
@@ -891,3 +890,4 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 * Partlist Modifications: Botkins Charity Project
 * Assembly Guide: Botkins Charity Project (unless otherwise noted)
 
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
