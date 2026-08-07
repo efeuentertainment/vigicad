@@ -10,7 +10,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 * [1. Generelle Info](#1-generelle-info)
 * [2. Voraussetzungen](#2-voraussetzungen)
 * [3. Teileliste](#3-teileliste)
-* [4. Minus-Type Zusammenbau](#4-minus-type-zusammenbau)
+* [4. Minus Type 2S Zusammenbau](#4-minus-type-2S-zusammenbau)
   * [4.1 Software Installieren](#41-software-installieren)
   * [4.2 Vigibot Online Konfiguration](#42-vigibot-online-konfiguration)
   * [4.3 Zusammenbau Greifer und Kopf](#43-zusammenbau-greifer-und-kopf)
@@ -91,7 +91,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 1   | Falls noch keiner Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
 </details>
 
-# 4. Minus-Type 2S Zusammenbau
+# 4. Minus Type 2S Zusammenbau
 
 ## 4.1 Software Installieren
 
