@@ -612,9 +612,9 @@ Benötigtes Material aus dem Kit:
 | 1   | Basisprint                                                | aus Kit                                                |
 | 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
 | 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
-| 2   | Schrauben für Befestigung  Basisprint                     | Kreuzschlitzschraube M2x7                              |
-| 2   | Schrauben für Befestigung  Basisprint inkl. Batteriehalter| Kreuzschlitzschraube M2x9                              |
-| 4   | Räder 32mm                                                | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
+| 2   | Schrauben für Befestigung  Basisprint                     | Kreuzschlitzschraube M2x5                              |
+| 2   | Schrauben für Befestigung  Basisprint inkl. Batteriehalter| Kreuzschlitzschraube M2x8                              |
+| 4   | Räder 32mm (Bohrung Motorwelle Ø3mm, max.Ø 50mm)          | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
 | 1   | Batterie 2S                                               | aus Kit                                                | 
 
 1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
