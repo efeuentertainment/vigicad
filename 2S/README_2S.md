@@ -24,19 +24,19 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 
 </details>
 
-## 1. Generelle Info
+# 1. Generelle Info
 * Dieser Leitfaden behandelt den Botkins 2S, erhältlich als Kit von Botkins oder [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html)
 * Der Einfachheit halber wird hier nur die Kit-Version beschrieben. Werden Teile selber beschafft, müssen einzelne Teile selber aus den gelisteten Teilen zusammengesucht werden.
 * Die Angaben zu rechts oder links in dieser Anleitung sind immer in Fahrtrichtung gesehen.
 
 
-### 1.1 Das Botkins Charity Project
+## 1.1 Das Botkins Charity Project
 Erfahre mehr über das Botkins Charity Project:
 
 * [botkins.ch](https://botkins.ch)&#x20;
 * [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)
 
-### 1.2 Vigibot
+## 1.2 Vigibot
 Erfahre mehr über Vigibot:
 Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins benutzt.
 
@@ -54,7 +54,7 @@ Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
-## 2. Voraussetzungen
+# 2. Voraussetzungen
 
 Du benötigst:
 
@@ -66,14 +66,14 @@ Du benötigst:
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
-## 3. Teileliste
+# 3. Teileliste
 
 <details close>
 <summary>[Diesen Abschnitt anzeigen]</summary>
 Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
 Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
 
-### 3.1 Hauptteile
+## 3.1 Hauptteile
 
 Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) für ca. 360€
 
@@ -884,7 +884,7 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 
 </details>
 
-## 6. Credits
+# 6. Credits
 
 * Original Partlist: Vigibot
 * Partlist Modifications: Botkins Charity Project
