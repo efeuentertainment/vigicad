@@ -52,6 +52,8 @@ Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins
 * Der Bau des ersten Roboters kann etwa 3 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 1 Stunde pro Roboter.
 * Bestelle bei uns oder über robot-maker.com das Komplettkit und leg los!
 
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
 ## 2. Voraussetzungen
 
 Du benötigst:
