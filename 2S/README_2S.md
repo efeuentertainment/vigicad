@@ -597,6 +597,7 @@ Ganzer Kopf mit zwei M2x5 Schrauben am Halter Greifer und Kopf befestigen. Siche
 
 <img src="images/head-complete.jpg" alt="Kopf und Greifer" style="width: 49%"/>
 
+
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
 ## 4.4 Zusammenbau Motorplatte
