@@ -538,6 +538,8 @@ Benötigtes Material aus dem Kit:
 | 2   | Schrauben für Befestigung  Greifarme am Halter für Greifer| Kreuzschlitzschraube M2x12                             |
 | 2   | Schrauben für Befestigung Servo Greifer an Halter         | Kreuzschlitzschraube M2x5                              |
 
+Hinweis zu den Schrauben: Wir schlagen Kreuzschlitzschrauben vor, weil deren Kopfhöhe kleiner ist als bei anderen Antrieben. Aber andere Schrauben können auch verwendet werden. Auf einigen Bildern haben wir andere Schrauben verwendet.
+
 ### Kamera
 Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Kunststoff-Mutter sichern. Die Mutter dient als Distanz und elektrische Isolation. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
 Die Kamera mit den Schrauben durch den Print mit den IR LED Stecken, Kamera und LED müssen in die gleiche Richtung schauen. <br>
@@ -619,7 +621,7 @@ Benötigtes Material aus dem Kit:
 
 1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
 
-*Bild*<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
+<img src="images/base1.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
 
 2. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen.
 *Bild*
