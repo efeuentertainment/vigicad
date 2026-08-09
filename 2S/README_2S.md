@@ -619,17 +619,22 @@ Benötigtes Material aus dem Kit:
 | 4   | Räder 32mm (Bohrung Motorwelle Ø3mm, max.Ø 50mm)          | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
 | 1   | Batterie 2S                                               | aus Kit                                                | 
 
-1. Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
+Hinweis: Die Bilder zeigen In-6kt Schrauben für die Befestigung des Halter Greifer und Kopf. Das dürfen natürlich auch Kreuzschlitzschrauben sein.
+
+Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
 
 <img src="images/base1.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
 
-2. Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen.
-*Bild*
+Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen.
+Halter Greifer und Kopf mit drei Schrauben befestigen, Batteriehalter Basisprint mit 2x  M2x8 Schrauben befestigen, Basisprint mit zwei weiteren M2x5 befestigen. Zusätzlich kann hinten noch eine Schraube M2x5 verbaut werden (siehe Bild).
 
-3. Halter mit drei Schrauben befestigen, Basisprint mit vier Schrauben befestigen
-*Bild*
+<img src="images/base2.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
 
-4. Servokabel des Kopfes gem. folgenden Abbildungen mit dem Basisprint verbinden.
+Die Räder können aufgesteckt, der Akku eingesteckt und im Batteriehalter platziert werden.
+
+<img src="images/base3.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
+
+Servokabel des Kopfes gem. folgenden Abbildungen mit dem Basisprint verbinden. Die Abbildungen sind ohne Greifer und Kopf dargestellt.
 
 <img src="images/movements-desc.jpg" alt="Bewegungen Kopf und Greifer" style="width: 49%"/> <img src="images/servo-pinout.jpg" alt="Steckerbelegung" style="width: 49%"/><br>
 
