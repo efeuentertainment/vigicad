@@ -564,7 +564,7 @@ U-förmiges Druckteil mit einem einseitigen und dem doppelseitigen Servohorn bes
 <img src="images/head2.jpg" alt="Teile vorbereiten" style="width: 49%"/> 
 
 
-### kompletter Kopf
+### Kompletter Kopf
 
 Druckteil inkl. Servo am Kopf befestigen und von beiden Seiten mit einer Schraube fixieren.
 
