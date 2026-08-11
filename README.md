@@ -1000,10 +1000,9 @@ sudo reboot
 
 Nach dem Neustart startet der Roboter automatisch das Captive-Portal `Vigibot WiFi Config` mit dem Passwort `64robots`.
 
-1. Verbinde dein Smartphone zum Access Point `Vigibot WiFi Config`.
-
-Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
-Öffne eine beliebige Website in einem Browser, das Captive-Portal wird dich automatisch zum Konfikurationsportal weiterleiten. Dort kannst du das gewünschte Heim-WLAN-Netzwerk aus einer Liste auswählen, womit sich der Roboter dann verbindet.
+1. Verbinde dein Smartphone zum Access Point `Vigibot WiFi Config`. Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
+2. Öffne eine beliebige Website in einem Browser, das Captive-Portal wird dich automatisch zum Konfikurationsportal weiterleiten.
+3. Dort kannst du das gewünschte Heim-WLAN-Netzwerk aus einer Liste auswählen, womit sich der Roboter dann verbindet.
 
 </details>
 
