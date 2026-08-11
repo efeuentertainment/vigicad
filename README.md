@@ -943,10 +943,10 @@ ssh pi@ROBOT_IP
 bash <(curl -L https://github.com/balena-io/wifi-connect/raw/master/scripts/raspbian-install.sh)
 ```
 
-1. start\_BotkinsAP.sh erstellen
+1. start\_Vigibot\_WiFi\_Config.sh erstellen
 
 ```
-nano ~/start_BotkinsAP.sh
+nano ~/start_Vigibot_WiFi_Config.sh
 ```
 
 Füge folgenden Inhalt ein:
@@ -963,7 +963,7 @@ if [ $? -eq 0 ]; then
     printf 'Skipping WiFi Connect\n'
 else
     printf 'Starting WiFi Connect\n'
-    /usr/local/sbin/wifi-connect --portal-ssid "BotkinsAP" --portal-passphrase "03Sessel"
+    /usr/local/sbin/wifi-connect --portal-ssid "Vigibot WiFi Config" --portal-passphrase "64robots"
 fi
 
 sleep infinity
@@ -974,7 +974,7 @@ PuTTY Speichern: Strg+O, Enter, Strg+X.
 1. Datei ausführbar machen
 
 ```
-chmod +x ~/start_BotkinsAP.sh
+chmod +x ~/start_Vigibot_WiFi_Config.sh
 ```
 
 1. rc.local anpassen
@@ -987,7 +987,7 @@ sudo nano /etc/rc.local
 Füge vor `exit 0` folgende Zeile ein:
 
 ```
-/home/pi/start_BotkinsAP.sh &
+/home/pi/start_Vigibot_WiFi_Config.sh &
 ```
 
 Speichern PuTTY: Strg+O, Enter, Strg+X.
@@ -998,9 +998,9 @@ Speichern PuTTY: Strg+O, Enter, Strg+X.
 sudo reboot
 ```
 
-Nach dem Neustart startet der Roboter automatisch das Captive-Portal `BotkinsAP` mit dem Passwort `03Sessel`.
+Nach dem Neustart startet der Roboter automatisch das Captive-Portal `Vigibot WiFi Config` mit dem Passwort `64robots`.
 
-1. Verbinde dein Smartphone zum Access Point `BotkinsAP`.
+1. Verbinde dein Smartphone zum Access Point `Vigibot WiFi Config`.
 
 Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 Öffne eine beliebige Website in einem Browser, das Captive-Portal wird dich automatisch zum Konfikurationsportal weiterleiten. Dort kannst du das gewünschte Heim-WLAN-Netzwerk aus einer Liste auswählen, womit sich der Roboter dann verbindet.
