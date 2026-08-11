@@ -931,19 +931,20 @@ Danach sollte apt korrekt funktionieren.
 
 Mit diesem Abschnitt kannst du deinem Roboter ermöglichen, sich per WLAN mit deinem Netzwerk zu verbinden. Wir nutzen dazu das **balena** **`wifi-connect`-Tool**, das ein Captive-Portal auf dem Roboter startet.
 
-Führe zuerst den obigen Abschnitt `apt repositories aktualisieren` durch, bevor du weiterfährst.
+1. Führe zuerst den obigen Abschnitt `apt repositories aktualisieren` durch, bevor du weiterfährst.
 
+2. Mit SSH zum Roboter verbinden
 ```Shell
 ssh pi@ROBOT_IP
 ```
 
-1. balena wifi-connect installieren
+3. balena wifi-connect installieren
 
 ```
 bash <(curl -L https://github.com/balena-io/wifi-connect/raw/master/scripts/raspbian-install.sh)
 ```
 
-1. start\_Vigibot\_WiFi\_Config.sh erstellen
+4. start\_Vigibot\_WiFi\_Config.sh erstellen
 
 ```
 nano ~/start_Vigibot_WiFi_Config.sh
@@ -971,13 +972,13 @@ sleep infinity
 
 PuTTY Speichern: Strg+O, Enter, Strg+X.
 
-1. Datei ausführbar machen
+5. Datei ausführbar machen
 
 ```
 chmod +x ~/start_Vigibot_WiFi_Config.sh
 ```
 
-1. rc.local anpassen
+6. rc.local anpassen
    Damit das WLAN-Captive-Portal automatisch beim Booten startet:
 
 ```
@@ -992,7 +993,7 @@ Füge vor `exit 0` folgende Zeile ein:
 
 Speichern PuTTY: Strg+O, Enter, Strg+X.
 
-1. Roboter neu starten
+7. Roboter neu starten
 
 ```
 sudo reboot
