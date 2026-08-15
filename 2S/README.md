@@ -59,7 +59,7 @@ Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins
 
 Du benötigst:
 
-* Komplettkit Minus-Type S2 [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) oder bestellbar bei uns an <img src="images/email.png" alt="Adresse" style="width: 100px"/>
+* Komplettkit Minus-Type S2 [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) oder bestellbar bei uns an <img src="/images/email.png" alt="Adresse" style="width: 100px"/>
 * Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
 * Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die in der entsprechenden Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der Teileliste in jedem der 3D-gedruckten Sektionen.
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
