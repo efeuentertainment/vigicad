@@ -1261,23 +1261,20 @@ Benötigtes Material aus dem Kit:
 
 ## 4.6 Finale Fertigstellung
 
-<img src="/images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
-<img src="/images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
-<img src="/images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>
-<img src="/images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
-
-Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
+<img src="/images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="/images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
+<img src="/images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="/images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
+<img src="/images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="/images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>
+<img src="/images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="/images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
 
 
 * LTE / 4G Stick in 90° Winkelstecker stecken und diesen in einen der USB Anschlüsse einstecken.
 * Der Roboter sollte nun betriebsbereit sein.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
-* Stelle beide Infrarot-IR-LEDs auf die schwächste Beleuchtung ein, indem du den Helligkeitssensor/Fotowiderstand abdeckst, das kleine Potentiometer auf den IR-LED-Platinen drehst und mit einer Smartphone-Kamera beobachtest.
 
 ### Aufkleber auf dem Roboter
 
-<img src="images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
+<img src="/images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="/images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
+<img src="/images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
 
 Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, folgende Aufkleber zu drucken und anzubringen. Die mit ** Text ** geführten Ausdrücke müssen passend zu eurem Roboter angepasst werden. Die Schriftgrösse so anpassen, dass die Aufkleber Platz haben. Beim Hinweis zum LED-Farbcode des 4G Sticks muss auf den Typ des Sticks geachtet werden.
 
@@ -1289,7 +1286,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 | 4   | Empfang 4G Stick | *2x Blau: Empfang ok, Rot + Blau: kein Empfang* | auf dem 4G Stick |
 | 5   | Hinweis 4G Stick | *4G Stick für botkins.ch vigibot.com* | auf dem 4G Stick |
 | 6   | Ladehinweis | *Roboter vorne rechts mit USB-C laden* | - |
-| 7*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Botkins AP" verbinden* | oben/unten auf dem Roboter |
+| 7*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Vigibot WiFi Config" verbinden* | oben/unten auf dem Roboter |
 
 7* Nur, wenn balena WLAN-Config installiert ist
 
@@ -1450,7 +1447,7 @@ Teste die Funktionen des Roboters:
 
 1. Roboter auf vigibot.com sichtbar mit korrektem Namen?
 2. Alle Bedienelemente vorhanden? Wenn nicht > botkins Team fragen
-3. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
+3. Spannungsanzeige über dem Videostream vorhanden? Wenn nicht, botkins Team fragen
 4. Bei Drücken auf das Stop-Symbol in der Steuerung bewegen sich alle Servos in die Mittelstellung. Stimmen die Mittelstellungen?
 5. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
 6. Alle Räder drehen?
@@ -1490,13 +1487,12 @@ Wenn du anhand der folgenden Tabelle keine Lösung findest, frage im Vigibot-Dis
 | Der Roboter trennt sich sporadisch (alle paar Stunden oder Minuten)                                         | (1) Schwache Batterie (2) Schlechter 4G-Empfang                                                                         | (1) Aufladen (2) Einen anderen Standort ausprobieren                                                                                                                                                     | Nutzer      |
 | Der Roboter blinkt (visuell) und klickt (akustisch) alle paar Sekunden oder mehrmals pro Sekunde            | Schwache Batterie                                                                                                       | Roboter ausschalten und mehrere Stunden lang aufladen                                                                                                                                                    | Nutzer      |
 | Der Roboter trennt alle 5 Sekunden die Verbindung                                                           | Fehlerhafte Konfiguration von Vigibot                                                                                   | Bitten Sie Vigibot oder Botkins, die Online-Konfiguration der Roboter zu überprüfen                                                                                                                      | Nutzer      |
-| Der Akku ist nach \~5 Tagen leer, obwohl das Gerät ausgeschaltet ist                                        | Einige Teile (Servos, Motortreiber) werden auch im ausgeschalteten Zustand mit Strom versorgt und entladen die Batterie | kann leider nicht geändert werden                                                                                                                                                                        | Nutzer      |
-| Das Video stottert, das Fahren wird unterbrochen, alle paar Sekunden erscheinen rote Balken auf der Website | Schlechter 4G-Empfang, zu geringe 4G-Bandbreite                                                                         | Wählen Sie die Ansicht mit niedriger Bandbreite, probieren Sie einen anderen Standort aus und stellen Sie sicher, dass die mobile Datenübertragungsgeschwindigkeit mindestens „bis zu 50 Mbit/s“ beträgt | Nutzer      |
+| Das Video stottert, das Fahren wird unterbrochen, alle paar Sekunden erscheinen rote Balken auf der Website | Schlechter 4G-Empfang, zu geringe 4G-Bandbreite, Smartphone ist zu langsam/alt                                                                         | Wählen Sie die Ansicht mit niedriger Bandbreite, probieren Sie einen anderen Standort aus und stellen Sie sicher, dass die mobile Datenübertragungsgeschwindigkeit mindestens „bis zu 50 Mbit/s“ beträgt, verwende ein anderes Gerät | Nutzer      |
 | Robo erscheint nicht, im vigibot.com, oder nur kurz                                  | Ist der 4G/LTE Stick eingesteckt, aber es besteht keine Verbindung, wird nur auf WLAN umgeschaltet, wenn der Stick entfernt wird                       | Stick ausstecken, wenn über WLAN verbunden werden soll                                                                    | Nutzer       |
 | Während der Montage ist der Roboter nach einem Neustart für einige Sekunden online und verschwindet dann    | Keine 4G-Verbindung/Empfang                                                                                             | Ziehen Sie den 4G-Stick ab und versuchen Sie es mit WLAN oder Ethernet                                                                                                                                   | Maker       |
 | Der Roboter lässt sich über ssh nicht verbinden, obwohl die IP-Adresse bekannnt ist                         | Firewall oder VPN blockt                                                                                                | Firewall oder VPN temporär ausschalten                                                                                                                                                                   | Maker       |
 | ssh meldet trotz korrekter IP Adresse "  @@@ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @@@ ..."      | Neues Image, alter Key                                                                                                  | ssh-keygen -R 192.168.1.200 im Terminal eingeben und Enter, alter Key gelöscht. Erneut einloggen                                                                                                         | Maker       |
-| Verbindung per ssh nicht möglich nach Aufspielen von neuem Image                                            | Image hat Standardpasswort mitgegeben                                                                                   | SD Card in PC > boot > robot.json Name und Passwort vergeben ODER Standardpasswort "raspberry" verwenden, um ssh zu starten                                                                              | Maker       |
+| Verbindung per ssh nicht möglich nach Aufspielen von neuem Image                                            | Image hat Standardpasswort mitgegeben                                                                                   | Standardpasswort "raspberry" verwenden, um ssh zu starten                                                                              | Maker       |
 | Spannung wird im vigibot Interface nicht korrekt angezeigt (2.5V)                                       | Grund liegt je nach UPS am Pin, auf dem die Info an den PI gelangt.                                                                                      |Bsp: sudo nano /usr/local/vigiclient/sys.json > "INA219ADDRESS": 66                                                                              | Maker       |
 
 
