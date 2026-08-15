@@ -145,18 +145,18 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
 {
   "BUTTONS": [
     {
-      "ICON0": "vide",
-      "ICON1": "",
-      "TEXT": "",
-      "ACTION": "",
-      "SPECIAL": ""
+      "ICON0": "switch0",
+      "ICON1": "switch1",
+      "TEXT": "Power Enable",
+      "ACTION": "Switch0",
+      "SPECIAL": "i0"
     },
     {
-      "ICON0": "vide",
-      "ICON1": "",
-      "TEXT": "",
-      "ACTION": "",
-      "SPECIAL": ""
+      "ICON0": "projecteur0",
+      "ICON1": "projecteur1",
+      "TEXT": "LED spotlights",
+      "ACTION": "Switch1",
+      "SPECIAL": "i1"
     },
     {
       "ICON0": "vide",
@@ -229,11 +229,11 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
       "SPECIAL": ""
     },
     {
-      "ICON0": "vide",
-      "ICON1": "",
-      "TEXT": "",
-      "ACTION": "",
-      "SPECIAL": ""
+      "ICON0": "gyrophare0",
+      "ICON1": "gyrophare1",
+      "TEXT": "Warning light mode",
+      "ACTION": "Switch4",
+      "SPECIAL": "i4"
     },
     {
       "ICON0": "vide",
@@ -357,7 +357,7 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
   ],
   "COMMANDS": [
     {
-      "NAME": "Camera control",
+      "NAME": "Turret control",
       "CAMERA": 0,
       "MIXING": 0,
       "GAINX": 80,
@@ -402,7 +402,7 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
       },
       {
         "NAME": "Turret Y",
-        "INIT": 0,
+        "INIT": 8,
         "SCALEMIN": -180,
         "SCALEMAX": 180,
         "MIN": -55,
@@ -418,9 +418,9 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
         "INIT": 0,
         "SCALEMIN": -180,
         "SCALEMAX": 180,
-        "MIN": -30,
-        "MAX": 65,
-        "CLAMPMIN": -20,
+        "MIN": -35,
+        "MAX": 70,
+        "CLAMPMIN": -35,
         "CLAMPMAX": 65,
         "SIGNED": true,
         "NBDIGITS": 2,
@@ -428,7 +428,7 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
       },
       {
         "NAME": "Gripper Y",
-        "INIT": 0,
+        "INIT": 20,
         "SCALEMIN": -180,
         "SCALEMAX": 180,
         "MIN": -40,
@@ -438,6 +438,66 @@ Klicke auf der Vigibot Seite -> `Management` -> Werkzeug-Symbol (Remote controll
         "SIGNED": true,
         "NBDIGITS": 2,
         "UNIT": "°"
+      }
+    ],
+    "COMMANDS1": [
+      {
+        "NAME": "Power Enable",
+        "INIT": 1
+      },
+      {
+        "NAME": "LED spotlights",
+        "INIT": 1
+      },
+      {
+        "NAME": "Buzzer",
+        "INIT": 0
+      },
+      {
+        "NAME": "Brightness boost",
+        "INIT": 0
+      },
+      {
+        "NAME": "Switch 4",
+        "INIT": 0
+      },
+      {
+        "NAME": "Switch 5",
+        "INIT": 0
+      },
+      {
+        "NAME": "Switch 6",
+        "INIT": 0
+      },
+      {
+        "NAME": "Switch 7",
+        "INIT": 0
+      }
+    ]
+  },
+  "RX": {
+    "VALUES16": [
+      {
+        "NAME": "Voltage",
+        "INIT": 3,
+        "SCALEMIN": 6,
+        "SCALEMAX": 9,
+        "MIN": 6,
+        "MAX": 9,
+        "SIGNED": false,
+        "NBDIGITS": 2,
+        "UNIT": " V"
+      },
+      {
+        "NAME": "Current",
+        "INIT": 0,
+        "SCALEMIN": -5,
+        "SCALEMAX": 5,
+        "MIN": -5,
+        "MAX": 5,
+        "SIGNED": true,
+        "NBDIGITS": 2,
+        "UNIT": " A"
       }
     ]
   }
@@ -483,6 +543,528 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
       "CONTRASTBOOST": 100
     }
   ],
+  "OUTPUTS": [
+    {
+      "NAME": "Turret pan",
+      "TYPE": "Servos",
+      "ADRESSE": -1,
+      "GPIOS": [
+        5
+      ],
+      "SLEEPMODES": [
+        "Floating"
+      ],
+      "INS": [
+        -135,
+        135
+      ],
+      "OUTS": [
+        500,
+        2400
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [
+        0
+      ],
+      "GAINS16": [
+        -1
+      ],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Turret tilt",
+      "TYPE": "Servos",
+      "ADRESSE": -1,
+      "GPIOS": [
+        6
+      ],
+      "SLEEPMODES": [
+        "Floating"
+      ],
+      "INS": [
+        -90,
+        90
+      ],
+      "OUTS": [
+        500,
+        2500
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [
+        1
+      ],
+      "GAINS16": [
+        -1
+      ],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Gripper claw",
+      "TYPE": "Servos",
+      "ADRESSE": -1,
+      "GPIOS": [
+        7
+      ],
+      "SLEEPMODES": [
+        "Floating"
+      ],
+      "INS": [
+        -90,
+        90
+      ],
+      "OUTS": [
+        500,
+        2500
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [
+        2
+      ],
+      "GAINS16": [
+        -1
+      ],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Gripper tilt",
+      "TYPE": "Servos",
+      "ADRESSE": -1,
+      "GPIOS": [
+        8
+      ],
+      "SLEEPMODES": [
+        "Floating"
+      ],
+      "INS": [
+        -90,
+        90
+      ],
+      "OUTS": [
+        500,
+        2500
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [
+        3
+      ],
+      "GAINS16": [
+        -1
+      ],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Front left wheel",
+      "TYPE": "PwmPwm",
+      "ADRESSE": -1,
+      "GPIOS": [
+        22,
+        23
+      ],
+      "SLEEPMODES": [
+        "Low",
+        "Low"
+      ],
+      "INS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "OUTS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [
+        0,
+        1,
+        2
+      ],
+      "GAINS8": [
+        1,
+        1,
+        -1
+      ],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Front right wheel",
+      "TYPE": "PwmPwm",
+      "ADRESSE": -1,
+      "GPIOS": [
+        24,
+        25
+      ],
+      "SLEEPMODES": [
+        "Low",
+        "Low"
+      ],
+      "INS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "OUTS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [
+        0,
+        1,
+        2
+      ],
+      "GAINS8": [
+        1,
+        -1,
+        -1
+      ],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Rear left wheel",
+      "TYPE": "PwmPwm",
+      "ADRESSE": -1,
+      "GPIOS": [
+        16,
+        17
+      ],
+      "SLEEPMODES": [
+        "Low",
+        "Low"
+      ],
+      "INS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "OUTS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [
+        0,
+        1,
+        2
+      ],
+      "GAINS8": [
+        -1,
+        1,
+        -1
+      ],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Rear right wheel",
+      "TYPE": "PwmPwm",
+      "ADRESSE": -1,
+      "GPIOS": [
+        26,
+        27
+      ],
+      "SLEEPMODES": [
+        "Low",
+        "Low"
+      ],
+      "INS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "OUTS": [
+        -100,
+        -1,
+        1,
+        100
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [
+        0,
+        1,
+        2
+      ],
+      "GAINS8": [
+        -1,
+        -1,
+        -1
+      ],
+      "COMMANDS1": [],
+      "GAINS1": []
+    },
+    {
+      "NAME": "Power Enable",
+      "TYPE": "Gpios",
+      "ADRESSE": -1,
+      "GPIOS": [
+        13
+      ],
+      "SLEEPMODES": [
+        "Low"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        0,
+        1
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        0
+      ],
+      "GAINS1": [
+        1
+      ]
+    },
+    {
+      "NAME": "LED spotlights",
+      "TYPE": "Gpios",
+      "ADRESSE": -1,
+      "GPIOS": [
+        9
+      ],
+      "SLEEPMODES": [
+        "Low"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        0,
+        1
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        1
+      ],
+      "GAINS1": [
+        1
+      ]
+    },
+    {
+      "NAME": "Buzzer",
+      "TYPE": "Pwms",
+      "ADRESSE": -1,
+      "GPIOS": [
+        4
+      ],
+      "SLEEPMODES": [
+        "None"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        0,
+        80
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        2
+      ],
+      "GAINS1": [
+        1
+      ]
+    },
+    {
+      "NAME": "Maximize the brightness and contrast",
+      "TYPE": "Gpios",
+      "ADRESSE": -1,
+      "GPIOS": [
+        1
+      ],
+      "SLEEPMODES": [
+        "None"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        0,
+        1
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        3
+      ],
+      "GAINS1": [
+        1
+      ]
+    },
+    {
+      "NAME": "Switch 4",
+      "TYPE": "Servos",
+      "ADRESSE": -1,
+      "GPIOS": [
+        18
+      ],
+      "SLEEPMODES": [
+        "None"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        1000,
+        2000
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        4
+      ],
+      "GAINS1": [
+        1
+      ]
+    },
+    {
+      "NAME": "Switch 5",
+      "TYPE": "Gpios",
+      "ADRESSE": -1,
+      "GPIOS": [
+        19
+      ],
+      "SLEEPMODES": [
+        "None"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        0,
+        1
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        5
+      ],
+      "GAINS1": [
+        1
+      ]
+    },
+    {
+      "NAME": "Switch 6",
+      "TYPE": "Gpios",
+      "ADRESSE": -1,
+      "GPIOS": [
+        20
+      ],
+      "SLEEPMODES": [
+        "None"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        0,
+        1
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        6
+      ],
+      "GAINS1": [
+        1
+      ]
+    },
+    {
+      "NAME": "Switch 7",
+      "TYPE": "Gpios",
+      "ADRESSE": -1,
+      "GPIOS": [
+        21
+      ],
+      "SLEEPMODES": [
+        "None"
+      ],
+      "INS": [
+        0,
+        1
+      ],
+      "OUTS": [
+        0,
+        1
+      ],
+      "BACKSLASH": 0,
+      "COMMANDS16": [],
+      "GAINS16": [],
+      "COMMANDS8": [],
+      "GAINS8": [],
+      "COMMANDS1": [
+        7
+      ],
+      "GAINS1": [
+        1
+      ]
+    }
+  ],
   "COMMANDS8": [
     {
       "RAMPUP": 0,
@@ -505,7 +1087,8 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
       "FAILSAFE": true,
       "SLEEP": true
     }
-  ]
+  ],
+  "PWMFREQUENCY": 1000
 }
 ```
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
