@@ -33,6 +33,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 ## 1.1 Das Botkins Charity Project
 Erfahre mehr über das Botkins Charity Project:
 
+* Botkins ist ein nichtgewinnorientierter (gemeinnütziger) Verein. Die Arbeit des Vereinsteams geschiecht auf freiwilligenbasis ohne finanzielle Kompensation. Maker:innen können einen Obulus erhalten.
 * [botkins.ch](https://botkins.ch)&#x20;
 * [Hackaday Page](https://hackaday.io/project/180558-botkins-charity-project)
 
@@ -43,13 +44,13 @@ Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins b
 * [Robot Maker Post](https://www.robot-maker.com/forum/topic/13010-what-is-vigibot-quest-ce-que-vigibot/)
 * [Drive a robot Vigibot.com](https://www.vigibot.com/)
 
-Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
+Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet.
 
 <img src="images/klara.jpg" alt="Botkins S2" style="width: 49%"/>
 
 * Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen.
 * Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben. Kaufst du ein Komplettkit auf robot-maker.com, kannst du dort je nach Verfügbarkeit Teilefarben wählen.
-* Der Bau des ersten Roboters kann etwa 3 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 1 Stunde pro Roboter.
+* Der Bau des ersten Roboters kann etwa 5 Stunden dauern, möglicherweise auch länger. Nach etwas Übung dauert der Bau etwa 2 Stunde pro Roboter.
 * Bestelle bei uns oder über robot-maker.com das Komplettkit und leg los!
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
@@ -58,7 +59,7 @@ Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins
 
 Du benötigst:
 
-* Komplettkit Minus-Type S2 [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) oder bestellbar bei uns *Kontaktinfos hinzufügen*
+* Komplettkit Minus-Type S2 [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) oder bestellbar bei uns an <img src="images/email.png" alt="Adresse" style="width: 100px"/>
 * Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
 * Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die in der entsprechenden Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der Teileliste in jedem der 3D-gedruckten Sektionen.
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
@@ -71,7 +72,7 @@ Du benötigst:
 <details close>
 <summary>[Diesen Abschnitt anzeigen]</summary>
 Zur einfacheren Lesbarkeit schlagen wir eine Bezugsquelle vor und listen Alternativen auf, wo vorhanden. Es ist euch selbstverständlich freigestellt, wo ihr die Teile beschafft.
-Die meisten Teile können bei [robot-maker.com](https://www.robot-maker.com) beschafft werden
+Die meisten Teile können bei [robot-maker](https://www.robot-maker.com) beschafft werden
 
 ## 3.1 Hauptteile
 
@@ -80,7 +81,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | Stk | Benennung                                                                                                            | Shop                                                                                                    | Alternative\*                                                                                          |
 | --- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | 1   | Raspberry Pi 3B+ (or 3B), 1GB or 2GB                                                                                 | [Link](https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html)         | [Alternative](https://www.pi-shop.ch/raspberry-pi-3-model-b/) |
-| 1   | Unlocked ZTE MF79 4G / LTE Stick                                                                                     | [Link](https://aliexpress.com/item/1005005844914823.html)                                               | Huawei E3372h (Modell -153, -320 oder -607                                                             |
+| 1   | Unlocked ZTE MF79 4G / LTE Stick                                                                                     | [Link](https://aliexpress.com/item/1005005844914823.html)                                               | Huawei E3372h (Modell -153, -320 oder -607)                                                             |
 | 1   | USB - USB 90° adapter                                                                                                | [Link, "Color : Down Angle Black"](https://aliexpress.com/item/1005003690522920.html) | -                                                                                                      |
 | 1   | USB bracket holder                                                                                                   | [Link](https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html)           | -                                                                                                      |
 | 1   | USB Microphone sind aktuell in Evaluation. Der verlinkte Artikel wird nicht mehr hergestellt. Fragt uns. | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html)                         | [BOYA "Color : BY-M100UA"](https://aliexpress.com/item/1005004133896137.html)                          |
@@ -89,7 +90,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | 1   | Weitwinkelkamera mit Infrarot-Filter                                                                                 | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html)                          | [Alternative: "Color : Option 10"](https://aliexpress.com/item/1005004276506212.html)                                |
 | 1   | 30cm Verbindungskabel für Kamera (zum ersetzen des kurzen Originals)                                                 | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm)       | nach Belieben                                                                                          |
 | 1   | Li-Ion Akku 2S                                                                                            | [Link](https://www.robot-maker.com/shop/alimentation/75-batterie-2s-1p-75.html)       | -                                                                                      |
-| 2   | 6A 67W Fast USB Charger                                                                                              | [Link, "Plug Type: EU Charger and Cable"](https://aliexpress.com/item/1005006632595521.html)            | -                                                                                                      |
+| 2   | 6A 67W Fast USB Charger                                                                                              | [Link, "Plug Type: EU Charger only"](https://aliexpress.com/item/1005006632595521.html)            | -                                                                                                      |
 | 1   | USB Kabel magnetisch                                                                                                 | [Link, "Color : \*\* type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative Kabel](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) + [Alternative Stecker "USB C"](https://www.robot-maker.com/shop/alimentation/609-embout-magnetique-micro-usb-ou-usb-c-rechargedata-609.html)    |
 | 1   | USB-A zu USB-C Kabel                                                                                                 | [Link, "Color : A-C \*\* ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html)           | nach Belieben                                                                                          |
 | 1   | Falls noch keiner Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
@@ -107,26 +108,26 @@ Füge deinen Roboter bei Vigibot ganz einfach hinzu.
 Du benötigst: einen Rapsery Pi (empfohlen 3B+), eine 16 oder 32 GB microSD Karte, eine Spannungsversorgung für den Pi, die Kamera mit dem passenden Kabel.
 Mit wenigen einfachen Schritten kannst du deine Kamera auf [vigibot.com](https://www.vigibot.com/) live schalten:
 
-* Erstelle auf [vigibot.com](https://www.vigibot.com/) einen Account.
-* Klick auf "Management" und dann "Add a Robot". Wähle einen Namen für deinen Robter, den Roboter Typ Standard und ein Passwort für den Roboter. Das brauchen wir weiter unten gleich wieder, also merken.
-* Lade das Image runter: [vigimage.zip](https://www.vigibot.com/vigimage/vigimage.zip) und entpacke die ZIP-Datei. *neues Botkins Image mit Balena verlinken*
-* Um die Image-Datei auf deine microSD Karte schreiben zu können, musst du diese mit dem PC verbinden (Kartenleser) und ein Tool zum Schreiben verwenden. Ich empfehle den Raspberry Pi Imager. Runterladen, installieren.
-* Andere Tools wie das HDD Raw Copy Tool oder win32diskImager gehen auch. ApplePiBacker (Mac) oder balena etcher (Für Windows, Mac und Linux)
+* Erstelle auf [vigibot.com](https://www.vigibot.com/) einen Account gemäss den Beschreibungen vom Dokument /Hardware_Design/Overview_Onboarding_Makers.md auf der Botkins Cloud.
+* Lade das Image runter: [vigimage.img.zip](https://www.botkins.ch/vigimage.img.zip) und entpacke die ZIP-Datei.
+* Um die Image-Datei auf deine microSD Karte schreiben zu können, musst du diese mit dem PC verbinden (Kartenleser) und ein Tool zum Schreiben verwenden. Wir empfehlen den Raspberry Pi Imager oder Balena Etcher. Runterladen, installieren.
+* Andere Tools wie das HDD Raw Copy Tool oder win32diskImager gehen auch. ApplePiBacker (Mac).
 * Hinweis: Wenn du eine Karte grösser 32GB verwendest, musst du im Pi Imager zuerst das Modell 3 wählen, dann beim Betriebssystem löschen, um die Karte in FAT32 zu formatieren.
 * Nach dem Ausführen des Pi Imager musst du das Modell des Pis auswählen, bei uns meist 3B+. Unter Betriebssystem wählst du zuunterst „Eigenes Image auswählen“, suchst das vigimage.img und wählst es aus. Dann wählst du die SD Karte als Zielmedium und bestätigst eine allfällige Überschreibewarnung. Starte den Schreibvorgang. Das dauert nun je nach Schreibgeschwindigkeit der Karte einige Minuten.
 * Wenn das gemacht ist, öffne den /boot Ordner deiner SD Card. Windows: Sollte im Explorer der /boot Ordner nicht erscheinen, Drücke Win+R und gibt diskmgmt.msc ein. So gelangst du in die Datenträgerverwaltung. Wenn dort eine 100MB Partition gelistet ist, gib ihr über Rechtsklick > Laufwerkbuchstabe und -pfade ändern einen noch freien Buchstaben.
-* Optional: Ändere die Datei "wpa\_supplicant.conf" mittels Rechtsklick und "in Editor anpassen" (Ändere die SSID „Demo“ und das Standardpasswort „Default“ entsprechend dem WLAN-Netzwerk, mit dem sich der Botkin verbinden soll. Tipp: Wenn (noch) kein 4G / LTE Stick vorhanden ist, kann mit dem Smartphone ein Hotspot eingerichtet werden. Vorteil: man kann den Botkin schon mitnehmen, wenn ein entsprechender Hotspot "mitreist". Nachteil: um auf den PI zuzugreifen via ssh, muss man im gleichen WLAN sein)
 * Ändere die Datei "robot.json" gemäss dem zuvor gewählten Roboternamen und Roboterpasswort. ( Ändere den „Demo”-Benutzernamen und das „Standard”-Passwort)
-* Installiere die SD-Karte im Raspberry Pi mit der installierten Kamera und schalte ihn dann ein (aufgrund des Kompilierungsprozesses dauert der erste Start einige Minuten, bevor der Roboter auf der Website erscheint (etwa 10 Minuten): Schalte den Raspberry Pi während dieser Zeit nicht aus).
+* Installiere die SD-Karte im Raspberry Pi mit der installierten Kamera und schalte ihn dann ein (aufgrund des Kompilierungsprozesses dauert der erste Start einige Minuten, bevor der Roboter auf der Website erscheint (bis zu 30 Minuten): Schalte den Raspberry Pi während dieser Zeit nicht aus).
 
 Falls du auf den Pi zugreifen willst:
-•	Der Pi und dein PC müssen in gleichen Netzwerk sein. Finde die IP Adresse des Pi raus (Verbindung über deinen Router (häufig hat der Router die IP 192.168.1.1) > Verbundene Geräte oder nutze eine App wie "Fing")
-•	Win+R > „Powershell“ > Ausführen öffnet das Terminal
-•	Gib im Fenster ein: ssh pi\@IP-ADRESSE (Ersetze die Adresse mit der Adresse des Pi, zB 192.168.1.146)
-•	Das Terminal wird dich fragen, ob du sicher bist, eine Verbindung herstellen zu wollen. Schreibe „yes“ und bestätige
-•	Verwende das Passwort, das du oben vergeben hast. Hast du robot.json nicht verändert, ist es „raspberry“.
 
-* LTE/4G Mobile Data Stick:
+*	Der Pi und dein PC müssen in gleichen Netzwerk sein. Finde die IP Adresse des Pi raus (Verbindung über deinen Router (häufig hat der Router die IP 192.168.1.1) > Verbundene Geräte oder nutze eine App wie "Fing")
+*	Win+R > „Powershell“ > Ausführen öffnet das Terminal
+*	Gib im Fenster ein: ssh pi\@IP-ADRESSE (Ersetze die Adresse mit der Adresse des Pi, zB 192.168.1.146)
+*	Das Terminal wird dich fragen, ob du sicher bist, eine Verbindung herstellen zu wollen. Schreibe „yes“ und bestätige
+*	Standartmässig ist das Passwort „raspberry“.
+
+LTE/4G Mobile Data Stick:
+
 * An einen Windows- oder Mac-PC anschliessen (die Webseite 192.168.8.1 wird geöffnet oder die App auf dem Speichermedium gestartet) und Datenroaming aktivieren.
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
