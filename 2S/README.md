@@ -1285,11 +1285,6 @@ Unterbau mit Rädern, Kopf- und Greifereinheit und Akku zur Hand nehmen. Seitenp
 
 ## 4.6 Finale Fertigstellung
 
-<img src="/images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="/images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
-<img src="/images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="/images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
-<img src="/images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="/images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>
-<img src="/images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="/images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
-
 
 * LTE / 4G Stick in 90° Winkelstecker stecken und diesen in einen der USB Anschlüsse einstecken.
 * Der Roboter sollte nun betriebsbereit sein.
