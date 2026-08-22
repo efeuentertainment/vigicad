@@ -1233,27 +1233,51 @@ Benötigtes Material aus dem Kit:
 | 1   | Seitenplatte links                                        | Seite mit Aufdruck botkins.ch                          | 
 | 1   | Seitenplatte rechts                                       | Seite mit Aufdruck On/Off                              |
 | 1   | Rapsberry Pi 3B+                                          | aus Kit                                                |
+| 1   | microSD ca. 16GB inkl. Programm drauf                     | aus Kit, Programmbeschreibung oben                     |
 | 1   | Verbinderleiste                                           | aus Kit                                                |
 | 1   | Deckprint                                                 | aus Kit                                                | 
-| 4   | Schrauben für Befestigung Pi                              | *tbd*                                                  |
-| 1   | Flachbandkabel Pi <> Kamera                               | *tbd*                                                  |
+| 4   | Schrauben für Befestigung Pi                              | M2.5x6                                                 |
+| 4   | Distanzbolzen für Befestigung Pi                          | M2.5x5 M-F                                             |
+| 4   | Muttern für Befestigung Pi                                | M2.5                                                   |
+| 1   | Flachbandkabel Pi <> Kamera                               | 30cm                                                   |
 | 1   | Lautsprecher                                              | aus Kit                                                | 
-| 2   | Schrauben zur Befestigung des Lautsprechers               | *tbd*                                                  |
+| 2   | Schrauben zur Befestigung des Lautsprechers               | M2x6                                                   |
+| 2   | Distanzbolzen zur Befestigung des Lautsprechers           | M2x5 M-F                                               |
+| 2   | Muttern zur Befestigung des Lautsprechers                 | M2                                                     |
 | 1   | Verbindungskabel Deckprint zur Kamera                     | Servokabel F-F 20cm                                    |
 | 1   | Mikrophon                                                 | aus Kit                                                |
 | 1   | gedruckte Pinabdeckung und Auffahrschutz 4G Stick         | *tbd*                                                  |
 | 1*  | 4G/LTE Stick                                              | *tbd*                                                  |
-| 1*  | 90° USB Winkelstecker für 4G/LTE Stick                    | *tbd*                                                  |
+| 1   | 90° USB Winkelstecker für 4G/LTE Stick                    | *tbd*                                                  |
 | 1   | Drehlicht                                                 | aus Kit                                                | 
 
 *Optinale Teile
 
-1. Verbinden der Servokabel
+<img src="/images/uebersicht-body.jpg" alt="body complete" style="width: 49%"/>
 
-<img src="/images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/>
 
-2. Verbinderleiste auf Basisprint aufsetzen
-*Bild*
+Hinweis: Das Drehlicht fehlt auf dem Bild
+
+Distanzbolzen für Lautsprecher montieren: M2x5 M-F Distanzbolzen von oben durch die Löcher stecken, von unten mit Mutter sichern. Kabel durch Ausschnitt stecken, Lautsprecher mit Membran nach unten (Schutz) montieren. Lautsprecherkabel mit dem Print verbinden, auf Polarität achten. Rot ist +, Schwarz-.
+
+<img src="/images/speaker.jpg" alt="Speaker Assembly" style="width: 49%"/>
+
+Pi am Deckprint befestigen:
+Die im Übersichtsbild rot eingekreisten Löcher verwenden, Distanzbolzen M2.5x5 M-F von unten durchstecken, oben die gedruckte Pinabdeckung auflegen und beides mit einer Mutter M2.5 sichern.
+
+Servoverlängerungskabel (Spannungsversorgung Kameraprint) auf der Unterseite des Deckpins in Anschluss 12 einstecken. Gelb ist das Signalkabel, Rot + und Braun GND.
+
+Flachbandkabel für die Kamera am Pi befestigen. Dazu den schwarzen Klemmbalken bei der Kamerabuchse (siehe Beschriftung auf dem Pi) nach oben ziehen, um Buchse zu "öffnen". Von oben in Buchse schauen und Kabel so reinstecken, dass die Kontakte des Kabels zu den Kontakten der Buchse zeigen.
+Klemmbalken reindrücken, durch leichten Zug am Flachbandkabel korrekten Sitz prüfen.
+
+Die microSD Card in den Karten-Slot auf der vorderen kurzen Seite des Pi einstecken.
+
+Den Deckprint mit der Unterseite gegen oben auf den Tisch legen, den Pi mit den Anschlüssen gegen hinten auf den Deckprint legen. 90° USB Adapter in USB-Anschluss Mitte-Unten (auf dem Tisch Mitte-Oben) einstecken. Befestigungslöcher des Pi mit den Gewinden in den Distanzbolzen in Deckung bringen und mit den M2.5x6 Schrauben befestigen. Dazu muss evtl. der USB-Adapter ein wenig aus der USB Buchse gezogen werden. Der Adapter sollte im Druckteil eingepasst sein.
+
+Verbinderleiste auf die Stiftleister des Pi stecken
+
+Unterbau mit Rädern, Kopf- und Greifereinheit und Akku zur Hand nehmen. Seitenplatten rechts (mit On/Off Aufdruck) und links (mit botkins.ch Aufdruck) auf den Base-Print stecken. 
+
 
 9. Mikrofon an einem der USB Anschlüsse einstecken
 
