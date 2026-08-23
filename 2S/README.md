@@ -1267,12 +1267,18 @@ Distanzbolzen für Lautsprecher montieren: M2x5 M-F Distanzbolzen von oben durch
 Pi am Deckprint befestigen:
 Die im Übersichtsbild rot eingekreisten Löcher verwenden, Distanzbolzen M2.5x5 M-F von unten durchstecken, oben die gedruckte Pinabdeckung auflegen und beides mit einer Mutter M2.5 sichern.
 
+<img src="images/top3.jpg" alt="Pin Cover Top Print" style="width: 49%"/>
+
 Servoverlängerungskabel (Spannungsversorgung Kameraprint) auf der Unterseite des Deckpins in Anschluss 12 einstecken. Gelb ist das Signalkabel, Rot + und Braun GND.
+
+<img src="images/top4.jpg" alt="Camera Cable" style="width: 49%"/>
 
 Flachbandkabel für die Kamera am Pi befestigen. Dazu den schwarzen Klemmbalken bei der Kamerabuchse (siehe Beschriftung auf dem Pi) nach oben ziehen, um Buchse zu "öffnen". Von oben in Buchse schauen und Kabel so reinstecken, dass die Kontakte des Kabels zu den Kontakten der Buchse zeigen.
 Klemmbalken reindrücken, durch leichten Zug am Flachbandkabel korrekten Sitz prüfen.
 
 Die microSD Card in den Karten-Slot auf der vorderen kurzen Seite des Pi einstecken.
+
+<img src="images/pi1.jpg" alt="Camera Signal Cable" style="width: 49%"/>
 
 Den Deckprint mit der Unterseite gegen oben auf den Tisch legen, den Pi mit den Anschlüssen gegen hinten auf den Deckprint legen. 90° USB Adapter in USB-Anschluss Mitte-Unten (auf dem Tisch Mitte-Oben) einstecken. Befestigungslöcher des Pi mit den Gewinden in den Distanzbolzen in Deckung bringen und mit den M2.5x6 Schrauben befestigen. Dazu muss evtl. der USB-Adapter ein wenig aus der USB Buchse gezogen werden. Der Adapter sollte im Druckteil eingepasst sein.
 
@@ -1280,15 +1286,14 @@ Verbinderleiste auf die Stiftleister des Pi stecken
 
 Unterbau mit Rädern, Kopf- und Greifereinheit und Akku zur Hand nehmen. Seitenplatten rechts (mit On/Off Aufdruck) und links (mit botkins.ch Aufdruck) auf den Base-Print stecken. 
 
-
-9. Mikrofon an einem der USB Anschlüsse einstecken
+Mikrofon an einem der USB Anschlüsse einstecken
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
 ## 4.6 Finale Fertigstellung
 
 
-* LTE / 4G Stick in 90° Winkelstecker stecken und diesen in einen der USB Anschlüsse einstecken.
+* LTE / 4G Stick in 90° Winkelstecker stecken.
 * Der Roboter sollte nun betriebsbereit sein.
 * Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
 
@@ -1307,9 +1312,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 | 4   | Empfang 4G Stick | *2x Blau: Empfang ok, Rot + Blau: kein Empfang* | auf dem 4G Stick |
 | 5   | Hinweis 4G Stick | *4G Stick für botkins.ch vigibot.com* | auf dem 4G Stick |
 | 6   | Ladehinweis | *Roboter vorne rechts mit USB-C laden* | - |
-| 7*   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Vigibot WiFi Config" verbinden* | oben/unten auf dem Roboter |
-
-7* Nur, wenn balena WLAN-Config installiert ist
+| 7   | WLAN Konfig | *Zum Verbinden mit WLAN Robo einschalten und mit Netzwerk "Vigibot WiFi Config" verbinden* | oben/unten auf dem Roboter |
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
