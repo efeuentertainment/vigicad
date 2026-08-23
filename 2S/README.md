@@ -15,7 +15,7 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
   * [4.2 Vigibot Online Konfiguration](#42-vigibot-online-konfiguration)
   * [4.3 Zusammenbau Motorplatte](#43-zusammenbau-motorplatte)
   * [4.4 Zusammenbau Body](#44-zusammenbau-body)
-  * [4.5 Mit WLAN verbinden](#45-mit-wlan-verbinden)
+  * [4.5 Roboter mit dem WLAN verbinden](#45-roboter-mit-dem-wlan-verbinden)
   * [4.6 Zusammenbau Greifer und Kopf](#46-zusammenbau-greifer-und-kopf)
   * [4.7 Finale Fertigstellung](#47-finale-fertigstellung)
   * [4.8 Optionale Schritte](#48-optionale-schritte)
