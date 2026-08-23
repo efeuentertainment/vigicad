@@ -1262,7 +1262,7 @@ Hinweis: Das Drehlicht fehlt auf dem Bild
 
 Distanzbolzen für Lautsprecher montieren: M2x5 M-F Distanzbolzen von oben durch die Löcher stecken, von unten mit Mutter sichern. Kabel durch Ausschnitt stecken, Lautsprecher mit Membran nach unten (Schutz) montieren. Lautsprecherkabel mit dem Print verbinden, auf Polarität achten. Rot ist +, Schwarz-.
 
-<img src="images/top1.jpg" alt="Speaker Assembly Top" style="width: 49%"/> <img src="images/top2.jpg" alt="Speaker Assembly Bottom" style="width: 49%"/>
+<img src="images/top1.jpg" alt="Speaker Assembly Top" style="width: 40%"/> <img src="images/top2.jpg" alt="Speaker Assembly Bottom" style="width: 32%"/>
 
 Pi am Deckprint befestigen:
 Die im Übersichtsbild rot eingekreisten Löcher verwenden, Distanzbolzen M2.5x5 M-F von unten durchstecken, oben die gedruckte Pinabdeckung auflegen und beides mit einer Mutter M2.5 sichern.
