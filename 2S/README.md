@@ -13,12 +13,13 @@ Hier entsteht die Bauanleitung zum Botkin 2S, der neuesten Version des Botkin Ro
 * [4. Minus Type 2S Zusammenbau](#4-minus-type-2S-zusammenbau)
   * [4.1 Software Installieren](#41-software-installieren)
   * [4.2 Vigibot Online Konfiguration](#42-vigibot-online-konfiguration)
-  * [4.3 Zusammenbau Greifer und Kopf](#43-zusammenbau-greifer-und-kopf)
-  * [4.4 Zusammenbau Motorplatte](#44-zusammenbau-motorplatte)
-  * [4.5 Zusammenbau Body](#45-zusammenbau-body)
-  * [4.6 Finale Fertigstellung](#46-finale-fertigstellung)
-  * [4.7 Optionale Schritte](#47-optionale-schritte)
-  * [4.8 Funktionstest](#48-funktionstest)
+  * [4.3 Zusammenbau Motorplatte](#43-zusammenbau-motorplatte)
+  * [4.4 Zusammenbau Body](#44-zusammenbau-body)
+  * [4.5 Mit WLAN verbinden](#45-mit-wlan-verbinden)
+  * [4.6 Zusammenbau Greifer und Kopf](#46-zusammenbau-greifer-und-kopf)
+  * [4.7 Finale Fertigstellung](#47-finale-fertigstellung)
+  * [4.8 Optionale Schritte](#48-optionale-schritte)
+  * [4.9 Funktionstest](#49-funktionstest)
 * [5. Troubleshooting](#5-troubleshooting)
 * [6. Credits](#6-credits)
 
@@ -1096,7 +1097,136 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 </details>
 
-## 4.3 Zusammenbau Greifer und Kopf
+## 4.3 Zusammenbau Motorplatte
+
+Benötigtes Material aus dem Kit:
+
+| Stk | Benennung                                                 | Teilenummer (*tbc)                                     |
+| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
+| 1   | 3D gedruckte Basis                                        | *Druckteile/Chassis/2S101.0 Basis.step                 | 
+| 1   | 3D gedruckter Batteriehalter                              | *Druckteile/Chassis/2S102.0 Batteriehalter.step        |
+| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step|
+| 1   | Basisprint                                                | aus Kit                                                |
+| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
+| 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
+| 2   | Schrauben für Befestigung  Basisprint                     | Kreuzschlitzschraube M2x5                              |
+| 2   | Schrauben für Befestigung  Basisprint inkl. Batteriehalter| Kreuzschlitzschraube M2x8                              |
+| 4   | Räder 32mm (Bohrung Motorwelle Ø3mm, max.Ø 50mm)          | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
+| 1   | Batterie 2S                                               | aus Kit                                                | 
+
+Hinweis: Die Bilder zeigen In-6kt Schrauben für die Befestigung des Halter Greifer und Kopf. Das dürfen natürlich auch Kreuzschlitzschrauben sein.
+
+Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
+
+<img src="images/base1.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
+
+Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen.
+Halter Greifer und Kopf mit drei Schrauben befestigen, Batteriehalter Basisprint mit 2x  M2x8 Schrauben befestigen, Basisprint mit zwei weiteren M2x5 befestigen. Zusätzlich kann hinten noch eine Schraube M2x5 verbaut werden (siehe Bild).
+
+<img src="images/base2.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
+
+Die Räder können aufgesteckt, der Akku eingesteckt und im Batteriehalter platziert werden.
+
+<img src="images/base3.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
+
+Servokabel des Kopfes gem. folgenden Abbildungen mit dem Basisprint verbinden. Die Abbildungen sind ohne Greifer und Kopf dargestellt.
+
+<img src="images/movements-desc.jpg" alt="Bewegungen Kopf und Greifer" style="width: 49%"/> <img src="images/servo-pinout.jpg" alt="Steckerbelegung" style="width: 49%"/><br>
+
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
+## 4.4 Zusammenbau Body
+
+Benötigtes Material aus dem Kit:
+
+| Stk | Benennung                                                 | Teilenummer                                            |
+| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
+| 1   | Seitenplatte links                                        | Seite mit Aufdruck botkins.ch                          | 
+| 1   | Seitenplatte rechts                                       | Seite mit Aufdruck On/Off                              |
+| 1   | Rapsberry Pi 3B+                                          | aus Kit                                                |
+| 1   | microSD ca. 16GB inkl. Programm drauf                     | aus Kit, Programmbeschreibung oben                     |
+| 1   | Verbinderleiste                                           | aus Kit                                                |
+| 1   | Deckprint                                                 | aus Kit                                                | 
+| 4   | Schrauben für Befestigung Pi                              | M2.5x6                                                 |
+| 4   | Distanzbolzen für Befestigung Pi                          | M2.5x5 M-F                                             |
+| 4   | Muttern für Befestigung Pi                                | M2.5                                                   |
+| 1   | Flachbandkabel Pi <> Kamera                               | 30cm                                                   |
+| 1   | Lautsprecher                                              | aus Kit                                                | 
+| 2   | Schrauben zur Befestigung des Lautsprechers               | M2x6                                                   |
+| 2   | Distanzbolzen zur Befestigung des Lautsprechers           | M2x5 M-F                                               |
+| 2   | Muttern zur Befestigung des Lautsprechers                 | M2                                                     |
+| 1   | Verbindungskabel Deckprint zur Kamera                     | Servokabel F-F 20cm                                    |
+| 1   | Mikrophon                                                 | aus Kit                                                |
+| 1   | gedruckte Pinabdeckung und Auffahrschutz 4G Stick         | *tbd*                                                  |
+| 1*  | 4G/LTE Stick                                              | *tbd*                                                  |
+| 1   | 90° USB Winkelstecker für 4G/LTE Stick                    | *tbd*                                                  |
+| 1   | Drehlicht                                                 | aus Kit                                                | 
+
+*Optinale Teile
+
+<img src="images/uebersicht-body.jpg" alt="body complete" style="width: 49%"/>
+
+
+Hinweis: Das Drehlicht fehlt auf dem Bild
+
+Distanzbolzen für Lautsprecher montieren: M2x5 M-F Distanzbolzen von oben durch die Löcher stecken, von unten mit Mutter sichern. Kabel durch Ausschnitt stecken, Lautsprecher mit Membran nach unten (Schutz) montieren. Lautsprecherkabel mit dem Print verbinden, auf Polarität achten. Rot ist +, Schwarz-.
+
+<img src="images/top1.jpg" alt="Speaker Assembly Top" style="width: 40%"/> <img src="images/top2.jpg" alt="Speaker Assembly Bottom" style="width: 32%"/>
+
+Pi am Deckprint befestigen:
+Die im Übersichtsbild rot eingekreisten Löcher verwenden, Distanzbolzen M2.5x5 M-F von unten durchstecken, oben die gedruckte Pinabdeckung auflegen und beides mit einer Mutter M2.5 sichern.
+
+<img src="images/top3.jpg" alt="Pin Cover Top Print" style="width: 49%"/>
+
+Servoverlängerungskabel (Spannungsversorgung Kameraprint) auf der Unterseite des Deckpins in Anschluss 12 einstecken. Gelb ist das Signalkabel, Rot + und Braun GND.
+
+<img src="images/top4.jpg" alt="Camera Cable" style="width: 49%"/>
+
+Flachbandkabel für die Kamera am Pi befestigen. Dazu den schwarzen Klemmbalken bei der Kamerabuchse (siehe Beschriftung auf dem Pi) nach oben ziehen, um Buchse zu "öffnen". Von oben in Buchse schauen und Kabel so reinstecken, dass die Kontakte des Kabels zu den Kontakten der Buchse zeigen.
+Klemmbalken reindrücken, durch leichten Zug am Flachbandkabel korrekten Sitz prüfen.
+
+Die microSD Card in den Karten-Slot auf der vorderen kurzen Seite des Pi einstecken.
+
+<img src="images/pi1.jpg" alt="Camera Signal Cable" style="width: 49%"/>
+
+Den Deckprint mit der Unterseite gegen oben auf den Tisch legen, das Flachbandkabel der Kamera unter dem Pi durch den Schlitz im Deckprint führen. Den Pi mit den Anschlüssen gegen hinten auf den Deckprint legen. 90° USB Adapter in USB-Anschluss Mitte-Unten (auf dem Tisch Mitte-Oben) einstecken. Befestigungslöcher des Pi mit den Gewinden in den Distanzbolzen in Deckung bringen und mit den M2.5x6 Schrauben befestigen. Dazu muss evtl. der USB-Adapter ein wenig aus der USB Buchse gezogen werden. Der Adapter sollte im Druckteil eingepasst sein.
+
+<img src="images/pi2.jpg" alt="Pi Assembly" style="width: 49%"/>
+
+Verbinderleiste auf die Stiftleister des Pi stecken
+
+Alle vier Servos, die für Greifer und Kopf verbaut werden, in den Baseprint einstecken. Wir bauen den ganzen Body zusammen, damit wir ihn einschalten und die Servos zentrieren können, bevor wir den Greifer und Kopf zusammenbauen. So wird die Montage einfacher.
+
+Unterbau mit Rädern und Akku zur Hand nehmen. Seitenplatten rechts (mit On/Off Aufdruck) und links (mit botkins.ch Aufdruck) auf den Base-Print stecken. 
+
+Die ganze Deckprint-Baugruppe mit dem Pi auf die Seitenwände aufstecken. Nun wirds knifflig: Die seitlichen Pins müssen in die Leisten des Deckprints und gleichzeitig müssen die Pins der Verbindungsleiste vom Pi auf den Baseprint korrekt platziert werden. Dazu von hinten in den Robo schauen und durch seitliches Drücken die Stifte in die Leiste führen. Alles soweit zusammenstecken, dass der Deckprint und die Seitenplatten bündig zusammengefügt sind.
+
+<img src="images/body-complete.jpg" alt="Kompletter Body" style="width: 49%"/>
+
+Mikrofon an einem der USB Anschlüsse einstecken
+
+Nun kann der Roboter zum ersten Mal eingeschaltet werden! Es dauert etwa 30s, dann stellen sich die Servos in die Mittelposition. Theoretische kannst du den Robo mit BotikinsAP mit einem WLAN verbinden und schon rumfahren :-)
+
+## 4.5 Roboter mit dem WLAN verbinden
+
+Verbindest du den Roboter zum ersten Mal mit einem WLAN, muss er dessen Passwort kennen. Bei den Botkins-Sets haben wir ein Programm vorinstalliert, dass dir das Verbinden vereinfacht. Vorgehen:
+* Roboter einschalten
+* 30s warten
+* Auf einem Smartphone oder Tablet die verfügbaren WLAN suchen und nach `BotkinsAP` suchen. Das Passwort lautet `03Sessel`.
+* Nun kannst du dich anmelden, wenn du den Browser öffnest, sollte eine Seite öffnen, in der du die verfügbaren WLAN auswählen und das Passwort des gewünschten WLANS eingeben kannst.
+* Hast du das erledigt, werden diese Zugangsdaten im Roboter gespeichert und stehen beim nächsten Mal im gleichen Netz wieder zur Verfügung. Das funktioniert auch mit einem Hotspot eines anderen Smartphones.
+
+<img src="images/balena.jpg" alt="Balena Startseite" style="width: 49%"/>
+
+Nun kannst du dich auf Vigibot mit dem Account des Roboters einloggen und herumfahren.
+
+Hier die Erklärung der Standardbedienelemente:
+
+<img src="images/Bedienelemente.jpg" alt="Vigibot Bedienelemente" style="width: 49%"/>
+
+[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
+
+## 4.6 Zusammenbau Greifer und Kopf
 
 Zuerst wird die Greifer und Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
 
@@ -1121,7 +1251,7 @@ Benötigtes Material aus dem Kit:
 | 4   | 6kt-Mutter Kunststoff für Befestigung  Kamera an Kopf     | M2                                                     |
 | 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
 | 2   | Schrauben für Befestigung Servo Kopfschütteln an Halter   | Kreuzschlitzschraube M2x5                              |
-| 2   | Schrauben für Befestigung  Greifarme am Halter für Greifer| Kreuzschlitzschraube M2x12                             |
+| 2   | Schrauben für Befestigung Greifarme am Halter für Greifer| Kreuzschlitzschraube M2x12                             |
 | 2   | Schrauben für Befestigung Servo Greifer an Halter         | Kreuzschlitzschraube M2x5                              |
 
 Hinweis zu den Schrauben: Wir schlagen Kreuzschlitzschrauben vor, weil deren Kopfhöhe kleiner ist als bei anderen Antrieben. Aber andere Schrauben können auch verwendet werden. Auf einigen Bildern haben wir andere Schrauben verwendet.
@@ -1188,114 +1318,15 @@ Ganzer Kopf mit zwei M2x5 Schrauben am Halter Greifer und Kopf befestigen. Siche
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
-## 4.4 Zusammenbau Motorplatte
+## 4.7 Finale Fertigstellung
 
-Benötigtes Material aus dem Kit:
+Nun kann die Greifer- und Kopf-Baugruppe mit dem Body verbunden werden. Dazu den Deckprint mit Pi wieder vom Body ziehen (Vorsicht, dass die Verindungspins nicht verbiegen, wenn nicht gerade gegen oben gezogen wird).
+Die G&K-Baugruppe kann nun unter den Baseprint geschoben und mit drei Schrauben M2.5x12 befestigt werden.
 
-| Stk | Benennung                                                 | Teilenummer (*tbc)                                     |
-| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
-| 1   | 3D gedruckte Basis                                        | *Druckteile/Chassis/2S101.0 Basis.step                 | 
-| 1   | 3D gedruckter Batteriehalter                              | *Druckteile/Chassis/2S102.0 Batteriehalter.step        |
-| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step|
-| 1   | Basisprint                                                | aus Kit                                                |
-| 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
-| 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
-| 2   | Schrauben für Befestigung  Basisprint                     | Kreuzschlitzschraube M2x5                              |
-| 2   | Schrauben für Befestigung  Basisprint inkl. Batteriehalter| Kreuzschlitzschraube M2x8                              |
-| 4   | Räder 32mm (Bohrung Motorwelle Ø3mm, max.Ø 50mm)          | [Link](https://www.robot-maker.com/shop/elements-mecaniques/171-roue-32mm-171.html?)        | 
-| 1   | Batterie 2S                                               | aus Kit                                                | 
+LTE / 4G Stick in 90° Winkelstecker stecken.
+Der Roboter sollte nun betriebsbereit sein.
 
-Hinweis: Die Bilder zeigen In-6kt Schrauben für die Befestigung des Halter Greifer und Kopf. Das dürfen natürlich auch Kreuzschlitzschrauben sein.
-
-Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
-
-<img src="images/base1.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
-
-Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen.
-Halter Greifer und Kopf mit drei Schrauben befestigen, Batteriehalter Basisprint mit 2x  M2x8 Schrauben befestigen, Basisprint mit zwei weiteren M2x5 befestigen. Zusätzlich kann hinten noch eine Schraube M2x5 verbaut werden (siehe Bild).
-
-<img src="images/base2.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
-
-Die Räder können aufgesteckt, der Akku eingesteckt und im Batteriehalter platziert werden.
-
-<img src="images/base3.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
-
-Servokabel des Kopfes gem. folgenden Abbildungen mit dem Basisprint verbinden. Die Abbildungen sind ohne Greifer und Kopf dargestellt.
-
-<img src="images/movements-desc.jpg" alt="Bewegungen Kopf und Greifer" style="width: 49%"/> <img src="images/servo-pinout.jpg" alt="Steckerbelegung" style="width: 49%"/><br>
-
-[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
-
-## 4.5 Zusammenbau Body
-
-Benötigtes Material aus dem Kit:
-
-| Stk | Benennung                                                 | Teilenummer                                            |
-| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
-| 1   | Seitenplatte links                                        | Seite mit Aufdruck botkins.ch                          | 
-| 1   | Seitenplatte rechts                                       | Seite mit Aufdruck On/Off                              |
-| 1   | Rapsberry Pi 3B+                                          | aus Kit                                                |
-| 1   | microSD ca. 16GB inkl. Programm drauf                     | aus Kit, Programmbeschreibung oben                     |
-| 1   | Verbinderleiste                                           | aus Kit                                                |
-| 1   | Deckprint                                                 | aus Kit                                                | 
-| 4   | Schrauben für Befestigung Pi                              | M2.5x6                                                 |
-| 4   | Distanzbolzen für Befestigung Pi                          | M2.5x5 M-F                                             |
-| 4   | Muttern für Befestigung Pi                                | M2.5                                                   |
-| 1   | Flachbandkabel Pi <> Kamera                               | 30cm                                                   |
-| 1   | Lautsprecher                                              | aus Kit                                                | 
-| 2   | Schrauben zur Befestigung des Lautsprechers               | M2x6                                                   |
-| 2   | Distanzbolzen zur Befestigung des Lautsprechers           | M2x5 M-F                                               |
-| 2   | Muttern zur Befestigung des Lautsprechers                 | M2                                                     |
-| 1   | Verbindungskabel Deckprint zur Kamera                     | Servokabel F-F 20cm                                    |
-| 1   | Mikrophon                                                 | aus Kit                                                |
-| 1   | gedruckte Pinabdeckung und Auffahrschutz 4G Stick         | *tbd*                                                  |
-| 1*  | 4G/LTE Stick                                              | *tbd*                                                  |
-| 1   | 90° USB Winkelstecker für 4G/LTE Stick                    | *tbd*                                                  |
-| 1   | Drehlicht                                                 | aus Kit                                                | 
-
-*Optinale Teile
-
-<img src="images/uebersicht-body.jpg" alt="body complete" style="width: 49%"/>
-
-
-Hinweis: Das Drehlicht fehlt auf dem Bild
-
-Distanzbolzen für Lautsprecher montieren: M2x5 M-F Distanzbolzen von oben durch die Löcher stecken, von unten mit Mutter sichern. Kabel durch Ausschnitt stecken, Lautsprecher mit Membran nach unten (Schutz) montieren. Lautsprecherkabel mit dem Print verbinden, auf Polarität achten. Rot ist +, Schwarz-.
-
-<img src="images/top1.jpg" alt="Speaker Assembly Top" style="width: 40%"/> <img src="images/top2.jpg" alt="Speaker Assembly Bottom" style="width: 32%"/>
-
-Pi am Deckprint befestigen:
-Die im Übersichtsbild rot eingekreisten Löcher verwenden, Distanzbolzen M2.5x5 M-F von unten durchstecken, oben die gedruckte Pinabdeckung auflegen und beides mit einer Mutter M2.5 sichern.
-
-<img src="images/top3.jpg" alt="Pin Cover Top Print" style="width: 49%"/>
-
-Servoverlängerungskabel (Spannungsversorgung Kameraprint) auf der Unterseite des Deckpins in Anschluss 12 einstecken. Gelb ist das Signalkabel, Rot + und Braun GND.
-
-<img src="images/top4.jpg" alt="Camera Cable" style="width: 49%"/>
-
-Flachbandkabel für die Kamera am Pi befestigen. Dazu den schwarzen Klemmbalken bei der Kamerabuchse (siehe Beschriftung auf dem Pi) nach oben ziehen, um Buchse zu "öffnen". Von oben in Buchse schauen und Kabel so reinstecken, dass die Kontakte des Kabels zu den Kontakten der Buchse zeigen.
-Klemmbalken reindrücken, durch leichten Zug am Flachbandkabel korrekten Sitz prüfen.
-
-Die microSD Card in den Karten-Slot auf der vorderen kurzen Seite des Pi einstecken.
-
-<img src="images/pi1.jpg" alt="Camera Signal Cable" style="width: 49%"/>
-
-Den Deckprint mit der Unterseite gegen oben auf den Tisch legen, den Pi mit den Anschlüssen gegen hinten auf den Deckprint legen. 90° USB Adapter in USB-Anschluss Mitte-Unten (auf dem Tisch Mitte-Oben) einstecken. Befestigungslöcher des Pi mit den Gewinden in den Distanzbolzen in Deckung bringen und mit den M2.5x6 Schrauben befestigen. Dazu muss evtl. der USB-Adapter ein wenig aus der USB Buchse gezogen werden. Der Adapter sollte im Druckteil eingepasst sein.
-
-Verbinderleiste auf die Stiftleister des Pi stecken
-
-Unterbau mit Rädern, Kopf- und Greifereinheit und Akku zur Hand nehmen. Seitenplatten rechts (mit On/Off Aufdruck) und links (mit botkins.ch Aufdruck) auf den Base-Print stecken. 
-
-Mikrofon an einem der USB Anschlüsse einstecken
-
-[⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
-
-## 4.6 Finale Fertigstellung
-
-
-* LTE / 4G Stick in 90° Winkelstecker stecken.
-* Der Roboter sollte nun betriebsbereit sein.
-* Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
+Steuere über die Vigibot-Website, überprüfe jeden Servoweg und stelle die Servohörner bei Bedarf neu ein. Ein Klick auf das Stopp-Symbol (Quadrat), stellt die Servos in die Mittelstellung. 
 
 ### Aufkleber auf dem Roboter
 
@@ -1316,7 +1347,7 @@ Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, 
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
-## 4.7 Optionale Schritte
+## 4.8 Optionale Schritte
 
 Diese Schritte sind nützlich, wenn Balena WiFi installiert werden soll. Kommt das Kit von Botkins, sind die optionalen Schritte breits vorinstalliert.
 
@@ -1455,7 +1486,7 @@ sudo reboot
 
 Nach dem Neustart startet der Roboter automatisch das Captive-Portal `BotkinsAP` mit dem Passwort `03Sessel`.
 
-1. Verbinde dein Smartphone zum Access Point `BotkinsAP`.
+Verbinde dein Smartphone zum Access Point `BotkinsAP`.
 
 Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 Öffne eine beliebige Website in einem Browser, das Captive-Portal wird dich automatisch zum Konfikurationsportal weiterleiten. Dort kannst du das gewünschte Heim-WLAN-Netzwerk aus einer Liste auswählen, womit sich der Roboter dann verbindet.
@@ -1464,7 +1495,7 @@ Es kann ca 60 Sekunden dauern, bis wifi-connect gestartet wird.
 
 </details>
 
-## 4.8 Funktionstest
+## 4.9 Funktionstest
 
 Nun ist es Zeit für den finalen Check!
 Teste die Funktionen des Roboters:
