@@ -56,7 +56,7 @@ Das französische Roboter-Projekt, wessen Software und Hardware Design Botkins b
 
 Als Basis dient die Standard Vigibot Minus-Type Version (siehe Bild, ein reines Botkin Bild folgt). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet und kommt ohne Seitenarme aus.
 
-![1.00]../images/Minus%20render-2.png)
+![1.00](../images/Minus%20render-2.png)
 
 * Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen.
 * Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben.
@@ -157,7 +157,7 @@ Version aus der Teileliste, siehe oben
 
 Funktioniert, benötigt jedoch einige Änderungen:
 
-<img src="images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>
+<img src="../images/ups_alternatives/1_Ups_power.jpg" alt="1_Ups_power" style="width: 49%"/>
 
 * Löte die Stromkabel für Servos und Motoren an den abgebildeten Stellen an.
 * Gib einen Tropfen Sekundenkleber hinzu, um die Drähte auf der USV-Platine zu befestigen.
@@ -169,7 +169,7 @@ Um die Spannungs- und Strommessungen zum Laufen zu bringen, verbinde dich per ss
 
 B.1) Spannungsmessung:
 
-<img src="images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
+<img src="../images/ups_alternatives/3_Ups_sys_67.jpg" alt="3_Ups_sys_67" style="width: 49%"/>
 
 ```
 sudo nano /usr/local/vigiclient/sys.json
@@ -179,7 +179,7 @@ sudo nano /usr/local/vigiclient/sys.json
 
 B.2) Die Strommessung funktioniert auch, aber ich würde empfehlen, diesen Schritt zu überspringen, da er nicht so wichtig ist.
 
-<img src="images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>\ <img src="images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
+<img src="../images/ups_alternatives/4_Ups_wrench.jpg" alt="4_Ups_wrench" style="width: 49%"/><img src="../images/ups_alternatives/5_Ups_I_conf.jpg" alt="5_Ups_I_conf" style="width: 49%"/>\ <img src="../images/ups_alternatives/6_Ups_I_client.jpg" alt="6_Ups_I_client" style="width: 49%"/>
 
 * Nimm die Änderungen wie in den Bildern gezeigt vor
 * Da der Shunt-Widerstand 1/10 des üblicherweise verwendeten Widerstands beträgt und Vin+ und Vin- vertauscht sind, muss der Code in `/usr/local/vigibot/clientrobotpi.js` geringfügig geändert werden. Ich bin mir nicht sicher, ob das sinnvoll ist, da eine Änderung des Codes meines Wissens nach zukünftige automatische Vigibot-Updates deaktiviert.
@@ -232,22 +232,22 @@ In der Ordnerstruktur befinden sich die Druckteile in verschiedenen Formaten. Hi
 
 | Pos | Beschreibung                    | Benennung im Ordner                           |            V2           |                                                     Bild                                                     |
 | --- | ------------------------------- | --------------------------------------------- | :---------------------: | :----------------------------------------------------------------------------------------------------------: |
-| 1   | Finger A zu Greifer             | stl/clamp\_finger\_a.stl                      |          1 Stk          |         <img src="images/3D-parts/clamp_finger_a.jpg" alt="Finger A zu Greifer" style="width: 45px"/>        |
-| 2   | Finger B zu Greifer             | stl/clamp\_finger\_b.stl                      |          1 Stk          |         <img src="images/3D-parts/clamp_finger_b.jpg" alt="Finger B zu Greifer" style="width: 45px"/>        |
-| 3   | Servoaufnahme Greifer           | stl/clamp\_servo\_bracket.stl                 |          1 Stk          |     <img src="images/3D-parts/clamp_servo_bracket.jpg" alt="Servoaufnahme Greifer" style="width: 45px"/>     |
-| 4   | Greiferhalter                   | stl/clamp\_u\_bracket.stl                     |          1 Stk          |           <img src="images/3D-parts/clamp_u_bracket.jpg" alt="Greiferhalter" style="width: 45px"/>           |
-| 5   | Servohalter Kopf schütteln      | stl/head\_pan\_servo\_bracket.stl             |          1 Stk          | <img src="images/3D-parts/head_pan_servo_bracket.jpg" alt="Servohalter Kopf schütteln" style="width: 45px"/> |
-| 6a  | Kopf ohne Smile                 | stl/head\_servo\_camera\_bracket\_nosmile.stl |  1 Stk <br> 6a oder 6b  | <img src="images/3D-parts/head_servo_camera_bracket_nosmile.jpg" alt="Kopf ohne Smile" style="width: 45px"/> |
-| 6b  | Kopf mit Smile                  | stl/head\_servo\_camera\_bracket\_smile.stl   |  1 Stk <br> 6a oder 6b  |   <img src="images/3D-parts/head_servo_camera_bracket_smile.jpg" alt="Kopf mit Smile" style="width: 45px"/>  |
-| 7   | Adapter Kopf schütteln          | stl/head\_u\_bracket.stl                      |          1 Stk          |       <img src="images/3D-parts/head_u_bracket.jpg" alt="Adapter Kopf schütteln" style="width: 45px"/>       |
-| 8   | Motorhalter                     | stl/n20\_motor\_holder.stl                    |          4 Stk          |            <img src="images/3D-parts/n20_motor_holder.jpg" alt="Motorhalter" style="width: 45px"/>           |
-| 9   | Bodenplatte                     | stl/plate\_bottom.stl                         |          1 Stk          |              <img src="images/3D-parts/plate_bottom.jpg" alt="Bodenplatte" style="width: 45px"/>             |
-| 10  | Mittelplatte = <br> Motorplatte | stl/plate\_middle.stl                         |          1 Stk          |             <img src="images/3D-parts/plate_middle.jpg" alt="Mittelplatte" style="width: 45px"/>             |
-| 11a | Topplatte mit Lüfterloch        | stl/plate\_top\_fan.stl                       | 1 Stk <br> 12a oder 12b |            <img src="images/3D-parts/plate_top_fan.jpg" alt="Topplatte Fan" style="width: 45px"/>            |
-| 11b | Topplatte ohne Lüfterloch       | stl/plate\_top\_nofan.stl                     | 1 Stk <br> 12a oder 12b |          <img src="images/3D-parts/plate_top_nofan.jpg" alt="Topplatte No Fan" style="width: 45px"/>         |
-| 12  | Rad 40 x 7mm                    | stl/pololu\_wheel\_40x7mm.stl                 |          4 Stk          |              <img src="images/3D-parts/pololu_wheel_40x7mm.jpg" alt="Rad" style="width: 45px"/>              |
-| 13  | Stosstange hinten               | stl/rear\_protection.stl                      |          1 Stk          |            <img src="images/3D-parts/rear_protection.jpg" alt="Stossstange" style="width: 45px"/>            |
-| 14  | 4G Stick Halter                 | stl/usb\_bracket.stl                          |          1 Stk          |            <img src="images/3D-parts/usb_bracket.jpg" alt="4G Stick Schutz" style="width: 45px"/>            |
+| 1   | Finger A zu Greifer             | stl/clamp\_finger\_a.stl                      |          1 Stk          |         <img src="../images/3D-parts/clamp_finger_a.jpg" alt="Finger A zu Greifer" style="width: 45px"/>        |
+| 2   | Finger B zu Greifer             | stl/clamp\_finger\_b.stl                      |          1 Stk          |         <img src="../images/3D-parts/clamp_finger_b.jpg" alt="Finger B zu Greifer" style="width: 45px"/>        |
+| 3   | Servoaufnahme Greifer           | stl/clamp\_servo\_bracket.stl                 |          1 Stk          |     <img src="../images/3D-parts/clamp_servo_bracket.jpg" alt="Servoaufnahme Greifer" style="width: 45px"/>     |
+| 4   | Greiferhalter                   | stl/clamp\_u\_bracket.stl                     |          1 Stk          |           <img src="../images/3D-parts/clamp_u_bracket.jpg" alt="Greiferhalter" style="width: 45px"/>           |
+| 5   | Servohalter Kopf schütteln      | stl/head\_pan\_servo\_bracket.stl             |          1 Stk          | <img src="../images/3D-parts/head_pan_servo_bracket.jpg" alt="Servohalter Kopf schütteln" style="width: 45px"/> |
+| 6a  | Kopf ohne Smile                 | stl/head\_servo\_camera\_bracket\_nosmile.stl |  1 Stk <br> 6a oder 6b  | <img src="../images/3D-parts/head_servo_camera_bracket_nosmile.jpg" alt="Kopf ohne Smile" style="width: 45px"/> |
+| 6b  | Kopf mit Smile                  | stl/head\_servo\_camera\_bracket\_smile.stl   |  1 Stk <br> 6a oder 6b  |   <img src="../images/3D-parts/head_servo_camera_bracket_smile.jpg" alt="Kopf mit Smile" style="width: 45px"/>  |
+| 7   | Adapter Kopf schütteln          | stl/head\_u\_bracket.stl                      |          1 Stk          |       <img src="../images/3D-parts/head_u_bracket.jpg" alt="Adapter Kopf schütteln" style="width: 45px"/>       |
+| 8   | Motorhalter                     | stl/n20\_motor\_holder.stl                    |          4 Stk          |            <img src="../images/3D-parts/n20_motor_holder.jpg" alt="Motorhalter" style="width: 45px"/>           |
+| 9   | Bodenplatte                     | stl/plate\_bottom.stl                         |          1 Stk          |              <img src="../images/3D-parts/plate_bottom.jpg" alt="Bodenplatte" style="width: 45px"/>             |
+| 10  | Mittelplatte = <br> Motorplatte | stl/plate\_middle.stl                         |          1 Stk          |             <img src="../images/3D-parts/plate_middle.jpg" alt="Mittelplatte" style="width: 45px"/>             |
+| 11a | Topplatte mit Lüfterloch        | stl/plate\_top\_fan.stl                       | 1 Stk <br> 12a oder 12b |            <img src="../images/3D-parts/plate_top_fan.jpg" alt="Topplatte Fan" style="width: 45px"/>            |
+| 11b | Topplatte ohne Lüfterloch       | stl/plate\_top\_nofan.stl                     | 1 Stk <br> 12a oder 12b |          <img src="../images/3D-parts/plate_top_nofan.jpg" alt="Topplatte No Fan" style="width: 45px"/>         |
+| 12  | Rad 40 x 7mm                    | stl/pololu\_wheel\_40x7mm.stl                 |          4 Stk          |              <img src="../images/3D-parts/pololu_wheel_40x7mm.jpg" alt="Rad" style="width: 45px"/>              |
+| 13  | Stosstange hinten               | stl/rear\_protection.stl                      |          1 Stk          |            <img src="../images/3D-parts/rear_protection.jpg" alt="Stossstange" style="width: 45px"/>            |
+| 14  | 4G Stick Halter                 | stl/usb\_bracket.stl                          |          1 Stk          |            <img src="../images/3D-parts/usb_bracket.jpg" alt="4G Stick Schutz" style="width: 45px"/>            |
 
 ### Kleinteile, falls ihr selber druckt
 
@@ -280,7 +280,7 @@ Anmerkung: Die Kamera <> Kopf Schrauben und Muttern müssen elektrisch leiten.
 
 ## 1. Software Installieren
 
-<img src="images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
+<img src="../images/Minus_assembly_Botkins/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
 
 Füge deinen Roboter bei Vigibot ganz einfach hinzu.
 Du benötigst: einen Rapsery Pi (empfohlen 3B+), eine 16 oder 32 GB microSD Karte, eine Spannungsversorgung für den Pi, die Kamera mit dem passenden Kabel.
@@ -689,20 +689,20 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 ## 3. UPS Solder Bridge
 
-<img src="images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/ups_poff_1.jpg" alt="ups_poff_1" style="width: 49%"/>
 
 * A: Remove `POFF` solder bridge<br>
 
-<img src="images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
+<img src="../images/Minus_assembly_Botkins/ups_poff_2.jpg" alt="ups_poff_2" style="width: 49%"/><br>
 
 * set the `AUTO-UPS` switch to `OFF`
 
 ## 4. Servostecker teilen
 
-<img src="images/Minus_assembly_Botkins/servo_assembly_1.jpg" alt="servo_assembly_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/servo_assembly_2.jpg" alt="servo_assembly_2" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/servo_assembly_3.jpg" alt="servo_assembly_3" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/servo_assembly_4.jpg" alt="servo_assembly_4" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/servo_assembly_1.jpg" alt="servo_assembly_1" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/servo_assembly_2.jpg" alt="servo_assembly_2" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/servo_assembly_3.jpg" alt="servo_assembly_3" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/servo_assembly_4.jpg" alt="servo_assembly_4" style="width: 49%"/>
 
 * Die Servos werden in dieser Version über die Spannungsversorgungsprint mit Strom versorgt. Die Signalleitungen werden direkt auf dem Pi eingesteckt. Dazu müssen die Kabel "geteilt" werden.
 * Hinweis zu Servokabelfarben: Pluspos ist immer rot. GND ist entweder schwarz oder braun. Die Signalleitung ist entweder orange, gelb, weiss oder blau. Kompliziert, ich weiss.
@@ -711,20 +711,20 @@ Klicke auf der Vigibot Seite -> `Management` -> Zahnradsymbol (Hardware configur
 
 ## 5. Spannungsversorgung
 
-<img src="images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/><br>
+<img src="../images/Minus_assembly_Botkins/pdb_assembly_1.jpg" alt="pdb_assembly_1" style="width: 49%"/> <img src="../images/Minus_assembly_Botkins/pdb_assembly_3.jpg" alt="pdb_assembly_3" style="width: 49%"/> <img src="../images/Minus_assembly_Botkins/pdb_assembly_4.jpg" alt="pdb_assembly_4" style="width: 49%"/><br>
 
 * Wenn nötig, Polarität des PH2.0 Kabels anpassen, je nach USP<br>
 
-<img src="images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/pdb_assembly_5.jpg" alt="pdb_assembly_5" style="width: 49%"/>
 
 * Baue den UPS auf den Raspberry Pi.
 * Update 26.05.2025: Schneide den Batteriestecker ab (schneide + und - nacheinander ab, um die Batterie nicht kurzzuschliessen) und löte ihn an die Batterielötpads der USV. Die Servos und Motoren können wie auf den Fotos gezeigt mit Strom versorgt werden. Grund: Der Roboter kann sich zufällig oder bei nur teilweise geladener Batterie ausschalten. Ein weiteres Symptom ist, dass die gemessene Batteriespannung von 4,2 V auf 3,8 V oder weniger abfällt, wenn das Gerät vom Stromnetz getrennt wird. Es scheint, dass der kombinierte Widerstand der Batterieleistung, die über drei Stecker läuft, zu hoch ist.
 
 ## 6. Signalleitungen verbinden
 
-<img src="images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
+<img src="../images/Minus_assembly_Botkins/wiring_assembly_1.jpg" alt="wiring_assembly_1" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/pinout_ups.png" alt="pinout_ups" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/wiring_assembly_3.jpg" alt="wiring_assembly_3" style="width: 49%"/><br>
 
 Nun werden die Servos an der richtigen Stelle auf dem Pi eingesteckt:
 
@@ -733,7 +733,7 @@ Nun werden die Servos an der richtigen Stelle auf dem Pi eingesteckt:
 * C: Greifer auf/zu: Gripper claw \[x] `GPIO 7 (physical pin 26)`<br>
 * D: Greifer heben/senken: Gripper tilt \[y] `GPIO 8 (physical pin 24)`<br>
 
-<img src="images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
+<img src="../images/Minus_assembly_Botkins/wiring_assembly_5.jpg" alt="wiring_assembly_5" style="width: 49%"/><br>
 
 * A: ESC Motortreiber
   * Linke Motoren `GPIO 26 (physical pin 37)`
@@ -771,18 +771,18 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 
 1. Befestigung der Motoren mit Motorhalten, je 2 Schrauben und 2 Muttern (von unten)
 
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Middle%20plate%20assembly-1.png" alt="Middle plate assembly-1" style="width: 49%"/> <img src="../images/Minus%20assembly/Middle%20plate%20assembly-2.png" alt="Middle plate assembly-2" style="width: 49%"/>
 2\. Motortreiber mit zwei Schrauben und zwei Muttern an der Motorplatte befestigen
 
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Middle%20plate%20assembly-3.png" alt="Middle plate assembly-3" style="width: 49%"/> <img src="../images/Minus%20assembly/Middle%20plate%20assembly-4.png" alt="Middle plate assembly-4" style="width: 49%"/>
 3\. Schlussendlich sollten die Kabel so aussehen wie im nächsten Bild. Die Motoren auf der gleichen Seite haben die Stecker jeweils nebeneinander. Die Verbindung zum Pi stellt ihr anhand der Beschriftung auf dem Treiber her. Linke Motoren `GPIO 26 (physical pin 37)`, rechte Motoren `GPIO 27 (physical pin 13)`<br>
 
-<img src="images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
+<img src="../images/Minus%20assembly/Motorplate-complete.jpg" alt="Motor Plate complete" style="width: 49%"/> <br>
 4\. Auffahrschutz, Greiferhalter und Abstandshalter montieren. Länge siehe Tabelle unten
 
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/><img src="images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-7.png" alt="Middle plate assembly-7" style="width: 49%"/><img src="images/Minus%20assembly/Middle%20plate%20assembly-8.png" alt="Middle plate assembly-8" style="width: 49%"/>
-<img src="images/Minus%20assembly/Middle%20plate%20assembly-9.png" alt="Middle plate assembly-9" style="width: 49%"/><img src="images/Minus%20assembly/Middle%20plate%20assembly-10.png" alt="Middle plate assembly-10" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Middle%20plate%20assembly-5.png" alt="Middle plate assembly-5" style="width: 49%"/><img src="../images/Minus%20assembly/Middle%20plate%20assembly-6.png" alt="Middle plate assembly-6" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Middle%20plate%20assembly-7.png" alt="Middle plate assembly-7" style="width: 49%"/><img src="../images/Minus%20assembly/Middle%20plate%20assembly-8.png" alt="Middle plate assembly-8" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Middle%20plate%20assembly-9.png" alt="Middle plate assembly-9" style="width: 49%"/><img src="../images/Minus%20assembly/Middle%20plate%20assembly-10.png" alt="Middle plate assembly-10" style="width: 49%"/>
 
 | Stk | Benennung          | Dimmensionen  | wird verwendet für         |
 | --- | ------------------ | ------------- | -------------------------- |
@@ -795,40 +795,40 @@ Benötigtes Material, enthalten in den Kits oder anhand der Kleinteile-Liste
 
 #### Kopf Schütteln
 
-<img src="images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20turret%20assembly-2.png" alt="Pan turret assembly-2" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Pan%20turret%20assembly-1.png" alt="Pan turret assembly-1" style="width: 49%"/> <img src="../images/Minus%20assembly/Pan%20turret%20assembly-2.png" alt="Pan turret assembly-2" style="width: 49%"/>
 
 #### Nicken
 
-<img src="images/Minus%20assembly/Tilt%20turret%20assembly-1.png" alt="Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Tilt%20turret%20assembly-2.png" alt="Tilt turret assembly-2" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Tilt%20turret%20assembly-1.png" alt="Tilt turret assembly-1" style="width: 49%"/> <img src="../images/Minus%20assembly/Tilt%20turret%20assembly-2.png" alt="Tilt turret assembly-2" style="width: 49%"/>
 
 #### kompletter Kopf
 
-<img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-1.png" alt="Pan + Tilt turret assembly-1" style="width: 49%"/> <img src="../images/Minus%20assembly/Pan%20+%20Tilt%20turret%20assembly-2.png" alt="Pan + Tilt turret assembly-2" style="width: 49%"/>
 
 #### Kamera
 
 Die Infrarot-Seitenteile müssen mit dem Kamerakopf elektrisch leitend verbunden sein. Auf die Polarität achten. Mit den langen Schrauben und Muttern klemmen, danach ins gedruckte Teil einbauen und noch einmal mit Muttern sichern. Oder so wie auf den Bildern. Wichtig ist, dass die IR-Seitenteile mit Spannung versorgt werden. <br>
 
-<img src="images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Camera%20assembly-1.png" alt="Camera assembly-1" style="width: 49%"/> <img src="../images/Minus%20assembly/Camera%20assembly-2.png" alt="Camera assembly-2" style="width: 49%"/>
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13101-pan-tilt-minus-hardware-documentation/)
 
 ## 9. Zusammenbau Greifer
 
-<img src="images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>
-<img src="images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/>
-<img src="images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Gripper%20assembly-1.png" alt="Gripper assembly-1" style="width: 49%"/> <img src="../images/Minus%20assembly/Gripper%20assembly-2.png" alt="Gripper assembly-2" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Gripper%20assembly-3.png" alt="Gripper assembly-3" style="width: 49%"/> <img src="../images/Minus%20assembly/Gripper%20assembly-4.png" alt="Gripper assembly-4" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Gripper%20assembly-5.png" alt="Gripper assembly-5" style="width: 49%"/> <img src="../images/Minus%20assembly/Gripper%20assembly-6.png" alt="Gripper assembly-6" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Gripper%20assembly-7.png" alt="Gripper assembly-7" style="width: 49%"/> <img src="../images/Minus%20assembly/Final%20assembly-1.png" alt="Final assembly-1" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Final%20assembly-2.png" alt="Final assembly-2" style="width: 49%"/>
 
 [Zusätzliche Anleitung in Englisch](https://www.robot-maker.com/forum/topic/13108-minus-gripper-assembly/)
 
 ## 10. Finale Fertigstellung
 
-<img src="images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
-<img src="images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
-<img src="images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>
-<img src="images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Final%20assembly-3.png" alt="Final assembly-3" style="width: 49%"/> <img src="../images/Minus%20assembly/Final%20assembly-4.png" alt="Final assembly-4" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Final%20assembly-5.png" alt="Final assembly-5" style="width: 49%"/> <img src="../images/Minus%20assembly/Final%20assembly-6.png" alt="Final assembly-6" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Final%20assembly-7.png" alt="Final assembly-7" style="width: 49%"/> <img src="../images/Minus%20assembly/Final%20assembly-8.png" alt="Final assembly-8" style="width: 49%"/>
+<img src="../images/Minus%20assembly/Final%20assembly-9.png" alt="Final assembly-9" style="width: 49%"/> <img src="../images/Minus%20render-1.png" alt="Minus render-1" style="width: 49%"/>
 
 Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 
@@ -840,8 +840,8 @@ Alle Servohörner müssen satt sitzen und dürfen kein Spiel haben.
 
 ### 10.1 Aufkleber auf dem Roboter
 
-<img src="images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
-<img src="images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/labels_bottom.jpg" alt="labels_bottom" style="width: 49%"/> <img src="../images/Minus_assembly_Botkins/labels_stick_1.png" alt="stick_1" style="width: 49%"/>
+<img src="../images/Minus_assembly_Botkins/labels_stick_2.jpg" alt="Stick 2" style="width: 49%"/>
 
 Um die Bedienung des Roboters durch die Nutzer zu vereinfachen, wird empfohlen, folgende Aufkleber zu drucken und anzubringen. Die mit ** Text ** geführten Ausdrücke müssen passend zu eurem Roboter angepasst werden. Die Schriftgrösse so anpassen, dass die Aufkleber Platz haben. Beim Hinweis zum LED-Farbcode des 4G Sticks muss auf den Typ des Sticks geachtet werden.
 
@@ -1021,10 +1021,10 @@ Teste die Funktionen des Roboters:
 1. Roboter auf vigibot.com sichtbar mit korrektem Namen?
 2. Alle Bedienelemente vorhanden? Wenn nicht > botkins Team fragen
 
-   <img src="images/Minus_assembly_Botkins/vigi-standard-icons.jpg" alt="servo_assembly_4" style="width: 29%"/>
+   <img src="../images/Minus_assembly_Botkins/vigi-standard-icons.jpg" alt="servo_assembly_4" style="width: 29%"/>
 4. Spannungsanzeige zuunterst ist vorhanden? Wenn nicht, botkins Team fragen
 
-   <img src="images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 19%"/>
+   <img src="../images/Minus_assembly_Botkins/telemetry.jpg" alt="servo_assembly_4" style="width: 19%"/>
 6. Steuerbefehle (vorwärts, rückwärts, links, rechts) funktionieren?
 7. Alle Räder drehen?
 8. Robo lässt sich präzise fahren, auch schnelles Drehen ist möglich?
