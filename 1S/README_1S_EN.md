@@ -42,7 +42,7 @@ Learn more about Vigibot:
 
 Basis is the Standard Vigibot Minus-Type (pictured), but with a LTE/4G stick and without lateral (side) arms
 
-![Standard Minus](images/Minus%20render-2.png)
+![Standard Minus]../images/Minus%20render-2.png)
 
 - If you'd like to build a robot for Botkins, contact us and we'll send you the Onboarding Process. 
 - The maker can choose the 3D printed parts color.
