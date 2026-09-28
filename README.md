@@ -47,7 +47,7 @@ Das französische Roboter-Projekt, dessen Software und Hardware Design Botkins b
 
 Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins ist zusätlich mit einem LTE/4G Stick ausgerüstet.
 
-<img src="images/klara.jpg" alt="Botkins S2" style="width: 49%"/>
+<img src="2S/images/klara.jpg" alt="Botkins S2" style="width: 49%"/>
 
 * Wenn du für Botkins einen Roboter bauen möchtest, melde dich bei uns und wir senden dir die nötigen Informationen und den Zugang zu Resourcen.
 * Als Maker kannst du die Farbe der 3D-gedruckten Teile selber wählen, sie ist nicht vorgegeben. Kaufst du ein Komplettkit auf robot-maker.com, kannst du dort je nach Verfügbarkeit Teilefarben wählen.
@@ -60,7 +60,7 @@ Als Basis dient die Standard Vigibot Minus-Type Version 2S (siehe Bild). Botkins
 
 Du benötigst:
 
-* Komplettkit Minus-Type S2 [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) oder bestellbar bei uns an <img src="/images/email.png" alt="Adresse" style="width: 100px"/>
+* Komplettkit Minus-Type S2 [robot-maker.com](https://www.robot-maker.com/shop/kits-robots/284-kit-minus-2s-284.html) oder bestellbar bei uns an <img src="/images/email.jpg" alt="Adresse" style="width: 100px"/>
 * Internetzugang (SIM-Karte mit mobilen Daten, WLAN oder Ethernet-LAN), PC.
 * Ein 3D-Drucker ist derzeit nicht erforderlich. Wenn du die 3D-Teile selbst drucken möchtest, werden M2- und M2,5-Schrauben und Muttern, die in der entsprechenden Botkins-Teileliste aufgeführt sind, benötigt. Du findest sie in der Teileliste in jedem der 3D-gedruckten Sektionen.
 * Werkzeuge: Schraubenzieher, verstellbarer Schraubenschlüssel/Gabelschlüssel, Pinzette, Klebeband, Sekundenkleber
@@ -103,7 +103,7 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 
 ## 4.1 Software Installieren
 
-<img src="images/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
+<img src="2S/images/pi_cam.jpg" alt="pi_cam" style="width: 49%"/><br>
 
 Füge deinen Roboter bei Vigibot ganz einfach hinzu.
 Du benötigst: einen Rapsery Pi (empfohlen 3B+), eine 16 oder 32 GB microSD Karte, eine Spannungsversorgung für den Pi, die Kamera mit dem passenden Kabel.
@@ -1118,20 +1118,20 @@ Hinweis: Die Bilder zeigen In-6kt Schrauben für die Befestigung des Halter Grei
 
 Einlegen der vier Motoren in die Vertiefungen in der Basis, Pins gegen oben
 
-<img src="images/base1.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
+<img src="2S/images/base1.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
 
 Halter Greifer und Kopf in Aussparung einlegen, Basisprint auflegen.
 Halter Greifer und Kopf mit drei Schrauben befestigen, Batteriehalter Basisprint mit 2x  M2x8 Schrauben befestigen, Basisprint mit zwei weiteren M2x5 befestigen. Zusätzlich kann hinten noch eine Schraube M2x5 verbaut werden (siehe Bild).
 
-<img src="images/base2.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
+<img src="2S/images/base2.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
 
 Die Räder können aufgesteckt, der Akku eingesteckt und im Batteriehalter platziert werden.
 
-<img src="images/base3.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
+<img src="2S/images/base3.jpg" alt="Übersicht Motorplatte" style="width: 49%"/> <br>
 
 Servokabel des Kopfes gem. folgenden Abbildungen mit dem Basisprint verbinden. Die Abbildungen sind ohne Greifer und Kopf dargestellt.
 
-<img src="images/movements-desc.jpg" alt="Bewegungen Kopf und Greifer" style="width: 49%"/> <img src="images/servo-pinout.jpg" alt="Steckerbelegung" style="width: 49%"/><br>
+<img src="2S/images/movements-desc.jpg" alt="Bewegungen Kopf und Greifer" style="width: 49%"/> <img src="2S/images/servo-pinout.jpg" alt="Steckerbelegung" style="width: 49%"/><br>
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
@@ -1164,34 +1164,34 @@ Benötigtes Material aus dem Kit:
 
 *Optinale Teile
 
-<img src="images/uebersicht-body.jpg" alt="body complete" style="width: 49%"/>
+<img src="2S/images/uebersicht-body.jpg" alt="body complete" style="width: 49%"/>
 
 
 Hinweis: Das Drehlicht fehlt auf dem Bild
 
 Distanzbolzen für Lautsprecher montieren: M2x5 M-F Distanzbolzen von oben durch die Löcher stecken, von unten mit Mutter sichern. Kabel durch Ausschnitt stecken, Lautsprecher mit Membran nach unten (Schutz) montieren. Lautsprecherkabel mit dem Print verbinden, auf Polarität achten. Rot ist +, Schwarz-.
 
-<img src="images/top1.jpg" alt="Speaker Assembly Top" style="width: 40%"/> <img src="images/top2.jpg" alt="Speaker Assembly Bottom" style="width: 32%"/>
+<img src="2S/images/top1.jpg" alt="Speaker Assembly Top" style="width: 40%"/> <img src="2S/images/top2.jpg" alt="Speaker Assembly Bottom" style="width: 32%"/>
 
 Pi am Deckprint befestigen:
 Die im Übersichtsbild rot eingekreisten Löcher verwenden, Distanzbolzen M2.5x5 M-F von unten durchstecken, oben die gedruckte Pinabdeckung auflegen und beides mit einer Mutter M2.5 sichern.
 
-<img src="images/top3.jpg" alt="Pin Cover Top Print" style="width: 49%"/>
+<img src="2S/images/top3.jpg" alt="Pin Cover Top Print" style="width: 49%"/>
 
 Servoverlängerungskabel (Spannungsversorgung Kameraprint) auf der Unterseite des Deckpins in Anschluss 12 einstecken. Gelb ist das Signalkabel, Rot + und Braun GND.
 
-<img src="images/top4.jpg" alt="Camera Cable" style="width: 49%"/>
+<img src="2S/images/top4.jpg" alt="Camera Cable" style="width: 49%"/>
 
 Flachbandkabel für die Kamera am Pi befestigen. Dazu den schwarzen Klemmbalken bei der Kamerabuchse (siehe Beschriftung auf dem Pi) nach oben ziehen, um Buchse zu "öffnen". Von oben in Buchse schauen und Kabel so reinstecken, dass die Kontakte des Kabels zu den Kontakten der Buchse zeigen.
 Klemmbalken reindrücken, durch leichten Zug am Flachbandkabel korrekten Sitz prüfen.
 
 Die microSD Card in den Karten-Slot auf der vorderen kurzen Seite des Pi einstecken.
 
-<img src="images/pi1.jpg" alt="Camera Signal Cable" style="width: 49%"/>
+<img src="2S/images/pi1.jpg" alt="Camera Signal Cable" style="width: 49%"/>
 
 Den Deckprint mit der Unterseite gegen oben auf den Tisch legen, das Flachbandkabel der Kamera unter dem Pi durch den Schlitz im Deckprint führen. Den Pi mit den Anschlüssen gegen hinten auf den Deckprint legen. 90° USB Adapter in USB-Anschluss Mitte-Unten (auf dem Tisch Mitte-Oben) einstecken. Befestigungslöcher des Pi mit den Gewinden in den Distanzbolzen in Deckung bringen und mit den M2.5x6 Schrauben befestigen. Dazu muss evtl. der USB-Adapter ein wenig aus der USB Buchse gezogen werden. Der Adapter sollte im Druckteil eingepasst sein.
 
-<img src="images/pi2.jpg" alt="Pi Assembly" style="width: 49%"/>
+<img src="2S/images/pi2.jpg" alt="Pi Assembly" style="width: 49%"/>
 
 Verbinderleiste auf die Stiftleister des Pi stecken
 
@@ -1201,7 +1201,7 @@ Unterbau mit Rädern und Akku zur Hand nehmen. Seitenplatten rechts (mit On/Off 
 
 Die ganze Deckprint-Baugruppe mit dem Pi auf die Seitenwände aufstecken. Nun wirds knifflig: Die seitlichen Pins müssen in die Leisten des Deckprints und gleichzeitig müssen die Pins der Verbindungsleiste vom Pi auf den Baseprint korrekt platziert werden. Dazu von hinten in den Robo schauen und durch seitliches Drücken die Stifte in die Leiste führen. Alles soweit zusammenstecken, dass der Deckprint und die Seitenplatten bündig zusammengefügt sind.
 
-<img src="images/body-complete.jpg" alt="Kompletter Body" style="width: 49%"/>
+<img src="2S/images/body-complete.jpg" alt="Kompletter Body" style="width: 49%"/>
 
 Mikrofon an einem der USB Anschlüsse einstecken
 
@@ -1216,13 +1216,13 @@ Verbindest du den Roboter zum ersten Mal mit einem WLAN, muss er dessen Passwort
 * Nun kannst du dich anmelden, wenn du den Browser öffnest, sollte eine Seite öffnen, in der du die verfügbaren WLAN auswählen und das Passwort des gewünschten WLANS eingeben kannst.
 * Hast du das erledigt, werden diese Zugangsdaten im Roboter gespeichert und stehen beim nächsten Mal im gleichen Netz wieder zur Verfügung. Das funktioniert auch mit einem Hotspot eines anderen Smartphones.
 
-<img src="images/balena.jpg" alt="Balena Startseite" style="width: 49%"/>
+<img src="2S/images/balena.jpg" alt="Balena Startseite" style="width: 49%"/>
 
 Nun kannst du dich auf Vigibot mit dem Account des Roboters einloggen und herumfahren.
 
 Hier die Erklärung der Standardbedienelemente:
 
-<img src="images/Bedienelemente.jpg" alt="Vigibot Bedienelemente" style="width: 49%"/>
+<img src="2S/images/Bedienelemente.jpg" alt="Vigibot Bedienelemente" style="width: 49%"/>
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
 
@@ -1230,7 +1230,7 @@ Hier die Erklärung der Standardbedienelemente:
 
 Zuerst wird die Greifer und Kopf Baugruppe zusammengesetzt. Diese wird dann in die Basis eingebaut. Danach wird der Body fertiggestellt.
 
-<img src="images/Uebersicht-Greifer.jpg" alt="Übersicht Greiferteile" style="width: 49%"/>
+<img src="2S/images/Uebersicht-Greifer.jpg" alt="Übersicht Greiferteile" style="width: 49%"/>
 
 Benötigtes Material aus dem Kit:
 
@@ -1260,60 +1260,60 @@ Hinweis zu den Schrauben: Wir schlagen Kreuzschlitzschrauben vor, weil deren Kop
 Die vier M2x8 Schrauben durch die Befestigungslöcher der Kamera stecken und von hinten mit der Kunststoff-Mutter sichern. Die Mutter dient als Distanz und elektrische Isolation. Nicht ganz festziehen, die Schraube muss sich noch drehen lassen.
 Die Kamera mit den Schrauben durch den Print mit den IR LED Stecken, Kamera und LED müssen in die gleiche Richtung schauen. <br>
 
-<img src="images/cam1.jpg" alt="Kamera auf Print" style="width: 49%"/> 
+<img src="2S/images/cam1.jpg" alt="Kamera auf Print" style="width: 49%"/> 
 
 Nun Kamera und IR-LED Print mit den vier Schrauben am gedruckten Kopf befestigen.
 
-<img src="images/cam2.jpg" alt="Kamera an Kopf befestigen" style="width: 49%"/> 
+<img src="2S/images/cam2.jpg" alt="Kamera an Kopf befestigen" style="width: 49%"/> 
 
 
 ### Nicken
 
 Servo von hinten ins gedruckte Kopfteil montieren und von der Seite mit zwei M2x14 Schrauben befestigen
 
-<img src="images/head1.jpg" alt="Servo in Kopf" style="width: 49%"/> 
+<img src="2S/images/head1.jpg" alt="Servo in Kopf" style="width: 49%"/> 
 
 ### Kopf Schütteln
 
 U-förmiges Druckteil mit einem einseitigen und dem doppelseitigen Servohorn bestücken. Servo zum Kopfschütteln von unten an das u-förmige Druckteil befestigen.
 
-<img src="images/head2.jpg" alt="Teile vorbereiten" style="width: 49%"/> 
+<img src="2S/images/head2.jpg" alt="Teile vorbereiten" style="width: 49%"/> 
 
 
 ### Kompletter Kopf
 
 Druckteil inkl. Servo am Kopf befestigen und von beiden Seiten mit einer Schraube fixieren.
 
-<img src="images/head3.jpg" alt="Kopf komplett" style="width: 49%"/> 
+<img src="2S/images/head3.jpg" alt="Kopf komplett" style="width: 49%"/> 
 
 ### Greifer zusammenbauen
 
 Servohorn einseitig in Greifarm links einbauen. 
 
-<img src="images/gripper1.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+<img src="2S/images/gripper1.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
 Das Servokabel durch das Druckteil fädeln wie im Bild.
 
-<img src="images/gripper2.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+<img src="2S/images/gripper2.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
 
 Die beiden Greifarme platzieren und mit den M2x12 Schrauben befestigen. Auf symmetrische Montage der Greifarme achten.
 
 Servo mit 2x M2x14 am Halter Greifer befestigen.
 
-<img src="images/gripper3.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+<img src="2S/images/gripper3.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
 
 Den Halter Greifer und Kopf zur Hand nehmen. Ein einseitiges Servohorn im Druckteil einbauen. Servo mit Abtriebswelle gegen oben in Druckteil einbauen und mit 2x M2x14 am Druckteil befestigen.
 
-<img src="images/gripper4.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+<img src="2S/images/gripper4.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
 
 ### Kopf und Greifer an Halter bauen
 
 Ganzer Greifer in den Halter Greifer und Kopf einbauen und von beiden Seiten eine je eine M2x5 Schraube verbauten. Nicht zu stark anziehen, der Greifer muss sich noch leichtgängig heben und senken lassen.
 
-<img src="images/gripper5.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
+<img src="2S/images/gripper5.jpg" alt="Greifer zusammenbauen" style="width: 49%"/>
 
 Ganzer Kopf mit zwei M2x5 Schrauben am Halter Greifer und Kopf befestigen. Sicherstellen, dass die Drehachse zum Kopf Schütteln in der Mitte der Baugruppe ist, sonst ist der Kopf daneben :-)
 
-<img src="images/head-complete.jpg" alt="Kopf und Greifer" style="width: 49%"/>
+<img src="2S/images/head-complete.jpg" alt="Kopf und Greifer" style="width: 49%"/>
 
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
