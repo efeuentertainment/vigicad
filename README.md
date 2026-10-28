@@ -83,17 +83,8 @@ Das Komplettkit gibt es bei [https://www.robot-maker.com](https://www.robot-make
 | --- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | 1   | Raspberry Pi 3B+ (or 3B), 1GB or 2GB                                                                                 | [Link](https://www.robot-maker.com/shop/cartes-programmables/241-raspberry-pi-3b-plus-241.html)         | [Alternative](https://www.pi-shop.ch/raspberry-pi-3-model-b/) |
 | 1   | Unlocked ZTE MF79 4G / LTE Stick                                                                                     | [Link](https://aliexpress.com/item/1005005844914823.html)                                               | Huawei E3372h (Modell -153, -320 oder -607)                                                             |
-| 1   | USB - USB 90° adapter                                                                                                | [Link, "Color : Down Angle Black"](https://aliexpress.com/item/1005003690522920.html) | -                                                                                                      |
-| 1   | USB bracket holder                                                                                                   | [Link](https://www.robot-maker.com/shop/impression-3d/261-service-impression-3d-pla-261.html)           | -                                                                                                      |
-| 1   | USB Microphone sind aktuell in Evaluation. Der verlinkte Artikel wird nicht mehr hergestellt. Fragt uns. | [Link](https://www.robot-maker.com/shop/composants/446-microphone-usb-446.html)                         | [BOYA "Color : BY-M100UA"](https://aliexpress.com/item/1005004133896137.html)                          |
 | 1   | 8-64GB "Endurance" Typ MicroSD Karte                                                                                 | [Link](https://www.robot-maker.com/shop/composants/91-carte-sd-32go-91.html)                            | [Alternative](https://www.berrybase.ch/sandisk-high-endurance-microsdhc-uhs-i-u3-speicherkarte-adapter-32gb)                               |
 | 1   | Falls keinen vorhanden: CardReader für microSD                                                                       | [Link](https://www.pi-shop.ch/sandisk-card-reader-usb-3-0-reader)                                       | nach Belieben                                                                                          |
-| 1   | Weitwinkelkamera mit Infrarot-Filter                                                                                 | [Link](https://www.robot-maker.com/shop/capteurs/311-camera-raspberry-pi.html)                          | [Alternative: "Color : Option 10"](https://aliexpress.com/item/1005004276506212.html)                                |
-| 1   | 30cm Verbindungskabel für Kamera (zum ersetzen des kurzen Originals)                                                 | [Link](https://www.robot-maker.com/shop/composants/329-nappe-raspberry-pi.html#/92-longueur-30cm)       | nach Belieben                                                                                          |
-| 1   | Li-Ion Akku 2S                                                                                            | [Link](https://www.robot-maker.com/shop/alimentation/75-batterie-2s-1p-75.html)       | -                                                                                      |
-| 2   | 6A 67W Fast USB Charger                                                                                              | [Link, "Plug Type: EU Charger only"](https://aliexpress.com/item/1005006632595521.html)            | -                                                                                                      |
-| 1   | USB Kabel magnetisch                                                                                                 | [Link, "Color : \*\* type c", "Length : 1m(3.3ft)"](https://www.aliexpress.com/item/4001224959039.html) | [Alternative Kabel](https://www.robot-maker.com/shop/alimentation/608-cable-usb-magnetique-data-608.html) + [Alternative Stecker "USB C"](https://www.robot-maker.com/shop/alimentation/609-embout-magnetique-micro-usb-ou-usb-c-rechargedata-609.html)    |
-| 1   | USB-A zu USB-C Kabel                                                                                                 | [Link, "Color : A-C \*\* ", "Length : 1m"](https://aliexpress.com/item/1005008279278619.html)           | nach Belieben                                                                                          |
 | 1   | Falls noch keiner Vorhanden: Sekundenkleber                                                                          | [Link, "1ML x10pcs"](https://aliexpress.com/item/1005008238433750.html)                                 | -                                                                                                      |
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#inhalt)
@@ -1103,9 +1094,9 @@ Benötigtes Material aus dem Kit:
 
 | Stk | Benennung                                                 | Teilenummer (*tbc)                                     |
 | --- | --------------------------------------------------------- | ------------------------------------------------------ | 
-| 1   | 3D gedruckte Basis                                        | *Druckteile/Chassis/2S101.0 Basis.step                 | 
-| 1   | 3D gedruckter Batteriehalter                              | *Druckteile/Chassis/2S102.0 Batteriehalter.step        |
-| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/Chassis/2S103.0 Kopf und Greiferhalter.step|
+| 1   | 3D gedruckte Basis                                        | M2S-01A Base.step                 | 
+| 1   | 3D gedruckter Batteriehalter                              | M2S-07A Battery holder.step        |
+| 1   | 3D gedruckter Halter für Greifer und Kopf                 | M2S-02A Servo Bracket.step|
 | 1   | Basisprint                                                | aus Kit                                                |
 | 4   | Pololu 100:1 Getriebemotoren HP 6V <br> mit Federkontakten| aus Kit                                                | 
 | 3   | Schrauben für Befestigung Halter                          | *tbd*                                                  |
@@ -1143,8 +1134,8 @@ Benötigtes Material aus dem Kit:
 | --- | --------------------------------------------------------- | ------------------------------------------------------ | 
 | 1   | Seitenplatte links                                        | Seite mit Aufdruck botkins.ch                          | 
 | 1   | Seitenplatte rechts                                       | Seite mit Aufdruck On/Off                              |
-| 1   | Rapsberry Pi 3B+                                          | aus Kit                                                |
-| 1   | microSD ca. 16GB inkl. Programm drauf                     | aus Kit, Programmbeschreibung oben                     |
+| 1   | Rapsberry Pi 3B+                                          | Siehe Beschreibung oben                                                |
+| 1   | microSD ca. 16GB inkl. Programm drauf                     | Programmbeschreibung oben                     |
 | 1   | Verbinderleiste                                           | aus Kit                                                |
 | 1   | Deckprint                                                 | aus Kit                                                | 
 | 4   | Schrauben für Befestigung Pi                              | M2.5x6                                                 |
@@ -1155,11 +1146,11 @@ Benötigtes Material aus dem Kit:
 | 2   | Schrauben zur Befestigung des Lautsprechers               | M2x6                                                   |
 | 2   | Distanzbolzen zur Befestigung des Lautsprechers           | M2x5 M-F                                               |
 | 2   | Muttern zur Befestigung des Lautsprechers                 | M2                                                     |
-| 1   | Verbindungskabel Deckprint zur Kamera                     | Servokabel F-F 20cm                                    |
+| 1   | Verbindungskabel Deckprint zur Kamera                     | Flachbandkabel aus Kit                                    |
 | 1   | Mikrophon                                                 | aus Kit                                                |
-| 1   | gedruckte Pinabdeckung und Auffahrschutz 4G Stick         | *tbd*                                                  |
+| 1   | gedruckte Pinabdeckung und Auffahrschutz 4G Stick         | M2S-10A Pin Cover.step                                                  |
 | 1*  | 4G/LTE Stick                                              | *tbd*                                                  |
-| 1   | 90° USB Winkelstecker für 4G/LTE Stick                    | *tbd*                                                  |
+| 1   | 90° USB Winkelstecker für 4G/LTE Stick                    | aus Kit                                                 |
 | 1   | Drehlicht                                                 | aus Kit                                                | 
 
 *Optinale Teile
@@ -1235,24 +1226,23 @@ Zuerst wird die Greifer und Kopf Baugruppe zusammengesetzt. Diese wird dann in d
 Benötigtes Material aus dem Kit:
 
 | Stk | Benennung                                                 | Teilenummer (*tbc)                                     |
-| --- | --------------------------------------------------------- | ------------------------------------------------------ | 
-| 1   | 3D gedruckter Kopf                                        | *Druckteile/...             | 
-| 1   | 3D gedruckter Halter für Kopf                             | *Druckteile/...        |
-| 1   | 3D gedruckter Halter für Greifer und Kopf                 | *Druckteile/...       |
-| 1   | 3D gedruckter Halter für Greifer                          | *Druckteile/...       |
-| 1   | 3D gedruckter Greifarm rechts                             | *Druckteile/...       |
-| 1   | 3D gedruckter Greifarm links                              | *Druckteile/...       |
-| 1   | Kamera                                                    | aus Kit                                                |
-| 1   | Kamera-Print mit IR LEDS                                  | aus Kit                                                |
-| 3   | Servohörner einseitig                                     | aus Zubehör Servos                                     |
-| 1   | Servohorn zwei seitig                                     | aus Zubehör Servos                                     |
-| 4   | Servos                                                    | 9g                                                     |
-| 4   | Schrauben für Befestigung  Kamera an Kopf                 | Kreuzschlitzschraube M2x8                              |
-| 4   | 6kt-Mutter Kunststoff für Befestigung  Kamera an Kopf     | M2                                                     |
-| 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                             |
-| 2   | Schrauben für Befestigung Servo Kopfschütteln an Halter   | Kreuzschlitzschraube M2x5                              |
-| 2   | Schrauben für Befestigung Greifarme am Halter für Greifer| Kreuzschlitzschraube M2x12                             |
-| 2   | Schrauben für Befestigung Servo Greifer an Halter         | Kreuzschlitzschraube M2x5                              |
+| --- | --------------------------------------------------------- | ----------------------------------------- | 
+| 1   | 3D gedruckter Kopf                                        | M2S-04A Head.step                         | 
+| 1   | 3D gedruckter Halter für Greifer und Kopf                 | M2S-03A Gripper Servo Bracket.step        |
+| 1   | 3D gedruckter Halter für Kopf                             | M2S-05A Head U Bracket.step               |
+| 1   | 3D gedruckter Greifarm rechts                             | M2S-08A Gripper Finger Left.step          |
+| 1   | 3D gedruckter Greifarm links                              | M2S-09A Gripper Finger Right.step         |
+| 1   | Kamera                                                    | aus Kit                                   |
+| 1   | Kamera-Print mit IR LEDS                                  | aus Kit                                   |
+| 3   | Servohörner einseitig                                     | aus Zubehör Servos                        |
+| 1   | Servohorn zweiseitig                                      | aus Zubehör Servos                        |
+| 4   | Servos                                                    | 9g                                        |
+| 4   | Schrauben für Befestigung  Kamera an Kopf                 | Kreuzschlitzschraube M2x8                 |
+| 4   | 6kt-Mutter Kunststoff für Befestigung  Kamera an Kopf     | M2                                        |
+| 6   | Schrauben für Befestigung  Servos an Druckteilen          | Kreuzschlitzschraube M2x14                |
+| 2   | Schrauben für Befestigung Servo Kopfschütteln an Halter   | Kreuzschlitzschraube M2x5                 |
+| 2   | Schrauben für Befestigung Greifarme am Halter für Greifer| Kreuzschlitzschraube M2x12                 |
+| 2   | Schrauben für Befestigung Servo Greifer an Halter         | Kreuzschlitzschraube M2x5                 |
 
 Hinweis zu den Schrauben: Wir schlagen Kreuzschlitzschrauben vor, weil deren Kopfhöhe kleiner ist als bei anderen Antrieben. Aber andere Schrauben können auch verwendet werden. Auf einigen Bildern haben wir andere Schrauben verwendet.
 
